@@ -162,6 +162,16 @@ const sectionConfig = [
   },
 ] as const;
 
+const RELATED_OVERRIDES: Record<string, string[]> = {
+  "diabetes-mellitus": ["hypertension", "coronary-artery-disease", "obesity"],
+  hypertension: ["coronary-artery-disease", "diabetes-mellitus"],
+  "coronary-artery-disease": ["hypertension", "diabetes-mellitus"],
+  "dengue-fever": ["viral-fever"],
+  "viral-fever": ["dengue-fever"],
+  asthma: ["chronic-obstructive-pulmonary-disease-copd"],
+  "chronic-obstructive-pulmonary-disease-copd": ["asthma"],
+};
+
 export default function DiseasePage() {
   const { id } = useParams<{ id: string }>();
   const disease = useMemo(
@@ -184,14 +194,21 @@ export default function DiseasePage() {
     );
   }
 
-  // Related diseases (same category, different id)
-  const related = diseasesData.diseases
-    .filter(
-      (d) =>
-        d.id !== disease.id &&
-        (d.category === disease.category || d.letter === disease.letter),
-    )
-    .slice(0, 3);
+  // Related diseases (manual links + same category/letter)
+  const overrideIds = new Set(RELATED_OVERRIDES[disease.id] ?? []);
+  const overrideRelated = diseasesData.diseases.filter((d) =>
+    overrideIds.has(d.id),
+  );
+  const categoryRelated = diseasesData.diseases.filter(
+    (d) =>
+      d.id !== disease.id &&
+      (d.category === disease.category || d.letter === disease.letter),
+  );
+  const related = [...overrideRelated, ...categoryRelated].filter(
+    (item, index, list) =>
+      item.id !== disease.id &&
+      list.findIndex((entry) => entry.id === item.id) === index,
+  ).slice(0, 3);
 
   const contentSections = sectionConfig
     .map((section) => ({

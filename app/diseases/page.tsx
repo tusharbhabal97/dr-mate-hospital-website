@@ -44,7 +44,8 @@ export default function DiseasesPage() {
         (d) =>
           d.name.toLowerCase().includes(q) ||
           d.description.toLowerCase().includes(q) ||
-          d.category.toLowerCase().includes(q),
+          d.category.toLowerCase().includes(q) ||
+          d.symptoms?.some((symptom) => symptom.toLowerCase().includes(q)),
       );
     }
     return result;

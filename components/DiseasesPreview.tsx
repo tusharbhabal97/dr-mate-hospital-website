@@ -12,6 +12,7 @@ type Disease = {
   description: string;
   category: string;
   letter?: string;
+  symptoms?: string[];
 };
 
 const getDiseaseLetter = (disease: Disease) => {
@@ -43,7 +44,8 @@ export default function DiseasesPreview() {
         (d) =>
           d.name.toLowerCase().includes(q) ||
           d.description.toLowerCase().includes(q) ||
-          d.category.toLowerCase().includes(q),
+          d.category.toLowerCase().includes(q) ||
+          d.symptoms?.some((symptom) => symptom.toLowerCase().includes(q)),
       );
     }
     return result;

@@ -1,9 +1,9 @@
 {
-  "source": "NIAMS + Apollo Hospitals",
-  "source_url": "https://www.niams.nih.gov/health-topics/all-diseases",
+  "source": "NIAMS + Apollo Hospitals + WHO + NHLBI + NIDDK + CDC + MedlinePlus + Government of India (NCVBDC, NHM)",
+  "source_url": "https://www.niams.nih.gov/health-topics/all-diseases | https://www.who.int/news-room/fact-sheets | https://www.nhlbi.nih.gov/health | https://www.niddk.nih.gov/health-information | https://www.cdc.gov | https://medlineplus.gov | https://ncvbdc.mohfw.gov.in | https://nhm.gov.in",
   "generated_for": "Dr. Mate Hospital Website",
   "description": "Comprehensive disease database with records from NIAMS and Apollo Hospitals, including overview, symptoms, causes, diagnosis, treatment, risk factors, prevention, and prevalence data.",
-  "total_count": 100,
+  "total_count": 152,
   "categories": [
     "Autoimmune/Neuromuscular",
     "Autoimmune/Rheumatic",
@@ -24,7 +24,14 @@
     "Skin",
     "Skin/Autoimmune",
     "Surgical/Orthopedic",
-    "Vascular/Rheumatic"
+    "Vascular/Rheumatic",
+    "Cardiovascular",
+    "Respiratory",
+    "Endocrine/Metabolic",
+    "Hematologic",
+    "Renal",
+    "Nutritional",
+    "Environmental/Heat"
   ],
   "letters": [
     "A",
@@ -108,6 +115,43 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/achilles-tendinitis"
     },
     {
+      "id": "acid-reflux-gerd",
+      "name": "Acid Reflux (GERD)",
+      "letter": "A",
+      "category": "Gastrointestinal",
+      "description": "GERD is a long-term condition in which stomach contents flow back into the esophagus, causing heartburn and other symptoms.",
+      "symptoms": [
+        "Heartburn",
+        "Regurgitation of food or sour liquid",
+        "Chest discomfort",
+        "Chronic cough or hoarseness"
+      ],
+      "causes": [
+        "Weak or relaxed lower esophageal sphincter",
+        "Large meals or lying down after eating"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "Endoscopy if symptoms persist"
+      ],
+      "treatment": [
+        "Lifestyle changes and diet adjustments",
+        "Antacids or acid-suppressing medicines"
+      ],
+      "risk_factors": [
+        "Obesity",
+        "Pregnancy",
+        "Smoking"
+      ],
+      "prevention": [
+        "Maintain healthy weight",
+        "Avoid trigger foods",
+        "Do not lie down right after meals"
+      ],
+      "prevalence": "GERD is a common digestive condition worldwide.",
+      "niams_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults"
+    },
+    {
       "id": "acne",
       "name": "Acne",
       "letter": "A",
@@ -156,6 +200,42 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/acne"
     },
     {
+      "id": "allergic-rhinitis",
+      "name": "Allergic Rhinitis",
+      "letter": "A",
+      "category": "Respiratory",
+      "description": "Allergic rhinitis is inflammation of the nose caused by allergens such as pollen, dust, or animal dander.",
+      "symptoms": [
+        "Sneezing",
+        "Runny or stuffy nose",
+        "Itchy nose or eyes",
+        "Watery eyes"
+      ],
+      "causes": [
+        "Allergic reaction to airborne allergens",
+        "Seasonal pollen exposure"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "Allergy testing when needed"
+      ],
+      "treatment": [
+        "Antihistamines",
+        "Nasal corticosteroid sprays",
+        "Avoidance of triggers"
+      ],
+      "risk_factors": [
+        "Family history of allergies",
+        "Exposure to allergens"
+      ],
+      "prevention": [
+        "Reduce exposure to triggers",
+        "Keep indoor air clean"
+      ],
+      "prevalence": "Allergic rhinitis is common and often seasonal.",
+      "niams_url": "https://medlineplus.gov/ency/article/000813.htm"
+    },
+    {
       "id": "alopecia-areata",
       "name": "Alopecia Areata",
       "letter": "A",
@@ -197,6 +277,55 @@
       ],
       "prevalence": "About 6.8 million people in the United States have alopecia areata; lifetime risk approximately 2%.",
       "niams_url": "https://www.niams.nih.gov/health-topics/alopecia-areata"
+    },
+    {
+      "id": "anemia",
+      "name": "Anemia",
+      "letter": "A",
+      "category": "Hematologic",
+      "description": "Anemia (anaemia) is a condition in which the number of red blood cells or the hemoglobin they contain is lower than normal, reducing the blood's ability to carry oxygen to tissues.",
+      "symptoms": [
+        "Tiredness or low energy",
+        "Dizziness or light-headedness",
+        "Shortness of breath on exertion",
+        "Headache",
+        "Cold hands and feet",
+        "Pale skin or pale inner eyelids"
+      ],
+      "causes": [
+        "Iron deficiency from poor intake or absorption",
+        "Vitamin deficiencies (folate or vitamin B12)",
+        "Blood loss (heavy menstrual bleeding or bleeding from the gut)",
+        "Infections such as malaria or other chronic infections",
+        "Chronic diseases or inherited blood disorders"
+      ],
+      "diagnosis": [
+        "Complete blood count (CBC) and hemoglobin level",
+        "Iron studies and vitamin levels",
+        "Evaluation for blood loss or infection",
+        "Assessment for chronic disease or inherited conditions"
+      ],
+      "treatment": [
+        "Treat the underlying cause",
+        "Iron, folate, or vitamin B12 supplementation when needed",
+        "Dietary improvements with iron-rich foods",
+        "Treatment of infections or chronic disease"
+      ],
+      "risk_factors": [
+        "Pregnancy or recent childbirth",
+        "Heavy menstrual bleeding",
+        "Poor diet or malabsorption",
+        "Chronic infections or inflammation",
+        "Family history of blood disorders"
+      ],
+      "prevention": [
+        "Eat a diverse diet with iron-rich foods",
+        "Use supplements when advised by a clinician",
+        "Prevent and treat infections such as malaria",
+        "Seek care for heavy menstrual bleeding"
+      ],
+      "prevalence": "Anemia is a major public health concern worldwide, especially among children and women in low- and middle-income countries.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/anaemia"
     },
     {
       "id": "ankylosing-spondylitis",
@@ -336,6 +465,52 @@
       ],
       "prevalence": "Over 54 million adults in the United States have doctor-diagnosed arthritis.",
       "niams_url": "https://www.niams.nih.gov/health-topics/arthritis"
+    },
+    {
+      "id": "asthma",
+      "name": "Asthma",
+      "letter": "A",
+      "category": "Respiratory",
+      "description": "Asthma is a chronic condition that inflames and narrows the airways, making it harder to breathe. Symptoms can come and go and are often triggered by infections, allergens, or exercise.",
+      "symptoms": [
+        "Wheezing, especially when breathing out",
+        "Coughing at night or early morning",
+        "Shortness of breath",
+        "Chest tightness"
+      ],
+      "causes": [
+        "Airway inflammation and hyperreactivity",
+        "Allergen exposure (dust, pollen, pet dander)",
+        "Viral respiratory infections",
+        "Cold air or exercise",
+        "Smoke or air pollution"
+      ],
+      "diagnosis": [
+        "Medical history and symptom review",
+        "Spirometry or peak flow tests",
+        "Bronchodilator response testing",
+        "Allergy testing when indicated"
+      ],
+      "treatment": [
+        "Reliever inhalers for quick symptom relief",
+        "Controller medicines such as inhaled corticosteroids",
+        "Avoidance of triggers and allergens",
+        "Personalized asthma action plan"
+      ],
+      "risk_factors": [
+        "Family history of asthma or allergies",
+        "Exposure to tobacco smoke or pollution",
+        "History of viral respiratory infections",
+        "Allergic conditions such as eczema or rhinitis"
+      ],
+      "prevention": [
+        "Avoid tobacco smoke and indoor pollutants",
+        "Manage allergies and triggers",
+        "Use prescribed controller medicines",
+        "Get timely care for worsening symptoms"
+      ],
+      "prevalence": "Asthma is common worldwide and often begins in childhood, but can affect people of any age.",
+      "niams_url": "https://www.nhlbi.nih.gov/health/asthma"
     },
     {
       "id": "avascular-necrosis",
@@ -494,6 +669,46 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/behcets-disease"
     },
     {
+      "id": "bronchitis",
+      "name": "Bronchitis",
+      "letter": "B",
+      "category": "Respiratory",
+      "description": "Bronchitis is inflammation of the bronchial tubes, often causing cough with mucus. It can be acute (short-term) or chronic.",
+      "symptoms": [
+        "Cough with mucus",
+        "Wheezing",
+        "Shortness of breath",
+        "Chest tightness",
+        "Low-grade fever"
+      ],
+      "causes": [
+        "Viral respiratory infections",
+        "Exposure to smoke or air pollution",
+        "Irritants such as dust or fumes"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "Chest exam and history"
+      ],
+      "treatment": [
+        "Rest and fluids",
+        "Symptom relief medicines",
+        "Avoid smoke and irritants"
+      ],
+      "risk_factors": [
+        "Smoking",
+        "Air pollution exposure",
+        "Recent cold or flu"
+      ],
+      "prevention": [
+        "Avoid tobacco smoke",
+        "Hand hygiene",
+        "Vaccination against flu"
+      ],
+      "prevalence": "Acute bronchitis is common after viral infections.",
+      "niams_url": "https://medlineplus.gov/acutebronchitis.html"
+    },
+    {
       "id": "bursitis",
       "name": "Bursitis",
       "letter": "B",
@@ -591,6 +806,83 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/carpal-tunnel-syndrome"
     },
     {
+      "id": "chickenpox-varicella",
+      "name": "Chickenpox (Varicella)",
+      "letter": "C",
+      "category": "Infectious Disease",
+      "description": "Chickenpox is a highly contagious infection caused by the varicella-zoster virus, marked by an itchy blister-like rash.",
+      "symptoms": [
+        "Fever",
+        "Tiredness",
+        "Loss of appetite",
+        "Itchy rash with fluid-filled blisters"
+      ],
+      "causes": [
+        "Varicella-zoster virus",
+        "Spread through respiratory droplets or direct contact"
+      ],
+      "diagnosis": [
+        "Clinical assessment based on rash pattern"
+      ],
+      "treatment": [
+        "Symptom relief for fever and itching",
+        "Antiviral medicines for high-risk patients"
+      ],
+      "risk_factors": [
+        "Unvaccinated individuals",
+        "Pregnancy or weakened immunity"
+      ],
+      "prevention": [
+        "Chickenpox vaccination",
+        "Avoid contact with infected people"
+      ],
+      "prevalence": "Chickenpox remains common where vaccination coverage is incomplete.",
+      "niams_url": "https://www.cdc.gov/chickenpox/signs-symptoms/index.html"
+    },
+    {
+      "id": "chikungunya",
+      "name": "Chikungunya",
+      "letter": "C",
+      "category": "Infectious/Tropical",
+      "description": "Chikungunya is a mosquito-borne viral illness that causes sudden fever and severe joint pain. Joint pain can be debilitating and may last for weeks or longer.",
+      "symptoms": [
+        "Sudden high fever",
+        "Severe joint pain",
+        "Joint swelling",
+        "Muscle pain",
+        "Headache",
+        "Nausea",
+        "Fatigue",
+        "Skin rash"
+      ],
+      "causes": [
+        "Chikungunya virus infection",
+        "Bite of infected Aedes mosquitoes"
+      ],
+      "diagnosis": [
+        "Clinical assessment with exposure history",
+        "Blood tests such as RT-PCR or antibody testing"
+      ],
+      "treatment": [
+        "No specific antiviral treatment",
+        "Fever and pain control with paracetamol",
+        "Rest and adequate fluids"
+      ],
+      "risk_factors": [
+        "Living in or traveling to outbreak areas",
+        "Mosquito exposure without protection",
+        "Infants and older adults",
+        "Chronic medical conditions"
+      ],
+      "prevention": [
+        "Avoid mosquito bites (repellents, long sleeves)",
+        "Eliminate standing water to reduce breeding",
+        "Use screens or bed nets"
+      ],
+      "prevalence": "Chikungunya occurs in many parts of Asia, including India, with periodic outbreaks.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/chikungunya"
+    },
+    {
       "id": "childhood-arthritis",
       "name": "Childhood Arthritis (Juvenile Idiopathic Arthritis)",
       "letter": "C",
@@ -635,6 +927,46 @@
       ],
       "prevalence": "Affects approximately 1 in 1,000 children in the United States.",
       "niams_url": "https://www.niams.nih.gov/health-topics/juvenile-idiopathic-arthritis"
+    },
+    {
+      "id": "cholera",
+      "name": "Cholera",
+      "letter": "C",
+      "category": "Infectious Disease",
+      "description": "Cholera is an acute diarrheal infection caused by Vibrio cholerae from contaminated food or water. It can cause severe dehydration if not treated quickly.",
+      "symptoms": [
+        "Severe watery diarrhea",
+        "Vomiting",
+        "Leg cramps",
+        "Rapid dehydration",
+        "Thirst and dry mouth"
+      ],
+      "causes": [
+        "Contaminated drinking water",
+        "Contaminated food",
+        "Poor sanitation and hygiene"
+      ],
+      "diagnosis": [
+        "Clinical assessment during outbreaks",
+        "Stool testing or rapid diagnostic tests"
+      ],
+      "treatment": [
+        "Oral rehydration solution (ORS)",
+        "IV fluids for severe dehydration",
+        "Antibiotics for severe cases"
+      ],
+      "risk_factors": [
+        "Limited access to safe water",
+        "Crowded or displaced communities",
+        "Poor sanitation"
+      ],
+      "prevention": [
+        "Safe water and sanitation (WASH)",
+        "Hand hygiene and food safety",
+        "Oral cholera vaccine in at-risk areas"
+      ],
+      "prevalence": "Cholera outbreaks occur in areas with limited access to safe water and sanitation.",
+      "niams_url": "https://www.who.int/en/news-room/fact-sheets/detail/cholera"
     },
     {
       "id": "chondromalacia-patella",
@@ -685,6 +1017,94 @@
       ],
       "prevalence": "One of the most common knee conditions; affects up to 25% of active young adults.",
       "niams_url": "https://www.niams.nih.gov/health-topics/knee-problems"
+    },
+    {
+      "id": "chronic-kidney-disease-ckd",
+      "name": "Chronic Kidney Disease (CKD)",
+      "letter": "C",
+      "category": "Renal",
+      "description": "Chronic kidney disease means the kidneys are damaged and cannot filter blood properly over time.",
+      "symptoms": [
+        "Often no symptoms early on",
+        "Swelling of feet or ankles",
+        "Fatigue",
+        "Nausea or poor appetite"
+      ],
+      "causes": [
+        "Diabetes",
+        "High blood pressure",
+        "Other chronic kidney conditions"
+      ],
+      "diagnosis": [
+        "Blood tests for kidney function (eGFR)",
+        "Urine tests for protein"
+      ],
+      "treatment": [
+        "Control blood pressure and diabetes",
+        "Kidney-friendly diet",
+        "Dialysis or transplant in advanced disease"
+      ],
+      "risk_factors": [
+        "Diabetes",
+        "High blood pressure",
+        "Family history of kidney disease"
+      ],
+      "prevention": [
+        "Manage blood pressure and blood sugar",
+        "Avoid smoking",
+        "Regular health checkups"
+      ],
+      "prevalence": "CKD is common and often detected through routine testing.",
+      "niams_url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd"
+    },
+    {
+      "id": "chronic-obstructive-pulmonary-disease-copd",
+      "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "letter": "C",
+      "category": "Respiratory",
+      "description": "COPD is a chronic lung disease that causes airflow limitation and breathing difficulty, commonly due to long-term exposure to lung irritants such as tobacco smoke.",
+      "symptoms": [
+        "Shortness of breath, especially with activity",
+        "Chronic cough",
+        "Cough with mucus (sputum)",
+        "Wheezing",
+        "Chest tightness",
+        "Fatigue"
+      ],
+      "causes": [
+        "Long-term exposure to tobacco smoke",
+        "Exposure to air pollution, dust, or chemical fumes",
+        "Secondhand smoke",
+        "Alpha-1 antitrypsin deficiency (genetic cause)"
+      ],
+      "diagnosis": [
+        "Medical history and symptom review",
+        "Spirometry (lung function testing)",
+        "Chest imaging when needed",
+        "Assessment of exposure to lung irritants"
+      ],
+      "treatment": [
+        "Smoking cessation and avoidance of irritants",
+        "Bronchodilator inhalers",
+        "Inhaled steroids for selected patients",
+        "Pulmonary rehabilitation",
+        "Oxygen therapy for advanced disease"
+      ],
+      "risk_factors": [
+        "Current or past smoking",
+        "Indoor or outdoor air pollution exposure",
+        "Occupational dust and fumes",
+        "Age over 40 years",
+        "History of asthma or lung infections"
+      ],
+      "prevention": [
+        "Do not smoke and avoid secondhand smoke",
+        "Reduce exposure to air pollution and workplace fumes",
+        "Use protective equipment in dusty environments",
+        "Keep vaccinations up to date (flu, pneumonia) when advised"
+      ],
+      "prevalence": "COPD is a common chronic lung disease and is often underdiagnosed, especially in adults over 40.",
+      "niams_url": "https://www.nhlbi.nih.gov/health/copd"
     },
     {
       "id": "complex-regional-pain-syndrome",
@@ -744,6 +1164,98 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/pain"
     },
     {
+      "id": "coronary-artery-disease",
+      "name": "Coronary Artery Disease (CAD)",
+      "letter": "C",
+      "category": "Cardiovascular",
+      "description": "Coronary artery disease occurs when the arteries that supply oxygen-rich blood to the heart become narrowed by plaque buildup, reducing blood flow to the heart muscle.",
+      "symptoms": [
+        "Chest pain or pressure (angina)",
+        "Shortness of breath",
+        "Fatigue with exertion",
+        "Pain in neck, jaw, shoulder, or back",
+        "Symptoms may be absent until a heart attack"
+      ],
+      "causes": [
+        "Atherosclerosis (plaque buildup in coronary arteries)",
+        "High cholesterol",
+        "High blood pressure",
+        "Smoking",
+        "Diabetes or obesity"
+      ],
+      "diagnosis": [
+        "Medical history and physical examination",
+        "Electrocardiogram (ECG)",
+        "Stress testing",
+        "Echocardiography or coronary imaging when needed"
+      ],
+      "treatment": [
+        "Heart-healthy lifestyle changes",
+        "Medicines for cholesterol, blood pressure, or clot prevention",
+        "Procedures such as angioplasty and stenting",
+        "Bypass surgery for severe disease"
+      ],
+      "risk_factors": [
+        "High blood pressure or high cholesterol",
+        "Smoking",
+        "Diabetes",
+        "Family history of heart disease",
+        "Physical inactivity or obesity"
+      ],
+      "prevention": [
+        "Heart-healthy diet and regular exercise",
+        "Quit smoking",
+        "Control blood pressure, cholesterol, and diabetes",
+        "Maintain a healthy weight"
+      ],
+      "prevalence": "Coronary artery disease is the most common type of heart disease and a leading cause of illness worldwide.",
+      "niams_url": "https://www.nhlbi.nih.gov/health/coronary-heart-disease"
+    },
+    {
+      "id": "covid-19",
+      "name": "COVID-19",
+      "letter": "C",
+      "category": "Public Health",
+      "description": "COVID-19 is a respiratory infection caused by the SARS-CoV-2 coronavirus. It spreads mainly through respiratory particles in the air and can range from mild illness to severe disease.",
+      "symptoms": [
+        "Fever or chills",
+        "Sore throat",
+        "Cough",
+        "Shortness of breath",
+        "Fatigue or body aches",
+        "Loss or change of taste or smell"
+      ],
+      "causes": [
+        "Infection with the SARS-CoV-2 virus",
+        "Spread through respiratory particles",
+        "Close contact in crowded or poorly ventilated spaces"
+      ],
+      "diagnosis": [
+        "Rapid antigen tests",
+        "PCR testing for confirmation",
+        "Clinical assessment for severity"
+      ],
+      "treatment": [
+        "Supportive care for mild illness",
+        "Antiviral medicines for high-risk patients when indicated",
+        "Oxygen therapy or hospital care for severe disease"
+      ],
+      "risk_factors": [
+        "Older age",
+        "Chronic diseases such as diabetes or heart disease",
+        "Obesity",
+        "Weakened immune system"
+      ],
+      "prevention": [
+        "Vaccination per national guidance",
+        "Good ventilation and mask use in crowded settings",
+        "Hand hygiene and respiratory etiquette",
+        "Stay home when ill"
+      ],
+      "prevalence": "COVID-19 continues to circulate globally with periodic outbreaks.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/coronavirus-disease-(covid-19)"
+    },
+    {
       "id": "de-quervain-tenosynovitis",
       "name": "De Quervain's Tenosynovitis",
       "letter": "D",
@@ -791,6 +1303,89 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/tendinitis"
     },
     {
+      "id": "dehydration",
+      "name": "Dehydration",
+      "letter": "D",
+      "category": "Environmental/Heat",
+      "description": "Dehydration happens when the body loses more fluid than it takes in, affecting normal body function.",
+      "symptoms": [
+        "Thirst and dry mouth",
+        "Dark urine",
+        "Dizziness",
+        "Fatigue",
+        "Reduced urination"
+      ],
+      "causes": [
+        "Diarrhea or vomiting",
+        "Excess sweating",
+        "Fever",
+        "Not drinking enough fluids"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "Lab tests if severe"
+      ],
+      "treatment": [
+        "Increase fluid intake",
+        "Oral rehydration solutions",
+        "IV fluids in severe cases"
+      ],
+      "risk_factors": [
+        "Infants and older adults",
+        "Hot climate or outdoor work",
+        "Chronic illness"
+      ],
+      "prevention": [
+        "Drink fluids regularly",
+        "Replace fluids during illness or heat"
+      ],
+      "prevalence": "Dehydration is common during hot weather and diarrheal illnesses.",
+      "niams_url": "https://medlineplus.gov/dehydration.html"
+    },
+    {
+      "id": "dengue-fever",
+      "name": "Dengue Fever",
+      "letter": "D",
+      "category": "Infectious/Tropical",
+      "description": "Dengue fever is a viral infection transmitted by Aedes mosquitoes, common in tropical and subtropical regions. It can range from mild illness to severe dengue.",
+      "symptoms": [
+        "High fever",
+        "Severe headache",
+        "Pain behind the eyes",
+        "Muscle and joint pain",
+        "Nausea or vomiting",
+        "Skin rash"
+      ],
+      "causes": [
+        "Dengue virus infection",
+        "Bite of infected Aedes mosquitoes"
+      ],
+      "diagnosis": [
+        "Clinical assessment with exposure history",
+        "Blood tests such as antigen or PCR testing",
+        "Serology for dengue antibodies"
+      ],
+      "treatment": [
+        "Supportive care and hydration",
+        "Fever and pain control with paracetamol",
+        "Avoid NSAIDs that increase bleeding risk",
+        "Hospital care for severe dengue"
+      ],
+      "risk_factors": [
+        "Living or traveling in tropical areas",
+        "Mosquito exposure without protection",
+        "Previous dengue infection (risk of severe dengue)"
+      ],
+      "prevention": [
+        "Avoid mosquito bites, especially daytime",
+        "Use repellents and protective clothing",
+        "Eliminate standing water around homes",
+        "Community vector control programs"
+      ],
+      "prevalence": "Dengue is common in tropical and subtropical regions with seasonal outbreaks.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+    },
+    {
       "id": "dermatomyositis",
       "name": "Dermatomyositis",
       "letter": "D",
@@ -835,6 +1430,131 @@
       ],
       "prevalence": "Rare; incidence of 1–10 per million per year.",
       "niams_url": "https://www.niams.nih.gov/health-topics/myositis"
+    },
+    {
+      "id": "diabetes-mellitus",
+      "name": "Diabetes Mellitus",
+      "letter": "D",
+      "category": "Endocrine/Metabolic",
+      "description": "Diabetes mellitus is a chronic condition where blood glucose levels are too high because the body does not make enough insulin or cannot use it properly. Type 2 diabetes is the most common form.",
+      "symptoms": [
+        "Excessive thirst",
+        "Frequent urination",
+        "Fatigue",
+        "Blurred vision",
+        "Unintentional weight loss"
+      ],
+      "causes": [
+        "Insulin resistance or reduced insulin production",
+        "Genetic susceptibility",
+        "Overweight and physical inactivity"
+      ],
+      "diagnosis": [
+        "Fasting blood glucose test",
+        "HbA1c test",
+        "Oral glucose tolerance test when needed"
+      ],
+      "treatment": [
+        "Healthy diet and regular physical activity",
+        "Weight management",
+        "Oral medicines such as metformin",
+        "Insulin therapy when indicated"
+      ],
+      "risk_factors": [
+        "Overweight or obesity",
+        "Physical inactivity",
+        "Family history of diabetes",
+        "Increasing age"
+      ],
+      "prevention": [
+        "Maintain a healthy body weight",
+        "Regular physical activity",
+        "Healthy diet with less sugar and saturated fat",
+        "Avoid tobacco use"
+      ],
+      "prevalence": "Diabetes is common and rising in India and globally, with type 2 diabetes accounting for most cases.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/diabetes"
+    },
+    {
+      "id": "diarrhoeal-disease",
+      "name": "Diarrhoeal Disease",
+      "letter": "D",
+      "category": "Gastrointestinal",
+      "description": "Diarrhoeal disease is usually caused by infection of the intestinal tract and is commonly spread through contaminated food or drinking water or poor hygiene.",
+      "symptoms": [
+        "Frequent loose or watery stools",
+        "Abdominal cramps",
+        "Nausea or vomiting",
+        "Fever in some cases",
+        "Signs of dehydration",
+        "Blood in stool in severe cases"
+      ],
+      "causes": [
+        "Viral, bacterial, or parasitic infections",
+        "Contaminated food or drinking water",
+        "Poor sanitation or hand hygiene"
+      ],
+      "diagnosis": [
+        "Clinical assessment and dehydration check",
+        "Stool testing in severe or prolonged cases"
+      ],
+      "treatment": [
+        "Oral rehydration solution (ORS)",
+        "Zinc supplementation for 10-14 days (children)",
+        "Continue feeding and fluids",
+        "IV fluids for severe dehydration"
+      ],
+      "risk_factors": [
+        "Unsafe water or poor sanitation",
+        "Young children and older adults",
+        "Malnutrition",
+        "Crowded living conditions"
+      ],
+      "prevention": [
+        "Safe drinking water",
+        "Handwashing with soap",
+        "Improved sanitation",
+        "Safe food preparation and storage"
+      ],
+      "prevalence": "Diarrhoeal disease is a leading cause of illness in children and remains a major public health concern.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease"
+    },
+    {
+      "id": "diphtheria",
+      "name": "Diphtheria",
+      "letter": "D",
+      "category": "Infectious Disease",
+      "description": "Diphtheria is a serious bacterial infection that can affect the throat or skin and produce a toxin that causes severe illness.",
+      "symptoms": [
+        "Sore throat",
+        "Fever",
+        "Swollen neck glands",
+        "Gray coating in throat or nose",
+        "Weakness"
+      ],
+      "causes": [
+        "Corynebacterium diphtheriae infection",
+        "Spread through respiratory droplets"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "Lab confirmation of bacteria"
+      ],
+      "treatment": [
+        "Diphtheria antitoxin",
+        "Antibiotics",
+        "Supportive care"
+      ],
+      "risk_factors": [
+        "Unvaccinated individuals",
+        "Crowded living conditions"
+      ],
+      "prevention": [
+        "DTaP/Tdap vaccination",
+        "Good respiratory hygiene"
+      ],
+      "prevalence": "Diphtheria is rare where vaccination coverage is high but still occurs in outbreaks.",
+      "niams_url": "https://www.cdc.gov/diphtheria/symptoms/index.html"
     },
     {
       "id": "discoid-lupus",
@@ -926,6 +1646,43 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/dupuytrens-contracture"
     },
     {
+      "id": "dyslipidemia-high-cholesterol",
+      "name": "Dyslipidemia (High Cholesterol)",
+      "letter": "D",
+      "category": "Endocrine/Metabolic",
+      "description": "Dyslipidemia means unhealthy levels of blood fats (cholesterol and triglycerides), which increases the risk of heart disease and stroke.",
+      "symptoms": [
+        "Usually no symptoms"
+      ],
+      "causes": [
+        "Unhealthy diet high in saturated or trans fats",
+        "Physical inactivity",
+        "Genetic factors",
+        "Diabetes or obesity"
+      ],
+      "diagnosis": [
+        "Blood lipid profile test"
+      ],
+      "treatment": [
+        "Diet and lifestyle changes",
+        "Physical activity and weight management",
+        "Cholesterol-lowering medicines when needed"
+      ],
+      "risk_factors": [
+        "Family history of high cholesterol",
+        "Obesity",
+        "Diabetes",
+        "Smoking"
+      ],
+      "prevention": [
+        "Heart-healthy diet",
+        "Regular exercise",
+        "Avoid smoking"
+      ],
+      "prevalence": "High cholesterol is common and often detected on routine blood tests.",
+      "niams_url": "https://medlineplus.gov/cholesterol.html"
+    },
+    {
       "id": "eczema",
       "name": "Eczema (Atopic Dermatitis)",
       "letter": "E",
@@ -1015,6 +1772,43 @@
       ],
       "prevalence": "EDS affects approximately 1 in 2,500–5,000 people. Hypermobile EDS is the most common subtype.",
       "niams_url": "https://www.niams.nih.gov/health-topics/ehlers-danlos-syndrome"
+    },
+    {
+      "id": "fatty-liver-disease",
+      "name": "Fatty Liver Disease (NAFLD)",
+      "letter": "F",
+      "category": "Gastrointestinal",
+      "description": "Fatty liver disease occurs when excess fat builds up in the liver, often linked to obesity, diabetes, and metabolic syndrome.",
+      "symptoms": [
+        "Often no symptoms",
+        "Fatigue",
+        "Discomfort in the upper right abdomen"
+      ],
+      "causes": [
+        "Overweight or obesity",
+        "Type 2 diabetes or insulin resistance",
+        "High triglycerides or abnormal cholesterol"
+      ],
+      "diagnosis": [
+        "Blood tests and liver enzymes",
+        "Ultrasound or other imaging"
+      ],
+      "treatment": [
+        "Weight loss and healthy diet",
+        "Regular physical activity",
+        "Control diabetes and lipids"
+      ],
+      "risk_factors": [
+        "Obesity",
+        "Type 2 diabetes",
+        "Metabolic syndrome"
+      ],
+      "prevention": [
+        "Maintain healthy weight",
+        "Balanced diet and exercise"
+      ],
+      "prevalence": "Fatty liver disease is increasingly common alongside obesity and diabetes.",
+      "niams_url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash"
     },
     {
       "id": "fibromyalgia",
@@ -1117,6 +1911,47 @@
       ],
       "prevalence": "Affects about 20–30% of adults; most have no symptoms.",
       "niams_url": "https://www.niams.nih.gov/health-topics/foot-problems"
+    },
+    {
+      "id": "food-poisoning-gastroenteritis",
+      "name": "Food Poisoning (Gastroenteritis)",
+      "letter": "F",
+      "category": "Gastrointestinal",
+      "description": "Food poisoning (acute gastroenteritis) is illness caused by eating or drinking contaminated food or water. It often leads to diarrhea and vomiting.",
+      "symptoms": [
+        "Diarrhea",
+        "Stomach cramps",
+        "Nausea",
+        "Vomiting",
+        "Fever"
+      ],
+      "causes": [
+        "Foodborne bacteria, viruses, or parasites",
+        "Improper food storage or cooking",
+        "Contaminated water"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "Stool tests for severe or prolonged illness"
+      ],
+      "treatment": [
+        "Fluids and oral rehydration",
+        "Rest and light diet",
+        "Medical care for severe dehydration"
+      ],
+      "risk_factors": [
+        "Young children and older adults",
+        "Weakened immune system",
+        "Unsafe food handling"
+      ],
+      "prevention": [
+        "Handwashing and safe food handling",
+        "Cook foods thoroughly",
+        "Refrigerate foods promptly",
+        "Use safe water"
+      ],
+      "prevalence": "Foodborne illness is common worldwide and affects all age groups.",
+      "niams_url": "https://www.cdc.gov/food-safety/signs-symptoms/index.html"
     },
     {
       "id": "fractures",
@@ -1411,6 +2246,44 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/alopecia-areata"
     },
     {
+      "id": "heat-stroke",
+      "name": "Heat Stroke",
+      "letter": "H",
+      "category": "Environmental/Heat",
+      "description": "Heat stroke is the most severe heat-related illness and occurs when the body can no longer control its temperature.",
+      "symptoms": [
+        "Very high body temperature",
+        "Confusion or altered mental state",
+        "Hot, dry skin or heavy sweating",
+        "Seizures",
+        "Loss of consciousness"
+      ],
+      "causes": [
+        "Prolonged exposure to high temperatures",
+        "Strenuous activity in heat",
+        "Dehydration"
+      ],
+      "diagnosis": [
+        "Emergency clinical assessment"
+      ],
+      "treatment": [
+        "Immediate cooling and emergency care",
+        "IV fluids as needed"
+      ],
+      "risk_factors": [
+        "Older age or very young children",
+        "Outdoor work or sports in heat",
+        "Limited access to cooling"
+      ],
+      "prevention": [
+        "Stay hydrated",
+        "Avoid outdoor activity during peak heat",
+        "Wear light clothing"
+      ],
+      "prevalence": "Heat stroke risk rises during extreme heat waves and hot seasons.",
+      "niams_url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html"
+    },
+    {
       "id": "hemophilia-musculoskeletal",
       "name": "Hemophilic Arthropathy",
       "letter": "H",
@@ -1453,6 +2326,127 @@
       ],
       "prevalence": "Affects virtually all patients with severe hemophilia who do not receive prophylaxis; ~30,000 Americans have hemophilia.",
       "niams_url": "https://www.niams.nih.gov/health-topics/arthritis"
+    },
+    {
+      "id": "hepatitis-a",
+      "name": "Hepatitis A",
+      "letter": "H",
+      "category": "Infectious Disease",
+      "description": "Hepatitis A is a liver infection caused by the hepatitis A virus, usually spread through contaminated food or water or close contact with an infected person.",
+      "symptoms": [
+        "Fever",
+        "Loss of appetite",
+        "Nausea or vomiting",
+        "Abdominal discomfort",
+        "Dark urine",
+        "Jaundice (yellowing of eyes or skin)"
+      ],
+      "causes": [
+        "Hepatitis A virus infection",
+        "Ingestion of contaminated food or water",
+        "Close contact with an infected person"
+      ],
+      "diagnosis": [
+        "Blood test for HAV IgM antibodies",
+        "Liver function tests"
+      ],
+      "treatment": [
+        "Supportive care with rest and hydration",
+        "Avoid alcohol and unnecessary liver-toxic medicines"
+      ],
+      "risk_factors": [
+        "Poor sanitation or unsafe water",
+        "Travel to endemic areas",
+        "Close contact with infected person"
+      ],
+      "prevention": [
+        "Hepatitis A vaccination",
+        "Safe drinking water and sanitation",
+        "Handwashing and food hygiene"
+      ],
+      "prevalence": "Hepatitis A occurs worldwide and is more common where sanitation and safe water access are limited.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-a"
+    },
+    {
+      "id": "hepatitis-b",
+      "name": "Hepatitis B",
+      "letter": "H",
+      "category": "Infectious Disease",
+      "description": "Hepatitis B is a liver infection caused by the hepatitis B virus, spread through blood or body fluids. It can become chronic and lead to serious liver disease.",
+      "symptoms": [
+        "Fever",
+        "Fatigue",
+        "Loss of appetite",
+        "Nausea or vomiting",
+        "Abdominal pain",
+        "Jaundice and dark urine"
+      ],
+      "causes": [
+        "Hepatitis B virus infection",
+        "Mother-to-child transmission at birth",
+        "Unprotected sexual contact",
+        "Unsafe injections or blood exposure"
+      ],
+      "diagnosis": [
+        "Blood tests for hepatitis B markers (HBsAg, anti-HBs)",
+        "Liver function tests"
+      ],
+      "treatment": [
+        "Supportive care for acute infection",
+        "Antiviral therapy for chronic hepatitis B when indicated",
+        "Regular monitoring of liver health"
+      ],
+      "risk_factors": [
+        "Unvaccinated individuals",
+        "Exposure to blood or body fluids",
+        "Household contact with an infected person",
+        "Healthcare or needle exposure"
+      ],
+      "prevention": [
+        "Hepatitis B vaccination",
+        "Safe injection practices and screened blood",
+        "Safe sex practices"
+      ],
+      "prevalence": "Hepatitis B remains a major global health problem, especially in parts of Asia and Africa.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b"
+    },
+    {
+      "id": "hepatitis-e",
+      "name": "Hepatitis E",
+      "letter": "H",
+      "category": "Infectious Disease",
+      "description": "Hepatitis E is a liver infection caused by the hepatitis E virus, commonly spread through contaminated water.",
+      "symptoms": [
+        "Jaundice (yellowing of eyes or skin)",
+        "Dark urine",
+        "Fatigue",
+        "Nausea or vomiting",
+        "Abdominal pain",
+        "Fever"
+      ],
+      "causes": [
+        "Fecal-oral transmission via contaminated water",
+        "Poor sanitation and hygiene"
+      ],
+      "diagnosis": [
+        "Blood tests for hepatitis E antibodies",
+        "Liver function tests"
+      ],
+      "treatment": [
+        "Supportive care and hydration",
+        "Avoid alcohol and liver-toxic medicines"
+      ],
+      "risk_factors": [
+        "Poor sanitation or unsafe water",
+        "Pregnancy",
+        "Travel to endemic areas"
+      ],
+      "prevention": [
+        "Safe drinking water",
+        "Hand hygiene and sanitation"
+      ],
+      "prevalence": "Hepatitis E is common in many low- and middle-income regions, including South Asia.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-e"
     },
     {
       "id": "hip-replacement",
@@ -1543,6 +2537,52 @@
       ],
       "prevalence": "Prevalence estimated at 0.75–2% with symptomatic hypermobility; much higher rates of asymptomatic hypermobility.",
       "niams_url": "https://www.niams.nih.gov/health-topics/ehlers-danlos-syndrome"
+    },
+    {
+      "id": "hypertension",
+      "name": "Hypertension",
+      "letter": "H",
+      "category": "Cardiovascular",
+      "description": "Hypertension is persistently high blood pressure. It often has no symptoms but increases the risk of heart disease, stroke, and kidney problems.",
+      "symptoms": [
+        "Usually no symptoms",
+        "Headaches (very high blood pressure)",
+        "Blurred vision",
+        "Chest pain or shortness of breath",
+        "Dizziness"
+      ],
+      "causes": [
+        "Genetic and age-related factors",
+        "High-salt or unhealthy diet",
+        "Overweight or obesity",
+        "Physical inactivity",
+        "Excess alcohol or tobacco use"
+      ],
+      "diagnosis": [
+        "Blood pressure measurements on at least two occasions",
+        "Assessment for related risk factors and organ effects"
+      ],
+      "treatment": [
+        "Lifestyle changes (diet, exercise, weight loss)",
+        "Salt reduction",
+        "Medications such as ACE inhibitors or calcium channel blockers"
+      ],
+      "risk_factors": [
+        "Older age",
+        "Family history",
+        "High-salt diet",
+        "Overweight or obesity",
+        "Physical inactivity",
+        "Alcohol or tobacco use"
+      ],
+      "prevention": [
+        "Healthy diet with less salt",
+        "Regular physical activity",
+        "Maintain healthy weight",
+        "Avoid tobacco and limit alcohol"
+      ],
+      "prevalence": "Hypertension is common worldwide and often undiagnosed without regular blood pressure checks.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/hypertension"
     },
     {
       "id": "inclusion-body-myositis",
@@ -1672,6 +2712,48 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/arthritis"
     },
     {
+      "id": "influenza-seasonal",
+      "name": "Influenza (Seasonal)",
+      "letter": "I",
+      "category": "Respiratory",
+      "description": "Seasonal influenza (flu) is an acute respiratory infection caused by influenza viruses and spreads easily from person to person.",
+      "symptoms": [
+        "Sudden fever",
+        "Cough",
+        "Sore throat",
+        "Body aches",
+        "Headache",
+        "Fatigue"
+      ],
+      "causes": [
+        "Influenza virus infection",
+        "Spread through coughs and sneezes",
+        "Close contact in crowded settings"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "Rapid flu tests or PCR when needed"
+      ],
+      "treatment": [
+        "Rest and fluids",
+        "Fever and pain control",
+        "Most people recover without treatment"
+      ],
+      "risk_factors": [
+        "Young children",
+        "Older adults",
+        "Pregnancy",
+        "Chronic medical conditions"
+      ],
+      "prevention": [
+        "Seasonal influenza vaccination",
+        "Hand hygiene and respiratory etiquette",
+        "Stay home when ill"
+      ],
+      "prevalence": "Seasonal influenza causes widespread illness each year worldwide.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)"
+    },
+    {
       "id": "interstitial-lung-disease-rheumatic",
       "name": "Interstitial Lung Disease (ILD) in Rheumatic Diseases",
       "letter": "I",
@@ -1710,6 +2792,121 @@
       ],
       "prevalence": "Occurs in up to 80% of scleroderma patients; about 10% of RA patients develop significant ILD.",
       "niams_url": "https://www.niams.nih.gov/health-topics/scleroderma"
+    },
+    {
+      "id": "iron-deficiency-anemia",
+      "name": "Iron Deficiency Anemia",
+      "letter": "I",
+      "category": "Hematologic",
+      "description": "Iron deficiency anemia occurs when the body does not have enough iron to make healthy red blood cells.",
+      "symptoms": [
+        "Fatigue and weakness",
+        "Pale skin",
+        "Dizziness",
+        "Shortness of breath",
+        "Headache"
+      ],
+      "causes": [
+        "Low iron intake",
+        "Blood loss (heavy periods or GI bleeding)",
+        "Poor iron absorption"
+      ],
+      "diagnosis": [
+        "Complete blood count (CBC)",
+        "Iron studies"
+      ],
+      "treatment": [
+        "Iron supplements",
+        "Diet with iron-rich foods",
+        "Treat underlying bleeding"
+      ],
+      "risk_factors": [
+        "Pregnancy",
+        "Heavy menstrual bleeding",
+        "Poor diet"
+      ],
+      "prevention": [
+        "Iron-rich diet",
+        "Manage blood loss"
+      ],
+      "prevalence": "Iron deficiency anemia is the most common form of anemia.",
+      "niams_url": "https://medlineplus.gov/ency/article/000584.htm"
+    },
+    {
+      "id": "irritable-bowel-syndrome",
+      "name": "Irritable Bowel Syndrome (IBS)",
+      "letter": "I",
+      "category": "Gastrointestinal",
+      "description": "IBS is a chronic gut-brain interaction disorder that causes abdominal pain and changes in bowel habits.",
+      "symptoms": [
+        "Abdominal pain or cramping",
+        "Bloating",
+        "Diarrhea or constipation",
+        "Gas"
+      ],
+      "causes": [
+        "Gut-brain interaction issues",
+        "Food sensitivities",
+        "Stress"
+      ],
+      "diagnosis": [
+        "Symptom-based diagnosis",
+        "Tests to rule out other conditions"
+      ],
+      "treatment": [
+        "Diet changes (fiber or low FODMAP)",
+        "Stress management",
+        "Medications for symptom relief"
+      ],
+      "risk_factors": [
+        "Stress",
+        "History of gut infection"
+      ],
+      "prevention": [
+        "Identify and avoid triggers",
+        "Regular exercise and sleep"
+      ],
+      "prevalence": "IBS is a common chronic digestive disorder.",
+      "niams_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome"
+    },
+    {
+      "id": "japanese-encephalitis",
+      "name": "Japanese Encephalitis",
+      "letter": "J",
+      "category": "Infectious/Tropical",
+      "description": "Japanese encephalitis is a mosquito-borne viral infection that can cause inflammation of the brain. Most infections are mild, but severe disease can be life-threatening.",
+      "symptoms": [
+        "Fever",
+        "Headache",
+        "Vomiting",
+        "Neck stiffness",
+        "Disorientation or confusion",
+        "Seizures",
+        "Coma in severe cases"
+      ],
+      "causes": [
+        "Japanese encephalitis virus infection",
+        "Bite of infected Culex mosquitoes"
+      ],
+      "diagnosis": [
+        "Clinical assessment for encephalitis",
+        "Laboratory testing (blood or CSF) when available"
+      ],
+      "treatment": [
+        "No specific antiviral treatment",
+        "Supportive care and hospital monitoring"
+      ],
+      "risk_factors": [
+        "Living in endemic rural areas",
+        "Mosquito exposure",
+        "Children in endemic regions"
+      ],
+      "prevention": [
+        "Japanese encephalitis vaccination",
+        "Mosquito bite prevention and vector control"
+      ],
+      "prevalence": "Japanese encephalitis is endemic in parts of Asia, including India, with seasonal transmission.",
+      "niams_url": "https://www.who.int/en/news-room/fact-sheets/detail/japanese-encephalitis"
     },
     {
       "id": "joint-hypermobility",
@@ -1752,6 +2949,43 @@
       ],
       "prevalence": "Affects approximately 10–15% of the general population to some degree.",
       "niams_url": "https://www.niams.nih.gov/health-topics/ehlers-danlos-syndrome"
+    },
+    {
+      "id": "kala-azar-visceral-leishmaniasis",
+      "name": "Kala-azar (Visceral Leishmaniasis)",
+      "letter": "K",
+      "category": "Infectious/Tropical",
+      "description": "Kala-azar is the most severe form of leishmaniasis. It is caused by parasites transmitted by sandflies and can be fatal if left untreated.",
+      "symptoms": [
+        "Irregular fever",
+        "Weight loss",
+        "Enlarged spleen and liver",
+        "Severe anemia",
+        "Fatigue and weakness"
+      ],
+      "causes": [
+        "Leishmania parasite infection",
+        "Bite of infected sandflies"
+      ],
+      "diagnosis": [
+        "Clinical evaluation and exposure history",
+        "Parasitological or serological testing"
+      ],
+      "treatment": [
+        "Antiparasitic medicines as prescribed",
+        "Supportive care and nutrition support"
+      ],
+      "risk_factors": [
+        "Living in endemic areas",
+        "Poor housing or crowded conditions",
+        "Malnutrition or weak immune system"
+      ],
+      "prevention": [
+        "Vector control and insecticide-treated nets",
+        "Early diagnosis and treatment to reduce transmission"
+      ],
+      "prevalence": "Visceral leishmaniasis remains endemic in parts of India and other regions of Asia, Africa, and the Americas.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/leishmaniasis"
     },
     {
       "id": "keloids-hypertrophic-scars",
@@ -1848,6 +3082,85 @@
       ],
       "prevalence": "Knee pain is the second most common cause of chronic pain and affects over 100 million people worldwide.",
       "niams_url": "https://www.niams.nih.gov/health-topics/knee-problems"
+    },
+    {
+      "id": "leptospirosis",
+      "name": "Leptospirosis",
+      "letter": "L",
+      "category": "Infectious Disease",
+      "description": "Leptospirosis is a bacterial disease spread through contact with water or soil contaminated with urine from infected animals, often after heavy rains or floods.",
+      "symptoms": [
+        "Fever and chills",
+        "Headache",
+        "Muscle aches",
+        "Red eyes",
+        "Nausea or vomiting"
+      ],
+      "causes": [
+        "Leptospira bacteria",
+        "Exposure to contaminated floodwater or soil",
+        "Contact with infected animals"
+      ],
+      "diagnosis": [
+        "Clinical assessment with exposure history",
+        "Blood or urine tests"
+      ],
+      "treatment": [
+        "Antibiotics as early as possible",
+        "Supportive care and hydration"
+      ],
+      "risk_factors": [
+        "Exposure to floodwater",
+        "Outdoor or agricultural work",
+        "Poor sanitation and rodent exposure"
+      ],
+      "prevention": [
+        "Avoid wading in contaminated water",
+        "Protective footwear and clothing",
+        "Rodent control and safe water"
+      ],
+      "prevalence": "Leptospirosis risk increases after heavy rainfall and flooding in tropical regions.",
+      "niams_url": "https://www.cdc.gov/leptospirosis/index.html"
+    },
+    {
+      "id": "liver-cirrhosis",
+      "name": "Liver Cirrhosis",
+      "letter": "L",
+      "category": "Gastrointestinal",
+      "description": "Cirrhosis is scarring of the liver that develops over time due to chronic liver damage.",
+      "symptoms": [
+        "Fatigue and weakness",
+        "Loss of appetite and weight loss",
+        "Abdominal swelling",
+        "Jaundice",
+        "Easy bruising"
+      ],
+      "causes": [
+        "Chronic hepatitis B or C",
+        "Alcohol-related liver disease",
+        "Fatty liver disease"
+      ],
+      "diagnosis": [
+        "Blood tests and imaging",
+        "Liver biopsy in some cases"
+      ],
+      "treatment": [
+        "Treat underlying cause",
+        "Avoid alcohol",
+        "Manage complications"
+      ],
+      "risk_factors": [
+        "Chronic viral hepatitis",
+        "Heavy alcohol use",
+        "Obesity and diabetes"
+      ],
+      "prevention": [
+        "Hepatitis vaccination",
+        "Limit alcohol",
+        "Healthy weight and diet"
+      ],
+      "prevalence": "Cirrhosis is a major cause of liver-related illness worldwide.",
+      "niams_url": "https://www.niddk.nih.gov/health-information/liver-disease/cirrhosis/symptoms-causes"
     },
     {
       "id": "low-bone-density",
@@ -1992,6 +3305,48 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/lyme-disease"
     },
     {
+      "id": "malaria",
+      "name": "Malaria",
+      "letter": "M",
+      "category": "Infectious/Tropical",
+      "description": "Malaria is a life-threatening disease caused by parasites transmitted to humans through the bites of infected Anopheles mosquitoes. It is preventable and curable.",
+      "symptoms": [
+        "Fever and chills",
+        "Headache",
+        "Sweating",
+        "Fatigue and weakness",
+        "Nausea or vomiting",
+        "Severe cases may cause confusion or difficulty breathing"
+      ],
+      "causes": [
+        "Plasmodium parasite infection",
+        "Bites of infected Anopheles mosquitoes"
+      ],
+      "diagnosis": [
+        "Rapid diagnostic tests or microscopy",
+        "Clinical assessment with exposure history"
+      ],
+      "treatment": [
+        "Prompt antimalarial medicines",
+        "Artemisinin-based combination therapy for many cases",
+        "Hospital care for severe malaria"
+      ],
+      "risk_factors": [
+        "Living in or traveling to endemic areas",
+        "Children under 5 years",
+        "Pregnancy",
+        "Lack of mosquito protection"
+      ],
+      "prevention": [
+        "Insecticide-treated bed nets",
+        "Use of mosquito repellents",
+        "Indoor residual spraying where available",
+        "Chemoprophylaxis for travelers when indicated"
+      ],
+      "prevalence": "Malaria is common in tropical countries and remains a major public health burden.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/malaria"
+    },
+    {
       "id": "marfan-syndrome",
       "name": "Marfan Syndrome",
       "letter": "M",
@@ -2037,6 +3392,43 @@
       ],
       "prevalence": "Marfan syndrome affects about 1 in 5,000 people worldwide.",
       "niams_url": "https://www.niams.nih.gov/health-topics/marfan-syndrome"
+    },
+    {
+      "id": "measles",
+      "name": "Measles",
+      "letter": "M",
+      "category": "Infectious Disease",
+      "description": "Measles is a highly contagious viral illness that spreads through the air and can cause serious complications, especially in unvaccinated children.",
+      "symptoms": [
+        "High fever",
+        "Cough",
+        "Runny nose",
+        "Red, watery eyes",
+        "Rash that spreads over the body"
+      ],
+      "causes": [
+        "Measles virus",
+        "Airborne transmission from coughs or sneezes"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "Lab testing (IgM or PCR) when needed"
+      ],
+      "treatment": [
+        "Supportive care and hydration",
+        "Vitamin A for children when indicated"
+      ],
+      "risk_factors": [
+        "Unvaccinated individuals",
+        "Crowded settings",
+        "Malnutrition"
+      ],
+      "prevention": [
+        "MMR vaccination",
+        "Isolation of cases during outbreaks"
+      ],
+      "prevalence": "Measles outbreaks occur where vaccination coverage is low.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/measles"
     },
     {
       "id": "mixed-connective-tissue-disease",
@@ -2125,6 +3517,43 @@
       ],
       "prevalence": "Affects approximately 1 in 3 women and 1 in 10 men over their lifetime.",
       "niams_url": "https://www.niams.nih.gov/health-topics/foot-problems"
+    },
+    {
+      "id": "mumps",
+      "name": "Mumps",
+      "letter": "M",
+      "category": "Infectious Disease",
+      "description": "Mumps is a contagious viral infection that primarily affects the salivary glands and can cause swollen cheeks and jaw pain.",
+      "symptoms": [
+        "Fever",
+        "Headache",
+        "Muscle aches",
+        "Fatigue",
+        "Loss of appetite",
+        "Swollen salivary glands (puffy cheeks)"
+      ],
+      "causes": [
+        "Mumps virus",
+        "Spread through respiratory droplets"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "Lab testing when needed"
+      ],
+      "treatment": [
+        "Supportive care and rest",
+        "Pain and fever control"
+      ],
+      "risk_factors": [
+        "Unvaccinated individuals",
+        "Close contact settings"
+      ],
+      "prevention": [
+        "MMR vaccination",
+        "Hand hygiene and cough etiquette"
+      ],
+      "prevalence": "Mumps outbreaks still occur where vaccination coverage is incomplete.",
+      "niams_url": "https://www.cdc.gov/mumps/index.html"
     },
     {
       "id": "myasthenia-gravis",
@@ -2321,6 +3750,43 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/neck-pain"
     },
     {
+      "id": "neonatal-sepsis",
+      "name": "Neonatal Sepsis",
+      "letter": "N",
+      "category": "Public Health",
+      "description": "Neonatal sepsis is a serious infection in newborns that can rapidly become life-threatening without early recognition and treatment.",
+      "symptoms": [
+        "Poor feeding",
+        "Fever or low temperature",
+        "Fast breathing",
+        "Lethargy",
+        "Irritability"
+      ],
+      "causes": [
+        "Bacterial infection around birth",
+        "Unhygienic delivery or cord care"
+      ],
+      "diagnosis": [
+        "Clinical assessment in newborns",
+        "Blood tests and cultures"
+      ],
+      "treatment": [
+        "Urgent antibiotics",
+        "Supportive hospital care"
+      ],
+      "risk_factors": [
+        "Prematurity or low birth weight",
+        "Prolonged rupture of membranes",
+        "Maternal infection"
+      ],
+      "prevention": [
+        "Clean delivery and cord care",
+        "Early recognition and care-seeking"
+      ],
+      "prevalence": "Neonatal infections, including sepsis, are a major cause of newborn deaths in low- and middle-income countries.",
+      "niams_url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health/newborn-infections"
+    },
+    {
       "id": "nerve-entrapment-syndromes",
       "name": "Nerve Entrapment Syndromes",
       "letter": "N",
@@ -2369,6 +3835,52 @@
       ],
       "prevalence": "Carpal tunnel syndrome alone affects 3–6% of adults; nerve entrapment syndromes collectively are very common.",
       "niams_url": "https://www.niams.nih.gov/health-topics/carpal-tunnel-syndrome"
+    },
+    {
+      "id": "obesity",
+      "name": "Obesity",
+      "letter": "O",
+      "category": "Endocrine/Metabolic",
+      "description": "Obesity is a chronic condition of excess body fat that increases the risk of many health problems, including diabetes, heart disease, and joint disorders.",
+      "symptoms": [
+        "Excess body weight or fat",
+        "Breathlessness with activity",
+        "Fatigue",
+        "Joint or back pain",
+        "Sleep problems such as snoring"
+      ],
+      "causes": [
+        "Energy intake greater than energy expenditure",
+        "High-calorie diet and sugary drinks",
+        "Physical inactivity",
+        "Genetic and environmental factors",
+        "Certain medicines or medical conditions"
+      ],
+      "diagnosis": [
+        "Body mass index (BMI) assessment",
+        "Waist circumference measurement",
+        "Evaluation for related health conditions"
+      ],
+      "treatment": [
+        "Healthy eating and portion control",
+        "Regular physical activity",
+        "Behavioral and lifestyle counseling",
+        "Medications or bariatric surgery for selected patients"
+      ],
+      "risk_factors": [
+        "Sedentary lifestyle",
+        "High-calorie diet",
+        "Family history of obesity",
+        "Poor sleep or stress"
+      ],
+      "prevention": [
+        "Balanced diet with whole foods",
+        "Regular physical activity",
+        "Limit sugary drinks and ultra-processed foods",
+        "Reduce screen time and sedentary behavior"
+      ],
+      "prevalence": "Obesity is increasing globally and is now common in many low- and middle-income countries, including India.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
     },
     {
       "id": "osteoarthritis",
@@ -2672,6 +4184,43 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/knee-problems"
     },
     {
+      "id": "peptic-ulcer-disease",
+      "name": "Peptic Ulcer Disease",
+      "letter": "P",
+      "category": "Gastrointestinal",
+      "description": "Peptic ulcers are sores on the lining of the stomach or duodenum, commonly caused by H. pylori infection or NSAID use.",
+      "symptoms": [
+        "Burning stomach pain",
+        "Bloating",
+        "Nausea or vomiting",
+        "Feeling full quickly"
+      ],
+      "causes": [
+        "Helicobacter pylori infection",
+        "Long-term NSAID use"
+      ],
+      "diagnosis": [
+        "Endoscopy",
+        "H. pylori testing"
+      ],
+      "treatment": [
+        "Acid-suppressing medicines (PPIs)",
+        "Antibiotics for H. pylori",
+        "Stop or reduce NSAIDs"
+      ],
+      "risk_factors": [
+        "NSAID use",
+        "H. pylori infection",
+        "Smoking"
+      ],
+      "prevention": [
+        "Treat H. pylori infection",
+        "Use NSAIDs carefully"
+      ],
+      "prevalence": "Peptic ulcer disease is common and treatable.",
+      "niams_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers"
+    },
+    {
       "id": "plantar-fasciitis",
       "name": "Plantar Fasciitis",
       "letter": "P",
@@ -2719,6 +4268,81 @@
       ],
       "prevalence": "Plantar fasciitis affects about 2 million Americans each year and about 10% of the population over a lifetime.",
       "niams_url": "https://www.niams.nih.gov/health-topics/plantar-fasciitis"
+    },
+    {
+      "id": "pneumonia",
+      "name": "Pneumonia",
+      "letter": "P",
+      "category": "Respiratory",
+      "description": "Pneumonia is an infection of one or both lungs that can be caused by bacteria, viruses, or fungi.",
+      "symptoms": [
+        "Fever and chills",
+        "Cough with phlegm",
+        "Shortness of breath",
+        "Chest pain when breathing or coughing"
+      ],
+      "causes": [
+        "Bacterial infection",
+        "Viral infection",
+        "Fungal infection"
+      ],
+      "diagnosis": [
+        "Clinical exam",
+        "Chest X-ray"
+      ],
+      "treatment": [
+        "Antibiotics for bacterial pneumonia",
+        "Supportive care and rest",
+        "Hospital care for severe cases"
+      ],
+      "risk_factors": [
+        "Older age or young children",
+        "Chronic diseases",
+        "Smoking"
+      ],
+      "prevention": [
+        "Vaccination (pneumococcal, influenza)",
+        "Hand hygiene",
+        "Avoid smoking"
+      ],
+      "prevalence": "Pneumonia is a common respiratory infection worldwide.",
+      "niams_url": "https://medlineplus.gov/pneumonia.html"
+    },
+    {
+      "id": "polio",
+      "name": "Polio (Poliomyelitis)",
+      "letter": "P",
+      "category": "Infectious Disease",
+      "description": "Polio is a viral disease that mainly affects children and can cause paralysis. Most infections are asymptomatic.",
+      "symptoms": [
+        "Fever and sore throat",
+        "Tiredness and headache",
+        "Nausea or stomach pain",
+        "Meningitis in some cases",
+        "Paralysis in severe cases"
+      ],
+      "causes": [
+        "Poliovirus infection",
+        "Spread through fecal-oral route"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "Laboratory testing of stool or throat samples"
+      ],
+      "treatment": [
+        "Supportive care",
+        "Physical therapy and rehabilitation"
+      ],
+      "risk_factors": [
+        "Unvaccinated individuals",
+        "Poor sanitation"
+      ],
+      "prevention": [
+        "Polio vaccination",
+        "Safe water and sanitation"
+      ],
+      "prevalence": "Polio has been greatly reduced worldwide but remains a risk where vaccination is low.",
+      "niams_url": "https://www.who.int/en/news-room/fact-sheets/detail/poliomyelitis"
     },
     {
       "id": "polymyalgia-rheumatica",
@@ -2851,6 +4475,42 @@
       ],
       "prevalence": "Combined incidence of approximately 5–10 cases per million per year.",
       "niams_url": "https://www.niams.nih.gov/health-topics/myositis"
+    },
+    {
+      "id": "protein-energy-malnutrition",
+      "name": "Protein-Energy Malnutrition",
+      "letter": "P",
+      "category": "Nutritional",
+      "description": "Protein-energy malnutrition occurs when the body does not get enough calories and protein to meet its needs.",
+      "symptoms": [
+        "Weight loss",
+        "Muscle wasting",
+        "Weakness or fatigue",
+        "Poor growth in children"
+      ],
+      "causes": [
+        "Insufficient food intake",
+        "Chronic illness",
+        "Food insecurity"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "Growth and weight measurements"
+      ],
+      "treatment": [
+        "Nutritional rehabilitation",
+        "Treat infections or underlying illness"
+      ],
+      "risk_factors": [
+        "Infants and young children",
+        "Poverty or food insecurity"
+      ],
+      "prevention": [
+        "Adequate balanced diet",
+        "Breastfeeding and child nutrition support"
+      ],
+      "prevalence": "Undernutrition remains a public health concern in many low- and middle-income regions.",
+      "niams_url": "https://medlineplus.gov/malnutrition.html"
     },
     {
       "id": "psoriasis",
@@ -3030,6 +4690,45 @@
       ],
       "prevalence": "Prevalence varies by underlying neurological disorders such as stroke and brain injury.",
       "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/quadrantanopia"
+    },
+    {
+      "id": "rabies",
+      "name": "Rabies",
+      "letter": "R",
+      "category": "Infectious Disease",
+      "description": "Rabies is a viral disease that affects the central nervous system. It is almost always fatal once symptoms appear, but can be prevented with prompt post-exposure treatment.",
+      "symptoms": [
+        "Fever and pain at bite site",
+        "Tingling or burning near the wound",
+        "Anxiety or agitation",
+        "Hydrophobia (fear of water)",
+        "Paralysis and coma in later stages"
+      ],
+      "causes": [
+        "Rabies virus infection",
+        "Bites or scratches from infected animals (most often dogs)"
+      ],
+      "diagnosis": [
+        "Clinical assessment with exposure history",
+        "Laboratory confirmation when possible"
+      ],
+      "treatment": [
+        "Immediate wound washing",
+        "Post-exposure prophylaxis (rabies vaccine)",
+        "Rabies immunoglobulin when indicated"
+      ],
+      "risk_factors": [
+        "Dog bites or scratches",
+        "Unvaccinated animals in the community",
+        "Delay in seeking medical care after exposure"
+      ],
+      "prevention": [
+        "Vaccinate dogs and pets",
+        "Avoid animal bites and seek care immediately",
+        "Post-exposure prophylaxis after risky exposure"
+      ],
+      "prevalence": "Rabies remains a significant public health problem in many parts of Asia and Africa.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/rabies"
     },
     {
       "id": "raynauds-disease",
@@ -3260,6 +4959,42 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/rotator-cuff-injuries"
     },
     {
+      "id": "rotavirus-infection",
+      "name": "Rotavirus Infection",
+      "letter": "R",
+      "category": "Gastrointestinal",
+      "description": "Rotavirus is a common cause of severe diarrhea and vomiting in infants and young children, which can lead to dehydration.",
+      "symptoms": [
+        "Watery diarrhea",
+        "Vomiting",
+        "Fever",
+        "Stomach pain",
+        "Dehydration"
+      ],
+      "causes": [
+        "Rotavirus infection",
+        "Spread through fecal-oral route"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "Stool testing if needed"
+      ],
+      "treatment": [
+        "Oral rehydration and fluids",
+        "Hospital care for severe dehydration"
+      ],
+      "risk_factors": [
+        "Infants and young children",
+        "Unvaccinated children"
+      ],
+      "prevention": [
+        "Rotavirus vaccination",
+        "Handwashing and hygiene"
+      ],
+      "prevalence": "Rotavirus is a leading cause of severe diarrhea in young children worldwide.",
+      "niams_url": "https://www.cdc.gov/rotavirus/about/index.html"
+    },
+    {
       "id": "scleroderma",
       "name": "Scleroderma (Systemic Sclerosis)",
       "letter": "S",
@@ -3397,6 +5132,44 @@
       ],
       "prevalence": "Affects 13–20% of running injuries; up to 35% of military recruits develop shin splints during training.",
       "niams_url": "https://www.niams.nih.gov/health-topics/sports-injuries"
+    },
+    {
+      "id": "sinusitis",
+      "name": "Sinusitis",
+      "letter": "S",
+      "category": "Respiratory",
+      "description": "Sinusitis is inflammation of the sinus lining, often following a cold or allergies, leading to facial pain and congestion.",
+      "symptoms": [
+        "Facial pain or pressure",
+        "Nasal congestion",
+        "Thick nasal discharge",
+        "Cough",
+        "Fever in some cases"
+      ],
+      "causes": [
+        "Viral infection after a cold",
+        "Bacterial infection",
+        "Allergies or nasal blockage"
+      ],
+      "diagnosis": [
+        "Clinical exam",
+        "Imaging tests if chronic or severe"
+      ],
+      "treatment": [
+        "Nasal saline and decongestants",
+        "Pain relief",
+        "Antibiotics if bacterial"
+      ],
+      "risk_factors": [
+        "Recent cold or allergy flare",
+        "Nasal polyps or deviated septum"
+      ],
+      "prevention": [
+        "Hand hygiene",
+        "Manage allergies"
+      ],
+      "prevalence": "Sinusitis is common and often follows upper respiratory infections.",
+      "niams_url": "https://medlineplus.gov/sinusitis.html"
     },
     {
       "id": "sjogrens-syndrome",
@@ -3636,6 +5409,82 @@
       ],
       "prevalence": "Represent 1–20% of all sports medicine injuries; tibial stress fractures account for about 50% of all stress fractures.",
       "niams_url": "https://www.niams.nih.gov/health-topics/sports-injuries"
+    },
+    {
+      "id": "stroke",
+      "name": "Stroke",
+      "letter": "S",
+      "category": "Neurological",
+      "description": "A stroke happens when blood flow to part of the brain is blocked or a blood vessel breaks, causing brain cells to die quickly.",
+      "symptoms": [
+        "Sudden weakness of face, arm, or leg",
+        "Trouble speaking or understanding speech",
+        "Sudden vision problems",
+        "Loss of balance or coordination",
+        "Severe sudden headache"
+      ],
+      "causes": [
+        "Blocked blood vessel (ischemic stroke)",
+        "Bleeding in the brain (hemorrhagic stroke)"
+      ],
+      "diagnosis": [
+        "Emergency clinical assessment",
+        "Brain imaging (CT or MRI)"
+      ],
+      "treatment": [
+        "Emergency hospital care",
+        "Clot-busting medicines for eligible ischemic strokes",
+        "Rehabilitation therapy"
+      ],
+      "risk_factors": [
+        "High blood pressure",
+        "Diabetes",
+        "Smoking",
+        "High cholesterol"
+      ],
+      "prevention": [
+        "Control blood pressure and diabetes",
+        "Quit smoking",
+        "Healthy diet and regular activity"
+      ],
+      "prevalence": "Stroke is a leading cause of disability and death worldwide.",
+      "niams_url": "https://medlineplus.gov/stroke.html"
+    },
+    {
+      "id": "sunburn-related-illness",
+      "name": "Sunburn-related Illness",
+      "letter": "S",
+      "category": "Skin",
+      "description": "Sunburn is skin damage caused by overexposure to ultraviolet (UV) rays from the sun or tanning sources.",
+      "symptoms": [
+        "Red, painful skin",
+        "Warm or tender skin",
+        "Blistering in severe cases",
+        "Fever or chills in severe cases"
+      ],
+      "causes": [
+        "Excess UV exposure",
+        "Lack of sun protection"
+      ],
+      "diagnosis": [
+        "Clinical assessment"
+      ],
+      "treatment": [
+        "Cool compresses or baths",
+        "Hydration",
+        "Pain relief medicines"
+      ],
+      "risk_factors": [
+        "Outdoor work or sports",
+        "Fair or sensitive skin"
+      ],
+      "prevention": [
+        "Use sunscreen",
+        "Wear protective clothing",
+        "Avoid peak sun hours"
+      ],
+      "prevalence": "Sunburn is common with intense sun exposure, especially in summer months.",
+      "niams_url": "https://medlineplus.gov/sunexposure.html"
     },
     {
       "id": "systemic-lupus-erythematosus",
@@ -4014,6 +5863,92 @@
       "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/triple-x-syndrome-causes-symptoms-treatment"
     },
     {
+      "id": "tuberculosis-tb",
+      "name": "Tuberculosis (TB)",
+      "letter": "T",
+      "category": "Infectious Disease",
+      "description": "Tuberculosis is an infectious disease caused by bacteria that usually affects the lungs and spreads through the air when infected people cough or sneeze.",
+      "symptoms": [
+        "Prolonged cough (sometimes with blood)",
+        "Chest pain",
+        "Fever",
+        "Night sweats",
+        "Weight loss",
+        "Fatigue and weakness"
+      ],
+      "causes": [
+        "Mycobacterium tuberculosis infection",
+        "Airborne spread from an infected person"
+      ],
+      "diagnosis": [
+        "Rapid molecular tests or sputum tests",
+        "Chest X-ray",
+        "Clinical assessment and history"
+      ],
+      "treatment": [
+        "Combination antibiotics for several months",
+        "Strict adherence to prescribed therapy",
+        "Monitoring for drug resistance"
+      ],
+      "risk_factors": [
+        "Close contact with someone with TB",
+        "HIV or weakened immune system",
+        "Undernutrition",
+        "Diabetes",
+        "Tobacco or alcohol use"
+      ],
+      "prevention": [
+        "Early detection and treatment",
+        "BCG vaccination for infants where recommended",
+        "Good ventilation and cough etiquette",
+        "Screening for high-risk contacts"
+      ],
+      "prevalence": "TB remains a major public health concern in India and many other countries.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis"
+    },
+    {
+      "id": "typhoid-fever",
+      "name": "Typhoid Fever",
+      "letter": "T",
+      "category": "Infectious Disease",
+      "description": "Typhoid fever is a life-threatening infection caused by Salmonella Typhi, usually spread through contaminated food or water.",
+      "symptoms": [
+        "Prolonged fever",
+        "Headache",
+        "Abdominal pain",
+        "Nausea",
+        "Constipation or diarrhea",
+        "Fatigue",
+        "Sometimes a rash"
+      ],
+      "causes": [
+        "Salmonella Typhi bacteria",
+        "Contaminated food or drinking water",
+        "Poor sanitation and hygiene"
+      ],
+      "diagnosis": [
+        "Blood culture or other lab tests",
+        "Clinical assessment with exposure history"
+      ],
+      "treatment": [
+        "Antibiotics as prescribed",
+        "Hydration and rest",
+        "Monitoring for complications"
+      ],
+      "risk_factors": [
+        "Unsafe water or poor sanitation",
+        "Travel to endemic areas",
+        "Food handling in low-hygiene settings"
+      ],
+      "prevention": [
+        "Safe drinking water and sanitation",
+        "Handwashing and food hygiene",
+        "Typhoid vaccination"
+      ],
+      "prevalence": "Typhoid remains common in South Asia and other areas with limited access to safe water.",
+      "niams_url": "https://www.who.int/news-room/fact-sheets/detail/typhoid"
+    },
+    {
       "id": "undifferentiated-connective-tissue-disease",
       "name": "Undifferentiated Connective Tissue Disease (UCTD)",
       "letter": "U",
@@ -4103,6 +6038,124 @@
       "niams_url": "https://www.niams.nih.gov/health-topics/vasculitis"
     },
     {
+      "id": "viral-fever",
+      "name": "Viral Fever",
+      "letter": "V",
+      "category": "Infectious Disease",
+      "description": "Viral fever is a general term for fever caused by viral infections. It is common and usually self-limited, but can be more severe in vulnerable groups.",
+      "symptoms": [
+        "Fever",
+        "Body aches",
+        "Fatigue",
+        "Headache",
+        "Sore throat or cough",
+        "Runny nose"
+      ],
+      "causes": [
+        "Viral infections of the respiratory or gastrointestinal tract",
+        "Seasonal viral outbreaks",
+        "Close contact in crowded settings"
+      ],
+      "diagnosis": [
+        "Clinical assessment and temperature check",
+        "Basic blood tests when needed",
+        "Testing to rule out dengue or malaria if suspected"
+      ],
+      "treatment": [
+        "Rest and adequate fluids",
+        "Fever control with acetaminophen or ibuprofen",
+        "Symptom monitoring and medical review if worsening"
+      ],
+      "risk_factors": [
+        "Children or older adults",
+        "Weakened immune system",
+        "Crowded living conditions",
+        "Poor hygiene practices"
+      ],
+      "prevention": [
+        "Hand hygiene and cough etiquette",
+        "Safe food and water practices",
+        "Avoid close contact with sick individuals",
+        "Vector control where mosquito-borne viruses are common"
+      ],
+      "prevalence": "Viral fevers are very common, especially during seasonal changes and outbreaks.",
+      "niams_url": "https://www.apollohospitals.com/health-library/viral-fever"
+    },
+    {
+      "id": "vitamin-b12-deficiency",
+      "name": "Vitamin B12 Deficiency",
+      "letter": "V",
+      "category": "Nutritional",
+      "description": "Vitamin B12 deficiency can lead to anemia and nerve problems due to insufficient B12 intake or absorption.",
+      "symptoms": [
+        "Fatigue",
+        "Weakness",
+        "Numbness or tingling",
+        "Memory problems",
+        "Pale skin"
+      ],
+      "causes": [
+        "Low dietary intake (especially vegan diets)",
+        "Poor absorption due to stomach or intestinal problems",
+        "Lack of intrinsic factor"
+      ],
+      "diagnosis": [
+        "Blood test for vitamin B12 levels",
+        "Complete blood count (CBC)"
+      ],
+      "treatment": [
+        "Vitamin B12 supplements or injections",
+        "Dietary improvements"
+      ],
+      "risk_factors": [
+        "Older age",
+        "Vegetarian or vegan diet",
+        "GI disorders"
+      ],
+      "prevention": [
+        "Eat B12-rich or fortified foods",
+        "Supplements if at risk"
+      ],
+      "prevalence": "Vitamin B12 deficiency is common in older adults and in low-intake diets.",
+      "niams_url": "https://medlineplus.gov/ency/article/000574.htm"
+    },
+    {
+      "id": "vitamin-d-deficiency",
+      "name": "Vitamin D Deficiency",
+      "letter": "V",
+      "category": "Nutritional",
+      "description": "Vitamin D deficiency means the body is not getting enough vitamin D to maintain healthy bones, muscles, and immune function.",
+      "symptoms": [
+        "Bone pain",
+        "Muscle weakness",
+        "Fatigue"
+      ],
+      "causes": [
+        "Low sunlight exposure",
+        "Low dietary intake",
+        "Malabsorption or liver/kidney problems"
+      ],
+      "diagnosis": [
+        "Blood test for vitamin D levels"
+      ],
+      "treatment": [
+        "Vitamin D supplements",
+        "Dietary improvement"
+      ],
+      "risk_factors": [
+        "Older age",
+        "Limited sun exposure",
+        "Darker skin"
+      ],
+      "prevention": [
+        "Safe sun exposure",
+        "Vitamin D-rich foods",
+        "Supplementation when needed"
+      ],
+      "prevalence": "Vitamin D deficiency is common worldwide, including in sunny climates.",
+      "niams_url": "https://medlineplus.gov/vitaminddeficiency.html"
+    },
+    {
       "id": "vitiligo",
       "name": "Vitiligo",
       "letter": "V",
@@ -4145,6 +6198,42 @@
       ],
       "prevalence": "Affects about 0.5–2% of the global population; approximately 3.5–4 million Americans.",
       "niams_url": "https://www.niams.nih.gov/health-topics/vitiligo"
+    },
+    {
+      "id": "whooping-cough-pertussis",
+      "name": "Whooping Cough (Pertussis)",
+      "letter": "W",
+      "category": "Infectious Disease",
+      "description": "Whooping cough is a highly contagious respiratory infection caused by Bordetella pertussis bacteria.",
+      "symptoms": [
+        "Runny nose and mild cough early on",
+        "Severe coughing fits",
+        "High-pitched whoop after coughing",
+        "Vomiting after coughing",
+        "Breathing pauses in infants"
+      ],
+      "causes": [
+        "Bordetella pertussis infection",
+        "Spread through respiratory droplets"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "PCR or lab testing of respiratory samples"
+      ],
+      "treatment": [
+        "Antibiotics, especially early in illness",
+        "Supportive care and monitoring"
+      ],
+      "risk_factors": [
+        "Unvaccinated infants and children",
+        "Close contact exposure"
+      ],
+      "prevention": [
+        "DTaP/Tdap vaccination",
+        "Hand hygiene and cough etiquette"
+      ],
+      "prevalence": "Pertussis remains a vaccine-preventable illness with periodic outbreaks.",
+      "niams_url": "https://www.cdc.gov/pertussis/signs-symptoms/index.html"
     },
     {
       "id": "wrist-problems",

@@ -23,6 +23,16 @@ type ListSection = {
   items: string[];
 };
 
+const RELATED_OVERRIDES: Record<string, string[]> = {
+  "diabetes-mellitus": ["hypertension", "coronary-artery-disease", "obesity"],
+  hypertension: ["coronary-artery-disease", "diabetes-mellitus"],
+  "coronary-artery-disease": ["hypertension", "diabetes-mellitus"],
+  "dengue-fever": ["viral-fever"],
+  "viral-fever": ["dengue-fever"],
+  asthma: ["chronic-obstructive-pulmonary-disease-copd"],
+  "chronic-obstructive-pulmonary-disease-copd": ["asthma"],
+};
+
 export default function DiseaseDetailPage({
   params,
 }: {
@@ -48,9 +58,16 @@ export default function DiseaseDetailPage({
     .map((section) => ({ title: section.title, items: section.items ?? [] }))
     .filter((section) => section.items.length > 0);
 
-  const related = diseases
-    .filter((d) => d.id !== disease.id && d.category === disease.category)
-    .slice(0, 3);
+  const overrideIds = new Set(RELATED_OVERRIDES[disease.id] ?? []);
+  const overrideRelated = diseases.filter((d) => overrideIds.has(d.id));
+  const categoryRelated = diseases.filter(
+    (d) => d.id !== disease.id && d.category === disease.category,
+  );
+  const related = [...overrideRelated, ...categoryRelated].filter(
+    (item, index, list) =>
+      item.id !== disease.id &&
+      list.findIndex((entry) => entry.id === item.id) === index,
+  ).slice(0, 3);
 
   return (
     <ImmersiveDetailLayout
