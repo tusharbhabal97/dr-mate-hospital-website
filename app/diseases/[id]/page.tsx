@@ -114,19 +114,23 @@ export default function DiseaseDetailPage({
           </div>
         </article>
 
-        <article className="lg:col-span-4 bg-gradient-to-br from-slate-900 to-[#1a237e] rounded-[2rem] p-6 text-white relative overflow-hidden">
-          <span className="absolute -bottom-10 -right-10 w-36 h-36 rounded-full bg-white/10" />
-          <h2 className="font-display font-bold text-2xl mb-3">Need Help?</h2>
-          <p className="text-white/75 text-sm leading-relaxed mb-5">
+        <article className="lg:col-span-4 bg-gradient-to-br from-primary/15 via-white to-primary/10 rounded-[2rem] p-6 text-slate-900 relative overflow-hidden border border-primary/15">
+          <span className="absolute -bottom-10 -right-10 w-36 h-36 rounded-full bg-primary/10" />
+          <h2 className="font-display font-bold text-2xl mb-3 text-slate-900">
+            Need Help?
+          </h2>
+          <p className="text-slate-700 text-sm leading-relaxed mb-5">
             Our specialists can guide you through symptoms and treatment options.
           </p>
           <Link
             href="/book-appointment"
-            className="inline-flex items-center justify-center rounded-xl bg-white text-[#1a237e] text-sm font-bold px-5 py-3"
+            className="inline-flex items-center justify-center rounded-xl bg-primary text-white text-sm font-bold px-5 py-3 hover:bg-primary-dark transition-colors"
           >
             Book Appointment
           </Link>
-          <p className="text-white/70 text-xs mt-4">24/7 Emergency: +91 1800-MEDICARE</p>
+          <p className="text-slate-600 text-xs mt-4">
+            24/7 Emergency: +91 1800-MEDICARE
+          </p>
         </article>
 
         <div className="lg:col-span-8 grid sm:grid-cols-2 gap-6">

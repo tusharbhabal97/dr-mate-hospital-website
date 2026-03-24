@@ -109,10 +109,10 @@ export default function AboutUsPage() {
             </ul>
           </article>
 
-          <article className="lg:col-span-4 bg-gradient-to-br from-slate-900 to-[#1a237e] rounded-[2rem] p-6 text-white relative overflow-hidden">
-            <span className="absolute -bottom-10 -right-10 w-36 h-36 rounded-full bg-white/10" />
-            <h2 className="font-display font-bold text-2xl mb-3">Genesis</h2>
-            <p className="text-white/75 text-sm leading-relaxed">
+          <article className="lg:col-span-4 bg-gradient-to-br from-primary/15 via-primary/10 to-primary/5 rounded-[2rem] p-6 text-slate-900 relative overflow-hidden">
+            <span className="absolute -bottom-10 -right-10 w-36 h-36 rounded-full bg-primary/10" />
+            <h2 className="font-display font-bold text-2xl mb-3 text-slate-900">Genesis</h2>
+            <p className="text-slate-700 text-sm leading-relaxed">
               The hospital began with a simple goal: provide dependable
               specialist care without compromising dignity, safety, or
               transparency. This founding principle still drives our clinical
