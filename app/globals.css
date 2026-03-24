@@ -1,0 +1,768 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------
+   DR. MATE HOSPITAL — Design Tokens
+   Logo palette: Blue #1F3C88 | Red #E53935 | Green #1FA971
+------------------------------------------------------------ */
+:root {
+  /* Brand primaries */
+  --navy: #1f3c88;
+  --navy-light: #2a4aa6;
+  --navy-dark: #162f6f;
+  --red: #e53935;
+  --red-light: #ef5350;
+  --red-dark: #c62828;
+  --green: #1fa971;
+  --green-light: #2db57c;
+  --green-dark: #17895c;
+
+  /* Neutrals */
+  --white: #ffffff;
+  --surface: #f5f7fa;
+  --surface-alt: #eef2f6;
+  --dark: #1e2a38;
+  --muted: #607188;
+
+  /* Semantic aliases */
+  --primary: var(--navy);
+  --cta: var(--red);
+  --success: var(--green);
+
+}
+
+/* ------------------------------------------------------------
+   Reset
+------------------------------------------------------------ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--surface);
+  color: var(--dark);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+/* ------------------------------------------------------------
+   Scrollbar
+------------------------------------------------------------ */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface-alt);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--navy);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--navy-light);
+}
+
+/* ------------------------------------------------------------
+   Keyframe Animations
+------------------------------------------------------------ */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes pulseRing {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes hexRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes borderPulse {
+  0%,
+  100% {
+    border-color: var(--navy);
+  }
+  50% {
+    border-color: var(--red);
+  }
+}
+
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ------------------------------------------------------------
+   Animation Utility Classes
+------------------------------------------------------------ */
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+.animate-fade-up {
+  animation: fadeUp 0.7s ease forwards;
+}
+.animate-fade-in {
+  animation: fadeIn 0.6s ease forwards;
+}
+.animate-slide-left {
+  animation: slideInLeft 0.7s ease forwards;
+}
+.animate-slide-right {
+  animation: slideInRight 0.7s ease forwards;
+}
+.animate-scale-in {
+  animation: scaleIn 0.5s ease forwards;
+}
+.animate-hex-rotate {
+  animation: hexRotate 20s linear infinite;
+}
+
+.delay-100 {
+  animation-delay: 0.1s;
+}
+.delay-200 {
+  animation-delay: 0.2s;
+}
+.delay-300 {
+  animation-delay: 0.3s;
+}
+.delay-400 {
+  animation-delay: 0.4s;
+}
+.delay-500 {
+  animation-delay: 0.5s;
+}
+.delay-600 {
+  animation-delay: 0.6s;
+}
+.delay-700 {
+  animation-delay: 0.7s;
+}
+
+/* ------------------------------------------------------------
+   Scroll Reveal (IntersectionObserver)
+------------------------------------------------------------ */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+.reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(40px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+.reveal-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.94);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+.reveal-scale.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ------------------------------------------------------------
+   Glassmorphism
+------------------------------------------------------------ */
+.glass {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.glass-navy {
+  background: rgba(26, 35, 126, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* ------------------------------------------------------------
+   Gradient Text
+------------------------------------------------------------ */
+.gradient-text {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--green) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-logo {
+  background: linear-gradient(
+    135deg,
+    var(--red) 0%,
+    var(--navy) 50%,
+    var(--green) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ------------------------------------------------------------
+   Backgrounds
+------------------------------------------------------------ */
+.dot-bg {
+  background-image: radial-gradient(circle, #1f3c8818 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.cross-bg {
+  background-image:
+    linear-gradient(#1f3c8808 1px, transparent 1px),
+    linear-gradient(90deg, #1f3c8808 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.hero-bg {
+  background:
+    radial-gradient(ellipse 80% 60% at 70% 50%, #e5393512 0%, transparent 60%),
+    radial-gradient(ellipse 60% 80% at 20% 30%, #1fa97112 0%, transparent 60%),
+    linear-gradient(135deg, #162f6f 0%, #1f3c88 60%, #162f6f 100%);
+}
+
+.section-alt {
+  background: linear-gradient(160deg, #f5f7fa 0%, #eef2f6 50%, #eef8f3 100%);
+}
+
+/* ------------------------------------------------------------
+   Section Headings
+------------------------------------------------------------ */
+.section-underline {
+  position: relative;
+  display: inline-block;
+}
+.section-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--navy), var(--green));
+  border-radius: 2px;
+}
+
+.section-underline-center {
+  position: relative;
+  display: inline-block;
+}
+.section-underline-center::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--navy), var(--green));
+  border-radius: 2px;
+}
+
+/* ------------------------------------------------------------
+   Cards
+------------------------------------------------------------ */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+.service-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
+}
+
+.doctor-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  border-top: 3px solid transparent;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+.doctor-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
+  border-top-color: var(--navy);
+}
+
+.facility-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+.facility-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
+}
+
+/* ------------------------------------------------------------
+   Buttons
+------------------------------------------------------------ */
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--green);
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
+  box-shadow: 0 10px 24px rgba(31, 169, 113, 0.28);
+}
+.btn-primary:hover {
+  background-color: var(--green-dark);
+  box-shadow: 0 16px 36px rgba(31, 169, 113, 0.32);
+  transform: translateY(-2px);
+}
+.btn-primary::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.18),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+.btn-primary:hover::after {
+  left: 100%;
+}
+
+.btn-cta {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--red);
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
+  box-shadow: 0 10px 24px rgba(229, 57, 53, 0.28);
+}
+.btn-cta:hover {
+  background-color: var(--red-light);
+  box-shadow: 0 16px 36px rgba(229, 57, 53, 0.34);
+  transform: translateY(-2px);
+}
+.btn-cta::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.18),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+.btn-cta:hover::after {
+  left: 100%;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--navy);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--navy);
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.2s ease;
+}
+.btn-outline:hover {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.btn-outline-dark {
+  background: transparent;
+  color: var(--navy);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--navy);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.2s ease;
+}
+.btn-outline-dark:hover {
+  background: var(--navy);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+/* ------------------------------------------------------------
+   Department Icon Colors
+------------------------------------------------------------ */
+.icon-navy {
+  color: var(--navy);
+}
+.icon-red {
+  color: var(--red);
+}
+.icon-green {
+  color: var(--green);
+}
+
+.icon-bg-navy {
+  background: #e8edfa;
+  color: var(--navy);
+}
+.icon-bg-red {
+  background: #ffebee;
+  color: var(--red);
+}
+.icon-bg-green {
+  background: #e8f7f1;
+  color: var(--green);
+}
+
+/* ------------------------------------------------------------
+   Navbar
+------------------------------------------------------------ */
+.navbar-scrolled {
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 2px 20px rgba(31, 60, 136, 0.1);
+}
+
+/* ------------------------------------------------------------
+   Stat / Counter Badges
+------------------------------------------------------------ */
+.stat-badge {
+  border-left: 4px solid var(--red);
+  padding-left: 1rem;
+}
+
+.stat-badge-green {
+  border-left: 4px solid var(--green);
+  padding-left: 1rem;
+}
+
+/* ------------------------------------------------------------
+   Step Indicator (Appointment Process)
+------------------------------------------------------------ */
+.step-connector {
+  height: 2px;
+  background: linear-gradient(90deg, var(--navy), var(--green));
+  flex: 1;
+  margin: 0 0.5rem;
+  margin-top: -1.5rem;
+}
+
+.step-number {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(31, 60, 136, 0.3);
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+.step-number:hover {
+  background: var(--red);
+  transform: scale(1.1);
+}
+
+/* ------------------------------------------------------------
+   Testimonial Card
+------------------------------------------------------------ */
+.testimonial-card {
+  border-left: 4px solid var(--navy);
+  transition:
+    border-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.testimonial-card:hover {
+  border-left-color: var(--red);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(31, 60, 136, 0.12);
+}
+
+/* ------------------------------------------------------------
+   Emergency Banner
+------------------------------------------------------------ */
+.emergency-bar {
+  background: linear-gradient(90deg, var(--red-dark) 0%, var(--red) 100%);
+  animation: borderPulse 3s ease-in-out infinite;
+}
+
+/* ------------------------------------------------------------
+   Input Focus States
+------------------------------------------------------------ */
+.form-input {
+  border: 2px solid #e0e0e0;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  font-family: "Inter", sans-serif;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+  width: 100%;
+}
+.form-input:focus {
+  outline: none;
+  border-color: var(--navy);
+  box-shadow: 0 0 0 3px rgba(31, 60, 136, 0.12);
+}
+
+/* ------------------------------------------------------------
+   Hexagon Shape (logo motif)
+------------------------------------------------------------ */
+.hexagon {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* ------------------------------------------------------------
+   Tag / Badge
+------------------------------------------------------------ */
+.tag-navy {
+  background: #e8edfa;
+  color: var(--navy);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tag-red {
+  background: #ffebee;
+  color: var(--red);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tag-green {
+  background: #e8f7f1;
+  color: var(--green);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ------------------------------------------------------------
+   Utility Overrides
+------------------------------------------------------------ */
+.text-navy {
+  color: var(--navy) !important;
+}
+.text-red {
+  color: var(--red) !important;
+}
+.text-green {
+  color: var(--green) !important;
+}
+
+.bg-navy {
+  background-color: var(--navy) !important;
+}
+.bg-red {
+  background-color: var(--red) !important;
+}
+.bg-green {
+  background-color: var(--green) !important;
+}
+
+.border-navy {
+  border-color: var(--navy) !important;
+}
+.border-red {
+  border-color: var(--red) !important;
+}
+.border-green {
+  border-color: var(--green) !important;
+}

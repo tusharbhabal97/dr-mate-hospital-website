@@ -1,0 +1,4716 @@
+{
+  "source": "NIAMS + Apollo Hospitals",
+  "source_url": "https://www.niams.nih.gov/health-topics/all-diseases",
+  "generated_for": "Dr. Mate Hospital Website",
+  "description": "Comprehensive disease database with records from NIAMS and Apollo Hospitals, including overview, symptoms, causes, diagnosis, treatment, risk factors, prevention, and prevalence data.",
+  "total_count": 100,
+  "categories": [
+    "Autoimmune/Neuromuscular",
+    "Autoimmune/Rheumatic",
+    "Bone Disease",
+    "Gastrointestinal",
+    "Genetic Disorder",
+    "Genetic/Bone Disease",
+    "Genetic/Connective Tissue",
+    "Infectious Disease",
+    "Infectious/Musculoskeletal",
+    "Infectious/Tropical",
+    "Musculoskeletal",
+    "Neurological",
+    "Nutritional/Eye",
+    "Pain/Neurological",
+    "Pain/Rheumatic",
+    "Public Health",
+    "Skin",
+    "Skin/Autoimmune",
+    "Surgical/Orthopedic",
+    "Vascular/Rheumatic"
+  ],
+  "letters": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "diseases": [
+    {
+      "id": "achilles-tendinitis",
+      "name": "Achilles Tendinitis",
+      "letter": "A",
+      "category": "Musculoskeletal",
+      "description": "Achilles tendinitis is an overuse injury of the Achilles tendon, the band of tissue that connects calf muscles at the back of the lower leg to your heel bone. It most commonly occurs in runners who have suddenly increased the intensity or duration of their runs. It's also common in middle-aged people who play sports, such as tennis or basketball, only on the weekends.",
+      "symptoms": [
+        "Pain and stiffness along the Achilles tendon in the morning",
+        "Pain along the tendon or back of the heel that worsens with activity",
+        "Severe pain the day after exercising",
+        "Thickening of the tendon",
+        "Bone spur (insertional tendinitis)",
+        "Swelling that is present all the time and gets worse throughout the day with activity"
+      ],
+      "causes": [
+        "Sudden increase in the amount or intensity of exercise",
+        "Tight calf muscles",
+        "Bone spur",
+        "Age-related changes to the tendon"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays",
+        "Ultrasound",
+        "MRI"
+      ],
+      "treatment": [
+        "Rest",
+        "Ice",
+        "Stretching and strengthening exercises",
+        "Physical therapy",
+        "Orthotics or shoe inserts",
+        "Anti-inflammatory medications",
+        "Surgery (in severe cases)"
+      ],
+      "risk_factors": [
+        "Age",
+        "Sex (more common in men)",
+        "Running with worn-out shoes",
+        "Obesity",
+        "Medical conditions such as psoriasis or high blood pressure"
+      ],
+      "prevention": [
+        "Increase exercise intensity gradually",
+        "Choose appropriate footwear",
+        "Stretch daily",
+        "Strengthen calf muscles",
+        "Cross-train with low-impact activities"
+      ],
+      "prevalence": "Achilles tendinitis is very common, especially in runners and athletes.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/achilles-tendinitis"
+    },
+    {
+      "id": "acne",
+      "name": "Acne",
+      "letter": "A",
+      "category": "Skin",
+      "description": "Acne is a chronic skin condition that occurs when hair follicles become plugged with oil and dead skin cells. It causes whiteheads, blackheads, pimples, nodules, and cysts. Acne commonly appears on the face, forehead, chest, upper back, and shoulders. While it primarily affects teenagers, it can occur at any age.",
+      "symptoms": [
+        "Whiteheads (closed plugged pores)",
+        "Blackheads (open plugged pores)",
+        "Pimples (papules)",
+        "Pustules (papules with pus)",
+        "Nodules (large solid painful lumps)",
+        "Cystic lesions (painful, pus-filled lumps)"
+      ],
+      "causes": [
+        "Excess sebum production",
+        "Hair follicles clogged by sebum and dead skin cells",
+        "Bacteria (Cutibacterium acnes)",
+        "Hormonal changes",
+        "Inflammation"
+      ],
+      "diagnosis": [
+        "Physical examination of skin",
+        "Skin culture if bacterial infection suspected"
+      ],
+      "treatment": [
+        "Topical treatments (benzoyl peroxide, salicylic acid, retinoids, antibiotics)",
+        "Oral antibiotics",
+        "Hormonal therapies (oral contraceptives, spironolactone)",
+        "Isotretinoin (for severe acne)",
+        "Procedures (chemical peels, laser therapy, drainage)"
+      ],
+      "risk_factors": [
+        "Hormonal changes (puberty, menstrual cycle, pregnancy)",
+        "Certain medications (corticosteroids, testosterone)",
+        "Diet (possibly high-glycemic foods, dairy)",
+        "Stress",
+        "Family history"
+      ],
+      "prevention": [
+        "Wash skin gently twice daily",
+        "Use oil-free, water-based makeup",
+        "Remove makeup before bed",
+        "Shower after sweating"
+      ],
+      "prevalence": "Affects approximately 9.4% of the global population; up to 85% of young people aged 12–24 experience acne.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/acne"
+    },
+    {
+      "id": "alopecia-areata",
+      "name": "Alopecia Areata",
+      "letter": "A",
+      "category": "Skin/Autoimmune",
+      "description": "Alopecia areata is an autoimmune disease that causes hair loss on the scalp, face, and sometimes other areas of the body. The immune system mistakenly attacks hair follicles, disrupting the normal hair formation cycle. The condition can affect anyone regardless of age or gender, but often begins in childhood.",
+      "symptoms": [
+        "Patchy hair loss on scalp",
+        "Hair loss on face (beard, eyebrows, eyelashes)",
+        "Nail changes (pitting, ridging)",
+        "Hair loss may affect entire scalp (alopecia totalis) or entire body (alopecia universalis)",
+        "Tingling or itching before hair loss"
+      ],
+      "causes": [
+        "Autoimmune attack on hair follicles",
+        "Genetic predisposition",
+        "Possible environmental triggers"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Dermoscopy",
+        "Scalp biopsy",
+        "Blood tests (to rule out thyroid or other autoimmune conditions)"
+      ],
+      "treatment": [
+        "Corticosteroid injections",
+        "Topical corticosteroids",
+        "Topical immunotherapy (DPCP, SADBE)",
+        "Minoxidil",
+        "JAK inhibitors (baricitinib, ritlecitinib — FDA approved)",
+        "Anthralin"
+      ],
+      "risk_factors": [
+        "Family history",
+        "Other autoimmune disease (thyroid disease, vitiligo)",
+        "Down syndrome"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "About 6.8 million people in the United States have alopecia areata; lifetime risk approximately 2%.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/alopecia-areata"
+    },
+    {
+      "id": "ankylosing-spondylitis",
+      "name": "Ankylosing Spondylitis",
+      "letter": "A",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Ankylosing spondylitis is a type of arthritis that primarily affects the spine. It causes inflammation of the spinal joints (vertebrae) that can lead to severe, chronic pain and discomfort. In more advanced cases, this inflammation can cause new bone to form on the spine, causing the spine to fuse in a fixed, immobile position, sometimes creating a hunched-forward posture.",
+      "symptoms": [
+        "Pain and stiffness in the lower back and hips, especially in the morning and after periods of inactivity",
+        "Neck pain",
+        "Fatigue",
+        "Pain and swelling in other joints such as the shoulders, hips, knees, and feet",
+        "Vision problems and eye pain (uveitis)",
+        "Skin rashes"
+      ],
+      "causes": [
+        "Unknown, but genetic factors are involved",
+        "HLA-B27 gene is present in most people with this condition"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays",
+        "MRI",
+        "Blood tests including HLA-B27",
+        "Inflammatory markers (ESR, CRP)"
+      ],
+      "treatment": [
+        "NSAIDs (nonsteroidal anti-inflammatory drugs)",
+        "Biologic medications (TNF blockers, IL-17 inhibitors)",
+        "Physical therapy",
+        "Exercise",
+        "Surgery in severe cases"
+      ],
+      "risk_factors": [
+        "Male sex",
+        "Age (late teens or early twenties)",
+        "HLA-B27 gene",
+        "Family history"
+      ],
+      "prevention": [
+        "No known prevention",
+        "Exercise and physical therapy can help manage symptoms"
+      ],
+      "prevalence": "Ankylosing spondylitis affects about 0.1% to 0.5% of the adult population.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/ankylosing-spondylitis"
+    },
+    {
+      "id": "antiphospholipid-syndrome",
+      "name": "Antiphospholipid Syndrome (APS)",
+      "letter": "A",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Antiphospholipid syndrome (APS) is an autoimmune disorder in which the immune system produces abnormal antibodies against phospholipids — a type of fat — in the blood. APS can cause blood clots to form in arteries and veins, as well as pregnancy complications such as miscarriages and preterm births. It may occur alone or with another autoimmune disease such as lupus.",
+      "symptoms": [
+        "Blood clots in legs (DVT)",
+        "Blood clots in lungs (pulmonary embolism)",
+        "Stroke",
+        "Repeated miscarriages",
+        "Low platelet count (thrombocytopenia)",
+        "Lacy, net-like purplish skin rash (livedo reticularis)",
+        "Headaches or migraines"
+      ],
+      "causes": [
+        "Autoimmune antibodies (antiphospholipid antibodies: anticardiolipin, anti-β2 glycoprotein I, lupus anticoagulant)",
+        "May be triggered by infections, medications"
+      ],
+      "diagnosis": [
+        "Blood tests for antiphospholipid antibodies (twice at least 12 weeks apart)",
+        "CBC",
+        "Clotting tests"
+      ],
+      "treatment": [
+        "Blood thinners (anticoagulants: warfarin, heparin)",
+        "Low-dose aspirin",
+        "Hydroxychloroquine",
+        "Statins"
+      ],
+      "risk_factors": [
+        "Having lupus or another autoimmune disease",
+        "History of blood clots",
+        "Family history"
+      ],
+      "prevention": [
+        "No direct prevention",
+        "Careful management of anticoagulation therapy"
+      ],
+      "prevalence": "APS occurs in about 1–5% of the general population; seen in 15–20% of people with recurrent miscarriages.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/antiphospholipid-syndrome"
+    },
+    {
+      "id": "arthritis",
+      "name": "Arthritis",
+      "letter": "A",
+      "category": "Musculoskeletal",
+      "description": "Arthritis is a broad term that refers to inflammation of one or more joints, causing pain, swelling, stiffness, and limited range of motion. There are more than 100 different types of arthritis. The most common forms are osteoarthritis and rheumatoid arthritis. Arthritis is a leading cause of disability in the United States.",
+      "symptoms": [
+        "Joint pain",
+        "Swelling in one or more joints",
+        "Stiffness in the morning or after sitting still",
+        "Decreased range of motion",
+        "Redness of the skin around the joint",
+        "Fatigue"
+      ],
+      "causes": [
+        "Depends on the type: cartilage breakdown (OA), autoimmune attack (RA), uric acid crystals (gout)",
+        "Genetic factors",
+        "Age",
+        "Previous joint injury"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (rheumatoid factor, ANA, ESR, CRP)",
+        "X-rays",
+        "Ultrasound",
+        "MRI",
+        "Joint fluid analysis"
+      ],
+      "treatment": [
+        "Medications (NSAIDs, DMARDs, biologics)",
+        "Physical and occupational therapy",
+        "Lifestyle changes",
+        "Assistive devices",
+        "Surgery (joint replacement)"
+      ],
+      "risk_factors": [
+        "Age",
+        "Sex",
+        "Family history",
+        "Obesity",
+        "Previous joint injury",
+        "Occupation"
+      ],
+      "prevention": [
+        "Maintain a healthy weight",
+        "Exercise regularly",
+        "Protect joints from injury",
+        "Eat a healthy diet"
+      ],
+      "prevalence": "Over 54 million adults in the United States have doctor-diagnosed arthritis.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/arthritis"
+    },
+    {
+      "id": "avascular-necrosis",
+      "name": "Avascular Necrosis (Osteonecrosis)",
+      "letter": "A",
+      "category": "Bone Disease",
+      "description": "Avascular necrosis, also called osteonecrosis, is bone death caused by reduced blood flow to the bone. When blood doesn't reach bone tissue, the bone begins to die and may eventually collapse. The hip is the most commonly affected joint, but avascular necrosis can also occur in the knee, shoulder, ankle, and wrist.",
+      "symptoms": [
+        "Pain in the joint that may be mild at first and progressively worsens",
+        "Pain only when putting weight on the affected joint",
+        "Limited range of motion",
+        "Groin pain spreading to knee or buttock",
+        "Limping (if hip or knee affected)"
+      ],
+      "causes": [
+        "Trauma or injury to the joint",
+        "Long-term use of high-dose corticosteroids",
+        "Excessive alcohol use",
+        "Blood disorders such as sickle cell disease",
+        "Cancer treatments (radiation therapy)",
+        "HIV/AIDS treatment medications"
+      ],
+      "diagnosis": [
+        "X-rays",
+        "MRI (most sensitive early diagnostic tool)",
+        "CT scan",
+        "Bone scan",
+        "Biopsy"
+      ],
+      "treatment": [
+        "Medications to relieve pain and prevent bone loss",
+        "Physical therapy",
+        "Electrical stimulation",
+        "Core decompression surgery",
+        "Bone grafting",
+        "Osteotomy",
+        "Joint replacement"
+      ],
+      "risk_factors": [
+        "Corticosteroid use",
+        "Alcohol abuse",
+        "Bisphosphonate medications",
+        "Medical conditions: sickle cell, lupus, Gaucher disease",
+        "HIV/AIDS"
+      ],
+      "prevention": [
+        "Limit alcohol",
+        "Monitor and limit corticosteroid use",
+        "Control cholesterol levels",
+        "Keep blood pressure under control"
+      ],
+      "prevalence": "Approximately 10,000 to 20,000 new cases occur each year in the United States.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/osteonecrosis"
+    },
+    {
+      "id": "back-pain",
+      "name": "Back Pain",
+      "letter": "B",
+      "category": "Musculoskeletal",
+      "description": "Back pain is one of the most common medical problems, affecting most people at some point in their lives. It can range from a dull, constant ache to a sudden, sharp sensation that leaves a person incapacitated. Pain can be classified as acute (less than 6 weeks), sub-chronic (6–12 weeks), or chronic (more than 12 weeks). Most back pain is mechanical in nature.",
+      "symptoms": [
+        "Muscle ache",
+        "Shooting or stabbing pain",
+        "Pain that radiates down your leg",
+        "Pain that worsens with bending, lifting, standing, or walking",
+        "Pain that improves with reclining",
+        "Numbness or tingling",
+        "Leg weakness"
+      ],
+      "causes": [
+        "Muscle or ligament strain",
+        "Bulging or ruptured disks",
+        "Arthritis",
+        "Osteoporosis",
+        "Skeletal irregularities"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays",
+        "MRI or CT scans",
+        "Blood tests",
+        "Bone scan",
+        "Nerve studies (EMG)"
+      ],
+      "treatment": [
+        "Over-the-counter pain relievers",
+        "Muscle relaxants",
+        "Topical pain relievers",
+        "Physical therapy",
+        "TENS (transcutaneous electrical nerve stimulation)",
+        "Surgery"
+      ],
+      "risk_factors": [
+        "Age",
+        "Lack of exercise",
+        "Excess weight",
+        "Diseases",
+        "Improper lifting",
+        "Psychological conditions",
+        "Smoking"
+      ],
+      "prevention": [
+        "Exercise regularly",
+        "Build muscle strength and flexibility",
+        "Maintain a healthy weight",
+        "Stand and sit smart",
+        "Lift properly"
+      ],
+      "prevalence": "Back pain is the leading cause of disability worldwide, with nearly 80% of adults experiencing it at some point.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/back-pain"
+    },
+    {
+      "id": "behcets-disease",
+      "name": "Behçet's Disease",
+      "letter": "B",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Behçet's disease is a rare disorder that causes blood vessel inflammation throughout the body. This can lead to numerous signs and symptoms that can seem unrelated at first. The disease can cause mouth sores, eye inflammation, skin rashes, and lesions, and genital sores. It is also known as Behçet's syndrome or Silk Road disease.",
+      "symptoms": [
+        "Mouth sores (canker sores)",
+        "Skin lesions",
+        "Genital sores",
+        "Eye inflammation (uveitis)",
+        "Joint pain and swelling",
+        "Blood clots",
+        "CNS symptoms (headache, dizziness)"
+      ],
+      "causes": [
+        "Exact cause unknown",
+        "Autoimmune component",
+        "Genetic factors (HLA-B51)",
+        "Possible infectious triggers"
+      ],
+      "diagnosis": [
+        "No definitive test",
+        "Diagnosis based on clinical criteria",
+        "Pathergy test",
+        "HLA-B51 testing"
+      ],
+      "treatment": [
+        "Corticosteroids",
+        "Colchicine",
+        "Immunosuppressants (azathioprine, cyclosporine)",
+        "Thalidomide",
+        "Biologic agents (anti-TNF, interferon alpha)"
+      ],
+      "risk_factors": [
+        "Age 20-30 years",
+        "Geographic background (Middle East, Asia)",
+        "HLA-B51 gene",
+        "Male sex"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Rare in Western countries; prevalence ranges from 1 per million in the UK to 420 per 100,000 in Turkey.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/behcets-disease"
+    },
+    {
+      "id": "bursitis",
+      "name": "Bursitis",
+      "letter": "B",
+      "category": "Musculoskeletal",
+      "description": "Bursitis is a painful condition that affects the small, fluid-filled sacs called bursae that cushion the bones, tendons, and muscles near joints. Bursitis occurs when bursae become inflamed. The most common locations are the shoulder, elbow, and hip. Bursitis often occurs near joints that perform frequent repetitive motion.",
+      "symptoms": [
+        "Achy or stiff joint",
+        "Pain that worsens with movement or pressure",
+        "Swelling and redness",
+        "Limited range of motion"
+      ],
+      "causes": [
+        "Repetitive motions or positions",
+        "Injury or trauma",
+        "Rheumatoid arthritis or gout",
+        "Infection"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays (to rule out other causes)",
+        "Ultrasound or MRI",
+        "Aspiration of bursal fluid"
+      ],
+      "treatment": [
+        "Rest and avoiding activities that worsen pain",
+        "Ice application",
+        "Anti-inflammatory medications",
+        "Physical therapy",
+        "Corticosteroid injections",
+        "Surgery (rare cases)"
+      ],
+      "risk_factors": [
+        "Age",
+        "Occupations or hobbies with repetitive movements",
+        "Medical conditions (gout, RA, diabetes)"
+      ],
+      "prevention": [
+        "Warm up and stretch before activity",
+        "Use knee pads or elbow pads",
+        "Lift properly",
+        "Take breaks"
+      ],
+      "prevalence": "Common condition affecting millions of people worldwide.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/bursitis"
+    },
+    {
+      "id": "carpal-tunnel-syndrome",
+      "name": "Carpal Tunnel Syndrome",
+      "letter": "C",
+      "category": "Musculoskeletal",
+      "description": "Carpal tunnel syndrome is a common condition that causes pain, numbness, and tingling in the hand and arm. The condition occurs when one of the major nerves to the hand — the median nerve — is squeezed or compressed as it travels through a narrow passageway in the wrist called the carpal tunnel.",
+      "symptoms": [
+        "Numbness, tingling, or pain in the thumb, index, middle, and ring fingers",
+        "Occasional shock-like sensations that radiate to the thumb and index, middle, and ring fingers",
+        "Pain or tingling that may travel up the forearm toward the shoulder",
+        "Weakness and clumsiness in the hand",
+        "Dropping things"
+      ],
+      "causes": [
+        "Anything that squeezes or irritates the median nerve in the carpal tunnel space",
+        "Wrist anatomy",
+        "Certain health problems (diabetes, RA)",
+        "Possible repetitive hand motions"
+      ],
+      "diagnosis": [
+        "History and physical examination",
+        "Nerve conduction study",
+        "Electromyography (EMG)",
+        "X-rays",
+        "Ultrasound",
+        "MRI"
+      ],
+      "treatment": [
+        "Wrist splinting",
+        "NSAIDs",
+        "Corticosteroids",
+        "Surgery (carpal tunnel release)"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Obesity",
+        "Nerve-damaging conditions",
+        "Inflammatory conditions",
+        "Fluid retention",
+        "Certain occupations"
+      ],
+      "prevention": [
+        "Reduce force and relax grip",
+        "Take frequent breaks",
+        "Watch form with repetitive activities",
+        "Improve posture",
+        "Change computer mouse"
+      ],
+      "prevalence": "Affects approximately 3–6% of adults in the general population.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/carpal-tunnel-syndrome"
+    },
+    {
+      "id": "childhood-arthritis",
+      "name": "Childhood Arthritis (Juvenile Idiopathic Arthritis)",
+      "letter": "C",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Juvenile idiopathic arthritis (JIA), formerly known as juvenile rheumatoid arthritis, is the most common type of arthritis in children under 16. JIA can cause persistent joint pain, swelling, and stiffness. Some children may experience symptoms for only a few months, while others have symptoms for the rest of their lives.",
+      "symptoms": [
+        "Pain, swelling, and stiffness in joints",
+        "Fever",
+        "Rash",
+        "Eye inflammation (uveitis)",
+        "Lymph node swelling",
+        "Limping",
+        "Fatigue"
+      ],
+      "causes": [
+        "Exact cause unknown",
+        "Autoimmune condition",
+        "Genetic and environmental factors"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (ANA, RF, HLA-B27, CBC)",
+        "X-rays",
+        "Ultrasound",
+        "Eye examination"
+      ],
+      "treatment": [
+        "NSAIDs",
+        "DMARDs (methotrexate)",
+        "Biologic agents",
+        "Corticosteroids",
+        "Physical and occupational therapy",
+        "Eye drops or surgery for uveitis"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Age between 2–3 years or early teens",
+        "Family history of autoimmune disease"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Affects approximately 1 in 1,000 children in the United States.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/juvenile-idiopathic-arthritis"
+    },
+    {
+      "id": "chondromalacia-patella",
+      "name": "Chondromalacia Patella (Runner's Knee)",
+      "letter": "C",
+      "category": "Musculoskeletal",
+      "description": "Chondromalacia patella refers to the softening and breakdown of the cartilage on the underside of the kneecap (patella). It is one of the most common causes of chronic knee pain, especially in young athletes. The condition develops when the kneecap rubs abnormally against the thigh bone, causing irritation of the cartilage.",
+      "symptoms": [
+        "Dull aching pain around or behind the kneecap",
+        "Pain that worsens when climbing stairs, kneeling, or squatting",
+        "Pain after sitting for a long time with bent knees",
+        "Grinding or cracking sound when the knee is flexed",
+        "Knee swelling"
+      ],
+      "causes": [
+        "Misalignment of the kneecap",
+        "Overuse (running, jumping)",
+        "Muscle weakness or imbalance",
+        "Flat feet causing inward knee rotation",
+        "Previous knee injury or surgery"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays",
+        "MRI",
+        "Arthroscopy (definitive)"
+      ],
+      "treatment": [
+        "Rest from aggravating activities",
+        "Ice and NSAIDs",
+        "Physical therapy (quadriceps and hip strengthening)",
+        "Knee taping or bracing",
+        "Orthotics",
+        "Surgery (rare — cartilage smoothing)"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Young athletes",
+        "Flat feet or high arches",
+        "Weak quadriceps",
+        "Overtraining"
+      ],
+      "prevention": [
+        "Strengthen quadriceps and hip muscles",
+        "Use proper footwear",
+        "Maintain healthy weight",
+        "Avoid overtraining"
+      ],
+      "prevalence": "One of the most common knee conditions; affects up to 25% of active young adults.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/knee-problems"
+    },
+    {
+      "id": "complex-regional-pain-syndrome",
+      "name": "Complex Regional Pain Syndrome (CRPS)",
+      "letter": "C",
+      "category": "Pain/Neurological",
+      "description": "Complex regional pain syndrome (CRPS) is a chronic pain condition that most often affects a limb (arm, leg, hand, or foot) after an injury. CRPS is characterized by prolonged or excessive pain and changes in skin color, temperature, and/or swelling in the affected area. There are two types: CRPS-I (without confirmed nerve injury) and CRPS-II (with confirmed nerve injury, formerly called causalgia).",
+      "symptoms": [
+        "Continuous burning or throbbing pain",
+        "Sensitivity to touch or cold (allodynia)",
+        "Swelling of the painful area",
+        "Changes in skin temperature (alternately sweaty and cold)",
+        "Changes in skin color (blotchy, purple, pale, or red)",
+        "Changes in skin texture",
+        "Hair and nail growth changes",
+        "Joint stiffness and swelling",
+        "Muscle spasms and weakness"
+      ],
+      "causes": [
+        "Injury or trauma (fracture, surgery, sprain)",
+        "Nerve damage or dysfunction",
+        "Abnormal inflammatory response",
+        "Abnormal interaction between central and peripheral nervous systems",
+        "In some cases, no clear precipitating event"
+      ],
+      "diagnosis": [
+        "Clinical examination using Budapest Criteria",
+        "Bone scan",
+        "X-rays",
+        "MRI",
+        "Sympathetic nerve blocks (diagnostic response)",
+        "Thermography"
+      ],
+      "treatment": [
+        "Physical and occupational therapy",
+        "Psychotherapy",
+        "Medications (antidepressants, anticonvulsants, corticosteroids, opioids)",
+        "Nerve blocks (sympathetic nerve blocks)",
+        "Spinal cord stimulation",
+        "Intrathecal drug pumps",
+        "Mirror therapy",
+        "TENS"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Age 40–70",
+        "Previous fracture or injury",
+        "Immobilization after injury",
+        "Possible genetic predisposition"
+      ],
+      "prevention": [
+        "Vitamin C after limb fracture may reduce risk",
+        "Early mobilization after injury",
+        "Prompt treatment of pain after injury"
+      ],
+      "prevalence": "Estimated 200,000 new cases per year in the United States; affects approximately 1–2 per 100,000 people annually.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/pain"
+    },
+    {
+      "id": "de-quervain-tenosynovitis",
+      "name": "De Quervain's Tenosynovitis",
+      "letter": "D",
+      "category": "Musculoskeletal",
+      "description": "De Quervain's tenosynovitis is a painful condition affecting the tendons on the thumb side of the wrist. It occurs when the two tendons associated with thumb movement become irritated or inflamed within the narrow tunnel they pass through. This condition is common in new mothers and people whose activities involve repetitive hand and wrist motions.",
+      "symptoms": [
+        "Pain and swelling near the base of the thumb",
+        "Difficulty pinching or grasping objects",
+        "Sticking or stop-and-go sensation when moving the thumb",
+        "Pain worsening when turning the wrist, grasping, or making a fist",
+        "Positive Finkelstein test"
+      ],
+      "causes": [
+        "Repetitive hand or wrist motion",
+        "Direct injury to the wrist or tendon",
+        "Inflammatory arthritis such as rheumatoid arthritis",
+        "Hormonal changes during pregnancy"
+      ],
+      "diagnosis": [
+        "Physical examination (Finkelstein test)",
+        "Ultrasound",
+        "MRI"
+      ],
+      "treatment": [
+        "Wrist and thumb splint (immobilization)",
+        "NSAIDs",
+        "Corticosteroid injections",
+        "Physical therapy",
+        "Surgery (release of tendon sheath)"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Age 30–50",
+        "Pregnancy and postpartum period",
+        "New parents (lifting baby)",
+        "Repetitive hand use",
+        "Rheumatoid arthritis"
+      ],
+      "prevention": [
+        "Ergonomic adjustments",
+        "Avoid repetitive pinching motions",
+        "Supportive splints during high-demand activities"
+      ],
+      "prevalence": "Affects approximately 0.5% of men and 1.3% of women annually.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/tendinitis"
+    },
+    {
+      "id": "dermatomyositis",
+      "name": "Dermatomyositis",
+      "letter": "D",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Dermatomyositis is an uncommon inflammatory disease characterized by muscle weakness and a distinctive skin rash. It belongs to the group of inflammatory myopathies. The disease can affect adults and children. In adults, dermatomyositis may be associated with a higher risk of cancer. In children, it causes skin changes and muscle weakness.",
+      "symptoms": [
+        "Skin rash (heliotrope rash on eyelids, Gottron's papules on knuckles)",
+        "Progressive muscle weakness",
+        "Difficulty swallowing",
+        "Hardening skin deposits under skin (calcinosis) in children",
+        "Fatigue",
+        "Weight loss",
+        "Fever"
+      ],
+      "causes": [
+        "Autoimmune attack on muscle and skin blood vessels",
+        "Possible viral trigger",
+        "Association with cancer in adults (paraneoplastic)"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (CK, myositis-specific antibodies)",
+        "EMG",
+        "MRI of muscles",
+        "Skin or muscle biopsy",
+        "Cancer screening in adults"
+      ],
+      "treatment": [
+        "Corticosteroids",
+        "Immunosuppressants (methotrexate, azathioprine, mycophenolate)",
+        "IVIG",
+        "Biologic agents (rituximab)",
+        "Sun protection for skin manifestations"
+      ],
+      "risk_factors": [
+        "Age 40–60 (adults), 5–15 (juvenile)",
+        "Female sex",
+        "Caucasian or Asian descent"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Rare; incidence of 1–10 per million per year.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/myositis"
+    },
+    {
+      "id": "discoid-lupus",
+      "name": "Discoid Lupus Erythematosus (DLE)",
+      "letter": "D",
+      "category": "Skin/Autoimmune",
+      "description": "Discoid lupus erythematosus (DLE) is a chronic inflammatory skin condition that causes scarring skin lesions. It is the most common form of cutaneous (skin) lupus. Lesions are typically round, scaly, and red-to-violet in color and can leave permanent scars. Although primarily a skin condition, a small percentage of DLE patients may develop systemic lupus erythematosus (SLE).",
+      "symptoms": [
+        "Round, coin-shaped, scaly plaques on the face, scalp, ears, and neck",
+        "Skin discoloration (hyperpigmentation or hypopigmentation) after lesions heal",
+        "Scarring hair loss (scarring alopecia) on the scalp",
+        "Thickened skin",
+        "Photosensitivity"
+      ],
+      "causes": [
+        "Autoimmune attack on skin",
+        "Genetic predisposition",
+        "UV light triggers or worsens lesions",
+        "Overlap with systemic autoimmune disease"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Skin biopsy (direct immunofluorescence)",
+        "ANA and other lupus antibody testing (to rule out SLE)"
+      ],
+      "treatment": [
+        "Strict sun protection (sunscreen, protective clothing)",
+        "Topical corticosteroids",
+        "Topical calcineurin inhibitors (tacrolimus)",
+        "Hydroxychloroquine",
+        "Systemic immunosuppressants for refractory cases"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Age 20–40",
+        "Dark skin",
+        "Smoking (worsens and reduces treatment response)",
+        "Family history of lupus"
+      ],
+      "prevention": [
+        "Daily sun protection (SPF 50+)",
+        "Avoid excessive sun exposure",
+        "Quit smoking"
+      ],
+      "prevalence": "Affects approximately 3 per 100,000 people; DLE is the most common form of cutaneous lupus.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/lupus"
+    },
+    {
+      "id": "dupuytrens-contracture",
+      "name": "Dupuytren's Contracture",
+      "letter": "D",
+      "category": "Musculoskeletal",
+      "description": "Dupuytren's contracture is a hand deformity that usually develops over years, in which the tissue beneath the skin of the palm — the fascia — thickens and tightens over time, eventually causing one or more fingers to curl inward. It most commonly affects the ring finger and little finger and can make it difficult to use the hand fully.",
+      "symptoms": [
+        "Firm lumps or nodules in the palm",
+        "Cords of tissue forming under skin of palm",
+        "Fingers bending toward palm and unable to fully straighten",
+        "Difficulty picking up or grasping objects"
+      ],
+      "causes": [
+        "Exact cause unknown",
+        "Genetic predisposition (Northern European ancestry)",
+        "Possible fibroblast overgrowth in fascia"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Tabletop test",
+        "Ultrasound"
+      ],
+      "treatment": [
+        "Observation (mild cases)",
+        "Needling (percutaneous needle fasciotomy)",
+        "Collagenase injection (Xiaflex)",
+        "Surgery (fasciectomy)"
+      ],
+      "risk_factors": [
+        "Age (over 50)",
+        "Male sex",
+        "Northern European ancestry",
+        "Family history",
+        "Diabetes",
+        "Alcohol use",
+        "Smoking"
+      ],
+      "prevention": [
+        "No proven prevention"
+      ],
+      "prevalence": "Affects approximately 5% of Americans, more common in men over 50.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/dupuytrens-contracture"
+    },
+    {
+      "id": "eczema",
+      "name": "Eczema (Atopic Dermatitis)",
+      "letter": "E",
+      "category": "Skin/Autoimmune",
+      "description": "Eczema, or atopic dermatitis, is a chronic inflammatory skin condition that causes the skin to become itchy, red, dry, and cracked. It is common in children but can occur at any age. Eczema tends to flare periodically, often in association with environmental triggers. It is frequently found alongside other allergic conditions such as asthma and hay fever.",
+      "symptoms": [
+        "Dry skin",
+        "Itching (pruritus), especially at night",
+        "Red to brownish-gray patches",
+        "Small, raised bumps that may weep fluid when scratched",
+        "Thickened, cracked, or scaly skin",
+        "Raw, swollen skin from scratching"
+      ],
+      "causes": [
+        "Skin barrier dysfunction",
+        "Immune system dysfunction",
+        "Genetic factors (filaggrin gene mutations)",
+        "Environmental triggers: soaps, detergents, dust, animal dander, certain foods, stress, sweat"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Patch testing to identify allergens",
+        "Allergy skin test or blood test"
+      ],
+      "treatment": [
+        "Moisturizers (emollients)",
+        "Topical corticosteroids",
+        "Topical calcineurin inhibitors",
+        "Topical PDE4 inhibitors (crisaborole)",
+        "JAK inhibitors (topical and oral)",
+        "Biologic agents (dupilumab, tralokinumab)",
+        "Phototherapy"
+      ],
+      "risk_factors": [
+        "Family history of eczema, asthma, or hay fever",
+        "Urban living",
+        "Higher income countries",
+        "Young age"
+      ],
+      "prevention": [
+        "Regular moisturizing",
+        "Avoiding known triggers",
+        "Gentle skincare routine"
+      ],
+      "prevalence": "Affects about 31.6 million Americans (10.1%); up to 20% of children worldwide.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/eczema"
+    },
+    {
+      "id": "ehlers-danlos-syndrome",
+      "name": "Ehlers-Danlos Syndrome (EDS)",
+      "letter": "E",
+      "category": "Genetic/Connective Tissue",
+      "description": "Ehlers-Danlos syndrome (EDS) is a group of inherited disorders that affect the connective tissues — primarily the skin, joints, and blood vessel walls. People who have EDS usually have overly flexible joints and stretchy, fragile skin. EDS is caused by defects in collagen production, and there are 13 subtypes with varying severity.",
+      "symptoms": [
+        "Overly flexible joints (hypermobility)",
+        "Stretchy skin",
+        "Fragile skin that bruises easily",
+        "Skin that heals poorly leaving wide scars",
+        "Joint pain and dislocations",
+        "Fatigue",
+        "Chronic musculoskeletal pain"
+      ],
+      "causes": [
+        "Mutations in genes controlling collagen production or processing",
+        "Autosomal dominant or recessive inheritance depending on type"
+      ],
+      "diagnosis": [
+        "Physical examination (Beighton score for hypermobility)",
+        "Genetic testing",
+        "Skin biopsy",
+        "Echocardiogram (for vascular type)"
+      ],
+      "treatment": [
+        "No cure; treatment is symptomatic",
+        "Physical therapy to strengthen muscles and protect joints",
+        "Braces or splints",
+        "Pain management",
+        "Surgery for severe joint or vascular complications"
+      ],
+      "risk_factors": [
+        "Family history",
+        "Female sex (more commonly diagnosed in women)"
+      ],
+      "prevention": [
+        "No prevention (genetic condition)",
+        "Joint protection strategies help prevent injury"
+      ],
+      "prevalence": "EDS affects approximately 1 in 2,500–5,000 people. Hypermobile EDS is the most common subtype.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/ehlers-danlos-syndrome"
+    },
+    {
+      "id": "fibromyalgia",
+      "name": "Fibromyalgia",
+      "letter": "F",
+      "category": "Pain/Rheumatic",
+      "description": "Fibromyalgia is a disorder characterized by widespread musculoskeletal pain accompanied by fatigue, sleep, memory, and mood issues. Researchers believe that fibromyalgia amplifies painful sensations by affecting the way the brain and spinal cord process painful and nonpainful signals.",
+      "symptoms": [
+        "Widespread pain described as a constant dull ache lasting at least three months",
+        "Fatigue",
+        "Cognitive difficulties (fibro fog)",
+        "Sleep problems",
+        "Headaches",
+        "Irritable bowel syndrome",
+        "Tingling or numbness in hands and feet",
+        "Sensitivity to temperature, light, or sound"
+      ],
+      "causes": [
+        "Exact cause unknown",
+        "Altered pain signaling in the brain and spinal cord",
+        "Genetic factors",
+        "Possible triggers: infections, physical or emotional trauma"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "No definitive laboratory test",
+        "ACR criteria: widespread pain for 3+ months with no underlying condition",
+        "Rule out other conditions"
+      ],
+      "treatment": [
+        "Medications (antidepressants, anticonvulsants, pain relievers)",
+        "Physical therapy",
+        "Occupational therapy",
+        "Counseling",
+        "Exercise",
+        "Stress management",
+        "Sleep hygiene"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Family history",
+        "Rheumatic diseases (RA, lupus)",
+        "Mood disorders",
+        "Physical or emotional trauma"
+      ],
+      "prevention": [
+        "No proven prevention",
+        "Regular exercise and stress management may reduce risk"
+      ],
+      "prevalence": "Affects approximately 4 million US adults (about 2% of the population).",
+      "niams_url": "https://www.niams.nih.gov/health-topics/fibromyalgia"
+    },
+    {
+      "id": "flat-feet",
+      "name": "Flat Feet (Pes Planus)",
+      "letter": "F",
+      "category": "Musculoskeletal",
+      "description": "Flat feet (pes planus) is a condition in which the arch of the foot is lower than normal or entirely absent, causing the entire sole of the foot to make contact with the ground. Flat feet can be present from birth or may develop over time. Most people with flat feet experience no pain; however, some develop foot, ankle, knee, or back pain.",
+      "symptoms": [
+        "Foot pain, especially in the arch or heel",
+        "The inside bottom of the foot touching the ground",
+        "Tired or achy feet after standing",
+        "Swelling on the inside of the ankle",
+        "Difficulty standing on tiptoe",
+        "Knee, hip, or back pain due to altered alignment"
+      ],
+      "causes": [
+        "Congenital (present from birth)",
+        "Fallen arches over time (posterior tibial tendon dysfunction)",
+        "Injury to the foot or ankle",
+        "Nerve problems",
+        "Conditions: RA, diabetes, obesity"
+      ],
+      "diagnosis": [
+        "Physical examination (wet footprint test, tiptoe test)",
+        "X-rays",
+        "CT scan",
+        "MRI",
+        "Ultrasound"
+      ],
+      "treatment": [
+        "Arch supports (orthotics)",
+        "Stretching exercises",
+        "Supportive shoes",
+        "Physical therapy",
+        "Surgery (severe cases: osteotomy, fusion)"
+      ],
+      "risk_factors": [
+        "Obesity",
+        "Age",
+        "Rheumatoid arthritis",
+        "Diabetes",
+        "Pregnancy",
+        "Family history"
+      ],
+      "prevention": [
+        "Maintain healthy weight",
+        "Supportive footwear from childhood",
+        "Avoid high heels for prolonged periods"
+      ],
+      "prevalence": "Affects about 20–30% of adults; most have no symptoms.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/foot-problems"
+    },
+    {
+      "id": "fractures",
+      "name": "Fractures (Bone Fractures)",
+      "letter": "F",
+      "category": "Musculoskeletal",
+      "description": "A bone fracture is a break in the continuity of a bone. Fractures can range from a thin crack to a complete break, and may be caused by high-force impact, stress, or weakening of the bone by conditions such as osteoporosis or cancer. They can occur in any bone in the body and are one of the most common musculoskeletal injuries.",
+      "symptoms": [
+        "Sudden onset pain at the time of injury",
+        "Swelling and bruising",
+        "Deformity of the affected limb",
+        "Tenderness",
+        "Inability to use the affected area",
+        "Numbness or tingling (if nerves affected)"
+      ],
+      "causes": [
+        "Trauma (fall, vehicle accident, sports injury)",
+        "Overuse/stress fractures (repetitive loading)",
+        "Pathological fractures (bone weakened by disease: osteoporosis, tumor)"
+      ],
+      "diagnosis": [
+        "X-rays (primary)",
+        "CT scan (complex fractures)",
+        "MRI (stress fractures, soft tissue involvement)",
+        "Bone scan"
+      ],
+      "treatment": [
+        "Immobilization (cast, splint, brace)",
+        "Traction",
+        "External fixation",
+        "Internal fixation (surgery)",
+        "Medications for pain",
+        "Physical therapy during rehabilitation"
+      ],
+      "risk_factors": [
+        "Age (children and elderly)",
+        "Low bone density (osteoporosis)",
+        "Nutritional deficiencies",
+        "High-impact sports",
+        "Female sex (for osteoporotic fractures)"
+      ],
+      "prevention": [
+        "Adequate calcium and vitamin D",
+        "Weight-bearing exercise",
+        "Fall prevention for elderly",
+        "Protective equipment in sports"
+      ],
+      "prevalence": "Approximately 6.8 million fractures occur in the United States each year.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/bone-health"
+    },
+    {
+      "id": "giant-cell-arteritis",
+      "name": "Giant Cell Arteritis (Temporal Arteritis)",
+      "letter": "G",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Giant cell arteritis is an inflammation of the blood vessels, especially the arteries that supply the head. It most often causes headaches, jaw pain, and vision problems. Immediate treatment is needed to prevent blindness. Giant cell arteritis often occurs with polymyalgia rheumatica. It primarily affects people over 50.",
+      "symptoms": [
+        "Persistent, severe headache usually in the temple area",
+        "Scalp tenderness",
+        "Jaw pain when chewing (jaw claudication)",
+        "Vision problems (double vision or vision loss)",
+        "Fever",
+        "Fatigue",
+        "Unintended weight loss",
+        "Shoulder and hip pain (if also PMR)"
+      ],
+      "causes": [
+        "Autoimmune inflammation of large and medium blood vessel walls",
+        "Exact trigger unknown",
+        "Genetic and environmental factors"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (ESR, CRP)",
+        "Temporal artery biopsy (gold standard)",
+        "Ultrasound of temporal arteries",
+        "MRI or PET-CT"
+      ],
+      "treatment": [
+        "High-dose corticosteroids (prednisone) — must start immediately to prevent vision loss",
+        "Tocilizumab (IL-6 inhibitor) for relapsing disease",
+        "Low-dose aspirin"
+      ],
+      "risk_factors": [
+        "Age (over 50; peaks at 70–80)",
+        "Female sex",
+        "Northern European ancestry",
+        "Family history of GCA"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Affects about 200 per 100,000 persons over age 50 in the United States.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/polymyalgia-rheumatica-giant-cell-arteritis"
+    },
+    {
+      "id": "golfers-elbow",
+      "name": "Golfer's Elbow (Medial Epicondylitis)",
+      "letter": "G",
+      "category": "Musculoskeletal",
+      "description": "Golfer's elbow (medial epicondylitis) is a painful condition caused by overuse of the forearm muscles and tendons that control wrist and finger movements. It causes pain and inflammation at the medial epicondyle — the bony bump on the inside of the elbow. Despite the name, it affects more than just golfers.",
+      "symptoms": [
+        "Pain and tenderness on the inner side of the elbow",
+        "Stiffness of the elbow",
+        "Weakness in the hands and wrists",
+        "Numbness or tingling radiating to the ring and little fingers",
+        "Pain worsens with specific movements (swinging, squeezing, turning)"
+      ],
+      "causes": [
+        "Repetitive motions of the wrist and fingers (swinging a golf club, throwing, using tools)",
+        "Damage to the muscles and tendons at the medial epicondyle",
+        "Sudden acute injury"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays (to rule out other conditions)",
+        "MRI or ultrasound"
+      ],
+      "treatment": [
+        "Rest",
+        "Ice application",
+        "NSAIDs",
+        "Physical therapy (eccentric exercises)",
+        "Forearm brace/counterforce brace",
+        "Corticosteroid injections",
+        "PRP injections",
+        "Surgery (rare)"
+      ],
+      "risk_factors": [
+        "Repetitive wrist and forearm activities",
+        "Age 40+",
+        "Obesity",
+        "Smoking",
+        "Certain sports and occupations"
+      ],
+      "prevention": [
+        "Strengthen forearm muscles",
+        "Use proper technique in sports",
+        "Warm up before activity",
+        "Take breaks during repetitive work"
+      ],
+      "prevalence": "Affects approximately 1–3% of adults; accounts for 10–20% of all epicondylitis cases.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/tendinitis"
+    },
+    {
+      "id": "gout",
+      "name": "Gout",
+      "letter": "G",
+      "category": "Musculoskeletal",
+      "description": "Gout is a common and complex form of arthritis that can affect anyone. It's characterized by sudden, severe attacks of pain, swelling, redness, and tenderness in one or more joints, most often in the big toe. Gout occurs when urate crystals accumulate in your joint, causing the inflammation and intense pain of a gout attack.",
+      "symptoms": [
+        "Intense joint pain (most severe in the first 4–12 hours)",
+        "Lingering discomfort",
+        "Inflammation and redness",
+        "Limited range of motion",
+        "Kidney stones (chronic gout)"
+      ],
+      "causes": [
+        "Hyperuricemia (high uric acid levels)",
+        "Diet high in purines (red meat, shellfish)",
+        "Alcohol consumption",
+        "Obesity",
+        "Certain medications (diuretics)",
+        "Medical conditions (kidney disease, hypertension)"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Joint fluid analysis (most definitive — urate crystals)",
+        "Blood tests (uric acid)",
+        "X-rays",
+        "Ultrasound",
+        "Dual-energy CT scan"
+      ],
+      "treatment": [
+        "NSAIDs",
+        "Colchicine",
+        "Corticosteroids",
+        "Medications to lower uric acid (allopurinol, febuxostat)"
+      ],
+      "risk_factors": [
+        "Diet",
+        "Overweight",
+        "Medical conditions",
+        "Certain medications",
+        "Family history",
+        "Age and sex (men more common)"
+      ],
+      "prevention": [
+        "Limit purine-rich foods",
+        "Limit alcohol",
+        "Drink plenty of fluids",
+        "Maintain healthy weight",
+        "Limit sweetened beverages"
+      ],
+      "prevalence": "Gout affects approximately 9.2 million adults in the United States.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/gout"
+    },
+    {
+      "id": "wegeners-granulomatosis",
+      "name": "Granulomatosis with Polyangiitis (Wegener's)",
+      "letter": "W",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Granulomatosis with polyangiitis (GPA), formerly called Wegener's granulomatosis, is a rare disorder that causes inflammation of the blood vessels in the nose, sinuses, throat, lungs, and kidneys. It belongs to the group of vasculitis disorders. Untreated, GPA can be life-threatening due to organ damage.",
+      "symptoms": [
+        "Runny nose, nosebleeds, sinus pain",
+        "Ear pain, hearing loss",
+        "Coughing (sometimes with blood)",
+        "Shortness of breath",
+        "Blood in urine (kidney involvement)",
+        "Joint pain",
+        "Eye inflammation",
+        "Skin rashes",
+        "Fever and fatigue"
+      ],
+      "causes": [
+        "Autoimmune vasculitis",
+        "ANCA antibodies (PR3-ANCA/c-ANCA)",
+        "Exact trigger unknown"
+      ],
+      "diagnosis": [
+        "Blood tests (ANCA — PR3/c-ANCA)",
+        "Urinalysis",
+        "Chest X-ray and CT",
+        "Biopsy of affected tissue",
+        "Kidney biopsy if nephritis suspected"
+      ],
+      "treatment": [
+        "Cyclophosphamide + prednisone (induction for severe disease)",
+        "Rituximab (induction and maintenance)",
+        "Methotrexate or azathioprine (maintenance)",
+        "TMP-SMX for localized disease and infection prevention"
+      ],
+      "risk_factors": [
+        "White ethnicity",
+        "Middle age",
+        "Possible genetic factors"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Rare; affects approximately 3 per 100,000 people in the United States.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/vasculitis"
+    },
+    {
+      "id": "hair-disorders",
+      "name": "Hair Disorders",
+      "letter": "H",
+      "category": "Skin",
+      "description": "Hair disorders encompass a variety of conditions affecting hair growth, structure, and scalp health. These include androgenetic alopecia (male/female pattern baldness), telogen effluvium, trichotillomania, and tinea capitis among others. Hair loss affects millions of people and can have significant psychological impact.",
+      "symptoms": [
+        "Gradual thinning on top of head",
+        "Circular or patchy bald spots",
+        "Sudden loosening of hair",
+        "Full-body hair loss",
+        "Patches of scaling that spread over the scalp"
+      ],
+      "causes": [
+        "Genetics (androgenetic alopecia)",
+        "Hormonal changes",
+        "Medical conditions (alopecia areata, thyroid disease, iron deficiency)",
+        "Medications and supplements",
+        "Stress",
+        "Hairstyles and treatments"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests",
+        "Light microscopy of hair shaft",
+        "Scalp biopsy"
+      ],
+      "treatment": [
+        "Minoxidil (topical or oral)",
+        "Finasteride",
+        "JAK inhibitors (for alopecia areata)",
+        "Platelet-rich plasma (PRP)",
+        "Hair transplant",
+        "Treating underlying cause"
+      ],
+      "risk_factors": [
+        "Family history",
+        "Age",
+        "Significant weight loss",
+        "Certain medical conditions",
+        "Hormonal changes"
+      ],
+      "prevention": [
+        "Gentle hair care",
+        "Nutritional balance",
+        "Stress management"
+      ],
+      "prevalence": "Androgenetic alopecia affects about 50 million men and 30 million women in the United States.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/alopecia-areata"
+    },
+    {
+      "id": "hemophilia-musculoskeletal",
+      "name": "Hemophilic Arthropathy",
+      "letter": "H",
+      "category": "Musculoskeletal",
+      "description": "Hemophilic arthropathy is progressive joint damage resulting from repeated bleeding into the joints (hemarthrosis) in people with hemophilia. Repeated blood accumulation in joint cavities leads to chronic synovitis, cartilage degradation, and joint destruction. The knees, ankles, and elbows are most commonly affected.",
+      "symptoms": [
+        "Swollen, warm, painful joints after bleeding episode",
+        "Decreased range of motion",
+        "Progressive joint deformity",
+        "Muscle wasting around affected joints",
+        "Chronic joint pain and stiffness"
+      ],
+      "causes": [
+        "Repeated hemarthrosis (joint bleeding) in hemophilia A or B",
+        "Iron from blood deposits damages cartilage and synovium",
+        "Inflammatory response to intraarticular blood"
+      ],
+      "diagnosis": [
+        "Clinical history of hemophilia with joint problems",
+        "X-rays (joint space narrowing, bone changes)",
+        "MRI (early cartilage and synovial changes)",
+        "Ultrasound (hemarthrosis detection)"
+      ],
+      "treatment": [
+        "Clotting factor replacement (prophylaxis)",
+        "Synovectomy (medical or surgical)",
+        "Physical therapy",
+        "Joint protection strategies",
+        "NSAIDs (with caution)",
+        "Total joint replacement (end-stage disease)"
+      ],
+      "risk_factors": [
+        "Having hemophilia A or B",
+        "Severe hemophilia (higher bleeding frequency)",
+        "Delay in factor replacement therapy"
+      ],
+      "prevention": [
+        "Prophylactic clotting factor replacement starting in early childhood",
+        "Gene therapy (emerging)"
+      ],
+      "prevalence": "Affects virtually all patients with severe hemophilia who do not receive prophylaxis; ~30,000 Americans have hemophilia.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/arthritis"
+    },
+    {
+      "id": "hip-replacement",
+      "name": "Hip Replacement Surgery",
+      "letter": "H",
+      "category": "Surgical/Orthopedic",
+      "description": "Hip replacement surgery is a procedure in which a doctor surgically removes a painful hip joint with arthritis and replaces it with an artificial joint often made from metal and plastic components. It usually is done when all other treatment options have failed to provide adequate pain relief.",
+      "symptoms": [
+        "Severe hip pain that limits everyday activities",
+        "Hip pain that continues while resting, even at night",
+        "Stiffness in the hip that limits movement",
+        "Inadequate pain relief from NSAIDs",
+        "Significant side effects from pain medication"
+      ],
+      "causes": [
+        "Osteoarthritis",
+        "Rheumatoid arthritis",
+        "Osteonecrosis",
+        "Injury (fracture)",
+        "Bone tumors (rare)"
+      ],
+      "diagnosis": [
+        "X-rays",
+        "MRI",
+        "CT scan",
+        "Clinical assessment"
+      ],
+      "treatment": [
+        "Total hip replacement",
+        "Partial hip replacement",
+        "Hip resurfacing",
+        "Minimally invasive techniques"
+      ],
+      "risk_factors": [
+        "Age (50+)",
+        "Obesity",
+        "Arthritis",
+        "Previous hip injury"
+      ],
+      "prevention": [
+        "Exercise to strengthen hip muscles",
+        "Maintain healthy weight",
+        "Prevent falls"
+      ],
+      "prevalence": "More than 450,000 total hip replacements are performed annually in the United States.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/hip-replacement-surgery"
+    },
+    {
+      "id": "hypermobility-spectrum-disorder",
+      "name": "Hypermobility Spectrum Disorder (HSD)",
+      "letter": "H",
+      "category": "Musculoskeletal",
+      "description": "Hypermobility Spectrum Disorder (HSD) is a group of conditions characterized by joint hypermobility that causes pain and functional impairment, but does not meet the diagnostic criteria for a heritable connective tissue disorder such as Ehlers-Danlos syndrome. HSD is classified into four subtypes based on the distribution of hypermobility and associated features.",
+      "symptoms": [
+        "Widespread or localized joint hypermobility",
+        "Musculoskeletal pain",
+        "Fatigue",
+        "Soft tissue injuries",
+        "Joint instability",
+        "Autonomic dysfunction (POTS)",
+        "Gastrointestinal problems"
+      ],
+      "causes": [
+        "Connective tissue laxity",
+        "Likely genetic underpinnings",
+        "Abnormalities in collagen structure or processing"
+      ],
+      "diagnosis": [
+        "Beighton hypermobility score",
+        "Assessment of pain and functional impairment",
+        "Exclusion of defined connective tissue disorders"
+      ],
+      "treatment": [
+        "Physiotherapy (muscle strengthening, proprioception)",
+        "Pain management",
+        "Occupational therapy",
+        "Lifestyle modifications",
+        "Orthotic devices"
+      ],
+      "risk_factors": [
+        "Family history",
+        "Female sex",
+        "Young age"
+      ],
+      "prevention": [
+        "No known prevention",
+        "Protective exercise strategies reduce injury risk"
+      ],
+      "prevalence": "Prevalence estimated at 0.75–2% with symptomatic hypermobility; much higher rates of asymptomatic hypermobility.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/ehlers-danlos-syndrome"
+    },
+    {
+      "id": "inclusion-body-myositis",
+      "name": "Inclusion Body Myositis (IBM)",
+      "letter": "I",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Inclusion body myositis (IBM) is the most common acquired muscle disease in adults over 50. It is a slowly progressive muscle disease characterized by both inflammatory and degenerative features. Unlike other inflammatory myopathies, IBM is relatively resistant to immunosuppressive therapy. It typically affects finger flexors and quadriceps muscles first.",
+      "symptoms": [
+        "Slowly progressive weakness in finger flexors (difficulty gripping)",
+        "Weakness in the quadriceps (difficulty getting up from a chair or climbing stairs)",
+        "Foot drop",
+        "Dysphagia (difficulty swallowing, in up to 60%)",
+        "Frequent falls",
+        "Asymmetric muscle involvement"
+      ],
+      "causes": [
+        "Combined inflammatory and degenerative process",
+        "Protein aggregates within muscle fibers (amyloid deposits)",
+        "Possible autoimmune component (anti-cN-1A antibodies)"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (CK elevated — often mildly)",
+        "EMG",
+        "MRI of muscles",
+        "Muscle biopsy (rimmed vacuoles, protein inclusions)",
+        "Anti-cN-1A antibody testing"
+      ],
+      "treatment": [
+        "No effective disease-modifying treatment currently",
+        "Physical and occupational therapy (most important)",
+        "Dysphagia management",
+        "Assistive devices and fall prevention",
+        "Clinical trials ongoing"
+      ],
+      "risk_factors": [
+        "Age over 50",
+        "Male sex (slightly)",
+        "HLA-DR3 association"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Estimated incidence 1–71 per million per year; increases significantly with age.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/myositis"
+    },
+    {
+      "id": "inflammatory-arthritis",
+      "name": "Inflammatory Arthritis",
+      "letter": "I",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Inflammatory arthritis is a term used to describe a group of conditions caused by an overactive immune system that attacks the joints, leading to inflammation, pain, swelling, and potential joint damage. It includes rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, and other conditions. Unlike osteoarthritis (wear-and-tear), inflammatory arthritis is systemic.",
+      "symptoms": [
+        "Symmetric joint swelling and pain",
+        "Morning stiffness lasting over 30–60 minutes",
+        "Fatigue",
+        "Systemic symptoms (fever, weight loss)",
+        "Extra-articular features depending on type"
+      ],
+      "causes": [
+        "Autoimmune",
+        "Genetic and environmental factors",
+        "Varies by specific condition"
+      ],
+      "diagnosis": [
+        "Blood tests (RF, CCP, ANA, HLA-B27)",
+        "Imaging",
+        "Clinical criteria per specific disease"
+      ],
+      "treatment": [
+        "NSAIDs",
+        "DMARDs",
+        "Biologic agents",
+        "Corticosteroids",
+        "Physical therapy"
+      ],
+      "risk_factors": [
+        "Genetics",
+        "Sex",
+        "Smoking",
+        "Family history"
+      ],
+      "prevention": [
+        "No universal prevention",
+        "Not smoking reduces risk of RA"
+      ],
+      "prevalence": "Estimated 3–4 million Americans have some form of inflammatory arthritis.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/arthritis"
+    },
+    {
+      "id": "inflammatory-bowel-disease-joints",
+      "name": "Inflammatory Bowel Disease-Related Arthritis",
+      "letter": "I",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Inflammatory arthritis associated with inflammatory bowel disease (IBD) — including Crohn's disease and ulcerative colitis — is one of the most common extraintestinal manifestations of IBD. Joint inflammation can affect peripheral joints (often paralleling bowel disease activity) or the spine and sacroiliac joints (which often runs an independent course).",
+      "symptoms": [
+        "Joint pain and swelling (often lower extremities)",
+        "Spinal pain and stiffness",
+        "Sacroiliac joint pain",
+        "Symptoms may correlate with IBD flares",
+        "Eye inflammation (uveitis)",
+        "Skin lesions (erythema nodosum, pyoderma gangrenosum)"
+      ],
+      "causes": [
+        "Autoimmune — shared inflammatory pathways between gut and joints",
+        "Gut bacteria translocating and triggering immune response"
+      ],
+      "diagnosis": [
+        "Clinical evaluation in context of IBD diagnosis",
+        "X-ray or MRI of spine and sacroiliac joints",
+        "Blood tests (inflammatory markers, HLA-B27)"
+      ],
+      "treatment": [
+        "Treating underlying IBD (TNF inhibitors helpful for both)",
+        "NSAIDs (caution as may worsen IBD)",
+        "Sulfasalazine",
+        "Physical therapy"
+      ],
+      "risk_factors": [
+        "Having IBD (Crohn's or UC)",
+        "HLA-B27 positivity for spinal involvement"
+      ],
+      "prevention": [
+        "No specific prevention; controlling IBD may reduce joint manifestations"
+      ],
+      "prevalence": "Peripheral arthritis in 5–20% of IBD patients; axial disease in 3–10%.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/arthritis"
+    },
+    {
+      "id": "interstitial-lung-disease-rheumatic",
+      "name": "Interstitial Lung Disease (ILD) in Rheumatic Diseases",
+      "letter": "I",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Interstitial lung disease (ILD) in the context of rheumatic diseases refers to lung scarring and inflammation that occurs as a complication of autoimmune conditions such as scleroderma, rheumatoid arthritis, myositis, or Sjögren's syndrome. The inflammation can lead to progressive scarring (fibrosis), reducing the ability to breathe.",
+      "symptoms": [
+        "Progressive shortness of breath",
+        "Dry cough",
+        "Fatigue",
+        "Weight loss",
+        "Clubbing of fingers (in advanced disease)"
+      ],
+      "causes": [
+        "Autoimmune-driven inflammation in the lung tissue",
+        "Associated conditions: scleroderma, RA, myositis, Sjögren's, MCTD"
+      ],
+      "diagnosis": [
+        "Pulmonary function tests",
+        "High-resolution CT of chest",
+        "Bronchoalveolar lavage",
+        "Lung biopsy"
+      ],
+      "treatment": [
+        "Immunosuppressants (mycophenolate, cyclophosphamide)",
+        "Antifibrotic agents (nintedanib) for some types",
+        "Treating underlying rheumatic disease"
+      ],
+      "risk_factors": [
+        "Having scleroderma, RA, or myositis",
+        "Male sex",
+        "Smoking"
+      ],
+      "prevention": [
+        "Not smoking",
+        "Early treatment of underlying disease"
+      ],
+      "prevalence": "Occurs in up to 80% of scleroderma patients; about 10% of RA patients develop significant ILD.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/scleroderma"
+    },
+    {
+      "id": "joint-hypermobility",
+      "name": "Joint Hypermobility Syndrome",
+      "letter": "J",
+      "category": "Musculoskeletal",
+      "description": "Joint hypermobility syndrome is a condition in which the joints are unusually flexible and have a wider range of motion than normal. While hypermobile joints are common in children and can be advantageous for gymnasts and dancers, in hypermobility syndrome the excessive flexibility causes pain and other symptoms. It is closely related to hypermobile Ehlers-Danlos syndrome.",
+      "symptoms": [
+        "Joint pain and stiffness",
+        "Clicking joints",
+        "Joint dislocations or subluxations",
+        "Fatigue",
+        "Recurrent sprains and injuries",
+        "Balance and coordination problems",
+        "Gastrointestinal symptoms"
+      ],
+      "causes": [
+        "Connective tissue laxity likely due to collagen abnormalities",
+        "Genetic factors"
+      ],
+      "diagnosis": [
+        "Beighton score assessment",
+        "Physical examination",
+        "Exclusion of other conditions"
+      ],
+      "treatment": [
+        "Physiotherapy (proprioception and strengthening)",
+        "Joint protection strategies",
+        "Pain management",
+        "Occupational therapy"
+      ],
+      "risk_factors": [
+        "Family history",
+        "Female sex",
+        "Childhood/adolescence"
+      ],
+      "prevention": [
+        "No prevention",
+        "Protective strategies during activity reduce injury"
+      ],
+      "prevalence": "Affects approximately 10–15% of the general population to some degree.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/ehlers-danlos-syndrome"
+    },
+    {
+      "id": "keloids-hypertrophic-scars",
+      "name": "Keloids and Hypertrophic Scars",
+      "letter": "K",
+      "category": "Skin",
+      "description": "Keloids are raised overgrowths of scar tissue that occur at the site of a skin injury. Unlike hypertrophic scars, keloids grow beyond the original wound boundaries and do not regress over time. They result from an overproduction of collagen during wound healing. Keloids can cause discomfort and cosmetic concerns.",
+      "symptoms": [
+        "Thick, raised scar",
+        "Scar extends beyond original wound",
+        "Itching, pain, or tenderness",
+        "Firm, rubbery texture",
+        "Dark or pink discoloration"
+      ],
+      "causes": [
+        "Abnormal wound healing with excessive collagen production",
+        "Triggered by skin injury: surgery, acne, piercings, burns, vaccination sites",
+        "Genetic predisposition"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Biopsy if diagnosis uncertain"
+      ],
+      "treatment": [
+        "Corticosteroid injections (most common)",
+        "Silicone gel sheets",
+        "Cryotherapy",
+        "Laser therapy",
+        "Radiation (after excision)",
+        "Surgical removal (high recurrence risk alone)"
+      ],
+      "risk_factors": [
+        "Dark skin (African, Hispanic, Asian descent)",
+        "Age 10–30",
+        "Family history",
+        "Genetic predisposition"
+      ],
+      "prevention": [
+        "Avoid unnecessary skin procedures in predisposed individuals",
+        "Treat wounds promptly and properly"
+      ],
+      "prevalence": "Keloids occur in about 10% of people; much higher rates (up to 16%) in those of African or Asian descent.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/skin-conditions"
+    },
+    {
+      "id": "knee-problems",
+      "name": "Knee Problems",
+      "letter": "K",
+      "category": "Musculoskeletal",
+      "description": "The knee is the largest joint in the body. Knee problems are very common, and they occur in people of all ages. Knee problems can interfere with many things, from participation in sports to simply getting up from a chair and walking. Many types of minor knee problems can be treated with self-care and do not require medical treatment.",
+      "symptoms": [
+        "Pain",
+        "Swelling and stiffness",
+        "Redness and warmth to the touch",
+        "Weakness or instability",
+        "Popping or crunching noises",
+        "Inability to fully straighten the knee"
+      ],
+      "causes": [
+        "Sports or exercise injuries (ACL, meniscus tears)",
+        "Overuse injuries",
+        "Osteoarthritis",
+        "Rheumatoid arthritis",
+        "Bursitis",
+        "Patellar problems"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays",
+        "CT scan",
+        "Ultrasound",
+        "MRI",
+        "Arthroscopy"
+      ],
+      "treatment": [
+        "R.I.C.E. (Rest, Ice, Compression, Elevation)",
+        "Physical therapy",
+        "Medications",
+        "Injections",
+        "Arthroscopic surgery",
+        "Partial or total knee replacement"
+      ],
+      "risk_factors": [
+        "Excess weight",
+        "Previous injury",
+        "Lack of muscle flexibility or strength",
+        "Certain sports or occupations"
+      ],
+      "prevention": [
+        "Maintain healthy weight",
+        "Stay in shape",
+        "Perfect technique in sports",
+        "Warm up before exercise"
+      ],
+      "prevalence": "Knee pain is the second most common cause of chronic pain and affects over 100 million people worldwide.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/knee-problems"
+    },
+    {
+      "id": "low-bone-density",
+      "name": "Low Bone Density (Osteopenia)",
+      "letter": "L",
+      "category": "Bone Disease",
+      "description": "Osteopenia refers to bone mineral density that is lower than normal but not low enough to be classified as osteoporosis. People with osteopenia have weaker bones than normal and are at higher risk of developing osteoporosis and fractures. Osteopenia is a warning sign that action should be taken to improve bone health.",
+      "symptoms": [
+        "Usually no symptoms",
+        "May have fractures with minimal trauma",
+        "Discovered incidentally on imaging or DEXA scan"
+      ],
+      "causes": [
+        "Aging",
+        "Menopause",
+        "Low calcium and vitamin D intake",
+        "Physical inactivity",
+        "Certain medications (steroids)",
+        "Some medical conditions"
+      ],
+      "diagnosis": [
+        "DEXA scan (T-score between -1 and -2.5)",
+        "Blood and urine tests"
+      ],
+      "treatment": [
+        "Calcium and vitamin D supplementation",
+        "Weight-bearing exercise",
+        "Lifestyle changes",
+        "Medications (in high-risk individuals)"
+      ],
+      "risk_factors": [
+        "Age",
+        "Female sex",
+        "Small body frame",
+        "Low dietary calcium",
+        "Physical inactivity",
+        "Smoking"
+      ],
+      "prevention": [
+        "Adequate calcium (1,000–1,200 mg/day) and vitamin D (600–800 IU/day)",
+        "Weight-bearing exercise",
+        "Avoid smoking and excess alcohol"
+      ],
+      "prevalence": "About 43 million US adults have osteopenia.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/osteoporosis"
+    },
+    {
+      "id": "lupus",
+      "name": "Lupus",
+      "letter": "L",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Lupus is a chronic, autoimmune disease that can damage any part of the body, including the skin, joints, and/or organs. In lupus, something goes wrong with the immune system, which is the part of the body that fights off viruses, bacteria, and germs. The most common form of lupus is systemic lupus erythematosus (SLE), which affects multiple organs.",
+      "symptoms": [
+        "Fatigue",
+        "Fever",
+        "Joint pain, stiffness, and swelling",
+        "Butterfly-shaped rash on the face",
+        "Skin lesions that appear or worsen with sun exposure",
+        "Fingers and toes that turn white or blue when cold (Raynaud's)",
+        "Shortness of breath",
+        "Chest pain",
+        "Hair loss",
+        "Dry eyes",
+        "Headaches, confusion, memory loss"
+      ],
+      "causes": [
+        "Autoimmune — immune system attacks healthy tissue",
+        "Genetic factors",
+        "Environmental triggers (sunlight, infections, medications)"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Complete blood count",
+        "Erythrocyte sedimentation rate",
+        "Kidney and liver function tests",
+        "Urinalysis",
+        "ANA test",
+        "Anti-dsDNA antibody test",
+        "Chest X-ray",
+        "Biopsy"
+      ],
+      "treatment": [
+        "NSAIDs",
+        "Antimalarial drugs (hydroxychloroquine)",
+        "Corticosteroids",
+        "Immunosuppressants",
+        "Biologic agents (belimumab)",
+        "Targeted synthetic agents"
+      ],
+      "risk_factors": [
+        "Female sex (9x more common)",
+        "Age 15–45",
+        "Race/ethnicity (more common in Black, Hispanic, Asian women)",
+        "Family history"
+      ],
+      "prevention": [
+        "No known prevention",
+        "Sun protection and avoiding triggers can prevent flares"
+      ],
+      "prevalence": "About 1.5 million Americans live with lupus; globally an estimated 5 million people have a form of lupus.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/lupus"
+    },
+    {
+      "id": "lyme-disease",
+      "name": "Lyme Disease",
+      "letter": "L",
+      "category": "Infectious/Musculoskeletal",
+      "description": "Lyme disease is an infectious disease caused by the bacteria Borrelia burgdorferi, transmitted to humans through the bite of infected blacklegged ticks. Most cases can be treated successfully with a few weeks of antibiotics. If left untreated, infection can spread to the joints, heart, and nervous system.",
+      "symptoms": [
+        "Expanding red rash (erythema migrans)",
+        "Flu-like symptoms (fever, chills, fatigue, body aches, headache)",
+        "Joint pain and swelling (especially knees)",
+        "Neurological problems (Bell's palsy, meningitis)",
+        "Heart palpitations or irregular heartbeat"
+      ],
+      "causes": [
+        "Borrelia burgdorferi bacteria",
+        "Transmitted by deer tick (Ixodes scapularis) bite"
+      ],
+      "diagnosis": [
+        "Clinical assessment (rash, tick exposure)",
+        "ELISA blood test",
+        "Western blot test"
+      ],
+      "treatment": [
+        "Oral antibiotics (doxycycline, amoxicillin, cefuroxime)",
+        "IV antibiotics for severe cases"
+      ],
+      "risk_factors": [
+        "Spending time in wooded or grassy areas",
+        "Exposed skin",
+        "Not removing ticks promptly"
+      ],
+      "prevention": [
+        "Use insect repellent",
+        "Wear protective clothing",
+        "Check for ticks daily",
+        "Shower after outdoor activities",
+        "Tick prevention for pets"
+      ],
+      "prevalence": "Approximately 30,000 cases reported annually in the US; actual numbers estimated 10x higher.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/lyme-disease"
+    },
+    {
+      "id": "marfan-syndrome",
+      "name": "Marfan Syndrome",
+      "letter": "M",
+      "category": "Genetic/Connective Tissue",
+      "description": "Marfan syndrome is a genetic disorder that affects the body's connective tissue. Connective tissue holds all the body's cells, organs, and tissue together. It also plays an important role in helping the body grow and develop properly. Marfan syndrome most commonly affects the heart, eyes, blood vessels, and skeleton.",
+      "symptoms": [
+        "Tall and slender build",
+        "Long arms, legs, and fingers",
+        "Curved spine (scoliosis)",
+        "Chest sinks in or sticks out",
+        "Flexible joints",
+        "Flat feet",
+        "Crowded teeth",
+        "Stretch marks",
+        "Eye lens dislocation",
+        "Aortic aneurysm or dissection"
+      ],
+      "causes": [
+        "Mutation in the FBN1 gene encoding fibrillin-1",
+        "Autosomal dominant inheritance (25% are new mutations)"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Echocardiogram",
+        "Eye examination",
+        "Genetic testing",
+        "Ghent criteria"
+      ],
+      "treatment": [
+        "Beta blockers or ARBs to protect the aorta",
+        "Regular cardiac monitoring",
+        "Aortic surgery if needed",
+        "Eye surgery",
+        "Back brace or surgery for scoliosis"
+      ],
+      "risk_factors": [
+        "Family history",
+        "New genetic mutation"
+      ],
+      "prevention": [
+        "No prevention (genetic condition)",
+        "Regular monitoring can prevent serious complications"
+      ],
+      "prevalence": "Marfan syndrome affects about 1 in 5,000 people worldwide.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/marfan-syndrome"
+    },
+    {
+      "id": "mixed-connective-tissue-disease",
+      "name": "Mixed Connective Tissue Disease (MCTD)",
+      "letter": "M",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Mixed connective tissue disease (MCTD) is a rare autoimmune disorder that has overlapping features of three other connective tissue diseases: systemic lupus erythematosus (SLE), systemic sclerosis (scleroderma), and polymyositis. Nearly all people with MCTD have high levels of anti-U1 RNP antibodies in their blood.",
+      "symptoms": [
+        "Raynaud's phenomenon (often first symptom)",
+        "Swollen or puffy hands",
+        "Arthritis",
+        "Muscle weakness",
+        "Esophageal dysmotility",
+        "Pulmonary hypertension",
+        "Interstitial lung disease"
+      ],
+      "causes": [
+        "Autoimmune",
+        "Genetic susceptibility",
+        "Presence of anti-U1 RNP antibodies"
+      ],
+      "diagnosis": [
+        "Blood tests (anti-U1 RNP antibody, ANA)",
+        "Clinical evaluation of features",
+        "Organ assessment (lung, heart, kidneys)"
+      ],
+      "treatment": [
+        "Corticosteroids",
+        "Immunosuppressants",
+        "Hydroxychloroquine",
+        "Vasodilators for Raynaud's and pulmonary hypertension"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Age 15–35",
+        "HLA-DR4"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Rare; estimated 3.8 per 100,000 population.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/mixed-connective-tissue-disease"
+    },
+    {
+      "id": "Morton-neuroma",
+      "name": "Morton's Neuroma",
+      "letter": "M",
+      "category": "Musculoskeletal",
+      "description": "Morton's neuroma is a painful condition affecting the ball of the foot, most commonly between the third and fourth toes. It involves a thickening of the tissue around one of the nerves leading to the toes. Morton's neuroma may feel as if you are standing on a pebble in your shoe or on a fold in your sock.",
+      "symptoms": [
+        "Burning pain in the ball of the foot",
+        "Pain that radiates to the toes",
+        "Feeling of standing on a pebble or fold in the sock",
+        "Numbness or tingling in the affected toes",
+        "Pain that worsens with walking or tight footwear and improves with rest"
+      ],
+      "causes": [
+        "Nerve compression and irritation between the metatarsal heads",
+        "Tight or high-heeled footwear",
+        "High-impact activities",
+        "Foot deformities (bunions, hammertoes, flat feet)"
+      ],
+      "diagnosis": [
+        "Physical examination (Mulder's click test)",
+        "Ultrasound (most useful)",
+        "MRI"
+      ],
+      "treatment": [
+        "Wider shoes with low heels",
+        "Metatarsal pads or orthotics",
+        "NSAIDs",
+        "Corticosteroid injections",
+        "Alcohol sclerosing injections",
+        "Surgery (neuroma excision)"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "High-heeled or tight shoes",
+        "High-impact sports (running, aerobics)",
+        "Foot deformities"
+      ],
+      "prevention": [
+        "Wear properly fitting wide shoes",
+        "Avoid high heels",
+        "Use metatarsal pads"
+      ],
+      "prevalence": "Affects approximately 1 in 3 women and 1 in 10 men over their lifetime.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/foot-problems"
+    },
+    {
+      "id": "myasthenia-gravis",
+      "name": "Myasthenia Gravis",
+      "letter": "M",
+      "category": "Autoimmune/Neuromuscular",
+      "description": "Myasthenia gravis is a chronic autoimmune, neuromuscular disease that causes weakness in the skeletal muscles — the muscles your body uses for movement. It occurs when communication between nerve cells and muscles is disrupted. The hallmark is muscle weakness that improves with rest and worsens with activity.",
+      "symptoms": [
+        "Eye muscle weakness (drooping eyelid — ptosis, double vision)",
+        "Facial and throat muscle weakness (difficulty speaking, chewing, swallowing)",
+        "Limb weakness (arms more than legs)",
+        "Symptoms worsen with activity, improve with rest",
+        "Myasthenic crisis (severe respiratory muscle weakness)"
+      ],
+      "causes": [
+        "Autoimmune: antibodies block acetylcholine receptors (or MuSK, LRP4) at neuromuscular junction",
+        "Thymus gland abnormalities (thymoma in 10%)"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (acetylcholine receptor antibodies)",
+        "Edrophonium (Tensilon) test",
+        "Repetitive nerve stimulation",
+        "CT scan of chest (for thymoma)",
+        "EMG"
+      ],
+      "treatment": [
+        "Acetylcholinesterase inhibitors (pyridostigmine)",
+        "Immunosuppressants (prednisone, azathioprine, mycophenolate)",
+        "Thymectomy",
+        "Plasmapheresis or IVIG for crisis",
+        "Biologic agents (eculizumab, efgartigimod)"
+      ],
+      "risk_factors": [
+        "Female sex (under 40)",
+        "Male sex (over 60)",
+        "Thymus abnormalities",
+        "Other autoimmune diseases"
+      ],
+      "prevention": [
+        "No known prevention",
+        "Avoid triggers (infections, stress, certain medications) to prevent crisis"
+      ],
+      "prevalence": "Approximately 20 per 100,000 people in the United States have myasthenia gravis.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/muscle-disease"
+    },
+    {
+      "id": "myositis",
+      "name": "Myositis (Inflammatory Muscle Disease)",
+      "letter": "M",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Myositis refers to any condition causing inflammation in muscles. The most common forms are polymyositis, dermatomyositis, and inclusion-body myositis. These conditions are autoimmune diseases in which the body's own immune system attacks healthy muscle tissue, resulting in inflammation, swelling, pain, and eventual weakness.",
+      "symptoms": [
+        "Muscle weakness (typically proximal muscles)",
+        "Falling or tripping",
+        "Difficulty swallowing",
+        "Skin rash (in dermatomyositis)",
+        "Fatigue",
+        "Weight loss",
+        "Fever"
+      ],
+      "causes": [
+        "Autoimmune process",
+        "Possible viral infection trigger",
+        "In rare cases, medications or cancer-associated"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (CK, aldolase, ANA, myositis-specific antibodies)",
+        "EMG",
+        "MRI",
+        "Muscle biopsy"
+      ],
+      "treatment": [
+        "Corticosteroids",
+        "Immunosuppressants (methotrexate, azathioprine)",
+        "IV immunoglobulin",
+        "Physical therapy",
+        "Biologic agents"
+      ],
+      "risk_factors": [
+        "Age (40–60 for PM/DM, 50+ for IBM)",
+        "Female sex (PM/DM)",
+        "Autoimmune disease history"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Myositis affects approximately 50,000 people in the United States.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/myositis"
+    },
+    {
+      "id": "nail-disorders",
+      "name": "Nail Disorders",
+      "letter": "N",
+      "category": "Skin",
+      "description": "Nail disorders include a wide range of conditions affecting the fingernails and toenails, including infections (onychomycosis), inflammation (paronychia), structural changes (pitting, thickening), and nail changes associated with systemic diseases such as psoriasis or lupus. Some nail changes can be indicators of systemic health conditions.",
+      "symptoms": [
+        "Nail discoloration (yellow, white, brown)",
+        "Thick or brittle nails",
+        "Nail pitting",
+        "Separation of nail from nail bed (onycholysis)",
+        "Ridges",
+        "Nail fold inflammation (paronychia)",
+        "Clubbing (associated with lung disease)"
+      ],
+      "causes": [
+        "Fungal infection (onychomycosis)",
+        "Bacterial infection",
+        "Psoriasis",
+        "Trauma",
+        "Systemic disease",
+        "Medications"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "KOH preparation for fungal infection",
+        "Nail clipping culture",
+        "Nail biopsy"
+      ],
+      "treatment": [
+        "Antifungal medications (topical or oral)",
+        "Antibiotics for bacterial infection",
+        "Treating underlying disease",
+        "Surgical procedures for severe cases"
+      ],
+      "risk_factors": [
+        "Older age",
+        "Damp work environment",
+        "Immunosuppression",
+        "Diabetes",
+        "Psoriasis",
+        "Poor circulation"
+      ],
+      "prevention": [
+        "Keep nails clean and trimmed",
+        "Wear moisture-wicking socks",
+        "Use antifungal powder in shoes",
+        "Avoid barefoot walking in public areas"
+      ],
+      "prevalence": "Nail fungus affects approximately 10% of the general population; up to 50% of people over 70.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/skin-conditions"
+    },
+    {
+      "id": "neck-pain",
+      "name": "Neck Pain",
+      "letter": "N",
+      "category": "Musculoskeletal",
+      "description": "Neck pain is a very common complaint that can result from various causes, including poor posture, muscle strain, worn joints, nerve compression, injuries, and diseases. Most neck pain improves gradually with home treatment. If neck pain persists, doctors might recommend other treatments.",
+      "symptoms": [
+        "Pain that's often worsened by holding your head in one place for long periods",
+        "Muscle tightness and spasms",
+        "Decreased ability to move your head",
+        "Headache"
+      ],
+      "causes": [
+        "Muscle strains",
+        "Worn joints",
+        "Nerve compression",
+        "Injuries (whiplash)",
+        "Diseases (rheumatoid arthritis, meningitis, cancer)"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays",
+        "CT scan",
+        "MRI",
+        "EMG",
+        "Blood tests"
+      ],
+      "treatment": [
+        "Over-the-counter pain relievers",
+        "Heat or ice application",
+        "Physical therapy",
+        "Transcutaneous electrical nerve stimulation (TENS)",
+        "Steroid injections",
+        "Surgery"
+      ],
+      "risk_factors": [
+        "Poor posture",
+        "Technology use (text neck)",
+        "Occupation",
+        "Stress",
+        "Smoking"
+      ],
+      "prevention": [
+        "Maintain good posture",
+        "Take frequent breaks during desk work",
+        "Adjust desk, chair, and computer",
+        "Quit smoking",
+        "Exercise neck muscles"
+      ],
+      "prevalence": "Neck pain is among the top five disorders in the United States, affecting around 10–15% of the population at any given time.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/neck-pain"
+    },
+    {
+      "id": "nerve-entrapment-syndromes",
+      "name": "Nerve Entrapment Syndromes",
+      "letter": "N",
+      "category": "Musculoskeletal",
+      "description": "Nerve entrapment syndrome occurs when a nerve is compressed or pinched by surrounding structures, leading to pain, tingling, numbness, or weakness. Common types include carpal tunnel syndrome (median nerve), cubital tunnel syndrome (ulnar nerve), and tarsal tunnel syndrome. The compression can result from repetitive motion, injury, or anatomical variations.",
+      "symptoms": [
+        "Numbness and tingling in the distribution of the affected nerve",
+        "Pain (can be burning, shooting, or aching)",
+        "Weakness in muscles supplied by the nerve",
+        "Atrophy in chronic cases",
+        "Symptoms often worse at night or with specific positions"
+      ],
+      "causes": [
+        "Repetitive activities",
+        "Sustained pressure on the nerve",
+        "Injury or trauma",
+        "Inflammation or swelling"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Nerve conduction studies (NCS)",
+        "Electromyography (EMG)",
+        "MRI or ultrasound"
+      ],
+      "treatment": [
+        "Rest and activity modification",
+        "Splints or braces",
+        "Physical therapy",
+        "NSAIDs",
+        "Corticosteroid injections",
+        "Surgery"
+      ],
+      "risk_factors": [
+        "Repetitive work",
+        "Obesity",
+        "Pregnancy",
+        "Diabetes",
+        "Hypothyroidism",
+        "Rheumatoid arthritis"
+      ],
+      "prevention": [
+        "Ergonomic adjustments",
+        "Frequent breaks",
+        "Proper posture",
+        "Strengthening exercises"
+      ],
+      "prevalence": "Carpal tunnel syndrome alone affects 3–6% of adults; nerve entrapment syndromes collectively are very common.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/carpal-tunnel-syndrome"
+    },
+    {
+      "id": "osteoarthritis",
+      "name": "Osteoarthritis",
+      "letter": "O",
+      "category": "Musculoskeletal",
+      "description": "Osteoarthritis (OA) is the most common form of arthritis, affecting millions of people worldwide. It occurs when the protective cartilage that cushions the ends of bones in joints gradually wears down. Although osteoarthritis can damage any joint, the disorder most commonly affects joints in the hands, knees, hips, and spine.",
+      "symptoms": [
+        "Pain during or after movement",
+        "Joint stiffness most notable upon waking or after inactivity",
+        "Tenderness when pressing the joint",
+        "Loss of flexibility",
+        "Grating sensation",
+        "Bone spurs",
+        "Swelling"
+      ],
+      "causes": [
+        "Cartilage breakdown over time",
+        "Age",
+        "Obesity",
+        "Joint injuries",
+        "Repetitive stress movements",
+        "Genetics",
+        "Bone deformities",
+        "Metabolic diseases"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays",
+        "MRI",
+        "Blood tests (to rule out other conditions)",
+        "Joint fluid analysis"
+      ],
+      "treatment": [
+        "Acetaminophen",
+        "NSAIDs",
+        "Duloxetine",
+        "Physical therapy",
+        "Occupational therapy",
+        "Cortisone injections",
+        "Lubrication injections (hyaluronic acid)",
+        "Realigning bones (osteotomy)",
+        "Joint replacement"
+      ],
+      "risk_factors": [
+        "Older age",
+        "Female sex",
+        "Obesity",
+        "Joint injuries",
+        "Repeated stress on joints",
+        "Genetics",
+        "Bone deformities"
+      ],
+      "prevention": [
+        "Maintain healthy weight",
+        "Exercise regularly",
+        "Control blood sugar",
+        "Prevent injury"
+      ],
+      "prevalence": "Affects over 32.5 million U.S. adults. It is the most common chronic joint condition.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/osteoarthritis"
+    },
+    {
+      "id": "osteogenesis-imperfecta",
+      "name": "Osteogenesis Imperfecta (Brittle Bone Disease)",
+      "letter": "O",
+      "category": "Genetic/Bone Disease",
+      "description": "Osteogenesis imperfecta (OI), also known as brittle bone disease, is a group of genetic disorders that primarily affect the bones. People with OI have bones that break easily, often from minor trauma or even with no apparent cause. Severity ranges from mild to severe. It is caused by mutations in genes responsible for producing type I collagen.",
+      "symptoms": [
+        "Frequent bone fractures",
+        "Blue or grey sclera (whites of eyes)",
+        "Hearing loss in adolescence or adulthood",
+        "Loose joints and low muscle tone",
+        "Short stature",
+        "Scoliosis",
+        "Triangular face shape",
+        "Dental problems (dentinogenesis imperfecta)"
+      ],
+      "causes": [
+        "Mutations in COL1A1 or COL1A2 genes (most common)",
+        "Autosomal dominant inheritance in most cases",
+        "New (de novo) mutations in 25% of cases"
+      ],
+      "diagnosis": [
+        "Clinical assessment",
+        "X-rays (fractures, bone density)",
+        "Collagen biochemical studies",
+        "Genetic testing",
+        "DXA scan"
+      ],
+      "treatment": [
+        "Bisphosphonates (pamidronate, zoledronate) to increase bone density",
+        "Physical and occupational therapy",
+        "Surgery (intramedullary rodding)",
+        "Fracture management",
+        "Gene therapy (experimental)"
+      ],
+      "risk_factors": [
+        "Family history"
+      ],
+      "prevention": [
+        "Genetic counseling for at-risk families"
+      ],
+      "prevalence": "Affects approximately 1 in 15,000–20,000 people worldwide; about 25,000–50,000 Americans.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/osteogenesis-imperfecta"
+    },
+    {
+      "id": "osteomalacia",
+      "name": "Osteomalacia (Rickets in Adults)",
+      "letter": "O",
+      "category": "Bone Disease",
+      "description": "Osteomalacia is a condition in which the bones become soft and weak due to a defect in the bone-building process. In children, this condition is called rickets. It most commonly results from vitamin D deficiency, which impairs the absorption of calcium and phosphate needed for bone mineralization. Unlike osteoporosis (loss of already mineralized bone), osteomalacia is a failure to mineralize new bone.",
+      "symptoms": [
+        "Bone pain and tenderness (dull, aching)",
+        "Muscle weakness, especially in the hip girdle",
+        "Difficulty walking (waddling gait)",
+        "Increased susceptibility to fractures",
+        "Muscle cramps (if hypocalcemia present)",
+        "Bone deformity in severe cases"
+      ],
+      "causes": [
+        "Vitamin D deficiency (most common)",
+        "Malabsorption disorders (celiac disease, Crohn's)",
+        "Kidney or liver disease affecting vitamin D metabolism",
+        "Certain medications (antiepileptics)",
+        "Phosphate deficiency",
+        "Tumor-induced osteomalacia"
+      ],
+      "diagnosis": [
+        "Blood tests (low vitamin D, calcium, phosphate; elevated PTH, alkaline phosphatase)",
+        "X-rays (Looser zones/pseudofractures)",
+        "Bone scan",
+        "Bone biopsy (definitive)"
+      ],
+      "treatment": [
+        "Vitamin D supplementation (high dose)",
+        "Calcium supplementation",
+        "Treating underlying cause",
+        "Phosphate supplementation if deficient"
+      ],
+      "risk_factors": [
+        "Vitamin D deficiency (limited sun exposure, dark skin, elderly)",
+        "Malnutrition",
+        "Malabsorption conditions",
+        "Kidney or liver disease",
+        "Certain medications"
+      ],
+      "prevention": [
+        "Adequate vitamin D and calcium intake",
+        "Sunlight exposure",
+        "Treating underlying conditions promptly"
+      ],
+      "prevalence": "Exact prevalence unknown; vitamin D deficiency (the main cause) affects approximately 1 billion people worldwide.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/bone-health"
+    },
+    {
+      "id": "osteoporosis",
+      "name": "Osteoporosis",
+      "letter": "O",
+      "category": "Bone Disease",
+      "description": "Osteoporosis is a bone disease that occurs when the body loses too much bone, makes too little bone, or both. As a result, bones become weak and may break from a fall or, in serious cases, from minor bumps or even from sneezing. Osteoporosis means 'porous bone.' It is the most common reason for a broken bone among older adults.",
+      "symptoms": [
+        "No symptoms in early stages",
+        "Back pain (due to fractured or collapsed vertebra)",
+        "Loss of height over time",
+        "Stooped posture",
+        "Bone fracture more easily than expected"
+      ],
+      "causes": [
+        "Bone density peaks around age 30 then declines",
+        "Hormonal changes (menopause, low testosterone)",
+        "Calcium and vitamin D deficiency",
+        "Sedentary lifestyle",
+        "Certain medications (steroids, some cancer treatments)"
+      ],
+      "diagnosis": [
+        "DEXA scan (bone mineral density)",
+        "Blood and urine tests",
+        "X-rays",
+        "Vertebral fracture assessment",
+        "FRAX fracture risk tool"
+      ],
+      "treatment": [
+        "Calcium and vitamin D supplements",
+        "Bisphosphonates",
+        "RANK ligand inhibitors (denosumab)",
+        "Hormone therapy",
+        "Bone-building medications (teriparatide)",
+        "Exercise"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Advanced age",
+        "Low body weight",
+        "Family history",
+        "Low sex hormone levels",
+        "Smoking",
+        "Excessive alcohol use",
+        "Certain medications"
+      ],
+      "prevention": [
+        "Adequate calcium and vitamin D intake",
+        "Regular weight-bearing exercise",
+        "Avoid smoking",
+        "Limit alcohol",
+        "Fall prevention"
+      ],
+      "prevalence": "About 10 million Americans have osteoporosis; another 44 million have low bone density.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/osteoporosis"
+    },
+    {
+      "id": "pagets-disease",
+      "name": "Paget's Disease of Bone",
+      "letter": "P",
+      "category": "Bone Disease",
+      "description": "Paget's disease of bone is a chronic disease that causes bones to grow larger and weaker than normal. In Paget's disease, the process of old bone being replaced by new bone is disrupted. The new bone that forms is softer and weaker. Paget's disease most commonly occurs in the pelvis, skull, spine, and legs.",
+      "symptoms": [
+        "Bone pain",
+        "Enlarged head size",
+        "Bowing of legs",
+        "Hearing loss (if skull affected)",
+        "Hip pain",
+        "Damage to cartilage of joints adjacent to affected bone",
+        "Nerve problems if spine affected"
+      ],
+      "causes": [
+        "Unknown exact cause",
+        "Both genetic and environmental factors (possibly viral)",
+        "SQSTM1 gene mutations in familial cases"
+      ],
+      "diagnosis": [
+        "Blood test (alkaline phosphatase level)",
+        "X-rays",
+        "Bone scan",
+        "CT scan",
+        "Urine tests"
+      ],
+      "treatment": [
+        "Bisphosphonates (primary treatment)",
+        "Calcitonin",
+        "Adequate calcium and vitamin D",
+        "Surgery for complications"
+      ],
+      "risk_factors": [
+        "Age (over 40)",
+        "Male sex",
+        "Northern European ancestry",
+        "Family history"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Affects about 1% of people over age 40 in the United States, less common in other parts of the world.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/pagets-disease-bone"
+    },
+    {
+      "id": "patellofemoral-pain",
+      "name": "Patellofemoral Pain Syndrome",
+      "letter": "P",
+      "category": "Musculoskeletal",
+      "description": "Patellofemoral pain syndrome (PFPS) is a broad term used to describe pain in the front of the knee and around the kneecap (patella). It is sometimes called 'runner's knee' or 'jumper's knee.' The pain often occurs when using stairs, kneeling, squatting, or sitting with bent knees for a long time. It is one of the most common causes of knee pain.",
+      "symptoms": [
+        "Dull, aching pain in the front of the knee or around the kneecap",
+        "Pain during activities that repeatedly bend the knee",
+        "Pain after prolonged sitting",
+        "Clicking or popping sounds in the knee when climbing stairs"
+      ],
+      "causes": [
+        "Overuse from repetitive exercise",
+        "Kneecap tracking problems",
+        "Muscle weakness (quadriceps, hip)",
+        "Flat feet",
+        "Tight muscles (hamstrings, IT band)"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays",
+        "MRI (to rule out other conditions)"
+      ],
+      "treatment": [
+        "Activity modification",
+        "Physical therapy (quadriceps and hip strengthening)",
+        "Knee taping or bracing",
+        "Orthotics",
+        "NSAIDs",
+        "Surgery (rarely needed)"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Young athletes",
+        "Increased training volume",
+        "Flat feet",
+        "Muscle imbalances"
+      ],
+      "prevention": [
+        "Gradual training increase",
+        "Strength and flexibility training",
+        "Supportive footwear and orthotics"
+      ],
+      "prevalence": "One of the most common knee conditions; accounts for 25–40% of all knee problems seen in sports medicine clinics.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/knee-problems"
+    },
+    {
+      "id": "plantar-fasciitis",
+      "name": "Plantar Fasciitis",
+      "letter": "P",
+      "category": "Musculoskeletal",
+      "description": "Plantar fasciitis is one of the most common causes of heel pain. It involves inflammation of a thick band of tissue that runs across the bottom of each foot and connects the heel bone to the toes (plantar fascia). It commonly causes stabbing pain that usually occurs with the first steps in the morning.",
+      "symptoms": [
+        "Stabbing pain near the heel",
+        "Pain that is usually worse in the morning",
+        "Pain after prolonged standing or when getting up from sitting",
+        "Pain after — but not during — exercise"
+      ],
+      "causes": [
+        "Tension and stress on the plantar fascia",
+        "Small tears in the tissue",
+        "Repetitive stretching and tearing"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays (to rule out stress fracture or bone spur)",
+        "MRI or ultrasound"
+      ],
+      "treatment": [
+        "Stretching exercises",
+        "Physical therapy",
+        "Night splints",
+        "Orthotics",
+        "Icing the heel",
+        "NSAIDs",
+        "Steroid injections",
+        "Extracorporeal shock wave therapy",
+        "Surgery"
+      ],
+      "risk_factors": [
+        "Age (40–60)",
+        "Obesity",
+        "Certain exercises (long-distance running)",
+        "Foot mechanics (flat feet, high arch)",
+        "Occupations requiring prolonged standing"
+      ],
+      "prevention": [
+        "Maintain healthy weight",
+        "Choose supportive shoes",
+        "Replace worn-out athletic footwear",
+        "Stretch daily"
+      ],
+      "prevalence": "Plantar fasciitis affects about 2 million Americans each year and about 10% of the population over a lifetime.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/plantar-fasciitis"
+    },
+    {
+      "id": "polymyalgia-rheumatica",
+      "name": "Polymyalgia Rheumatica",
+      "letter": "P",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Polymyalgia rheumatica is an inflammatory disorder that causes muscle pain and stiffness, especially in the shoulders, neck, upper arms, thighs, and hips. Signs and symptoms of polymyalgia rheumatica usually occur quickly — within two weeks. It primarily affects people older than 50.",
+      "symptoms": [
+        "Aches or pain in the shoulders",
+        "Aches or pain in the neck, upper arms, buttocks, hips, or thighs",
+        "Stiffness in affected areas, particularly in the morning or after being inactive",
+        "Limited range of motion",
+        "Pain or stiffness in the wrists, elbows, or knees",
+        "Fatigue",
+        "Weight loss",
+        "Fever"
+      ],
+      "causes": [
+        "Exact cause unknown",
+        "Autoimmune and inflammatory component",
+        "Genetic and environmental factors"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (ESR, CRP)",
+        "Ultrasound",
+        "MRI",
+        "Temporal artery biopsy (if GCA suspected)"
+      ],
+      "treatment": [
+        "Corticosteroids (prednisone)",
+        "Methotrexate",
+        "Tocilizumab (if also GCA or relapsing PMR)"
+      ],
+      "risk_factors": [
+        "Age (over 50, peak 70–80)",
+        "Female sex",
+        "White European ancestry",
+        "Family history"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "About 6 per 10,000 people develop PMR in the US each year. Lifetime risk is about 2% for women and 1% for men.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/polymyalgia-rheumatica-giant-cell-arteritis"
+    },
+    {
+      "id": "polymyositis",
+      "name": "Polymyositis",
+      "letter": "P",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Polymyositis is a rare autoimmune disease that causes muscle weakness and inflammation, primarily affecting the muscles closest to the trunk of the body. It can affect your ability to swallow and breathe, and can be associated with other autoimmune conditions. It occurs mostly in adults and is more common in women.",
+      "symptoms": [
+        "Muscle weakness, especially in the hips, thighs, shoulders, upper arms, and neck",
+        "Difficulty swallowing",
+        "Difficulty breathing",
+        "Mild joint pain and swelling",
+        "Fatigue",
+        "Weight loss",
+        "Raynaud's phenomenon"
+      ],
+      "causes": [
+        "Autoimmune attack on muscle tissue",
+        "Possible viral triggers in genetically susceptible individuals"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (elevated CK, aldolase)",
+        "EMG",
+        "MRI of muscles",
+        "Muscle biopsy"
+      ],
+      "treatment": [
+        "Corticosteroids",
+        "Immunosuppressants (methotrexate, azathioprine)",
+        "IVIG",
+        "Biologics (rituximab)"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Age 30–60",
+        "Other autoimmune conditions"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Rare; affects approximately 1 in 100,000 people.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/myositis"
+    },
+    {
+      "id": "polymyositis-dermatomyositis",
+      "name": "Polymyositis and Dermatomyositis Overview",
+      "letter": "P",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Polymyositis and dermatomyositis are two closely related inflammatory muscle diseases (myopathies) in which muscle fiber inflammation leads to progressive muscle weakness. While polymyositis lacks skin involvement, dermatomyositis is distinguished by its characteristic skin rash. Both are autoimmune conditions that can also affect the lungs, heart, and joints.",
+      "symptoms": [
+        "Progressive proximal muscle weakness",
+        "Difficulty rising from a chair, climbing stairs, lifting arms overhead",
+        "Skin rash (in dermatomyositis)",
+        "Difficulty swallowing",
+        "Shortness of breath",
+        "Joint pain",
+        "Fatigue"
+      ],
+      "causes": [
+        "Autoimmune attack on muscle tissue",
+        "Possible triggers: infections, malignancy, medications"
+      ],
+      "diagnosis": [
+        "CK enzyme levels",
+        "Myositis-specific antibodies",
+        "EMG",
+        "MRI of muscles",
+        "Muscle biopsy"
+      ],
+      "treatment": [
+        "Corticosteroids",
+        "Immunosuppressants (methotrexate, azathioprine)",
+        "IVIG",
+        "Rituximab",
+        "Physical therapy"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Age 40–60",
+        "Association with cancer (adult DM)"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Combined incidence of approximately 5–10 cases per million per year.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/myositis"
+    },
+    {
+      "id": "psoriasis",
+      "name": "Psoriasis",
+      "letter": "P",
+      "category": "Skin/Autoimmune",
+      "description": "Psoriasis is a chronic, autoimmune skin disease that speeds up the skin cell life cycle, causing cells to build up rapidly on the surface of the skin. The extra skin cells form scales and red patches that can be itchy and sometimes painful. Psoriasis tends to go through cycles, flaring for a few weeks or months, then subsiding.",
+      "symptoms": [
+        "Red patches of skin covered with thick, silvery scales",
+        "Dry, cracked skin that may bleed or itch",
+        "Itching, burning, or soreness",
+        "Thickened, pitted, or ridged nails",
+        "Swollen and stiff joints (psoriatic arthritis)"
+      ],
+      "causes": [
+        "Autoimmune — immune system triggers overproduction of skin cells",
+        "Genetic factors (family history in ~30%)",
+        "Triggers: stress, smoking, alcohol, infections, certain medications"
+      ],
+      "diagnosis": [
+        "Physical examination of skin, scalp, nails",
+        "Biopsy (rarely needed)"
+      ],
+      "treatment": [
+        "Topical treatments (corticosteroids, vitamin D analogues, retinoids)",
+        "Light therapy (UVB phototherapy, PUVA)",
+        "Systemic treatments (methotrexate, cyclosporine, retinoids)",
+        "Biologic drugs (TNF-α inhibitors, IL-12/23 inhibitors, IL-17 inhibitors, IL-23 inhibitors)"
+      ],
+      "risk_factors": [
+        "Family history",
+        "Stress",
+        "Smoking",
+        "Obesity",
+        "Certain medications",
+        "Infections (streptococcal)"
+      ],
+      "prevention": [
+        "Moisturize skin",
+        "Avoid triggers (stress, skin injury, infection)",
+        "Don't smoke",
+        "Limit alcohol"
+      ],
+      "prevalence": "About 7.5 million Americans are affected by psoriasis.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/psoriasis"
+    },
+    {
+      "id": "psoriatic-arthritis",
+      "name": "Psoriatic Arthritis",
+      "letter": "P",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Psoriatic arthritis is a form of arthritis that affects some people who have psoriasis — a condition that features red patches of skin topped with silvery scales. Most people develop psoriasis first and are later diagnosed with psoriatic arthritis, but the joint problems can sometimes begin before skin patches appear.",
+      "symptoms": [
+        "Swollen fingers and toes (dactylitis, 'sausage digits')",
+        "Foot pain (heel and sole)",
+        "Lower back pain",
+        "Joint stiffness and swelling",
+        "Nail changes (pitting, separation from nail bed)",
+        "Eye inflammation"
+      ],
+      "causes": [
+        "Autoimmune",
+        "Genetic factors",
+        "Environmental triggers"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (rule out RA)",
+        "Joint fluid analysis",
+        "Imaging (X-ray, MRI, ultrasound)"
+      ],
+      "treatment": [
+        "NSAIDs",
+        "DMARDs (methotrexate, sulfasalazine, leflunomide)",
+        "Biologic agents (TNF inhibitors, IL-17 inhibitors, IL-23 inhibitors)",
+        "PDE4 inhibitors (apremilast)"
+      ],
+      "risk_factors": [
+        "Having psoriasis",
+        "Family history",
+        "Age 30–50"
+      ],
+      "prevention": [
+        "No known prevention",
+        "Treating psoriasis aggressively may reduce PsA risk"
+      ],
+      "prevalence": "Affects approximately 30% of people with psoriasis; about 1 million Americans.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+    },
+    {
+      "id": "q-fever",
+      "name": "Q Fever",
+      "letter": "Q",
+      "category": "Infectious Disease",
+      "description": "Q fever is a bacterial infection caused by Coxiella burnetii, often linked to exposure to infected livestock or contaminated animal products. It can present as an acute flu-like illness or, in some people, progress to chronic complications.",
+      "symptoms": [
+        "High fever and chills",
+        "Headache and muscle pain",
+        "Fatigue and malaise",
+        "Dry cough or chest discomfort",
+        "Nausea or abdominal pain"
+      ],
+      "causes": [
+        "Infection with Coxiella burnetii bacteria",
+        "Exposure to infected cattle, sheep, or goats",
+        "Inhalation of contaminated dust particles",
+        "Contact with animal birth products or waste"
+      ],
+      "diagnosis": [
+        "Clinical history and exposure assessment",
+        "Blood tests (serology for Coxiella antibodies)",
+        "PCR testing in select cases",
+        "Liver function tests and chest imaging when indicated"
+      ],
+      "treatment": [
+        "Antibiotic therapy (commonly doxycycline)",
+        "Symptom control with hydration and rest",
+        "Monitoring for chronic infection in high-risk patients",
+        "Follow-up for cardiac or liver complications"
+      ],
+      "risk_factors": [
+        "Occupational animal exposure (farmers, veterinarians)",
+        "Living near livestock farms",
+        "Underlying valvular heart disease",
+        "Pregnancy or weakened immunity"
+      ],
+      "prevention": [
+        "Use protective equipment around livestock",
+        "Maintain animal hygiene and infection control",
+        "Avoid unpasteurized dairy products",
+        "Prompt evaluation after high-risk exposure"
+      ],
+      "prevalence": "Q fever is uncommon but reported worldwide, especially in areas with livestock exposure.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/q-fever"
+    },
+    {
+      "id": "quadrantanopia",
+      "name": "Quadrantanopia",
+      "letter": "Q",
+      "category": "Neurological",
+      "description": "Quadrantanopia is a visual field defect where vision is lost in one quarter of the field of view, typically due to damage in the optic pathways of the brain.",
+      "symptoms": [
+        "Loss of vision in one visual quadrant",
+        "Difficulty reading or navigating spaces",
+        "Frequent bumping into objects on one side",
+        "Visual scanning difficulties"
+      ],
+      "causes": [
+        "Stroke affecting visual pathways",
+        "Traumatic brain injury",
+        "Brain tumors or lesions",
+        "Neurological inflammation or surgery-related injury"
+      ],
+      "diagnosis": [
+        "Comprehensive eye examination",
+        "Formal visual field testing (perimetry)",
+        "Neurological examination",
+        "Brain imaging (MRI or CT scan)"
+      ],
+      "treatment": [
+        "Treatment of underlying neurological cause",
+        "Visual rehabilitation therapy",
+        "Compensatory scanning techniques",
+        "Occupational therapy for daily function"
+      ],
+      "risk_factors": [
+        "Cerebrovascular disease risk factors",
+        "History of brain trauma",
+        "Intracranial tumors",
+        "Previous neurosurgical procedures"
+      ],
+      "prevention": [
+        "Control blood pressure, diabetes, and cholesterol",
+        "Use protective measures to prevent head injury",
+        "Early treatment of neurological conditions",
+        "Routine follow-up after stroke or brain surgery"
+      ],
+      "prevalence": "Prevalence varies by underlying neurological disorders such as stroke and brain injury.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/quadrantanopia"
+    },
+    {
+      "id": "raynauds-disease",
+      "name": "Raynaud's Disease (Primary Raynaud's)",
+      "letter": "R",
+      "category": "Vascular/Rheumatic",
+      "description": "Raynaud's disease (primary Raynaud's phenomenon) refers to episodes of reduced blood flow to the fingers (and sometimes toes, ears, nose, and lips) triggered by cold or emotional stress. Unlike secondary Raynaud's (which is associated with another disease), primary Raynaud's occurs without an underlying condition. It is generally less severe than secondary forms.",
+      "symptoms": [
+        "Fingers (and possibly toes) turning white or blue in response to cold or stress",
+        "Affected areas turning red when blood flow returns",
+        "Numbness, tingling, or stinging pain during episodes",
+        "Color changes that occur in phases: white → blue → red",
+        "Episodes lasting minutes to hours"
+      ],
+      "causes": [
+        "Exaggerated vascular response to cold or emotional stress",
+        "No underlying disease (distinguishes primary from secondary)",
+        "Possible genetic predisposition"
+      ],
+      "diagnosis": [
+        "Clinical history and examination",
+        "Nailfold capillaroscopy (normal in primary)",
+        "Blood tests (negative ANA and normal inflammatory markers in primary)"
+      ],
+      "treatment": [
+        "Keep warm (layered clothing, handwarmers)",
+        "Calcium channel blockers (nifedipine)",
+        "Alpha blockers",
+        "Avoid triggers (cold, stress, smoking)"
+      ],
+      "risk_factors": [
+        "Female sex (9x more common)",
+        "Age 15–30 (primary tends to start young)",
+        "Living in cold climates",
+        "Family history"
+      ],
+      "prevention": [
+        "Wear warm gloves, socks, and layered clothing",
+        "Avoid cold exposure",
+        "Quit smoking",
+        "Stress management"
+      ],
+      "prevalence": "Affects approximately 3–5% of the general population; up to 20% in young women.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/raynauds-phenomenon"
+    },
+    {
+      "id": "raynauds-phenomenon",
+      "name": "Raynaud's Phenomenon",
+      "letter": "R",
+      "category": "Vascular/Rheumatic",
+      "description": "Raynaud's phenomenon is a condition that causes some areas of the body — such as fingers and toes — to feel numb and cold in response to cold temperatures or stress. In Raynaud's disease, smaller arteries that supply blood to the skin narrow, limiting blood flow to affected areas. It can be primary (Raynaud's disease) or secondary to another condition.",
+      "symptoms": [
+        "Cold fingers or toes",
+        "Color changes in skin (white, blue, red) in response to cold or stress",
+        "Numbness, prickling, or stinging pain when warming up or stress relief"
+      ],
+      "causes": [
+        "Unknown for primary Raynaud's",
+        "Secondary causes: scleroderma, lupus, RA, arterial diseases, medications, repetitive trauma"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Nailfold capillaroscopy",
+        "Blood tests (ANA, ESR)",
+        "Cold stimulation test"
+      ],
+      "treatment": [
+        "Keep warm",
+        "Calcium channel blockers",
+        "Alpha blockers",
+        "Vasodilators",
+        "Chemical nerve blocks",
+        "Surgery (sympathectomy) in severe cases"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Cold climates",
+        "Family history",
+        "Occupation (vibrating tools)",
+        "Certain medications"
+      ],
+      "prevention": [
+        "Keep hands and feet warm",
+        "Reduce stress",
+        "Don't smoke",
+        "Avoid vasoconstricting drugs"
+      ],
+      "prevalence": "Affects approximately 3–5% of the general population; up to 10% in colder climates.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/raynauds-phenomenon"
+    },
+    {
+      "id": "reactive-arthritis",
+      "name": "Reactive Arthritis",
+      "letter": "R",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Reactive arthritis is joint pain and swelling triggered by an infection in another part of the body, most often the intestines, genitals, or urinary tract. The condition most commonly targets the knees and the joints of the ankles and feet. It is also known as Reiter's syndrome.",
+      "symptoms": [
+        "Joint pain and swelling",
+        "Eye inflammation (conjunctivitis)",
+        "Urinary problems",
+        "Skin rash (especially on palms and soles)",
+        "Mouth sores",
+        "Heel pain"
+      ],
+      "causes": [
+        "Triggered by bacterial infections: Chlamydia, Salmonella, Shigella, Yersinia, Campylobacter",
+        "HLA-B27 gene association"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (inflammation markers, HLA-B27)",
+        "Cultures to identify the triggering infection",
+        "Joint fluid analysis",
+        "X-rays"
+      ],
+      "treatment": [
+        "Treating the underlying infection (antibiotics)",
+        "NSAIDs",
+        "Corticosteroids",
+        "DMARDs for chronic cases"
+      ],
+      "risk_factors": [
+        "Age 20–40",
+        "Male sex",
+        "HLA-B27 gene",
+        "STI risk"
+      ],
+      "prevention": [
+        "Safe sex practices",
+        "Safe food handling",
+        "Prompt treatment of infections"
+      ],
+      "prevalence": "Incidence of about 30–40 cases per 100,000 persons per year.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/reactive-arthritis"
+    },
+    {
+      "id": "rheumatoid-arthritis",
+      "name": "Rheumatoid Arthritis",
+      "letter": "R",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Rheumatoid arthritis (RA) is a chronic inflammatory disorder that can affect more than just the joints. In some people, the condition can damage a wide variety of body systems, including the skin, eyes, lungs, heart, and blood vessels. RA is an autoimmune disease that occurs when the immune system mistakenly attacks the body's own tissues.",
+      "symptoms": [
+        "Tender, warm, swollen joints",
+        "Joint stiffness that is usually worse in the mornings and after inactivity",
+        "Fatigue, fever, and loss of appetite",
+        "Symmetrical joint involvement",
+        "Rheumatoid nodules under the skin",
+        "Organ involvement (lungs, heart, eyes, blood vessels)"
+      ],
+      "causes": [
+        "Autoimmune disease — immune attacks joint lining (synovium)",
+        "Genetic factors (HLA class II genotypes)",
+        "Environmental triggers (smoking, hormones, infections)"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (RF, anti-CCP antibody, ESR, CRP)",
+        "X-rays",
+        "Ultrasound or MRI"
+      ],
+      "treatment": [
+        "NSAIDs",
+        "Steroids",
+        "Conventional DMARDs (methotrexate, hydroxychloroquine, sulfasalazine)",
+        "Biologic DMARDs (TNF inhibitors, IL-6 inhibitors, B-cell/T-cell inhibitors)",
+        "Targeted synthetic DMARDs (JAK inhibitors)",
+        "Physical therapy",
+        "Surgery"
+      ],
+      "risk_factors": [
+        "Female sex (2–3x more common)",
+        "Age 60+",
+        "Smoking",
+        "Obesity",
+        "Family history",
+        "Early life exposures"
+      ],
+      "prevention": [
+        "No proven prevention",
+        "Not smoking is the best-known modifiable risk factor"
+      ],
+      "prevalence": "About 1.3 million Americans have rheumatoid arthritis.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/rheumatoid-arthritis"
+    },
+    {
+      "id": "rotator-cuff-injuries",
+      "name": "Rotator Cuff Injuries",
+      "letter": "R",
+      "category": "Musculoskeletal",
+      "description": "The rotator cuff is a group of four muscles and their tendons that stabilize the shoulder joint and allow the shoulder to rotate and move. Injuries range from inflammation (tendinitis) and partial tears to complete tears of one or more tendons. Rotator cuff injuries are one of the most common causes of shoulder pain and disability.",
+      "symptoms": [
+        "A dull ache deep in the shoulder",
+        "Disturbed sleep, particularly if lying on the affected shoulder",
+        "Arm weakness",
+        "Difficulty reaching behind the back",
+        "Arm weakness",
+        "Crackling sensation with movement"
+      ],
+      "causes": [
+        "Acute injury (falling on arm, lifting heavy object)",
+        "Gradual degeneration from repetitive stress",
+        "Age-related wear"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays",
+        "MRI (most accurate)",
+        "Ultrasound"
+      ],
+      "treatment": [
+        "Rest and activity modification",
+        "Physical therapy (main treatment)",
+        "Corticosteroid injections",
+        "Surgical repair (arthroscopic or open)"
+      ],
+      "risk_factors": [
+        "Age (40+)",
+        "Repetitive overhead activities",
+        "Sports involving overhead motion",
+        "Occupations (painters, carpenters)"
+      ],
+      "prevention": [
+        "Regular shoulder strengthening exercises",
+        "Proper technique in sports and work",
+        "Warm up before activity"
+      ],
+      "prevalence": "Rotator cuff tears affect approximately 30% of people over age 60; about 2 million people see a doctor annually in the US for rotator cuff issues.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/rotator-cuff-injuries"
+    },
+    {
+      "id": "scleroderma",
+      "name": "Scleroderma (Systemic Sclerosis)",
+      "letter": "S",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Scleroderma, also known as systemic sclerosis, is a group of rare diseases that involve the hardening and tightening of the skin and connective tissues. Some types can also harm the blood vessels, internal organs, and the digestive tract. It is an autoimmune disease in which the immune system triggers excessive collagen production.",
+      "symptoms": [
+        "Hardening and tightening of skin",
+        "Raynaud's phenomenon",
+        "CREST syndrome features (Calcinosis, Raynaud's, Esophageal dysmotility, Sclerodactyly, Telangiectasia)",
+        "Digestive problems",
+        "Heart, lung, kidney involvement",
+        "Joint pain"
+      ],
+      "causes": [
+        "Autoimmune — overproduction of collagen",
+        "Genetic and environmental factors",
+        "Possible immune response to injury"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (ANA, anti-Scl-70, anti-centromere antibodies)",
+        "Pulmonary function tests",
+        "Echocardiogram",
+        "CT scan of lungs",
+        "GI tests"
+      ],
+      "treatment": [
+        "No cure; treatment focuses on specific symptoms",
+        "Immunosuppressants",
+        "Proton pump inhibitors for GERD",
+        "Calcium channel blockers for Raynaud's",
+        "Bosentan or sildenafil for pulmonary hypertension",
+        "ACE inhibitors for renal crisis"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Age 30–50",
+        "African American and Choctaw Native American ancestry",
+        "Certain occupational exposures (silica, solvents)"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "About 300,000 Americans have scleroderma; it affects 75,000–100,000 adults.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/scleroderma"
+    },
+    {
+      "id": "scoliosis",
+      "name": "Scoliosis",
+      "letter": "S",
+      "category": "Musculoskeletal",
+      "description": "Scoliosis is a sideways curvature of the spine that occurs most often during the growth spurt just before puberty. While scoliosis can be caused by conditions such as cerebral palsy and muscular dystrophy, the cause of most scoliosis is unknown. Most cases of scoliosis are mild, but some children develop spine deformities that continue to get more severe as they grow.",
+      "symptoms": [
+        "Uneven shoulders",
+        "One shoulder blade appears more prominent than the other",
+        "Uneven waist",
+        "One hip higher than the other",
+        "One side of the rib cage jutting forward",
+        "Back pain in adults"
+      ],
+      "causes": [
+        "Idiopathic (unknown) in most cases",
+        "Congenital (birth defect)",
+        "Neuromuscular conditions (cerebral palsy, muscular dystrophy)",
+        "Degenerative in adults"
+      ],
+      "diagnosis": [
+        "Physical examination (Adam's forward bend test)",
+        "X-rays",
+        "Cobb angle measurement",
+        "MRI or CT for complex cases"
+      ],
+      "treatment": [
+        "Observation (mild curves)",
+        "Bracing",
+        "Surgery (spinal fusion for severe curves)"
+      ],
+      "risk_factors": [
+        "Age (most common in early teens)",
+        "Sex (girls have higher risk of curve worsening)",
+        "Family history"
+      ],
+      "prevention": [
+        "No known prevention for idiopathic scoliosis"
+      ],
+      "prevalence": "Scoliosis affects 2–3% of the population in the United States.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/scoliosis"
+    },
+    {
+      "id": "shin-splints",
+      "name": "Shin Splints (Medial Tibial Stress Syndrome)",
+      "letter": "S",
+      "category": "Musculoskeletal",
+      "description": "Shin splints (medial tibial stress syndrome) refers to pain along the inner edge of the shinbone (tibia). It is a common overuse injury affecting runners, dancers, and military recruits. Shin splints result from excessive stress on the shinbone and the connective tissues attaching muscles to bone.",
+      "symptoms": [
+        "Tenderness, soreness, or pain along the inner side of the lower leg",
+        "Mild swelling of the lower leg",
+        "Pain that begins during exercise but may progress to pain at rest",
+        "Pain worsens with continued activity"
+      ],
+      "causes": [
+        "Sudden increase in exercise intensity or duration",
+        "Running on hard surfaces or changing surfaces",
+        "Flat feet or rigid arches",
+        "Worn-out or improper footwear",
+        "Weak hip and core muscles"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays (to rule out stress fracture)",
+        "Bone scan or MRI (for stress fractures)"
+      ],
+      "treatment": [
+        "Rest from the aggravating activity",
+        "Ice application",
+        "NSAIDs",
+        "Physical therapy",
+        "Orthotics",
+        "Gradual return to activity"
+      ],
+      "risk_factors": [
+        "Running or high-impact activity",
+        "Flat feet",
+        "Worn-out shoes",
+        "Sudden increase in activity",
+        "Female sex (higher bone stress risk)",
+        "Military recruits"
+      ],
+      "prevention": [
+        "Gradually increase exercise intensity",
+        "Wear appropriate footwear",
+        "Strengthen hip and core muscles",
+        "Replace worn shoes",
+        "Add low-impact cross-training"
+      ],
+      "prevalence": "Affects 13–20% of running injuries; up to 35% of military recruits develop shin splints during training.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/sports-injuries"
+    },
+    {
+      "id": "sjogrens-syndrome",
+      "name": "Sjögren's Syndrome",
+      "letter": "S",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Sjögren's syndrome is a disorder of the immune system identified by its two most common symptoms — dry eyes and a dry mouth. The condition often accompanies other immune system disorders, such as rheumatoid arthritis and lupus. The immune system mistakenly attacks the glands that produce tears and saliva.",
+      "symptoms": [
+        "Dry eyes (feeling of grit in eyes)",
+        "Dry mouth (difficulty swallowing or speaking)",
+        "Joint pain, swelling, and stiffness",
+        "Swollen salivary glands",
+        "Skin rashes or dry skin",
+        "Vaginal dryness",
+        "Persistent dry cough",
+        "Prolonged fatigue",
+        "Neuropathy"
+      ],
+      "causes": [
+        "Autoimmune",
+        "Genetic predisposition",
+        "Possible viral/bacterial trigger",
+        "Hormonal factors"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (ANA, anti-SSA/Ro and anti-SSB/La antibodies, RF)",
+        "Eye tests (Schirmer test, slit-lamp exam)",
+        "Lip biopsy",
+        "Imaging of salivary glands"
+      ],
+      "treatment": [
+        "Artificial tears and lubricating eye drops",
+        "Saliva stimulants (pilocarpine, cevimeline)",
+        "NSAIDs or hydroxychloroquine",
+        "Immunosuppressants",
+        "Biologics for severe cases"
+      ],
+      "risk_factors": [
+        "Female sex (90% of cases)",
+        "Age over 40",
+        "Rheumatic disease"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Affects approximately 4 million Americans; third most common rheumatic disease.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/sjogrens-syndrome"
+    },
+    {
+      "id": "sports-injuries",
+      "name": "Sports Injuries",
+      "letter": "S",
+      "category": "Musculoskeletal",
+      "description": "Sports injuries are injuries that occur during athletic activities or exercise. They can result from accidents, inadequate training, improper use of protective devices, or insufficient warm-up and stretching exercises. The most common sports injuries are sprains and strains, knee injuries, swollen muscles, Achilles tendon injuries, pain along the shin bone, rotator cuff injuries, fractures, and dislocations.",
+      "symptoms": [
+        "Pain",
+        "Swelling",
+        "Reduced range of motion",
+        "Bruising",
+        "Weakness",
+        "Inability to bear weight",
+        "Deformity in case of fracture"
+      ],
+      "causes": [
+        "Acute injury (direct impact, fall, twisting)",
+        "Overuse (repetitive stress)"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays",
+        "MRI",
+        "Ultrasound",
+        "CT scan"
+      ],
+      "treatment": [
+        "RICE method",
+        "NSAIDs",
+        "Physical therapy",
+        "Bracing or splinting",
+        "Surgery for severe injuries"
+      ],
+      "risk_factors": [
+        "Age",
+        "Prior injury",
+        "Poor conditioning",
+        "Inadequate warm-up",
+        "Contact sports",
+        "High-impact activities"
+      ],
+      "prevention": [
+        "Warm up and cool down",
+        "Stretch before and after activity",
+        "Use proper technique",
+        "Use appropriate protective equipment",
+        "Listen to your body"
+      ],
+      "prevalence": "Over 3.5 million children ages 14 and under receive medical treatment for sports injuries annually in the US.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/sports-injuries"
+    },
+    {
+      "id": "sprains-strains",
+      "name": "Sprains and Strains",
+      "letter": "S",
+      "category": "Musculoskeletal",
+      "description": "A sprain is a stretching or tearing of ligaments (the tough bands of fibrous tissue that connect bones in a joint). A strain is a stretching or tearing of a muscle or tendon. Both are very common injuries, often occurring during sports or other physical activities. The ankle is the most commonly sprained joint; the back and hamstring are commonly strained.",
+      "symptoms": [
+        "Pain",
+        "Swelling",
+        "Bruising",
+        "Limited ability to move the affected joint",
+        "Hearing or feeling a 'pop' in the joint at time of injury (sprain)",
+        "Muscle spasm",
+        "Weakness"
+      ],
+      "causes": [
+        "Falls, twisting motions, blunt force trauma (sprains)",
+        "Overuse, excessive training, improper warm-up (strains)"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays (to rule out fracture)",
+        "MRI (for severe injuries)"
+      ],
+      "treatment": [
+        "RICE (Rest, Ice, Compression, Elevation)",
+        "NSAIDs",
+        "Physical therapy",
+        "Bracing or casting for severe sprains",
+        "Surgery (for complete ligament or tendon tears)"
+      ],
+      "risk_factors": [
+        "Sports participation",
+        "Prior injury",
+        "Poor conditioning",
+        "Fatigue",
+        "Inadequate equipment"
+      ],
+      "prevention": [
+        "Regular conditioning and flexibility exercises",
+        "Proper warm-up",
+        "Supportive footwear",
+        "Avoid exercising when tired"
+      ],
+      "prevalence": "Ankle sprains alone account for about 25,000 injuries per day in the United States.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/sprains-and-strains"
+    },
+    {
+      "id": "still-disease",
+      "name": "Still's Disease (Adult-Onset Still's Disease)",
+      "letter": "S",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Adult-onset Still's disease (AOSD) is a rare form of inflammatory arthritis that features high fevers, rash, and joint pain. It is considered by many to be a spectrum of conditions related to systemic juvenile idiopathic arthritis, but occurring in adults. The condition may be self-limited, intermittent, or chronic.",
+      "symptoms": [
+        "Quotidian fever spikes (high fever once or twice daily)",
+        "Salmon-colored skin rash appearing with fever",
+        "Joint pain and arthritis",
+        "Sore throat",
+        "Lymph node enlargement",
+        "Enlargement of liver or spleen",
+        "Elevated ferritin"
+      ],
+      "causes": [
+        "Unknown (autoinflammatory and autoimmune components)",
+        "Possible infectious triggers",
+        "Genetic factors"
+      ],
+      "diagnosis": [
+        "Yamaguchi or Fautrel criteria",
+        "Blood tests (ferritin markedly elevated, CBC, CRP)",
+        "Exclusion of infection, malignancy, and other rheumatic disease"
+      ],
+      "treatment": [
+        "NSAIDs (mild disease)",
+        "Corticosteroids",
+        "Methotrexate",
+        "Anakinra (IL-1 inhibitor)",
+        "Tocilizumab (IL-6 inhibitor)",
+        "Canakinumab"
+      ],
+      "risk_factors": [
+        "Age 16–35 (bimodal peak)",
+        "No sex predilection"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Very rare; approximately 1–34 per million per year.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/arthritis"
+    },
+    {
+      "id": "stress-fractures",
+      "name": "Stress Fractures",
+      "letter": "S",
+      "category": "Musculoskeletal",
+      "description": "Stress fractures are tiny cracks in a bone caused by repetitive force or overuse, often from jumping or running long distances. They can also develop from normal use of a bone that has been weakened by osteoporosis. Stress fractures most commonly occur in the weight-bearing bones of the lower leg and foot.",
+      "symptoms": [
+        "Pain that develops gradually and worsens with activity",
+        "Pain that diminishes with rest",
+        "Swelling on the outside of the ankle or foot",
+        "Bruising",
+        "Tenderness to touch at the fracture site"
+      ],
+      "causes": [
+        "Repetitive force exceeding bone's ability to remodel",
+        "Sudden increase in training",
+        "Change in surface or footwear",
+        "Bone weakened by osteoporosis or nutritional deficiency",
+        "Female athlete triad"
+      ],
+      "diagnosis": [
+        "Physical examination (point tenderness)",
+        "X-rays (often normal early)",
+        "MRI (most sensitive — shows early stress fractures)",
+        "Bone scan"
+      ],
+      "treatment": [
+        "Rest from weight-bearing activity",
+        "Protective footwear or crutches",
+        "Gradual return to activity (6–8 weeks)",
+        "Surgery (for high-risk fractures, e.g., navicular, fifth metatarsal)"
+      ],
+      "risk_factors": [
+        "Running and high-impact sports",
+        "Female sex (lower bone density)",
+        "Rapid increase in training",
+        "Osteoporosis or low bone density",
+        "Nutritional deficiencies",
+        "Female athlete triad"
+      ],
+      "prevention": [
+        "Gradual training progression",
+        "Adequate calcium and vitamin D",
+        "Cross-training",
+        "Proper footwear",
+        "Addressing nutritional deficiencies"
+      ],
+      "prevalence": "Represent 1–20% of all sports medicine injuries; tibial stress fractures account for about 50% of all stress fractures.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/sports-injuries"
+    },
+    {
+      "id": "systemic-lupus-erythematosus",
+      "name": "Systemic Lupus Erythematosus (SLE)",
+      "letter": "S",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Systemic lupus erythematosus (SLE) is the most common and severe form of lupus. It is a chronic autoimmune disease in which the immune system produces antibodies that attack the body's own healthy tissue, causing widespread inflammation and damage in multiple organ systems including joints, skin, kidneys, heart, lungs, blood vessels, and brain.",
+      "symptoms": [
+        "Butterfly (malar) rash across cheeks and nose",
+        "Photosensitivity",
+        "Oral ulcers",
+        "Non-scarring hair loss",
+        "Arthritis",
+        "Serositis (pleuritis, pericarditis)",
+        "Renal disorder (lupus nephritis)",
+        "Neuropsychiatric symptoms",
+        "Hematologic abnormalities",
+        "Fatigue"
+      ],
+      "causes": [
+        "Autoimmune",
+        "Genetic predisposition (multiple gene variants)",
+        "Hormonal factors (estrogen)",
+        "Environmental triggers (UV light, infections, medications)"
+      ],
+      "diagnosis": [
+        "ACR/EULAR classification criteria",
+        "ANA (positive in >95%)",
+        "Anti-dsDNA and anti-Smith antibodies",
+        "CBC, urinalysis, kidney function tests",
+        "Complement levels (C3, C4)"
+      ],
+      "treatment": [
+        "Hydroxychloroquine (for all patients)",
+        "NSAIDs",
+        "Corticosteroids",
+        "Immunosuppressants (mycophenolate, azathioprine, methotrexate, cyclophosphamide)",
+        "Biologic agents (belimumab, anifrolumab)",
+        "Voclosporin for nephritis"
+      ],
+      "risk_factors": [
+        "Female sex (9:1 ratio)",
+        "Age 15–45",
+        "Black, Hispanic, Asian women",
+        "Family history"
+      ],
+      "prevention": [
+        "No prevention",
+        "Sun protection critical for managing disease"
+      ],
+      "prevalence": "Affects approximately 1.5 million Americans; 5 million worldwide.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/lupus"
+    },
+    {
+      "id": "tendinitis",
+      "name": "Tendinitis",
+      "letter": "T",
+      "category": "Musculoskeletal",
+      "description": "Tendinitis is an inflammation or irritation of a tendon — any one of the thick fibrous cords that attaches muscle to bone. The condition causes pain and tenderness just outside a joint. Tendinitis can occur in any tendon. It is most common around the shoulders, elbows, wrists, knees, and heels.",
+      "symptoms": [
+        "Pain described as a dull ache, especially when moving the affected limb or joint",
+        "Tenderness",
+        "Mild swelling"
+      ],
+      "causes": [
+        "Repetitive motion or sudden injury",
+        "Age-related (tendons become less flexible)",
+        "Some conditions such as diabetes or RA"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays (to rule out other conditions)",
+        "MRI",
+        "Ultrasound"
+      ],
+      "treatment": [
+        "Rest",
+        "Ice",
+        "NSAIDs",
+        "Physical therapy",
+        "Corticosteroid injections",
+        "Platelet-rich plasma (PRP)",
+        "Surgery"
+      ],
+      "risk_factors": [
+        "Age",
+        "Occupation (plumbers, painters, manual laborers)",
+        "Sports participation",
+        "Systemic diseases (diabetes, RA)"
+      ],
+      "prevention": [
+        "Ease into exercise routines",
+        "Use proper posture",
+        "Take breaks from repetitive activities",
+        "Stretch regularly"
+      ],
+      "prevalence": "Tendinitis is extremely common, responsible for about 30% of all soft tissue injuries.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/tendinitis"
+    },
+    {
+      "id": "tendinopathy",
+      "name": "Tendinopathy",
+      "letter": "T",
+      "category": "Musculoskeletal",
+      "description": "Tendinopathy is a broad term encompassing painful conditions occurring in and around tendons in response to overuse. It includes both inflammatory tendinitis and degenerative tendinosis. Common locations include the Achilles tendon, patellar tendon (jumper's knee), rotator cuff, lateral elbow (tennis elbow), and medial elbow (golfer's elbow).",
+      "symptoms": [
+        "Localized tendon pain, especially with activity",
+        "Stiffness after periods of inactivity",
+        "Tenderness on palpation",
+        "Pain that is worse at the start of exercise and improves",
+        "Gradual onset in overuse cases"
+      ],
+      "causes": [
+        "Repetitive mechanical loading beyond tissue tolerance",
+        "Sudden increase in training volume or intensity",
+        "Biomechanical factors",
+        "Aging changes in collagen"
+      ],
+      "diagnosis": [
+        "Clinical examination",
+        "Ultrasound (most useful for diagnosis and monitoring)",
+        "MRI for complex cases"
+      ],
+      "treatment": [
+        "Load management and activity modification",
+        "Eccentric and heavy slow resistance exercises",
+        "Physical therapy",
+        "Shockwave therapy",
+        "PRP injections",
+        "Corticosteroid injections (short-term)",
+        "Surgery (rare)"
+      ],
+      "risk_factors": [
+        "Age",
+        "Sudden increase in physical activity",
+        "Stiff ankle or foot",
+        "Weak hip and gluteal muscles",
+        "Metabolic conditions (diabetes, dyslipidemia)"
+      ],
+      "prevention": [
+        "Gradual training progression",
+        "Adequate recovery time",
+        "Strength and conditioning",
+        "Address biomechanical issues"
+      ],
+      "prevalence": "Extremely common; patellar tendinopathy affects 14% of recreational athletes; Achilles tendinopathy up to 9% of the general population.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/tendinitis"
+    },
+    {
+      "id": "tendon-injuries",
+      "name": "Tendon and Ligament Injuries",
+      "letter": "T",
+      "category": "Musculoskeletal",
+      "description": "Tendons connect muscles to bones, while ligaments connect bones to other bones. Both structures can be injured through acute trauma or overuse. Common tendon injuries include tendinitis, tendinosis, and tendon tears. Common ligament injuries include sprains. These injuries are among the most common musculoskeletal problems.",
+      "symptoms": [
+        "Pain at the site of injury",
+        "Swelling",
+        "Bruising",
+        "Weakness",
+        "Limited range of motion",
+        "Instability (with ligament tears)"
+      ],
+      "causes": [
+        "Acute trauma (sudden twist, fall, direct blow)",
+        "Overuse and repetitive stress",
+        "Age-related degeneration"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Stress tests",
+        "X-rays (to rule out fracture)",
+        "MRI or ultrasound"
+      ],
+      "treatment": [
+        "RICE (Rest, Ice, Compression, Elevation)",
+        "Bracing or casting",
+        "Physical therapy",
+        "PRP (platelet-rich plasma) injections",
+        "Surgery for complete tears"
+      ],
+      "risk_factors": [
+        "Sports participation",
+        "Previous injury",
+        "Age",
+        "Inadequate conditioning",
+        "Certain fluoroquinolone antibiotics (tendon risk)"
+      ],
+      "prevention": [
+        "Proper warm-up and cool-down",
+        "Strength and conditioning",
+        "Appropriate footwear",
+        "Gradual progression of training"
+      ],
+      "prevalence": "Among the most common musculoskeletal injuries worldwide; sprains and strains account for millions of ER visits annually.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/sports-injuries"
+    },
+    {
+      "id": "lateral-epicondylitis",
+      "name": "Tennis Elbow (Lateral Epicondylitis)",
+      "letter": "L",
+      "category": "Musculoskeletal",
+      "description": "Tennis elbow (lateral epicondylitis) is a painful condition caused by overuse of the elbow, particularly the tendons of the forearm muscles that attach to the lateral epicondyle — the bony bump on the outside of the elbow. Despite the name, most cases occur in people who do not play tennis.",
+      "symptoms": [
+        "Pain and tenderness on the outer part of the elbow",
+        "Pain that radiates into the forearm",
+        "Weak grip strength",
+        "Pain when shaking hands, turning a doorknob, or lifting a cup",
+        "Pain that worsens with wrist and hand activities"
+      ],
+      "causes": [
+        "Repetitive motions of the wrist and arm",
+        "Overuse of forearm extensor muscles",
+        "Sudden force (less common)"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays (to rule out other causes)",
+        "MRI",
+        "Ultrasound"
+      ],
+      "treatment": [
+        "Rest and activity modification",
+        "Ice",
+        "NSAIDs",
+        "Forearm counterforce brace",
+        "Physical therapy (eccentric exercises)",
+        "Corticosteroid injections",
+        "PRP injections",
+        "Extracorporeal shock wave therapy",
+        "Surgery"
+      ],
+      "risk_factors": [
+        "Age 30–50",
+        "Racket sports",
+        "Repetitive arm motions at work",
+        "Plumbers, painters, carpenters, butchers"
+      ],
+      "prevention": [
+        "Strengthen forearm muscles",
+        "Use proper technique in sports",
+        "Use appropriate equipment (correct racket grip size)",
+        "Warm up before activity"
+      ],
+      "prevalence": "Affects approximately 1–3% of the population; most common in people aged 30–60.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/tendinitis"
+    },
+    {
+      "id": "thoracic-outlet-syndrome",
+      "name": "Thoracic Outlet Syndrome (TOS)",
+      "letter": "T",
+      "category": "Musculoskeletal",
+      "description": "Thoracic outlet syndrome (TOS) is a group of disorders that occur when the blood vessels or nerves in the space between the collarbone and first rib (the thoracic outlet) become compressed. This can cause pain in the shoulders and neck and numbness in the fingers. There are three types: neurogenic (most common), venous, and arterial TOS.",
+      "symptoms": [
+        "Numbness or tingling in the fingers (especially ulnar nerve distribution)",
+        "Neck, shoulder, and arm pain",
+        "Weak grip",
+        "Swelling of the arm (venous TOS)",
+        "Arm that changes color (venous/arterial TOS)",
+        "Blood clots in upper extremity veins (Paget-Schroetter syndrome)"
+      ],
+      "causes": [
+        "Anatomical defects (cervical rib, tight scalene muscles)",
+        "Poor posture",
+        "Repetitive overhead activities",
+        "Trauma (whiplash, fall)"
+      ],
+      "diagnosis": [
+        "Physical examination (provocative tests: Adson, Roos)",
+        "Nerve conduction studies",
+        "Imaging: X-ray, MRI, CT angiography",
+        "Doppler ultrasound"
+      ],
+      "treatment": [
+        "Physical therapy (posture correction, scalene muscle stretching)",
+        "NSAIDs",
+        "Botulinum toxin injections into scalene muscles",
+        "Surgery (rib resection, scalenectomy) for refractory or vascular TOS"
+      ],
+      "risk_factors": [
+        "Cervical rib",
+        "Poor posture",
+        "Repetitive overhead activities",
+        "Trauma to the neck or shoulder",
+        "Female sex"
+      ],
+      "prevention": [
+        "Maintain good posture",
+        "Strengthen shoulder and neck muscles",
+        "Ergonomic workstation setup"
+      ],
+      "prevalence": "Neurogenic TOS affects approximately 3–80 per 1,000 people; true prevalence uncertain.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/musculoskeletal-disorders"
+    },
+    {
+      "id": "trigger-finger",
+      "name": "Trigger Finger (Stenosing Tenosynovitis)",
+      "letter": "T",
+      "category": "Musculoskeletal",
+      "description": "Trigger finger (stenosing tenosynovitis) is a condition in which one of the fingers gets stuck in a bent position and then snaps straight, like a trigger being pulled and released. It occurs when inflammation narrows the space within the sheath that surrounds the tendon in the affected finger.",
+      "symptoms": [
+        "Finger stiffness, especially in the morning",
+        "A popping or clicking sensation when moving the finger",
+        "Tenderness or a bump (nodule) at the base of the affected finger",
+        "Finger catching or locking in a bent position",
+        "Finger locked in bent position (severe cases)"
+      ],
+      "causes": [
+        "Inflammation of the tendon sheath (tenosynovitis)",
+        "Repeated gripping actions",
+        "Conditions: RA, diabetes, gout, hypothyroidism"
+      ],
+      "diagnosis": [
+        "Physical examination (characteristic snap or click)",
+        "Ultrasound"
+      ],
+      "treatment": [
+        "Resting the finger (splinting)",
+        "NSAIDs",
+        "Corticosteroid injections (most effective non-surgical treatment)",
+        "Percutaneous release (needle)",
+        "Surgery (release of A1 pulley)"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Age 40–60",
+        "Diabetes",
+        "Rheumatoid arthritis",
+        "Repetitive gripping activities"
+      ],
+      "prevention": [
+        "Avoid repetitive gripping",
+        "Take breaks during repetitive tasks"
+      ],
+      "prevalence": "Affects approximately 2–3% of the general population; up to 10% in diabetic patients.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/tendinitis"
+    },
+    {
+      "id": "triple-x-syndrome",
+      "name": "Triple X Syndrome",
+      "letter": "X",
+      "category": "Genetic Disorder",
+      "description": "Triple X syndrome (47,XXX) is a chromosomal condition in females caused by an extra X chromosome. Many individuals have mild symptoms, while others may have developmental or learning challenges.",
+      "symptoms": [
+        "Tall stature in childhood or adolescence",
+        "Speech or language delay",
+        "Learning difficulties",
+        "Motor coordination challenges",
+        "Emotional or behavioral concerns in some cases"
+      ],
+      "causes": [
+        "Random chromosomal nondisjunction",
+        "Presence of an extra X chromosome (47,XXX)",
+        "Usually not inherited from parents"
+      ],
+      "diagnosis": [
+        "Chromosome analysis (karyotyping)",
+        "Prenatal genetic testing in some cases",
+        "Developmental and neuropsychological assessments"
+      ],
+      "treatment": [
+        "Early developmental intervention",
+        "Speech and occupational therapy",
+        "Educational support plans",
+        "Behavioral or psychological support as needed"
+      ],
+      "risk_factors": [
+        "Advanced maternal age",
+        "Random chromosomal errors during cell division"
+      ],
+      "prevention": [
+        "No known prevention for chromosomal nondisjunction",
+        "Genetic counseling for affected families",
+        "Early screening and developmental follow-up"
+      ],
+      "prevalence": "Estimated to affect around 1 in 1,000 female births, though many cases remain undiagnosed.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/triple-x-syndrome-causes-symptoms-treatment"
+    },
+    {
+      "id": "undifferentiated-connective-tissue-disease",
+      "name": "Undifferentiated Connective Tissue Disease (UCTD)",
+      "letter": "U",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Undifferentiated connective tissue disease (UCTD) is an autoimmune condition that has features suggestive of a systemic rheumatic disease, but does not fulfill the criteria for a specific defined connective tissue disease such as lupus, scleroderma, or Sjögren's syndrome. Many patients with UCTD remain in this undifferentiated state, while some eventually evolve into a defined disease.",
+      "symptoms": [
+        "Raynaud's phenomenon",
+        "Arthritis or arthralgia",
+        "Photosensitivity",
+        "Oral ulcers",
+        "Dry eyes or dry mouth",
+        "Fatigue",
+        "Positive ANA"
+      ],
+      "causes": [
+        "Autoimmune",
+        "Genetic and environmental factors"
+      ],
+      "diagnosis": [
+        "Clinical evaluation",
+        "Positive ANA",
+        "Exclusion of defined CTD",
+        "Monitoring for evolution"
+      ],
+      "treatment": [
+        "Hydroxychloroquine",
+        "NSAIDs",
+        "Sun protection",
+        "Corticosteroids (for flares)",
+        "Tailored treatment as disease evolves"
+      ],
+      "risk_factors": [
+        "Female sex",
+        "Young to middle-aged adults"
+      ],
+      "prevention": [
+        "No known prevention"
+      ],
+      "prevalence": "Up to 25% of patients presenting to rheumatology clinics have UCTD.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/lupus"
+    },
+    {
+      "id": "vasculitis",
+      "name": "Vasculitis",
+      "letter": "V",
+      "category": "Autoimmune/Rheumatic",
+      "description": "Vasculitis is a group of disorders that destroy blood vessels by inflammation. Both arteries and veins can be affected. Lymphangitis is sometimes considered a type of vasculitis. It can affect any blood vessel in the body. Depending on which vessels are affected and the severity of inflammation, vasculitis can range from minor to life-threatening.",
+      "symptoms": [
+        "Fever",
+        "Fatigue",
+        "Weight loss",
+        "Muscle and joint pain",
+        "Night sweats",
+        "Rashes",
+        "Nerve problems (numbness, weakness)",
+        "Organ-specific symptoms depending on which vessels are affected"
+      ],
+      "causes": [
+        "Autoimmune attack on vessel walls",
+        "Can be associated with other conditions: lupus, RA, Hepatitis B or C, drug reactions"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Blood tests (CBC, ESR, CRP, ANCA)",
+        "Urine tests",
+        "Biopsy of affected tissue",
+        "Angiography",
+        "CT, MRI, PET scans"
+      ],
+      "treatment": [
+        "Corticosteroids (mainstay of treatment)",
+        "Immunosuppressants (cyclophosphamide, methotrexate, azathioprine)",
+        "Biologic agents (rituximab)",
+        "Plasma exchange"
+      ],
+      "risk_factors": [
+        "Autoimmune disease history",
+        "Certain infections (Hepatitis B and C)",
+        "Certain medications",
+        "Age varies by type"
+      ],
+      "prevention": [
+        "No specific prevention",
+        "Vaccination against Hepatitis B may prevent one form"
+      ],
+      "prevalence": "Collectively affects about 3 million people in the US. Prevalence varies greatly by type.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/vasculitis"
+    },
+    {
+      "id": "vitiligo",
+      "name": "Vitiligo",
+      "letter": "V",
+      "category": "Skin/Autoimmune",
+      "description": "Vitiligo is a long-term skin condition characterized by patches of the skin losing their pigment. The patches of skin affected become white and usually have sharp margins. The hair from the skin may also become white. Vitiligo is caused by a loss of melanocytes, which are cells responsible for skin pigmentation. It can affect people of any race or skin tone but is more visible in people with darker skin.",
+      "symptoms": [
+        "Patchy loss of skin color (usually first appears on sun-exposed areas)",
+        "Premature whitening or graying of hair, eyebrows, eyelashes",
+        "Loss of color in the tissues that line the inside of the mouth and nose (mucous membranes)",
+        "Loss of or change in color of the inner layer of the eye (retina)"
+      ],
+      "causes": [
+        "Autoimmune attack on melanocytes",
+        "Genetic predisposition",
+        "Possible triggers: sunburn, emotional stress, exposure to certain chemicals"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "Wood's lamp examination",
+        "Biopsy",
+        "Blood tests for autoimmune diseases"
+      ],
+      "treatment": [
+        "Topical corticosteroids",
+        "Topical calcineurin inhibitors (tacrolimus)",
+        "JAK inhibitors (ruxolitinib cream — FDA approved)",
+        "UVB phototherapy",
+        "PUVA therapy",
+        "Surgical options (for stable vitiligo)",
+        "Camouflage cosmetics"
+      ],
+      "risk_factors": [
+        "Family history of vitiligo",
+        "Personal or family history of autoimmune diseases (thyroid, type 1 diabetes, alopecia areata)",
+        "Having a parent with vitiligo"
+      ],
+      "prevention": [
+        "No known prevention",
+        "Sun protection to prevent sunburned vitiligo patches"
+      ],
+      "prevalence": "Affects about 0.5–2% of the global population; approximately 3.5–4 million Americans.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/vitiligo"
+    },
+    {
+      "id": "wrist-problems",
+      "name": "Wrist Problems and Injuries",
+      "letter": "W",
+      "category": "Musculoskeletal",
+      "description": "Wrist problems include a range of injuries and conditions affecting the bones, tendons, ligaments, and nerves of the wrist joint. Common problems include sprains, fractures (especially of the distal radius), tendinitis, nerve compression (carpal tunnel syndrome), and arthritis. The wrist is particularly vulnerable in falls and repetitive-use activities.",
+      "symptoms": [
+        "Wrist pain (acute or chronic)",
+        "Swelling",
+        "Reduced range of motion",
+        "Weakness in grip",
+        "Numbness or tingling (if nerves involved)",
+        "Clicking or popping with movement (ligament injuries)"
+      ],
+      "causes": [
+        "Falls (distal radius fracture — most common wrist fracture)",
+        "Repetitive movements (tendinitis, carpal tunnel)",
+        "Sports injuries (sprains, TFCC tears)",
+        "Arthritis (OA or RA)",
+        "Ganglion cysts"
+      ],
+      "diagnosis": [
+        "Physical examination",
+        "X-rays",
+        "MRI",
+        "CT scan",
+        "Arthroscopy",
+        "Nerve conduction studies"
+      ],
+      "treatment": [
+        "Immobilization (splint or cast)",
+        "NSAIDs",
+        "Physical therapy",
+        "Corticosteroid injections",
+        "Surgery for fractures, ligament tears, or CTS"
+      ],
+      "risk_factors": [
+        "Age (fractures more common in older adults)",
+        "Osteoporosis",
+        "Sports participation",
+        "Repetitive occupational movements"
+      ],
+      "prevention": [
+        "Wrist guards during sports",
+        "Osteoporosis prevention",
+        "Ergonomic workstation setup",
+        "Strengthening exercises"
+      ],
+      "prevalence": "Wrist fractures are among the most common fractures; distal radius fractures account for about 1 in 6 of all fractures treated in emergency rooms.",
+      "niams_url": "https://www.niams.nih.gov/health-topics/wrist-problems"
+    },
+    {
+      "id": "xanthelasma",
+      "name": "Xanthelasma",
+      "letter": "X",
+      "category": "Skin",
+      "description": "Xanthelasma appears as yellowish cholesterol-rich plaques around the eyelids. It is usually benign but may be associated with lipid abnormalities and cardiovascular risk.",
+      "symptoms": [
+        "Soft yellowish patches around eyelids",
+        "Usually painless skin lesions",
+        "Slow enlargement over time",
+        "Cosmetic concern"
+      ],
+      "causes": [
+        "Lipid deposition under the skin",
+        "High cholesterol or triglyceride levels",
+        "Familial lipid disorders",
+        "Can occur even with normal lipid levels"
+      ],
+      "diagnosis": [
+        "Clinical skin examination",
+        "Lipid profile blood tests",
+        "Assessment of cardiovascular risk factors"
+      ],
+      "treatment": [
+        "Lipid management and lifestyle changes",
+        "Laser therapy or surgical removal",
+        "Chemical cauterization in selected cases",
+        "Follow-up for recurrence"
+      ],
+      "risk_factors": [
+        "High LDL cholesterol",
+        "Diabetes and metabolic syndrome",
+        "Family history of dyslipidemia",
+        "Middle age"
+      ],
+      "prevention": [
+        "Maintain healthy cholesterol levels",
+        "Heart-healthy diet and regular exercise",
+        "Routine lipid screening",
+        "Control diabetes and blood pressure"
+      ],
+      "prevalence": "Relatively common in adults and may be seen with or without elevated cholesterol.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/xanthelasma"
+    },
+    {
+      "id": "xeroderma-pigmentosum",
+      "name": "Xeroderma Pigmentosum",
+      "letter": "X",
+      "category": "Genetic Disorder",
+      "description": "Xeroderma pigmentosum is a rare inherited disorder in which the skin has extreme sensitivity to ultraviolet (UV) light due to impaired DNA repair mechanisms.",
+      "symptoms": [
+        "Severe sun sensitivity from early life",
+        "Freckling and pigmentation changes",
+        "Dry skin and premature skin aging",
+        "High risk of skin cancers",
+        "Eye irritation in sunlight"
+      ],
+      "causes": [
+        "Inherited mutations in DNA repair genes",
+        "Autosomal recessive inheritance pattern",
+        "UV-induced DNA damage accumulation"
+      ],
+      "diagnosis": [
+        "Clinical examination and history",
+        "Genetic testing",
+        "Skin and ophthalmic evaluation",
+        "Biopsy if suspicious lesions are present"
+      ],
+      "treatment": [
+        "Strict UV avoidance and photoprotection",
+        "Regular dermatology and eye follow-up",
+        "Early treatment of precancerous lesions",
+        "Surgical management of skin cancers when needed"
+      ],
+      "risk_factors": [
+        "Family history of xeroderma pigmentosum",
+        "Consanguinity in parents",
+        "High UV exposure without protection"
+      ],
+      "prevention": [
+        "Genetic counseling for at-risk families",
+        "Lifelong sun-protection measures",
+        "Routine skin surveillance and early intervention"
+      ],
+      "prevalence": "Very rare genetic disorder with markedly increased UV-related skin cancer risk.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/xeroderma-pigmentosum-symptoms-causes-and-home-remedies"
+    },
+    {
+      "id": "xerophthalmia",
+      "name": "Xerophthalmia",
+      "letter": "X",
+      "category": "Nutritional/Eye",
+      "description": "Xerophthalmia is an eye condition caused by vitamin A deficiency, leading to dryness of the conjunctiva and cornea and potential vision loss if untreated.",
+      "symptoms": [
+        "Dry eyes and irritation",
+        "Night blindness",
+        "Bitot spots on conjunctiva",
+        "Corneal dryness or ulceration",
+        "Blurred vision in severe cases"
+      ],
+      "causes": [
+        "Dietary vitamin A deficiency",
+        "Malabsorption disorders",
+        "Chronic malnutrition",
+        "Poor intake during childhood"
+      ],
+      "diagnosis": [
+        "Eye examination",
+        "Dietary and nutritional assessment",
+        "Serum vitamin A testing",
+        "Evaluation for malabsorption causes"
+      ],
+      "treatment": [
+        "Vitamin A supplementation",
+        "Nutritional rehabilitation",
+        "Lubricating eye care",
+        "Treatment of corneal complications if present"
+      ],
+      "risk_factors": [
+        "Childhood malnutrition",
+        "Limited dietary diversity",
+        "Chronic gastrointestinal illness",
+        "Poverty-related food insecurity"
+      ],
+      "prevention": [
+        "Adequate vitamin A intake",
+        "Public health supplementation programs",
+        "Early nutrition screening in children",
+        "Timely management of malabsorption conditions"
+      ],
+      "prevalence": "Still seen in populations with significant vitamin A deficiency and malnutrition.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/xerophthalmia-causes-symptoms-risk-factors-and-treatment"
+    },
+    {
+      "id": "xyy-syndrome",
+      "name": "XYY Syndrome",
+      "letter": "X",
+      "category": "Genetic Disorder",
+      "description": "XYY syndrome is a chromosomal condition in males caused by an extra Y chromosome (47,XYY). Many individuals are mildly affected, but some have learning and behavioral difficulties.",
+      "symptoms": [
+        "Tall stature",
+        "Speech and language delays",
+        "Learning difficulties",
+        "Motor skill challenges",
+        "Behavioral or attention concerns in some children"
+      ],
+      "causes": [
+        "Random nondisjunction resulting in 47,XYY karyotype",
+        "Usually not inherited from parents"
+      ],
+      "diagnosis": [
+        "Chromosomal analysis (karyotype)",
+        "Developmental assessment",
+        "Behavioral and educational evaluation"
+      ],
+      "treatment": [
+        "Speech and language therapy",
+        "Educational support and individualized plans",
+        "Behavioral interventions",
+        "Regular pediatric and developmental follow-up"
+      ],
+      "risk_factors": [
+        "Random chromosomal error during sperm formation",
+        "No clear modifiable risk factors"
+      ],
+      "prevention": [
+        "No known prevention",
+        "Early diagnosis and developmental support improve outcomes",
+        "Genetic counseling when needed"
+      ],
+      "prevalence": "Estimated around 1 in 1,000 male births, with many undiagnosed cases.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/xyy-syndrome-causes-symptoms-and-treatment"
+    },
+    {
+      "id": "yaws",
+      "name": "Yaws",
+      "letter": "Y",
+      "category": "Infectious Disease",
+      "description": "Yaws is a chronic bacterial infection caused by Treponema pallidum pertenue, primarily affecting skin, bones, and cartilage in children living in tropical regions.",
+      "symptoms": [
+        "Initial painless skin lesion",
+        "Secondary skin ulcers or nodules",
+        "Bone pain and swelling",
+        "Deformities in untreated chronic disease"
+      ],
+      "causes": [
+        "Infection with Treponema pallidum pertenue",
+        "Direct skin contact with infectious lesions",
+        "Poor sanitation and crowded living conditions"
+      ],
+      "diagnosis": [
+        "Clinical examination of skin and bone findings",
+        "Serologic tests for treponemal infection",
+        "Community epidemiological context assessment"
+      ],
+      "treatment": [
+        "Single-dose azithromycin in many cases",
+        "Penicillin when indicated",
+        "Treatment of close contacts in outbreaks",
+        "Follow-up to confirm healing"
+      ],
+      "risk_factors": [
+        "Residence in tropical endemic areas",
+        "Childhood age group",
+        "Poor hygiene and limited healthcare access"
+      ],
+      "prevention": [
+        "Community screening and early treatment",
+        "Improved hygiene and sanitation",
+        "Public health eradication campaigns"
+      ],
+      "prevalence": "Occurs mainly in tropical low-resource settings and is a target of global eradication efforts.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/yaws"
+    },
+    {
+      "id": "yellow-fever",
+      "name": "Yellow Fever",
+      "letter": "Y",
+      "category": "Infectious/Tropical",
+      "description": "Yellow fever is a viral hemorrhagic disease transmitted by infected mosquitoes in tropical regions of Africa and South America.",
+      "symptoms": [
+        "Fever and chills",
+        "Headache and muscle pain",
+        "Nausea and vomiting",
+        "Jaundice in severe cases",
+        "Bleeding and organ failure in critical illness"
+      ],
+      "causes": [
+        "Yellow fever virus infection",
+        "Transmission by infected Aedes or Haemagogus mosquitoes",
+        "Travel to endemic areas without vaccination"
+      ],
+      "diagnosis": [
+        "Clinical and travel history",
+        "PCR or serologic blood testing",
+        "Liver function and coagulation assessment"
+      ],
+      "treatment": [
+        "Supportive hospital care",
+        "Fluid and electrolyte management",
+        "Monitoring for bleeding and organ dysfunction",
+        "Intensive care for severe disease"
+      ],
+      "risk_factors": [
+        "Unvaccinated travel to endemic regions",
+        "High mosquito exposure",
+        "Lack of vector control"
+      ],
+      "prevention": [
+        "Yellow fever vaccination",
+        "Mosquito bite prevention measures",
+        "Travel precautions in endemic zones",
+        "Community vector control"
+      ],
+      "prevalence": "Endemic in parts of Africa and South America with periodic outbreaks.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/yellow-fever"
+    },
+    {
+      "id": "yellow-nail-syndrome",
+      "name": "Yellow Nail Syndrome",
+      "letter": "Y",
+      "category": "Skin",
+      "description": "Yellow nail syndrome is a rare disorder characterized by yellow thickened nails, lymphedema, and respiratory manifestations such as chronic cough or pleural effusion.",
+      "symptoms": [
+        "Slow-growing yellow thick nails",
+        "Nail curvature or detachment",
+        "Lymphedema (usually legs)",
+        "Chronic sinus or lung symptoms",
+        "Pleural effusions in some patients"
+      ],
+      "causes": [
+        "Likely lymphatic dysfunction",
+        "Possible association with autoimmune or respiratory disorders",
+        "Exact cause often unclear"
+      ],
+      "diagnosis": [
+        "Clinical diagnosis based on triad of signs",
+        "Nail and skin examination",
+        "Chest imaging and respiratory evaluation",
+        "Assessment for secondary associated diseases"
+      ],
+      "treatment": [
+        "Management of respiratory complications",
+        "Lymphedema therapy and compression",
+        "Nail care and supportive treatment",
+        "Treat underlying associated conditions"
+      ],
+      "risk_factors": [
+        "Middle or older age",
+        "Chronic respiratory disease",
+        "Associated systemic illness"
+      ],
+      "prevention": [
+        "No specific prevention known",
+        "Early management of lymphedema and lung issues",
+        "Regular follow-up for complications"
+      ],
+      "prevalence": "Very rare syndrome with limited epidemiological data.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/yellow-nail-syndrome"
+    },
+    {
+      "id": "zellweger-syndrome",
+      "name": "Zellweger Syndrome",
+      "letter": "Z",
+      "category": "Genetic Disorder",
+      "description": "Zellweger syndrome is a severe peroxisome biogenesis disorder present from birth, affecting multiple organs including brain, liver, and kidneys.",
+      "symptoms": [
+        "Hypotonia (poor muscle tone) in newborns",
+        "Feeding difficulties and poor growth",
+        "Developmental delay and seizures",
+        "Vision and hearing impairment",
+        "Liver dysfunction"
+      ],
+      "causes": [
+        "Inherited mutations in PEX genes",
+        "Autosomal recessive inheritance",
+        "Defective peroxisome formation"
+      ],
+      "diagnosis": [
+        "Clinical neonatal assessment",
+        "Metabolic and biochemical testing",
+        "Genetic testing for PEX mutations",
+        "Imaging and organ function evaluation"
+      ],
+      "treatment": [
+        "Supportive multidisciplinary care",
+        "Nutritional and feeding support",
+        "Seizure management",
+        "Monitoring and treatment of organ complications"
+      ],
+      "risk_factors": [
+        "Family history of peroxisomal disorders",
+        "Consanguineous parentage in some families"
+      ],
+      "prevention": [
+        "Genetic counseling for carriers",
+        "Prenatal diagnosis in high-risk pregnancies",
+        "Early supportive care planning after diagnosis"
+      ],
+      "prevalence": "Rare inherited disorder within the Zellweger spectrum.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/what-is-zellweger-syndrome-how-common-is-it"
+    },
+    {
+      "id": "zenkers-diverticulum",
+      "name": "Zenkers Diverticulum",
+      "letter": "Z",
+      "category": "Gastrointestinal",
+      "description": "Zenker’s diverticulum is an outpouching of the upper esophagus that can cause swallowing problems and regurgitation, typically in older adults.",
+      "symptoms": [
+        "Difficulty swallowing (dysphagia)",
+        "Regurgitation of undigested food",
+        "Chronic cough or aspiration",
+        "Bad breath (halitosis)",
+        "Sensation of lump in throat"
+      ],
+      "causes": [
+        "Incoordination of pharyngeal muscles",
+        "Increased pressure at upper esophageal sphincter",
+        "Age-related tissue changes"
+      ],
+      "diagnosis": [
+        "Barium swallow study",
+        "Endoscopic evaluation",
+        "ENT or GI specialist assessment"
+      ],
+      "treatment": [
+        "Endoscopic diverticulotomy in suitable cases",
+        "Open surgical repair for selected patients",
+        "Dietary modification before intervention",
+        "Post-procedure swallow rehabilitation"
+      ],
+      "risk_factors": [
+        "Older age",
+        "Male sex",
+        "Esophageal motility dysfunction"
+      ],
+      "prevention": [
+        "No specific prevention established",
+        "Early assessment of progressive dysphagia",
+        "Prompt treatment to reduce aspiration risk"
+      ],
+      "prevalence": "Uncommon and more frequently diagnosed in older adults.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/zenkers-diverticulum"
+    },
+    {
+      "id": "zika-virus",
+      "name": "Zika Virus Infection",
+      "letter": "Z",
+      "category": "Infectious/Tropical",
+      "description": "Zika virus infection is a mosquito-borne viral illness. Most cases are mild, but infection during pregnancy is associated with serious fetal complications.",
+      "symptoms": [
+        "Mild fever",
+        "Rash",
+        "Joint pain",
+        "Red eyes (conjunctivitis)",
+        "Headache or fatigue"
+      ],
+      "causes": [
+        "Zika virus transmitted by Aedes mosquitoes",
+        "Sexual transmission in some cases",
+        "Maternal-fetal transmission during pregnancy"
+      ],
+      "diagnosis": [
+        "Travel and exposure history",
+        "PCR testing in blood/urine during acute illness",
+        "Serology where appropriate",
+        "Prenatal ultrasound monitoring in pregnancy"
+      ],
+      "treatment": [
+        "Supportive care and hydration",
+        "Rest and fever/pain control",
+        "Monitoring in pregnant patients",
+        "Avoid NSAIDs until dengue is excluded"
+      ],
+      "risk_factors": [
+        "Residence or travel in endemic regions",
+        "Mosquito exposure without protection",
+        "Unprotected sex with infected partner",
+        "Pregnancy during outbreaks"
+      ],
+      "prevention": [
+        "Mosquito bite prevention",
+        "Eliminate mosquito breeding sites",
+        "Safe-sex precautions after exposure",
+        "Travel advisories for pregnant individuals"
+      ],
+      "prevalence": "Occurs in outbreaks in tropical and subtropical regions.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/zika-virus"
+    },
+    {
+      "id": "zollinger-ellison-syndrome",
+      "name": "Zollinger-Ellison Syndrome",
+      "letter": "Z",
+      "category": "Gastrointestinal",
+      "description": "Zollinger-Ellison syndrome is a condition in which gastrin-secreting tumors (gastrinomas) cause excessive stomach acid production and severe recurrent peptic ulcers.",
+      "symptoms": [
+        "Abdominal pain",
+        "Recurrent peptic ulcers",
+        "Chronic diarrhea",
+        "Acid reflux and heartburn",
+        "Nausea or gastrointestinal bleeding in severe cases"
+      ],
+      "causes": [
+        "Gastrinoma tumors in pancreas or duodenum",
+        "Excess gastrin secretion",
+        "Association with MEN1 syndrome in some patients"
+      ],
+      "diagnosis": [
+        "Fasting serum gastrin levels",
+        "Gastric acid secretion studies",
+        "Secretin stimulation test",
+        "Imaging for tumor localization"
+      ],
+      "treatment": [
+        "High-dose proton pump inhibitors",
+        "Surgical removal when feasible",
+        "Management of metastatic disease when present",
+        "Long-term GI and oncology follow-up"
+      ],
+      "risk_factors": [
+        "MEN1 genetic syndrome",
+        "Family history of endocrine tumors"
+      ],
+      "prevention": [
+        "No specific primary prevention",
+        "Early screening in high-risk MEN1 families",
+        "Prompt treatment to prevent ulcer complications"
+      ],
+      "prevalence": "Rare endocrine-gastrointestinal disorder.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/zollinger-ellison-syndrome"
+    },
+    {
+      "id": "zoonotic-diseases",
+      "name": "Zoonotic Diseases",
+      "letter": "Z",
+      "category": "Public Health",
+      "description": "Zoonotic diseases are infections transmitted from animals to humans through direct contact, vectors, food, water, or environmental exposure.",
+      "symptoms": [
+        "Fever and fatigue",
+        "Respiratory or gastrointestinal symptoms",
+        "Skin lesions or rashes",
+        "Neurological symptoms in severe infections"
+      ],
+      "causes": [
+        "Bacterial, viral, parasitic, or fungal pathogens",
+        "Animal bites or contact with infected animals",
+        "Vector-borne spread (ticks, mosquitoes)",
+        "Contaminated food, water, or environment"
+      ],
+      "diagnosis": [
+        "Detailed exposure and travel history",
+        "Targeted laboratory testing by pathogen type",
+        "Imaging or specialist consultation when required"
+      ],
+      "treatment": [
+        "Pathogen-directed antimicrobials when indicated",
+        "Supportive care",
+        "Public health reporting for outbreak control",
+        "Monitoring for complications"
+      ],
+      "risk_factors": [
+        "Occupational animal contact",
+        "Poor sanitation and unsafe food handling",
+        "Outdoor exposure to vectors",
+        "Travel to endemic regions"
+      ],
+      "prevention": [
+        "Animal vaccination and veterinary care",
+        "Hand hygiene after animal contact",
+        "Safe food preparation and water practices",
+        "Vector control and personal protection"
+      ],
+      "prevalence": "Zoonotic infections are globally common and represent a major public health burden.",
+      "niams_url": "https://www.apollohospitals.com/diseases-and-conditions/zoonotic-diseases-causes-and-prevention"
+    }
+  ]
+}
