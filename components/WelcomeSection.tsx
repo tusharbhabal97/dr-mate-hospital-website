@@ -35,7 +35,7 @@ export default function WelcomeSection() {
 
               {/* Phone Input CTA */}
               <div className="flex flex-col sm:flex-row sm:items-center sm:flex-nowrap gap-3 w-full max-w-sm">
-                <div className="w-full sm:flex-1 min-w-0 flex items-center gap-2.5 bg-white border border-gray-300 rounded-lg px-4 py-3 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20 transition-all">
+                {/* <div className="w-full sm:flex-1 min-w-0 flex items-center gap-2.5 bg-white border border-gray-300 rounded-lg px-4 py-3 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20 transition-all">
                   <svg
                     width="16"
                     height="16"
@@ -53,10 +53,10 @@ export default function WelcomeSection() {
                     placeholder="Enter your Phone Number"
                     className="flex-1 min-w-0 bg-transparent text-sm text-dark placeholder:text-muted/70 outline-none font-medium"
                   />
-                </div>
-                <button className="btn-primary text-sm px-5 py-3 whitespace-nowrap w-full sm:w-auto sm:flex-none">
+                </div> */}
+                {/* <button className="btn-primary text-sm px-5 py-3 whitespace-nowrap w-full sm:w-auto sm:flex-none">
                   Submit
-                </button>
+                </button> */}
               </div>
             </div>
 
