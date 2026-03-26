@@ -7,6 +7,9 @@ import { appointmentDepartments } from "@/lib/appointments";
 
 type AdminSection = "overview" | "appointments" | "analytics";
 type AdminStatusFilter = "all" | "requested" | "accepted" | "rejected";
+type AppointmentStatus = Exclude<AdminStatusFilter, "all">;
+
+const analyticsStatuses: AppointmentStatus[] = ["requested", "accepted", "rejected"];
 
 function normalizeStatus(status: string) {
   const normalized = status.toLowerCase();
@@ -108,78 +111,120 @@ export default async function AdminPage({
       : statusFilteredAppointments.filter(
           (appointment) => appointment.department === activeDepartmentFilter,
         );
+  const departmentAnalytics = Object.entries(
+    appointments.reduce<
+      Record<string, { requested: number; accepted: number; rejected: number; total: number }>
+    >((acc, appointment) => {
+      const department = appointment.department || "General";
+      const status = normalizeStatus(appointment.status) as AppointmentStatus;
+
+      if (!acc[department]) {
+        acc[department] = { requested: 0, accepted: 0, rejected: 0, total: 0 };
+      }
+
+      acc[department][status] += 1;
+      acc[department].total += 1;
+      return acc;
+    }, {}),
+  )
+    .map(([department, counts]) => ({ department, ...counts }))
+    .sort((a, b) => {
+      if (b.total !== a.total) return b.total - a.total;
+      return a.department.localeCompare(b.department);
+    });
 
   return (
-    <main className="min-h-screen bg-slate-50 px-4 py-10">
+    <main className="min-h-screen bg-[linear-gradient(180deg,#eef4ff_0%,#f8fbff_45%,#f8fafc_100%)] px-4 py-10">
       <div className="max-w-6xl mx-auto">
-        <div className="bg-white rounded-[2rem] border border-slate-100 p-6 shadow-[0_12px_38px_rgba(15,23,42,0.08)] mb-6">
-          <div className="flex flex-wrap items-center justify-between gap-3">
+        <div className="relative mb-6 overflow-hidden rounded-[2rem] border border-white/70 bg-[linear-gradient(135deg,rgba(255,255,255,0.98)_0%,rgba(238,242,255,0.96)_45%,rgba(238,249,244,0.9)_100%)] p-6 shadow-[0_24px_60px_rgba(31,60,136,0.12)] backdrop-blur-sm sm:p-7">
+          <div className="pointer-events-none absolute -top-16 right-[-3.5rem] h-40 w-40 rounded-full bg-primary/10 blur-3xl" />
+          <div className="pointer-events-none absolute -bottom-12 left-[-2rem] h-32 w-32 rounded-full bg-healing/10 blur-3xl" />
+          <div className="relative flex flex-wrap items-center justify-between gap-4">
             <div>
-              <h1 className="font-display text-3xl font-bold text-slate-900">
+              <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white/80 px-3 py-1.5 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.55)]">
+                <span className="h-2 w-2 rounded-full bg-primary" />
+                <span className="text-[11px] font-semibold uppercase tracking-[0.16em] text-primary">
+                  Admin Workspace
+                </span>
+              </div>
+              <h1 className="font-display text-3xl font-bold text-slate-900 sm:text-4xl">
                 Admin Panel
               </h1>
-              <p className="text-slate-600 text-sm mt-1">
+              <p className="mt-1 text-sm text-slate-600 sm:text-base">
                 Logged in as <span className="font-semibold">{adminSession.username}</span>
               </p>
             </div>
             <form action="/api/admin/logout" method="post">
-              <button className="btn-outline text-sm px-5 py-2.5 font-bold" type="submit">
+              <button
+                className="inline-flex items-center justify-center rounded-2xl border border-primary/25 bg-white/85 px-5 py-3 text-sm font-bold text-primary shadow-[0_14px_34px_rgba(31,60,136,0.08)] transition hover:-translate-y-0.5 hover:border-primary/35 hover:bg-white"
+                type="submit"
+              >
                 Logout
               </button>
             </form>
           </div>
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-6">
+        <div className="mb-4 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
           <Link
             href="/admin?section=overview"
-            className={`rounded-2xl border p-5 transition ${
+            className={`group relative overflow-hidden rounded-[1.3rem] border p-3 transition duration-300 ${
               activeSection === "overview"
-                ? "border-primary/40 bg-primary/5 shadow-card"
-                : "border-slate-100 bg-white hover:border-primary/25"
+                ? "border-primary/30 bg-[linear-gradient(135deg,rgba(31,60,136,0.14)_0%,rgba(31,60,136,0.06)_55%,rgba(255,255,255,0.92)_100%)] shadow-[0_12px_26px_rgba(31,60,136,0.10)]"
+                : "border-white/70 bg-white/88 shadow-[0_8px_20px_rgba(15,23,42,0.05)] hover:-translate-y-0.5 hover:border-primary/20 hover:shadow-[0_12px_26px_rgba(31,60,136,0.08)]"
             }`}
           >
-            <p className="text-xs font-semibold uppercase tracking-[0.08em] text-slate-500">
-              Section
-            </p>
-            <h2 className="font-display text-xl font-bold text-slate-900 mt-1">Overview</h2>
-            <p className="mt-1 text-sm text-slate-600">
+            <span className="pointer-events-none absolute inset-x-4 top-0 h-px bg-gradient-to-r from-transparent via-white/90 to-transparent" />
+            <div className="mb-2 flex h-8 w-8 items-center justify-center rounded-xl border border-white/70 bg-[linear-gradient(135deg,rgba(31,60,136,0.12)_0%,rgba(255,255,255,0.95)_100%)] text-primary shadow-[0_6px_16px_rgba(31,60,136,0.08)]">
+              <span className="text-xs font-display font-bold">01</span>
+            </div>
+            
+            <h2 className="mt-1 font-display text-lg font-bold leading-tight text-slate-900 transition-colors group-hover:text-primary">
+              Overview
+            </h2>
+            <p className="mt-1 text-xs leading-relaxed text-slate-600">
               Snapshot of total requests and activity.
             </p>
           </Link>
 
           <Link
             href="/admin?section=appointments&status=all"
-            className={`rounded-2xl border p-5 transition ${
+            className={`group relative overflow-hidden rounded-[1.3rem] border p-3 transition duration-300 ${
               activeSection === "appointments"
-                ? "border-primary/40 bg-primary/5 shadow-card"
-                : "border-slate-100 bg-white hover:border-primary/25"
+                ? "border-primary/30 bg-[linear-gradient(135deg,rgba(31,60,136,0.14)_0%,rgba(31,60,136,0.06)_55%,rgba(255,255,255,0.92)_100%)] shadow-[0_12px_26px_rgba(31,60,136,0.10)]"
+                : "border-white/70 bg-white/88 shadow-[0_8px_20px_rgba(15,23,42,0.05)] hover:-translate-y-0.5 hover:border-primary/20 hover:shadow-[0_12px_26px_rgba(31,60,136,0.08)]"
             }`}
           >
-            <p className="text-xs font-semibold uppercase tracking-[0.08em] text-slate-500">
-              Section
-            </p>
-            <h2 className="font-display text-xl font-bold text-slate-900 mt-1">
+            <span className="pointer-events-none absolute inset-x-4 top-0 h-px bg-gradient-to-r from-transparent via-white/90 to-transparent" />
+            <div className="mb-2 flex h-8 w-8 items-center justify-center rounded-xl border border-white/70 bg-[linear-gradient(135deg,rgba(31,60,136,0.12)_0%,rgba(255,255,255,0.95)_100%)] text-primary shadow-[0_6px_16px_rgba(31,60,136,0.08)]">
+              <span className="text-xs font-display font-bold">02</span>
+            </div>
+            
+            <h2 className="mt-1 font-display text-lg font-bold leading-tight text-slate-900 transition-colors group-hover:text-primary">
               View Appointments
             </h2>
-            <p className="mt-1 text-sm text-slate-600">
+            <p className="mt-1 text-xs leading-relaxed text-slate-600">
               Open and review all appointment requests.
             </p>
           </Link>
 
           <Link
             href="/admin?section=analytics"
-            className={`rounded-2xl border p-5 transition sm:col-span-2 lg:col-span-1 ${
+            className={`group relative overflow-hidden rounded-[1.3rem] border p-3 transition duration-300 sm:col-span-2 lg:col-span-1 ${
               activeSection === "analytics"
-                ? "border-primary/40 bg-primary/5 shadow-card"
-                : "border-slate-100 bg-white hover:border-primary/25"
+                ? "border-primary/30 bg-[linear-gradient(135deg,rgba(31,60,136,0.14)_0%,rgba(31,60,136,0.06)_55%,rgba(255,255,255,0.92)_100%)] shadow-[0_12px_26px_rgba(31,60,136,0.10)]"
+                : "border-white/70 bg-white/88 shadow-[0_8px_20px_rgba(15,23,42,0.05)] hover:-translate-y-0.5 hover:border-primary/20 hover:shadow-[0_12px_26px_rgba(31,60,136,0.08)]"
             }`}
           >
-            <p className="text-xs font-semibold uppercase tracking-[0.08em] text-slate-500">
-              Section
-            </p>
-            <h2 className="font-display text-xl font-bold text-slate-900 mt-1">Analytics</h2>
-            <p className="mt-1 text-sm text-slate-600">
+            <span className="pointer-events-none absolute inset-x-4 top-0 h-px bg-gradient-to-r from-transparent via-white/90 to-transparent" />
+            <div className="mb-2 flex h-8 w-8 items-center justify-center rounded-xl border border-white/70 bg-[linear-gradient(135deg,rgba(31,60,136,0.12)_0%,rgba(255,255,255,0.95)_100%)] text-primary shadow-[0_6px_16px_rgba(31,60,136,0.08)]">
+              <span className="text-xs font-display font-bold">03</span>
+            </div>
+            
+            <h2 className="mt-1 font-display text-lg font-bold leading-tight text-slate-900 transition-colors group-hover:text-primary">
+              Analytics
+            </h2>
+            <p className="mt-1 text-xs leading-relaxed text-slate-600">
               Department and status distribution.
             </p>
           </Link>
@@ -390,7 +435,7 @@ export default async function AdminPage({
                   Requests by Status
                 </h3>
                 <div className="space-y-2">
-                  {["requested", "accepted", "rejected"].map((status) => {
+                  {analyticsStatuses.map((status) => {
                     const count = appointments.filter((a) => a.status === status).length;
                     return (
                       <div key={status} className="flex items-center justify-between text-sm">
@@ -407,26 +452,61 @@ export default async function AdminPage({
                   Top Departments
                 </h3>
                 <div className="space-y-2">
-                  {Object.entries(
-                    appointments.reduce<Record<string, number>>((acc, appointment) => {
-                      const key = appointment.department || "General";
-                      acc[key] = (acc[key] || 0) + 1;
-                      return acc;
-                    }, {}),
-                  )
-                    .sort((a, b) => b[1] - a[1])
-                    .slice(0, 6)
-                    .map(([department, count]) => (
-                      <div key={department} className="flex items-center justify-between text-sm">
-                        <span className="text-slate-600">{department}</span>
-                        <span className="font-semibold text-slate-900">{count}</span>
-                      </div>
-                    ))}
+                  {departmentAnalytics.slice(0, 6).map(({ department, total }) => (
+                    <div key={department} className="flex items-center justify-between text-sm">
+                      <span className="text-slate-600">{department}</span>
+                      <span className="font-semibold text-slate-900">{total}</span>
+                    </div>
+                  ))}
                   {appointments.length === 0 && (
                     <p className="text-sm text-slate-500">No data available yet.</p>
                   )}
                 </div>
               </div>
+            </div>
+
+            <div className="mt-4 rounded-2xl border border-slate-100 p-4">
+              <div className="flex flex-wrap items-start justify-between gap-3 mb-3">
+                <div>
+                  <h3 className="text-sm font-semibold text-slate-800">
+                    Department-wise Request Breakdown
+                  </h3>
+                  <p className="mt-1 text-xs text-slate-500">
+                    Requested, accepted, and rejected counts grouped by department.
+                  </p>
+                </div>
+              </div>
+
+              {departmentAnalytics.length === 0 ? (
+                <p className="text-sm text-slate-500">No data available yet.</p>
+              ) : (
+                <div className="overflow-x-auto">
+                  <table className="min-w-full text-sm">
+                    <thead>
+                      <tr className="border-b border-slate-200 text-left text-slate-500">
+                        <th className="py-2 pr-4 font-semibold">Department</th>
+                        <th className="py-2 pr-4 font-semibold">Requested</th>
+                        <th className="py-2 pr-4 font-semibold">Accepted</th>
+                        <th className="py-2 pr-4 font-semibold">Rejected</th>
+                        <th className="py-2 font-semibold">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {departmentAnalytics.map(
+                        ({ department, requested, accepted, rejected, total }) => (
+                          <tr key={department} className="border-b border-slate-100 last:border-0">
+                            <td className="py-3 pr-4 font-medium text-slate-900">{department}</td>
+                            <td className="py-3 pr-4 text-amber-700">{requested}</td>
+                            <td className="py-3 pr-4 text-emerald-700">{accepted}</td>
+                            <td className="py-3 pr-4 text-red-700">{rejected}</td>
+                            <td className="py-3 font-semibold text-slate-900">{total}</td>
+                          </tr>
+                        ),
+                      )}
+                    </tbody>
+                  </table>
+                </div>
+              )}
             </div>
           </section>
         )}
