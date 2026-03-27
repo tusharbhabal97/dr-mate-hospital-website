@@ -89,6 +89,7 @@ export default function Footer() {
               {[
                 {
                   name: "Facebook",
+                  href: "#",
                   icon: (
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M13.5 9H16V6h-2.5C11.6 6 10 7.6 10 9.5V12H8v3h2v6h3v-6h2.4l.6-3H13v-2c0-.6.4-1 1-1z" />
@@ -97,6 +98,7 @@ export default function Footer() {
                 },
                 {
                   name: "Twitter",
+                  href: "#",
                   icon: (
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M18.9 3H21l-6.7 7.6L22 21h-6.4l-4.9-6.4L5 21H3l7.2-8.2L2 3h6.6l4.5 5.9L18.9 3zm-2.2 16h1.6L7.4 5h-1.7l11 14z" />
@@ -105,6 +107,7 @@ export default function Footer() {
                 },
                 {
                   name: "Instagram",
+                  href: "https://www.instagram.com/p/DSerp67DSTt/",
                   icon: (
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                       <rect x="5" y="5" width="14" height="14" rx="4" stroke="currentColor" strokeWidth="2" />
@@ -115,6 +118,7 @@ export default function Footer() {
                 },
                 {
                   name: "LinkedIn",
+                  href: "https://in.linkedin.com/in/dr-mate-hospital-976874295",
                   icon: (
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M6.5 9.5H9V19H6.5V9.5zm1.2-4A1.7 1.7 0 1 0 7.7 9a1.7 1.7 0 0 0 0-3.5zM11 9.5h2.4v1.3h.1c.3-.6 1.2-1.5 2.7-1.5 2.9 0 3.4 1.9 3.4 4.3V19h-2.6v-4.8c0-1.2 0-2.7-1.7-2.7-1.7 0-2 1.3-2 2.6V19H11V9.5z" />
@@ -123,6 +127,7 @@ export default function Footer() {
                 },
                 {
                   name: "YouTube",
+                  href: "#",
                   icon: (
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M21.6 8.2a2.7 2.7 0 0 0-1.9-2C17.9 5.7 12 5.7 12 5.7s-5.9 0-7.7.5a2.7 2.7 0 0 0-1.9 2A28 28 0 0 0 2 12a28 28 0 0 0 .4 3.8 2.7 2.7 0 0 0 1.9 2c1.8.5 7.7.5 7.7.5s5.9 0 7.7-.5a2.7 2.7 0 0 0 1.9-2A28 28 0 0 0 22 12a28 28 0 0 0-.4-3.8zM10 15.5v-7l6 3.5-6 3.5z" />
@@ -132,7 +137,9 @@ export default function Footer() {
               ].map((social) => (
                 <a
                   key={social.name}
-                  href="#"
+                  href={social.href}
+                  target={social.href.startsWith("http") ? "_blank" : undefined}
+                  rel={social.href.startsWith("http") ? "noreferrer" : undefined}
                   className="w-9 h-9 rounded-xl bg-white/10 hover:bg-primary transition-colors flex items-center justify-center text-white/60 hover:text-white"
                   aria-label={social.name}
                 >
