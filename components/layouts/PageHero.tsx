@@ -56,7 +56,7 @@ export default function PageHero({
             </p>
           </div>
 
-          <div className="flex flex-col gap-4">
+          <div className="flex w-full flex-col gap-4 lg:ml-auto lg:max-w-[24rem] lg:flex-none">
             {badge && (
               <div className="rounded-xl border border-primary/20 bg-white/80 px-4 py-2 text-xs font-semibold text-primary shadow-card">
                 {badge}

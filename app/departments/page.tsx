@@ -1,5 +1,6 @@
 import PageShell from "@/components/layouts/PageShell";
 import PageHero from "@/components/layouts/PageHero";
+import HeroInfoCards from "@/components/layouts/HeroInfoCards";
 import DepartmentCard from "@/components/cards/DepartmentCard";
 import { departments } from "@/data/departments";
 
@@ -46,6 +47,45 @@ const departmentIcons: Record<string, JSX.Element> = {
   ),
 };
 
+const departmentHeroCards = [
+  {
+    title: "25+",
+    subtitle: "Specialties",
+    icon: (
+      <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 5v4h4v2h-6V7h2z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Expert",
+    subtitle: "Medical Teams",
+    icon: (
+      <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M16 11c1.66 0 2.99-1.79 2.99-4S17.66 3 16 3s-3 1.79-3 4 1.34 4 3 4zm-8 0c1.66 0 2.99-1.79 2.99-4S9.66 3 8 3 5 4.79 5 7s1.34 4 3 4zm0 2c-2.33 0-7 1.17-7 3.5V20h14v-3.5C15 14.17 10.33 13 8 13zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.98 1.97 3.45V20h6v-3.5c0-2.33-4.67-3.5-7-3.5z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Advanced",
+    subtitle: "Diagnostics",
+    icon: (
+      <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M9 2h6v2l-2 3v4.38l4.45 6.68A2 2 0 0115.79 21H8.21a2 2 0 01-1.66-2.94L11 11.38V7L9 4V2zm1.87 11l-2.8 4.2h7.86l-2.8-4.2h-2.26z" />
+      </svg>
+    ),
+  },
+  {
+    title: "24/7",
+    subtitle: "Emergency Support",
+    icon: (
+      <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z" />
+      </svg>
+    ),
+  },
+];
+
 export default function DepartmentsPage() {
   return (
     <PageShell
@@ -56,6 +96,7 @@ export default function DepartmentsPage() {
           subtitle="Each department is staffed with specialists and supported by modern diagnostics to provide safe, accurate, and compassionate care."
           badge="25+ specialties · 24/7 emergency support"
           breadcrumbs={[{ label: "Home", href: "/" }, { label: "Departments" }]}
+          actions={<HeroInfoCards items={departmentHeroCards} />}
         />
       }
     >
