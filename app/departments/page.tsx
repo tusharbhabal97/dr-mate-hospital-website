@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import PageShell from "@/components/layouts/PageShell";
 import PageHero from "@/components/layouts/PageHero";
 import HeroInfoCards from "@/components/layouts/HeroInfoCards";
@@ -297,7 +297,6 @@ function MedicalIcon({ type }: { type: ServiceCard["icon"] }) {
 }
 
 export default function DepartmentsPage() {
-  const searchParams = useSearchParams();
   const router = useRouter();
 
   const getValidTab = (value: string | null): TabConfig["id"] =>
@@ -309,16 +308,24 @@ export default function DepartmentsPage() {
       ? value
       : "all";
 
-  const [activeTab, setActiveTab] = useState<TabConfig["id"]>(
-    getValidTab(searchParams.get("tab")),
-  );
+  const readTabFromUrl = (): TabConfig["id"] => {
+    if (typeof window === "undefined") return "all";
+    const params = new URLSearchParams(window.location.search);
+    return getValidTab(params.get("tab"));
+  };
+
+  const [activeTab, setActiveTab] = useState<TabConfig["id"]>("all");
 
   useEffect(() => {
-    const tabFromUrl = getValidTab(searchParams.get("tab"));
-    if (tabFromUrl !== activeTab) {
-      setActiveTab(tabFromUrl);
-    }
-  }, [searchParams, activeTab]);
+    const syncTabFromUrl = () => {
+      const tabFromUrl = readTabFromUrl();
+      setActiveTab((prev) => (prev === tabFromUrl ? prev : tabFromUrl));
+    };
+
+    syncTabFromUrl();
+    window.addEventListener("popstate", syncTabFromUrl);
+    return () => window.removeEventListener("popstate", syncTabFromUrl);
+  }, []);
 
   const visibleCards = useMemo(
     () => tabs.find((tab) => tab.id === activeTab)?.cards ?? tabs[0].cards,
