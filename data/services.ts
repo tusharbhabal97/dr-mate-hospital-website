@@ -12,83 +12,156 @@ export type ServiceCategory = {
 
 export const serviceCategories: ServiceCategory[] = [
   {
-    title: "Critical & Emergency Care",
+    title: "Emergency, Critical & Core Medicine",
     description:
-      "Round-the-clock support for urgent conditions with rapid triage and immediate stabilization.",
+      "24x7 acute care coverage with Internal Medicine, ICU support, and emergency stabilization pathways.",
     items: [
       {
-        name: "Emergency Response",
+        name: "Internal Medicine",
         description:
-          "24/7 emergency bay with trauma-ready teams and priority access to ICU.",
+          "Diagnosis and treatment for fever, diabetes, hypertension, infections, poisoning, and complex adult illnesses.",
         icon: "shield",
       },
       {
-        name: "Cardiac Emergency",
+        name: "ICU (Intensive Care Unit)",
         description:
-          "Rapid chest-pain evaluation, thrombolysis, and critical cardiac support.",
-        icon: "heart",
-      },
-      {
-        name: "Neuro Emergency",
-        description:
-          "Fast-track stroke pathways and neurological stabilization protocols.",
-        icon: "scan",
-      },
-    ],
-  },
-  {
-    title: "Diagnostics & Preventive Care",
-    description:
-      "Advanced imaging, lab testing, and preventive screening to support accurate care.",
-    items: [
-      {
-        name: "Advanced Imaging",
-        description:
-          "CT, MRI, X-ray, and ultrasound with rapid reporting for urgent cases.",
-        icon: "scan",
-      },
-      {
-        name: "Laboratory Services",
-        description:
-          "Comprehensive pathology and biochemistry with quality-controlled results.",
+          "High-acuity monitoring and life-support care for critically ill medical and post-surgical patients.",
         icon: "lab",
       },
       {
-        name: "Preventive Health Checks",
+        name: "24x7 Emergency & Trauma Care",
         description:
-          "Customized screening packages for early detection and wellness tracking.",
+          "Round-the-clock emergency triage, trauma response, and rapid specialist escalation.",
         icon: "shield",
       },
     ],
   },
   {
-    title: "Specialty Care",
+    title: "Interventional & Organ Specialities",
     description:
-      "Dedicated specialty clinics with experienced consultants and modern treatment plans.",
+      "Advanced diagnostics and minimally invasive interventional care across heart, vascular, kidney, and GI systems.",
     items: [
       {
-        name: "Orthopedic Care",
+        name: "Cardiology",
         description:
-          "Joint, spine, and sports injury care with structured rehab support.",
+          "Cath Lab, angiography, angioplasty, pacemaker implantation, device closure, TMT, 2D Echo, and stress echo.",
+        icon: "heart",
+      },
+      {
+        name: "Interventional Radiology",
+        description:
+          "Limb, kidney, and brain angiography/angioplasty with chemo port and dialysis permcath insertion.",
+        icon: "scan",
+      },
+      {
+        name: "Nephrology",
+        description:
+          "Kidney care with dialysis and AV fistula surgery backed by renal monitoring protocols.",
+        icon: "lab",
+      },
+      {
+        name: "Gastroenterology & Endoscopy",
+        description:
+          "Gastroscopy, colonoscopy, ERCP with biopsy, lesion/stone removal, and therapeutic stenting.",
+        icon: "scan",
+      },
+      {
+        name: "Urology",
+        description:
+          "Kidney stone treatment and endoscopic surgery (RIRS, URS, PCNL, ESWL) with uroflowmetry and urodynamic study.",
+        icon: "lab",
+      },
+      {
+        name: "Neurology & Neurosurgery",
+        description:
+          "Comprehensive medical and surgical care for brain, nerve, and spinal disorders.",
+        icon: "scan",
+      },
+    ],
+  },
+  {
+    title: "Surgical Specialities",
+    description:
+      "Comprehensive operative care from general surgery to organ-specific and minimally invasive procedures.",
+    items: [
+      {
+        name: "General Surgery & Laparoscopy",
+        description:
+          "Equipped operation theatre with open and minimal-access surgery for abdominal and soft tissue conditions.",
+        icon: "dental",
+      },
+      {
+        name: "GI Surgery",
+        description:
+          "Liver, intestine, and pancreas surgery with coordinated pre- and post-operative planning.",
+        icon: "dental",
+      },
+      {
+        name: "Oncosurgery & Oncology",
+        description:
+          "Cancer surgery and chemotherapy services with multidisciplinary treatment planning.",
+        icon: "heart",
+      },
+      {
+        name: "Orthopedics",
+        description:
+          "Fracture management, joint replacement, and arthroscopy for trauma and degenerative joint disease.",
         icon: "bone",
       },
       {
-        name: "Pediatric Services",
+        name: "Plastic, Pediatric, ENT & Proctology",
         description:
-          "Child-friendly care, vaccinations, and neonatal support by pediatric experts.",
+          "Reconstructive and child surgery, ENT procedures, and laser treatment for anorectal conditions.",
         icon: "baby",
       },
       {
-        name: "Women's Health",
+        name: "Obstetrics & Gynecology with NICU",
         description:
-          "Gynecology, maternity, and reproductive health services with privacy-first care.",
+          "Comprehensive women's health, maternity support, and intensive neonatal care.",
+        icon: "women",
+      },
+    ],
+  },
+  {
+    title: "Clinics, Rehab & Preventive Programs",
+    description:
+      "Specialized outpatient clinics for chronic disease prevention, wound care, vascular health, and functional recovery.",
+    items: [
+      {
+        name: "Diabetes & Diabetic Foot Clinics",
+        description:
+          "Integrated sugar-control, complication screening, and focused diabetic foot prevention and treatment.",
+        icon: "shield",
+      },
+      {
+        name: "VAC Therapy (Wound Care)",
+        description:
+          "Advanced negative-pressure wound care for difficult and non-healing ulcers.",
+        icon: "lab",
+      },
+      {
+        name: "Varicose Vein Clinic",
+        description:
+          "EVLA laser treatment and foam sclerotherapy for chronic venous disease.",
+        icon: "scan",
+      },
+      {
+        name: "Breast Clinic",
+        description:
+          "Breast health assessment with mammography-based screening and follow-up pathways.",
         icon: "women",
       },
       {
-        name: "Dental Care",
+        name: "Obesity & Weight Loss Clinic",
         description:
-          "Preventive dentistry, restorative care, and smile correction treatments.",
-        icon: "dental",
+          "Medical weight-management with bariatric surgery evaluation for eligible patients.",
+        icon: "shield",
+      },
+      {
+        name: "Physiotherapy & Rehabilitation",
+        description:
+          "Post-injury and post-surgery rehabilitation with mobility restoration and pain management plans.",
+        icon: "bone",
       },
     ],
   },
