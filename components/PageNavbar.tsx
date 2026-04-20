@@ -3,38 +3,38 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about-us" },
-  { label: "Departments", href: "/departments" },
+  { label: "Specialities", href: "/departments" },
   { label: "Doctors", href: "/doctors" },
   { label: "Services", href: "/services" },
   { label: "Contact", href: "/contact" },
 ];
 
 export default function PageNavbar() {
+  const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState<string>("Home");
 
   useEffect(() => {
-    const syncActiveLink = () => {
-      const currentPath = window.location.pathname;
-      if (currentPath === "/") {
-        setActiveLink("Home");
-        return;
-      }
-      const matched = navLinks.find(
-        (link) =>
-          link.href !== "/" &&
-          (currentPath === link.href || currentPath.startsWith(`${link.href}/`)),
-      );
-      if (matched) setActiveLink(matched.label);
-    };
-    syncActiveLink();
-    window.addEventListener("popstate", syncActiveLink);
-    return () => window.removeEventListener("popstate", syncActiveLink);
-  }, []);
+    if (!pathname || pathname === "/") {
+      setActiveLink("Home");
+      return;
+    }
+    if (pathname === "/specialities" || pathname.startsWith("/specialities/")) {
+      setActiveLink("Specialities");
+      return;
+    }
+    const matched = navLinks.find(
+      (link) =>
+        link.href !== "/" &&
+        (pathname === link.href || pathname.startsWith(`${link.href}/`)),
+    );
+    setActiveLink(matched?.label ?? "Home");
+  }, [pathname]);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 flex justify-center px-4 sm:px-6 pt-0">

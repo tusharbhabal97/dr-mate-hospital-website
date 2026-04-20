@@ -40,7 +40,7 @@ export default function DepartmentDetailPage({
       description={department.summary}
       breadcrumbs={[
         { label: "Home", href: "/" },
-        { label: "Departments", href: "/#services" },
+        { label: "Specialities", href: "/departments" },
         { label: department.name },
       ]}
       stats={[

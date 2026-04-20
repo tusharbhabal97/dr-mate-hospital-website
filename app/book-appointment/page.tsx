@@ -46,7 +46,7 @@ export default async function BookAppointmentPage() {
       ]}
       stats={[
         { label: "Response Time", value: "30m" },
-        { label: "Departments", value: "25+" },
+        { label: "Specialities", value: "25+" },
         { label: "Doctors", value: "500+" },
         { label: "Support", value: "24/7" },
       ]}
