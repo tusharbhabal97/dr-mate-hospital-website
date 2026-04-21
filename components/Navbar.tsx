@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { getSpecialitySlugByName } from "@/data/specialities";
+import ServicesDropdown, { servicesList } from "@/components/ServicesDropdown";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -95,6 +96,7 @@ const megaCategories: MegaCategory[] = [
   },
 ];
 
+
 export default function Navbar() {
   const router = useRouter();
   const pathname = usePathname();
@@ -105,7 +107,9 @@ export default function Navbar() {
   const [userEmail, setUserEmail] = useState<string | null>(null);
   const [accountOpen, setAccountOpen] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
+  const [servicesMegaOpen, setServicesMegaOpen] = useState(false);
   const [activeMegaCategory, setActiveMegaCategory] = useState<MegaCategoryId | null>(null);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [subPanelSide, setSubPanelSide] = useState<"right" | "left">("right");
   const [subPanelTop, setSubPanelTop] = useState(48);
 
@@ -114,6 +118,7 @@ export default function Navbar() {
   const leftPanelRef = useRef<HTMLElement>(null);
   const subPanelRef = useRef<HTMLDivElement>(null);
   const megaCloseTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const servicesCloseTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10);
@@ -182,6 +187,7 @@ export default function Navbar() {
   useEffect(() => {
     return () => {
       if (megaCloseTimerRef.current) clearTimeout(megaCloseTimerRef.current);
+      if (servicesCloseTimerRef.current) clearTimeout(servicesCloseTimerRef.current);
     };
   }, []);
 
@@ -227,6 +233,8 @@ export default function Navbar() {
 
   const handleMegaEnter = () => {
     clearMegaCloseTimer();
+    clearServicesCloseTimer();
+    setServicesMegaOpen(false);
     setMegaOpen(true);
     setActiveMegaCategory(null);
     updateSubPanelPlacement();
@@ -238,6 +246,41 @@ export default function Navbar() {
       setMegaOpen(false);
       setActiveMegaCategory(null);
     }, 200);
+  };
+
+  const clearServicesCloseTimer = () => {
+    if (servicesCloseTimerRef.current) {
+      clearTimeout(servicesCloseTimerRef.current);
+      servicesCloseTimerRef.current = null;
+    }
+  };
+
+  const handleServicesEnter = () => {
+    clearServicesCloseTimer();
+    clearMegaCloseTimer();
+    setMegaOpen(false);
+    setActiveMegaCategory(null);
+    setServicesMegaOpen(true);
+  };
+
+  const handleServicesLeave = () => {
+    clearServicesCloseTimer();
+    servicesCloseTimerRef.current = setTimeout(() => {
+      setServicesMegaOpen(false);
+    }, 200);
+  };
+
+  const handleServicesFocus = () => {
+    clearServicesCloseTimer();
+    clearMegaCloseTimer();
+    setMegaOpen(false);
+    setActiveMegaCategory(null);
+    setServicesMegaOpen(true);
+  };
+
+  const handleServicesBlur = (e: React.FocusEvent<HTMLDivElement>) => {
+    if (e.currentTarget.contains(e.relatedTarget as Node | null)) return;
+    handleServicesLeave();
   };
 
   useEffect(() => {
@@ -442,6 +485,50 @@ export default function Navbar() {
                   );
                 }
 
+                if (link.label === "Services") {
+                  return (
+                    <div
+                      key={link.href}
+                      className="relative"
+                      onMouseEnter={handleServicesEnter}
+                      onMouseLeave={handleServicesLeave}
+                      onBlur={handleServicesBlur}
+                    >
+                      <Link
+                        href={link.href}
+                        onFocus={handleServicesFocus}
+                        onClick={() => setActiveLink(link.label)}
+                        className={`inline-flex items-center gap-1.5 text-sm font-sans transition-all duration-200 relative group ${
+                          isActive
+                            ? "font-bold text-primary"
+                            : "font-medium text-muted hover:text-primary"
+                        }`}
+                      >
+                        {link.label}
+                        <span
+                          className={`absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-primary transition-all duration-200 ${
+                            isActive ? "opacity-100" : "opacity-0"
+                          }`}
+                        />
+                        <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary/30 rounded-full transition-all duration-300 group-hover:w-full" />
+                      </Link>
+
+                      <div
+                        className={`absolute top-full right-0 pt-2 transition-all duration-300 ${
+                          servicesMegaOpen
+                            ? "opacity-100 visible translate-y-0 pointer-events-auto"
+                            : "opacity-0 invisible translate-y-2 pointer-events-none"
+                        }`}
+                      >
+                        <ServicesDropdown
+                          isOpen={servicesMegaOpen}
+                          onServiceClick={() => setServicesMegaOpen(false)}
+                        />
+                      </div>
+                    </div>
+                  );
+                }
+
                 return (
                   <Link
                     key={link.href}
@@ -568,21 +655,91 @@ export default function Navbar() {
           >
             <div className="relative z-30 mx-3 mb-3 bg-white/60 backdrop-blur-sm rounded-xl p-3 flex flex-col gap-1 border border-white/50 max-h-[calc(100svh-120px)] overflow-y-auto overscroll-contain">
               {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => {
-                    setActiveLink(link.label);
-                    setMenuOpen(false);
-                  }}
-                  className={`px-4 py-2.5 rounded-xl text-sm transition-all duration-200 ${
-                    activeLink === link.label
-                      ? "font-bold text-primary bg-primary/8"
-                      : "font-medium text-muted hover:text-primary hover:bg-white/60"
-                  }`}
-                >
-                  {link.label}
-                </Link>
+                link.label === "Services" ? (
+                  <div key={link.href} className="rounded-xl border border-slate-200/70 bg-white/40 overflow-hidden">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setActiveLink(link.label);
+                        setMobileServicesOpen((prev) => !prev);
+                      }}
+                      className={`w-full px-4 py-2.5 text-left rounded-xl text-sm transition-all duration-200 inline-flex items-center justify-between ${
+                        activeLink === link.label
+                          ? "font-bold text-primary bg-primary/8"
+                          : "font-medium text-muted hover:text-primary hover:bg-white/60"
+                      }`}
+                    >
+                      <span>Services</span>
+                      <svg
+                        className={`w-4 h-4 transition-transform duration-300 ${mobileServicesOpen ? "rotate-180" : ""}`}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden="true"
+                      >
+                        <path d="m6 9 6 6 6-6" />
+                      </svg>
+                    </button>
+
+                    <div
+                      className={`grid transition-all duration-300 ease-in-out ${
+                        mobileServicesOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                      }`}
+                    >
+                      <div className="overflow-hidden">
+                        <div className="px-2 pb-2 space-y-1 max-h-[50svh] overflow-y-auto">
+                          {servicesList.map((item) => (
+                            <Link
+                              key={item.title}
+                              href={item.href}
+                              onClick={() => {
+                                setActiveLink("Services");
+                                setMenuOpen(false);
+                                setMobileServicesOpen(false);
+                              }}
+                              className="block rounded-lg px-2.5 py-2 border border-slate-200/80 bg-white/70 hover:bg-primary/5 hover:border-primary/20 transition-all duration-200"
+                            >
+                              <span className="block text-[13px] font-semibold text-slate-800 leading-snug">
+                                {item.title}
+                              </span>
+                            </Link>
+                          ))}
+
+                          <Link
+                            href="/services"
+                            onClick={() => {
+                              setActiveLink("Services");
+                              setMenuOpen(false);
+                              setMobileServicesOpen(false);
+                            }}
+                            className="block rounded-lg px-2.5 py-2 text-xs font-bold text-primary bg-primary/10 border border-primary/20"
+                          >
+                            View All Services →
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => {
+                      setActiveLink(link.label);
+                      setMenuOpen(false);
+                    }}
+                    className={`px-4 py-2.5 rounded-xl text-sm transition-all duration-200 ${
+                      activeLink === link.label
+                        ? "font-bold text-primary bg-primary/8"
+                        : "font-medium text-muted hover:text-primary hover:bg-white/60"
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                )
               ))}
 
               <Link

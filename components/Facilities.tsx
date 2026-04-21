@@ -1,71 +1,68 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef } from "react";
 
-const facilities = [
+type FacilityItem = {
+  english: string;
+  marathi: string;
+};
+
+type FacilityGroup = {
+  title: string;
+  highlight: string;
+  items: FacilityItem[];
+};
+
+const facilityGroups: FacilityGroup[] = [
   {
-    title: "Advanced ICU",
-    desc: "State-of-the-art Intensive Care Unit with 24/7 monitoring and critical care specialists.",
-    icon: "🏥",
-    stat: "50 Beds",
-    color: "border-medical/20 bg-medical/5",
-    iconBg: "bg-medical/10",
+    title: "Emergency & Critical Care",
+    highlight: "24x7 life-saving support",
+    items: [
+      { english: "Emergency & Trauma Care", marathi: "24 × 7 आपत्कालीन सेवा व अपघात" },
+      { english: "ICU & ICCU", marathi: "अतिदक्षता विभाग" },
+      { english: "Operation Theatre", marathi: "ऑपरेशन थिएटर" },
+      { english: "Ventilator", marathi: "व्हेंटिलेटर" },
+      { english: "Defibrillator", marathi: "डिफिब्रिलेटर" },
+      { english: "BiPAP", marathi: "बायपॅप" },
+      { english: "Ambulance Service", marathi: "रुग्णवाहिका सेवा" },
+    ],
   },
   {
-    title: "Modern OT",
-    desc: "Laminar flow operation theatres with robotic surgical systems and real-time imaging.",
-    icon: "⚕️",
-    stat: "12 OTs",
-    color: "border-primary/20 bg-primary/5",
-    iconBg: "bg-primary/10",
+    title: "Diagnostics & Imaging",
+    highlight: "Accurate, faster diagnosis",
+    items: [
+      { english: "CT Scan", marathi: "सीटी स्कॅन" },
+      { english: "ECG", marathi: "ईसीजी" },
+      { english: "2D Echo", marathi: "टू-डी इको" },
+      { english: "TMT", marathi: "ट्रेडमिल टेस्ट" },
+      { english: "USG & Doppler", marathi: "सोनोग्राफी व डॉपलर" },
+      { english: "Digital X-Ray", marathi: "डिजिटल एक्स-रे" },
+      { english: "Mammography", marathi: "मॅमोग्राफी" },
+      { english: "Laboratory & Pathology", marathi: "लॅबोरेटरी व पॅथॉलॉजी" },
+    ],
   },
   {
-    title: "Diagnostics Lab",
-    desc: "Fully automated lab with 1500+ tests available. Results within hours, not days.",
-    icon: "🔬",
-    stat: "1500+ Tests",
-    color: "border-primary/20 bg-primary/5",
-    iconBg: "bg-primary/10",
+    title: "Advanced Procedures",
+    highlight: "Minimally invasive care",
+    items: [
+      { english: "Cath Lab", marathi: "कॅथ लॅब" },
+      { english: "Endoscopy", marathi: "एंडोस्कोपी" },
+      { english: "Laparoscopy", marathi: "लेप्रोस्कोपी" },
+      { english: "Laser Surgery", marathi: "लेझर उपचार" },
+      { english: "ESWL Lithotripsy", marathi: "लीथोट्रीप्सी (किडनी स्टोन साठी)" },
+      { english: "Urodynamic Study", marathi: "युरोडायनॅमिक तपासणी" },
+      { english: "Uroflowmetry", marathi: "युरोफ्लोमेट्री" },
+      { english: "Dialysis Unit", marathi: "डायलिसिस" },
+    ],
   },
   {
-    title: "Emergency Ward",
-    desc: "Rapid response emergency department with dedicated trauma bays and ambulance services.",
-    icon: "🚑",
-    stat: "24/7 Active",
-    color: "border-medical/20 bg-medical/5",
-    iconBg: "bg-medical/10",
-  },
-  {
-    title: "24/7 Pharmacy",
-    desc: "In-house pharmacy with all essential medicines, surgical supplies and home delivery.",
-    icon: "💊",
-    stat: "5000+ Medicines",
-    color: "border-healing/20 bg-healing/5",
-    iconBg: "bg-healing/10",
-  },
-  {
-    title: "MRI & CT Scan",
-    desc: "High-resolution 3T MRI and 128-slice CT scanner for precise diagnosis.",
-    icon: "🩻",
-    stat: "3T MRI",
-    color: "border-primary/20 bg-primary/5",
-    iconBg: "bg-primary/10",
-  },
-  {
-    title: "Blood Bank",
-    desc: "Fully equipped blood bank with regular supply of all blood groups and components.",
-    icon: "🩸",
-    stat: "All Groups",
-    color: "border-medical/20 bg-medical/5",
-    iconBg: "bg-medical/10",
-  },
-  {
-    title: "Rehabilitation",
-    desc: "Comprehensive physiotherapy and rehabilitation center with modern equipment.",
-    icon: "🏋️",
-    stat: "100+ Equipment",
-    color: "border-primary/20 bg-primary/5",
-    iconBg: "bg-primary/10",
+    title: "Women, Child & Recovery",
+    highlight: "Continuity of care",
+    items: [
+      { english: "Pediatric Care & NICU", marathi: "बालरोग व एन आय सी यु" },
+      { english: "Gynecology & Obstetrics", marathi: "स्त्रीरोग व प्रसूती" },
+      { english: "Physiotherapy", marathi: "फिजिओथेरपी" },
+    ],
   },
 ];
 
@@ -89,49 +86,51 @@ export default function Facilities() {
   return (
     <section id="facilities" className="py-16 lg:py-24 bg-surface" ref={sectionRef}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <div className="text-center mb-16 reveal">
           <div className="inline-flex items-center gap-2 bg-primary/8 rounded-full px-4 py-2 mb-4">
             <span className="w-1.5 h-1.5 rounded-full bg-primary" />
             <span className="text-xs font-bold text-primary uppercase tracking-wider">
-              World-Class Infrastructure
+              Facilities Available / उपलब्ध सुविधा
             </span>
           </div>
           <h2 className="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl text-dark mb-4">
             Hospital <span className="gradient-text">Facilities</span>
           </h2>
           <p className="text-muted text-base lg:text-lg max-w-2xl mx-auto">
-            Our hospital is equipped with the most advanced medical technology and
-            infrastructure to ensure the best patient care experience.
+            Advanced infrastructure with complete emergency, diagnostic, critical care,
+            and speciality support under one roof.
           </p>
         </div>
 
-        {/* Facilities Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {facilities.map((facility, idx) => (
-            <div
-              key={facility.title}
-              className="reveal service-card card bg-white border border-gray-100 rounded-xl p-6 group cursor-pointer shadow-card hover:shadow-card-hover transition-all duration-300"
+        <div className="grid sm:grid-cols-2 gap-8">
+          {facilityGroups.map((group, idx) => (
+            <article
+              key={group.title}
+              className="reveal card bg-white border border-gray-100 rounded-2xl p-6 shadow-card hover:shadow-card-hover transition-all duration-300"
               style={{ transitionDelay: `${idx * 60}ms` }}
             >
-              <div className="flex items-start justify-between mb-4">
-                <div className={`w-12 h-12 ${facility.iconBg} rounded-full flex items-center justify-center text-xl text-primary group-hover:scale-110 transition-transform`}>
-                  {facility.icon}
-                </div>
-                <span className="text-xs font-bold bg-white text-primary px-2.5 py-1 rounded-lg border border-primary/10 shadow-sm">
-                  {facility.stat}
+              <div className="flex items-center justify-between gap-4 mb-4">
+                <h3 className="font-display font-bold text-lg text-dark">{group.title}</h3>
+                <span className="text-[11px] font-bold bg-primary/10 text-primary px-2.5 py-1 rounded-lg whitespace-nowrap">
+                  {group.highlight}
                 </span>
               </div>
 
-              <h3 className="font-display font-bold text-base text-dark mb-2 group-hover:text-primary transition-colors">
-                {facility.title}
-              </h3>
-              <p className="text-muted text-xs leading-relaxed">{facility.desc}</p>
-            </div>
+              <ul className="space-y-2.5">
+                {group.items.map((item) => (
+                  <li key={item.english} className="flex items-start gap-2.5">
+                    <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-primary shrink-0" />
+                    <p className="text-sm leading-relaxed text-slate-700">
+                      <span className="font-semibold text-dark">{item.english}</span>{" "}
+                      <span className="text-muted">({item.marathi})</span>
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </article>
           ))}
         </div>
 
-        {/* Bottom highlight bar */}
         <div className="mt-14 reveal">
           <div className="bg-gradient-to-r from-primary to-primary-dark rounded-2xl p-8 text-white overflow-hidden relative">
             <div className="absolute -top-8 -right-8 w-40 h-40 rounded-full bg-white/5" />
@@ -139,14 +138,14 @@ export default function Facilities() {
 
             <div className="relative z-10 grid sm:grid-cols-4 gap-6 text-center">
               {[
-                { num: "200+", label: "Hospital Beds" },
-                { num: "12", label: "Operating Theatres" },
-                { num: "50", label: "ICU Beds" },
-                { num: "3T", label: "MRI Scanner" },
+                { num: "24x7", label: "Emergency Response" },
+                { num: "ICU", label: "Critical Care Readiness" },
+                { num: "Cath Lab", label: "Cardiac Intervention" },
+                { num: "Dialysis", label: "Renal Support Services" },
               ].map((item) => (
                 <div key={item.label}>
                   <p className="font-display font-extrabold text-3xl lg:text-4xl mb-1">{item.num}</p>
-                  <p className="text-white/70 text-sm font-medium">{item.label}</p>
+                  <p className="text-white/80 text-sm font-medium">{item.label}</p>
                 </div>
               ))}
             </div>
