@@ -62,7 +62,7 @@ const departmentHeroCards = [
 const tabs: TabConfig[] = [
   {
     id: "all",
-    label: "All Our Services",
+    label: "All Our Specialities",
     cards: [
       { name: "Internal Medicine", icon: "clinic" },
       { name: "ICU", icon: "icu" },

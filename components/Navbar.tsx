@@ -27,7 +27,7 @@ type MegaCategory = {
 const megaCategories: MegaCategory[] = [
   {
     id: "all",
-    label: "All Our Services",
+    label: "All Our Specialities",
     links: [
       { label: "Internal Medicine", href: "/departments" },
       { label: "Cardiology", href: "/departments" },
@@ -505,6 +505,20 @@ export default function Navbar() {
                         }`}
                       >
                         {link.label}
+                        <svg
+                          className={`w-3.5 h-3.5 transition-transform duration-300 ${
+                            servicesMegaOpen ? "rotate-180 text-primary" : "text-primary/80"
+                          }`}
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          aria-hidden="true"
+                        >
+                          <path d="m6 9 6 6 6-6" />
+                        </svg>
                         <span
                           className={`absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-primary transition-all duration-200 ${
                             isActive ? "opacity-100" : "opacity-0"
@@ -514,7 +528,7 @@ export default function Navbar() {
                       </Link>
 
                       <div
-                        className={`absolute top-full right-0 pt-2 transition-all duration-300 ${
+                        className={`absolute top-full left-0 pt-2 transition-all duration-300 ${
                           servicesMegaOpen
                             ? "opacity-100 visible translate-y-0 pointer-events-auto"
                             : "opacity-0 invisible translate-y-2 pointer-events-none"
