@@ -703,22 +703,26 @@ export default function Navbar() {
                             : "opacity-0 invisible translate-y-2 pointer-events-none"
                         }`}
                       >
-                        <div className="w-[260px] bg-white border border-slate-200/90 shadow-[0_14px_36px_rgba(2,6,23,0.18)] p-2">
-                          {aboutUsDropdownLinks.map((item) => (
-                            <Link
-                              key={item.title}
-                              href={item.href}
-                              onClick={() => {
-                                setActiveLink("About Us");
-                                setAboutMegaOpen(false);
-                              }}
-                              className="block rounded-lg px-2.5 py-2 border border-slate-200/80 bg-white/70 hover:bg-primary/5 hover:border-primary/20 transition-all duration-200"
-                            >
-                              <span className="block text-[13px] font-semibold text-slate-800 leading-snug">
-                                {item.title}
-                              </span>
-                            </Link>
-                          ))}
+                        <div className="relative w-[250px] bg-[#132130] border border-slate-600/60 shadow-[0_14px_36px_rgba(2,6,23,0.48)] p-5">
+                          <ul className="space-y-1">
+                            {aboutUsDropdownLinks.map((item) => (
+                              <li key={item.title}>
+                                <Link
+                                  href={item.href}
+                                  onClick={() => {
+                                    setActiveLink("About Us");
+                                    setAboutMegaOpen(false);
+                                  }}
+                                  className="group w-full text-left px-2 py-2.5 text-sm text-slate-200/90 hover:text-white transition-all duration-300 border-l-0"
+                                >
+                                  <span className="relative inline-block">
+                                    {item.title}
+                                    <span className="absolute -bottom-1 left-0 h-[2px] w-0 bg-[#2f9cff] transition-all duration-300 group-hover:w-full" />
+                                  </span>
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
                         </div>
                       </div>
                     </div>

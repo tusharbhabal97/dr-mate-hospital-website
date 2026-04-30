@@ -85,7 +85,10 @@ export default function AboutUsPage() {
 
       <section className="max-w-6xl mx-auto px-4 py-12">
         <div className="grid lg:grid-cols-12 gap-6">
-          <article className="lg:col-span-8 relative overflow-hidden bg-white rounded-[2rem] border border-slate-100 p-7 shadow-[0_12px_38px_rgba(15,23,42,0.06)]">
+          <article
+            id="about-hospital"
+            className="lg:col-span-8 relative overflow-hidden bg-white rounded-[2rem] border border-slate-100 p-7 shadow-[0_12px_38px_rgba(15,23,42,0.06)] scroll-mt-32"
+          >
             <span className="absolute -top-8 -right-8 w-28 h-28 rounded-full bg-primary/10" />
             <h2 className="font-display font-bold text-2xl text-slate-900 mb-3">
               About Hospital
@@ -109,7 +112,10 @@ export default function AboutUsPage() {
             </ul>
           </article>
 
-          <article className="lg:col-span-4 bg-gradient-to-br from-primary/15 via-primary/10 to-primary/5 rounded-[2rem] p-6 text-slate-900 relative overflow-hidden">
+          <article
+            id="genesis"
+            className="lg:col-span-4 bg-gradient-to-br from-primary/15 via-primary/10 to-primary/5 rounded-[2rem] p-6 text-slate-900 relative overflow-hidden scroll-mt-32"
+          >
             <span className="absolute -bottom-10 -right-10 w-36 h-36 rounded-full bg-primary/10" />
             <h2 className="font-display font-bold text-2xl mb-3 text-slate-900">Genesis</h2>
             <p className="text-slate-700 text-sm leading-relaxed">
@@ -120,7 +126,10 @@ export default function AboutUsPage() {
             </p>
           </article>
 
-          <article className="lg:col-span-5 bg-white rounded-[2rem] border border-slate-100 p-7 shadow-[0_12px_38px_rgba(15,23,42,0.06)]">
+          <article
+            id="history"
+            className="lg:col-span-5 bg-white rounded-[2rem] border border-slate-100 p-7 shadow-[0_12px_38px_rgba(15,23,42,0.06)] scroll-mt-32"
+          >
             <h2 className="font-display font-bold text-2xl text-slate-900 mb-5">
               History
             </h2>
@@ -144,7 +153,10 @@ export default function AboutUsPage() {
             </div>
           </article>
 
-          <article className="lg:col-span-7 relative overflow-hidden bg-white rounded-[2rem] border border-slate-100 p-7 shadow-[0_12px_38px_rgba(15,23,42,0.06)]">
+          <article
+            id="success-story"
+            className="lg:col-span-7 relative overflow-hidden bg-white rounded-[2rem] border border-slate-100 p-7 shadow-[0_12px_38px_rgba(15,23,42,0.06)] scroll-mt-32"
+          >
             <span className="absolute top-0 right-0 w-28 h-28 bg-emerald-500/5 rounded-bl-[3rem]" />
             <h2 className="font-display font-bold text-2xl text-slate-900 mb-3">
               Success Story
@@ -171,7 +183,10 @@ export default function AboutUsPage() {
         </div>
 
         <div className="mt-8">
-          <article className="bg-white rounded-[2rem] border border-slate-100 p-7 shadow-[0_12px_38px_rgba(15,23,42,0.06)]">
+          <article
+            id="founding-team-members"
+            className="bg-white rounded-[2rem] border border-slate-100 p-7 shadow-[0_12px_38px_rgba(15,23,42,0.06)] scroll-mt-32"
+          >
             <h2 className="font-display font-bold text-2xl text-slate-900 mb-5">
               Founding Team Members
             </h2>
