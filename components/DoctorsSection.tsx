@@ -1,42 +1,42 @@
-"use client";
+﻿"use client";
 
 import { useState, useRef } from "react";
 import Image from "next/image";
 
 const doctors = [
   {
-    name: "Dr. Rajesh Sharma",
+    name: "Dr. Swapnil Dhondibhau Mate",
     specialty: "Cardiologist.",
     image: "/images/doctors/doctor-1.jpg",
     linkedin: "https://linkedin.com",
   },
   {
-    name: "Dr. Priya Mehta",
-    specialty: "Neurologist.",
+    name: "Dr. Surajkumar Patil",
+    specialty: "Cardiologist.",
     image: "/images/doctors/doctor-2.jpg",
     linkedin: "https://linkedin.com",
   },
   {
-    name: "Dr. Anika Verma",
-    specialty: "Periodontist.",
+    name: "Dr. Nitin Thakare",
+    specialty: "Cardio Vascular & Thoracic Surgeon.",
     image: "/images/doctors/doctor-3.jpg",
     linkedin: "https://linkedin.com",
   },
   {
-    name: "Dr. Arjun Patel",
-    specialty: "Pediatric Dentist.",
+    name: "Dr. Amol Mahajan",
+    specialty: "Neurologist.",
     image: "/images/doctors/doctor-4.jpg",
     linkedin: "https://linkedin.com",
   },
   {
-    name: "Dr. Suresh Nair",
-    specialty: "Orthopedist.",
+    name: "Dr. Satish Dere",
+    specialty: "Neurosurgeon.",
     image: "/images/doctors/doctor-5.jpg",
     linkedin: "https://linkedin.com",
   },
   {
-    name: "Dr. Meera Joshi",
-    specialty: "Gynecologist.",
+    name: "Dr. Vipul Doshi",
+    specialty: "Medical Oncologist.",
     image: "/images/doctors/doctor-6.jpg",
     linkedin: "https://linkedin.com",
   },
@@ -100,12 +100,12 @@ export default function DoctorsSection() {
               {/* Doctor Image */}
               <Image
                 src={doctor.image}
-                alt={`${doctor.name} — ${doctor.specialty} at Dr. Mate Hospital`}
+                alt={`${doctor.name} â€” ${doctor.specialty} at Dr. Mate Hospital`}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
 
-              {/* LinkedIn badge — top right */}
+              {/* LinkedIn badge â€” top right */}
               <a
                 href={doctor.linkedin}
                 target="_blank"
@@ -119,7 +119,7 @@ export default function DoctorsSection() {
                 </svg>
               </a>
 
-              {/* Name / Specialty overlay — bottom */}
+              {/* Name / Specialty overlay â€” bottom */}
               <div className="absolute bottom-0 left-0 right-0 z-10">
                 <div
                   className="mx-3 mb-3 px-4 py-3 rounded-xl"
@@ -175,3 +175,4 @@ export default function DoctorsSection() {
     </section>
   );
 }
+

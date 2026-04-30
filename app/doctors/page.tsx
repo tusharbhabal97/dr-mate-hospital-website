@@ -1,8 +1,7 @@
 import PageShell from "@/components/layouts/PageShell";
 import PageHero from "@/components/layouts/PageHero";
 import HeroInfoCards from "@/components/layouts/HeroInfoCards";
-import DoctorCard from "@/components/cards/DoctorCard";
-import { doctors } from "@/data/doctors";
+import DoctorsCatalog from "@/components/doctors/DoctorsCatalog";
 
 const doctorHeroCards = [
   {
@@ -56,19 +55,7 @@ export default function DoctorsPage() {
         />
       }
     >
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {doctors.map((doctor) => (
-          <DoctorCard
-            key={doctor.id}
-            id={doctor.id}
-            name={doctor.name}
-            specialization={doctor.specialization}
-            experience={doctor.experience}
-            bio={doctor.bio}
-            image={doctor.image}
-          />
-        ))}
-      </div>
+      <DoctorsCatalog />
     </PageShell>
   );
 }

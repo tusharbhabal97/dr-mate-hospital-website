@@ -1,68 +1,68 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef } from "react";
 import Link from "next/link";
 
 const doctors = [
   {
-    name: "Dr. Priya Sharma",
-    specialty: "Chief Dental Surgeon",
-    exp: "15 Years Experience",
+    name: "Dr. Swapnil Dhondibhau Mate",
+    specialty: "Cardiologist",
+    exp: "Mon, Wed, Sat · 1PM-5PM",
     rating: 4.9,
     reviews: 238,
-    initials: "PS",
+    initials: "SM",
     gradFrom: "from-primary",
     gradTo: "to-healing",
     tags: ["Root Canal", "Implants", "Cosmetic"],
   },
   {
-    name: "Dr. Rajesh Kulkarni",
-    specialty: "Senior Cardiologist",
-    exp: "22 Years Experience",
+    name: "Dr. Surajkumar Patil",
+    specialty: "Cardiologist",
+    exp: "Tue, Fri · 1PM-5PM",
     rating: 4.8,
     reviews: 312,
-    initials: "RK",
+    initials: "SP",
     gradFrom: "from-medical",
     gradTo: "to-primary",
     tags: ["Bypass Surgery", "Angioplasty", "Echo"],
   },
   {
-    name: "Dr. Meera Joshi",
-    specialty: "Pediatric Specialist",
-    exp: "12 Years Experience",
+    name: "Dr. Nitin Thakare",
+    specialty: "Cardio Vascular & Thoracic Surgeon",
+    exp: "Once in Month · 10AM-1PM",
     rating: 4.9,
     reviews: 189,
-    initials: "MJ",
+    initials: "NT",
     gradFrom: "from-healing",
     gradTo: "to-primary",
     tags: ["Newborn Care", "Vaccination", "PICU"],
   },
   {
-    name: "Dr. Arjun Patil",
-    specialty: "Orthopedic Surgeon",
-    exp: "18 Years Experience",
+    name: "Dr. Amol Mahajan",
+    specialty: "Neurologist",
+    exp: "Sunday · 12PM-2PM",
     rating: 4.7,
     reviews: 267,
-    initials: "AP",
+    initials: "AM",
     gradFrom: "from-primary",
     gradTo: "to-primary-dark",
     tags: ["Joint Replacement", "Spine", "Sports"],
   },
   {
-    name: "Dr. Sunita Nair",
+    name: "Dr. Satish Dere",
     specialty: "Neurologist",
-    exp: "16 Years Experience",
+    exp: "Saturday · 4PM-6PM",
     rating: 4.8,
     reviews: 198,
-    initials: "SN",
+    initials: "SD",
     gradFrom: "from-medical",
     gradTo: "to-primary",
     tags: ["Stroke", "Epilepsy", "Migraine"],
   },
   {
-    name: "Dr. Vikram Desai",
-    specialty: "Emergency Medicine",
-    exp: "14 Years Experience",
+    name: "Dr. Vipul Doshi",
+    specialty: "Medical Oncologist",
+    exp: "Once in Month · 1PM-5PM",
     rating: 4.9,
     reviews: 345,
     initials: "VD",
@@ -189,3 +189,5 @@ export default function Doctors() {
     </section>
   );
 }
+
+

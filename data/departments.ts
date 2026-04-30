@@ -1,4 +1,4 @@
-export type Department = {
+﻿export type Department = {
   id: string;
   name: string;
   category: string;
@@ -243,11 +243,11 @@ export const departments: Department[] = [
   {
     id: "gynecology",
     name: "Gynecology",
-    category: "Women’s Health",
+    category: "Womenâ€™s Health",
     summary:
-      "Dedicated women’s healthcare for reproductive health, menstrual disorders, pregnancy support, and preventive gynecologic care.",
+      "Dedicated womenâ€™s healthcare for reproductive health, menstrual disorders, pregnancy support, and preventive gynecologic care.",
     overview:
-      "Our gynecology department provides confidential, evidence-based care across all stages of women’s health with specialist-led consultations.",
+      "Our gynecology department provides confidential, evidence-based care across all stages of womenâ€™s health with specialist-led consultations.",
     keyServices: [
       "Routine and preventive gynecologic checkups",
       "Menstrual and hormonal disorder management",
@@ -275,7 +275,7 @@ export const departments: Department[] = [
     highlights: [
       "Confidential and respectful consultations",
       "Integrated maternity coordination",
-      "Preventive women’s health focus",
+      "Preventive womenâ€™s health focus",
     ],
   },
   {
@@ -316,4 +316,157 @@ export const departments: Department[] = [
       "Preventive oral care guidance",
     ],
   },
+  {
+    id: "oncology",
+    name: "Oncology (Cancer Care)",
+    category: "Cancer Care",
+    summary:
+      "Specialist oncology care covering medical and surgical cancer treatment with coordinated support.",
+    overview:
+      "Our oncology team provides consultation, treatment planning, and continuity care for cancer patients.",
+    keyServices: [
+      "Medical oncology consultation",
+      "Surgical oncology consultation",
+      "Cancer treatment planning",
+      "Follow-up and continuity care",
+    ],
+    conditionsTreated: [
+      "Solid organ cancers",
+      "Blood-related malignancies",
+      "Early and advanced-stage cancer conditions",
+      "Post-treatment surveillance cases",
+    ],
+    diagnostics: [
+      "Clinical oncology assessment",
+      "Cancer screening and staging coordination",
+      "Pathology review support",
+      "Treatment response monitoring",
+    ],
+    treatments: [
+      "Medical oncology management",
+      "Surgical oncology pathways",
+      "Integrated supportive care",
+      "Scheduled follow-up protocols",
+    ],
+    highlights: [
+      "Multidisciplinary oncology guidance",
+      "Evidence-based cancer protocols",
+      "Compassion-focused patient support",
+    ],
+  },
+  {
+    id: "gastro-nephro-urology",
+    name: "Gastroenterology, Nephrology & Urology",
+    category: "Digestive, Kidney & Urinary Care",
+    summary:
+      "Integrated specialist care for digestive, kidney, and urinary system disorders under one category.",
+    overview:
+      "This unit combines gastroenterology, nephrology, and urology consultations for coordinated care planning.",
+    keyServices: [
+      "Gastroenterology consultation",
+      "Nephrology consultation",
+      "Urology consultation",
+      "GI surgery consultation",
+    ],
+    conditionsTreated: [
+      "Digestive tract disorders",
+      "Kidney function disorders",
+      "Urinary tract and prostate disorders",
+      "GI and uro-surgical conditions",
+    ],
+    diagnostics: [
+      "Specialist clinical assessment",
+      "GI, renal, and urology diagnostic coordination",
+      "Procedure planning workup",
+      "Follow-up and monitoring pathways",
+    ],
+    treatments: [
+      "Medical gastroenterology management",
+      "Renal care management",
+      "Urology intervention planning",
+      "GI surgical opinion and treatment pathways",
+    ],
+    highlights: [
+      "Combined multispecialty clinic approach",
+      "Coordinated care planning",
+      "Continuity from consultation to follow-up",
+    ],
+  },
+  {
+    id: "general-specialized-surgery",
+    name: "General & Specialized Surgery",
+    category: "Advanced Surgical Care",
+    summary:
+      "Specialized surgery services including plastic and pediatric surgery consultations.",
+    overview:
+      "Our specialized surgical team provides consultation-led planning for reconstructive and pediatric surgical needs.",
+    keyServices: [
+      "Plastic and reconstructive surgery consultation",
+      "Pediatric surgery consultation",
+      "Pre-operative planning",
+      "Post-operative follow-up",
+    ],
+    conditionsTreated: [
+      "Reconstructive surgical conditions",
+      "Pediatric surgical conditions",
+      "Complex elective surgical cases",
+      "Referral-based surgical evaluations",
+    ],
+    diagnostics: [
+      "Surgical clinical evaluation",
+      "Pre-operative diagnostic workup",
+      "Procedure suitability assessment",
+      "Post-surgical progress monitoring",
+    ],
+    treatments: [
+      "Specialized surgical intervention planning",
+      "Reconstructive surgery pathways",
+      "Pediatric surgery pathways",
+      "Structured follow-up care",
+    ],
+    highlights: [
+      "Specialized surgeon-led evaluation",
+      "Patient-specific treatment plans",
+      "Continuity through recovery",
+    ],
+  },
+  {
+    id: "interventional-radiology",
+    name: "Interventional Radiology",
+    category: "Image-Guided Procedures",
+    summary:
+      "Image-guided minimally invasive interventional radiology consultation and procedure planning.",
+    overview:
+      "Our interventional radiology service supports targeted treatment approaches through image-guided interventions.",
+    keyServices: [
+      "Interventional radiology consultation",
+      "Image-guided procedure planning",
+      "Cross-specialty referral support",
+      "Procedure follow-up monitoring",
+    ],
+    conditionsTreated: [
+      "Vascular and non-vascular interventional conditions",
+      "Referral-based image-guided treatment cases",
+      "Complex procedure planning cases",
+      "Condition-specific interventional support",
+    ],
+    diagnostics: [
+      "Imaging-based case assessment",
+      "Procedure suitability evaluation",
+      "Interventional planning workup",
+      "Follow-up imaging coordination",
+    ],
+    treatments: [
+      "Image-guided minimally invasive interventions",
+      "Condition-targeted interventional therapy",
+      "Cross-disciplinary treatment coordination",
+      "Post-procedure care pathways",
+    ],
+    highlights: [
+      "Minimally invasive treatment focus",
+      "Precision image guidance",
+      "Integrated specialist coordination",
+    ],
+  },
 ];
+

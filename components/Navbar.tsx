@@ -6,14 +6,23 @@ import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { getSpecialitySlugByName } from "@/data/specialities";
 import ServicesDropdown, { servicesList } from "@/components/ServicesDropdown";
+import DoctorsDropdown, { doctorsList } from "@/components/DoctorsDropdown";
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "About", href: "/about-us" },
+  { label: "About Us", href: "/about-us" },
   { label: "Specialities", href: "/departments" },
   { label: "Doctors", href: "/doctors" },
   { label: "Services", href: "/services" },
   { label: "Contact", href: "/contact" },
+] as const;
+
+const aboutUsDropdownLinks = [
+  { title: "About Hospital", href: "/about-us#about-hospital" },
+  { title: "Genesis", href: "/about-us#genesis" },
+  { title: "History", href: "/about-us#history" },
+  { title: "Success Story", href: "/about-us#success-story" },
+  { title: "Founding Team Members", href: "/about-us#founding-team-members" },
 ] as const;
 
 type MegaCategoryId = "all" | "super" | "broad" | "aux" | "diag";
@@ -107,9 +116,13 @@ export default function Navbar() {
   const [userEmail, setUserEmail] = useState<string | null>(null);
   const [accountOpen, setAccountOpen] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
+  const [doctorsMegaOpen, setDoctorsMegaOpen] = useState(false);
   const [servicesMegaOpen, setServicesMegaOpen] = useState(false);
+  const [aboutMegaOpen, setAboutMegaOpen] = useState(false);
   const [activeMegaCategory, setActiveMegaCategory] = useState<MegaCategoryId | null>(null);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const [mobileDoctorsOpen, setMobileDoctorsOpen] = useState(false);
+  const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
   const [subPanelSide, setSubPanelSide] = useState<"right" | "left">("right");
   const [subPanelTop, setSubPanelTop] = useState(48);
 
@@ -119,6 +132,8 @@ export default function Navbar() {
   const subPanelRef = useRef<HTMLDivElement>(null);
   const megaCloseTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const servicesCloseTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const doctorsCloseTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const aboutCloseTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10);
@@ -188,6 +203,8 @@ export default function Navbar() {
     return () => {
       if (megaCloseTimerRef.current) clearTimeout(megaCloseTimerRef.current);
       if (servicesCloseTimerRef.current) clearTimeout(servicesCloseTimerRef.current);
+      if (doctorsCloseTimerRef.current) clearTimeout(doctorsCloseTimerRef.current);
+      if (aboutCloseTimerRef.current) clearTimeout(aboutCloseTimerRef.current);
     };
   }, []);
 
@@ -234,7 +251,9 @@ export default function Navbar() {
   const handleMegaEnter = () => {
     clearMegaCloseTimer();
     clearServicesCloseTimer();
+    clearDoctorsCloseTimer();
     setServicesMegaOpen(false);
+    setDoctorsMegaOpen(false);
     setMegaOpen(true);
     setActiveMegaCategory(null);
     updateSubPanelPlacement();
@@ -255,11 +274,64 @@ export default function Navbar() {
     }
   };
 
-  const handleServicesEnter = () => {
+  const clearDoctorsCloseTimer = () => {
+    if (doctorsCloseTimerRef.current) {
+      clearTimeout(doctorsCloseTimerRef.current);
+      doctorsCloseTimerRef.current = null;
+    }
+  };
+
+  const clearAboutCloseTimer = () => {
+    if (aboutCloseTimerRef.current) {
+      clearTimeout(aboutCloseTimerRef.current);
+      aboutCloseTimerRef.current = null;
+    }
+  };
+
+  const handleDoctorsEnter = () => {
+    clearDoctorsCloseTimer();
     clearServicesCloseTimer();
+    clearAboutCloseTimer();
     clearMegaCloseTimer();
     setMegaOpen(false);
     setActiveMegaCategory(null);
+    setServicesMegaOpen(false);
+    setAboutMegaOpen(false);
+    setDoctorsMegaOpen(true);
+  };
+
+  const handleDoctorsLeave = () => {
+    clearDoctorsCloseTimer();
+    doctorsCloseTimerRef.current = setTimeout(() => {
+      setDoctorsMegaOpen(false);
+    }, 200);
+  };
+
+  const handleDoctorsFocus = () => {
+    clearDoctorsCloseTimer();
+    clearServicesCloseTimer();
+    clearAboutCloseTimer();
+    clearMegaCloseTimer();
+    setMegaOpen(false);
+    setActiveMegaCategory(null);
+    setServicesMegaOpen(false);
+    setAboutMegaOpen(false);
+    setDoctorsMegaOpen(true);
+  };
+
+  const handleDoctorsBlur = (e: React.FocusEvent<HTMLDivElement>) => {
+    if (e.currentTarget.contains(e.relatedTarget as Node | null)) return;
+    handleDoctorsLeave();
+  };
+
+  const handleServicesEnter = () => {
+    clearServicesCloseTimer();
+    clearAboutCloseTimer();
+    clearMegaCloseTimer();
+    setMegaOpen(false);
+    setActiveMegaCategory(null);
+    setDoctorsMegaOpen(false);
+    setAboutMegaOpen(false);
     setServicesMegaOpen(true);
   };
 
@@ -272,15 +344,54 @@ export default function Navbar() {
 
   const handleServicesFocus = () => {
     clearServicesCloseTimer();
+    clearAboutCloseTimer();
     clearMegaCloseTimer();
     setMegaOpen(false);
     setActiveMegaCategory(null);
+    setDoctorsMegaOpen(false);
+    setAboutMegaOpen(false);
     setServicesMegaOpen(true);
   };
 
   const handleServicesBlur = (e: React.FocusEvent<HTMLDivElement>) => {
     if (e.currentTarget.contains(e.relatedTarget as Node | null)) return;
     handleServicesLeave();
+  };
+
+  const handleAboutEnter = () => {
+    clearAboutCloseTimer();
+    clearServicesCloseTimer();
+    clearDoctorsCloseTimer();
+    clearMegaCloseTimer();
+    setMegaOpen(false);
+    setActiveMegaCategory(null);
+    setDoctorsMegaOpen(false);
+    setServicesMegaOpen(false);
+    setAboutMegaOpen(true);
+  };
+
+  const handleAboutLeave = () => {
+    clearAboutCloseTimer();
+    aboutCloseTimerRef.current = setTimeout(() => {
+      setAboutMegaOpen(false);
+    }, 200);
+  };
+
+  const handleAboutFocus = () => {
+    clearAboutCloseTimer();
+    clearServicesCloseTimer();
+    clearDoctorsCloseTimer();
+    clearMegaCloseTimer();
+    setMegaOpen(false);
+    setActiveMegaCategory(null);
+    setDoctorsMegaOpen(false);
+    setServicesMegaOpen(false);
+    setAboutMegaOpen(true);
+  };
+
+  const handleAboutBlur = (e: React.FocusEvent<HTMLDivElement>) => {
+    if (e.currentTarget.contains(e.relatedTarget as Node | null)) return;
+    handleAboutLeave();
   };
 
   useEffect(() => {
@@ -543,6 +654,135 @@ export default function Navbar() {
                   );
                 }
 
+                if (link.label === "About Us") {
+                  return (
+                    <div
+                      key={link.href}
+                      className="relative"
+                      onMouseEnter={handleAboutEnter}
+                      onMouseLeave={handleAboutLeave}
+                      onBlur={handleAboutBlur}
+                    >
+                      <Link
+                        href={link.href}
+                        onFocus={handleAboutFocus}
+                        onClick={() => setActiveLink(link.label)}
+                        className={`inline-flex items-center gap-1.5 text-sm font-sans transition-all duration-200 relative group ${
+                          isActive
+                            ? "font-bold text-primary"
+                            : "font-medium text-muted hover:text-primary"
+                        }`}
+                      >
+                        {link.label}
+                        <svg
+                          className={`w-3.5 h-3.5 transition-transform duration-300 ${
+                            aboutMegaOpen ? "rotate-180 text-primary" : "text-primary/80"
+                          }`}
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          aria-hidden="true"
+                        >
+                          <path d="m6 9 6 6 6-6" />
+                        </svg>
+                        <span
+                          className={`absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-primary transition-all duration-200 ${
+                            isActive ? "opacity-100" : "opacity-0"
+                          }`}
+                        />
+                        <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary/30 rounded-full transition-all duration-300 group-hover:w-full" />
+                      </Link>
+
+                      <div
+                        className={`absolute top-full left-0 pt-2 transition-all duration-300 ${
+                          aboutMegaOpen
+                            ? "opacity-100 visible translate-y-0 pointer-events-auto"
+                            : "opacity-0 invisible translate-y-2 pointer-events-none"
+                        }`}
+                      >
+                        <div className="w-[260px] bg-white border border-slate-200/90 shadow-[0_14px_36px_rgba(2,6,23,0.18)] p-2">
+                          {aboutUsDropdownLinks.map((item) => (
+                            <Link
+                              key={item.title}
+                              href={item.href}
+                              onClick={() => {
+                                setActiveLink("About Us");
+                                setAboutMegaOpen(false);
+                              }}
+                              className="block rounded-lg px-2.5 py-2 border border-slate-200/80 bg-white/70 hover:bg-primary/5 hover:border-primary/20 transition-all duration-200"
+                            >
+                              <span className="block text-[13px] font-semibold text-slate-800 leading-snug">
+                                {item.title}
+                              </span>
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  );
+                }
+
+                if (link.label === "Doctors") {
+                  return (
+                    <div
+                      key={link.href}
+                      className="relative"
+                      onMouseEnter={handleDoctorsEnter}
+                      onMouseLeave={handleDoctorsLeave}
+                      onBlur={handleDoctorsBlur}
+                    >
+                      <Link
+                        href={link.href}
+                        onFocus={handleDoctorsFocus}
+                        onClick={() => setActiveLink(link.label)}
+                        className={`inline-flex items-center gap-1.5 text-sm font-sans transition-all duration-200 relative group ${
+                          isActive
+                            ? "font-bold text-primary"
+                            : "font-medium text-muted hover:text-primary"
+                        }`}
+                      >
+                        {link.label}
+                        <svg
+                          className={`w-3.5 h-3.5 transition-transform duration-300 ${
+                            doctorsMegaOpen ? "rotate-180 text-primary" : "text-primary/80"
+                          }`}
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          aria-hidden="true"
+                        >
+                          <path d="m6 9 6 6 6-6" />
+                        </svg>
+                        <span
+                          className={`absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-primary transition-all duration-200 ${
+                            isActive ? "opacity-100" : "opacity-0"
+                          }`}
+                        />
+                        <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary/30 rounded-full transition-all duration-300 group-hover:w-full" />
+                      </Link>
+
+                      <div
+                        className={`absolute top-full left-0 pt-2 transition-all duration-300 ${
+                          doctorsMegaOpen
+                            ? "opacity-100 visible translate-y-0 pointer-events-auto"
+                            : "opacity-0 invisible translate-y-2 pointer-events-none"
+                        }`}
+                      >
+                        <DoctorsDropdown
+                          isOpen={doctorsMegaOpen}
+                          onDoctorClick={() => setDoctorsMegaOpen(false)}
+                        />
+                      </div>
+                    </div>
+                  );
+                }
+
                 return (
                   <Link
                     key={link.href}
@@ -669,7 +909,75 @@ export default function Navbar() {
           >
             <div className="relative z-30 mx-3 mb-3 bg-white/60 backdrop-blur-sm rounded-xl p-3 flex flex-col gap-1 border border-white/50 max-h-[calc(100svh-120px)] overflow-y-auto overscroll-contain">
               {navLinks.map((link) => (
-                link.label === "Services" ? (
+                link.label === "Doctors" ? (
+                  <div key={link.href} className="rounded-xl border border-slate-200/70 bg-white/40 overflow-hidden">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setActiveLink(link.label);
+                        setMobileDoctorsOpen((prev) => !prev);
+                      }}
+                      className={`w-full px-4 py-2.5 text-left rounded-xl text-sm transition-all duration-200 inline-flex items-center justify-between ${
+                        activeLink === link.label
+                          ? "font-bold text-primary bg-primary/8"
+                          : "font-medium text-muted hover:text-primary hover:bg-white/60"
+                      }`}
+                    >
+                      <span>Doctors</span>
+                      <svg
+                        className={`w-4 h-4 transition-transform duration-300 ${mobileDoctorsOpen ? "rotate-180" : ""}`}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden="true"
+                      >
+                        <path d="m6 9 6 6 6-6" />
+                      </svg>
+                    </button>
+
+                    <div
+                      className={`grid transition-all duration-300 ease-in-out ${
+                        mobileDoctorsOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                      }`}
+                    >
+                      <div className="overflow-hidden">
+                        <div className="px-2 pb-2 space-y-1 max-h-[50svh] overflow-y-auto">
+                          {doctorsList.map((item) => (
+                            <Link
+                              key={item.title}
+                              href={item.href}
+                              onClick={() => {
+                                setActiveLink("Doctors");
+                                setMenuOpen(false);
+                                setMobileDoctorsOpen(false);
+                              }}
+                              className="block rounded-lg px-2.5 py-2 border border-slate-200/80 bg-white/70 hover:bg-primary/5 hover:border-primary/20 transition-all duration-200"
+                            >
+                              <span className="block text-[13px] font-semibold text-slate-800 leading-snug">
+                                {item.title}
+                              </span>
+                            </Link>
+                          ))}
+
+                          <Link
+                            href="/doctors"
+                            onClick={() => {
+                              setActiveLink("Doctors");
+                              setMenuOpen(false);
+                              setMobileDoctorsOpen(false);
+                            }}
+                            className="block rounded-lg px-2.5 py-2 text-xs font-bold text-primary bg-primary/10 border border-primary/20"
+                          >
+                            View All Doctors →
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ) : link.label === "Services" ? (
                   <div key={link.href} className="rounded-xl border border-slate-200/70 bg-white/40 overflow-hidden">
                     <button
                       type="button"
@@ -733,6 +1041,62 @@ export default function Navbar() {
                           >
                             View All Services →
                           </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ) : link.label === "About Us" ? (
+                  <div key={link.href} className="rounded-xl border border-slate-200/70 bg-white/40 overflow-hidden">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setActiveLink(link.label);
+                        setMobileAboutOpen((prev) => !prev);
+                      }}
+                      className={`w-full px-4 py-2.5 text-left rounded-xl text-sm transition-all duration-200 inline-flex items-center justify-between ${
+                        activeLink === link.label
+                          ? "font-bold text-primary bg-primary/8"
+                          : "font-medium text-muted hover:text-primary hover:bg-white/60"
+                      }`}
+                    >
+                      <span>About Us</span>
+                      <svg
+                        className={`w-4 h-4 transition-transform duration-300 ${mobileAboutOpen ? "rotate-180" : ""}`}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden="true"
+                      >
+                        <path d="m6 9 6 6 6-6" />
+                      </svg>
+                    </button>
+
+                    <div
+                      className={`grid transition-all duration-300 ease-in-out ${
+                        mobileAboutOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                      }`}
+                    >
+                      <div className="overflow-hidden">
+                        <div className="px-2 pb-2 space-y-1 max-h-[50svh] overflow-y-auto">
+                          {aboutUsDropdownLinks.map((item) => (
+                            <Link
+                              key={item.title}
+                              href={item.href}
+                              onClick={() => {
+                                setActiveLink("About Us");
+                                setMenuOpen(false);
+                                setMobileAboutOpen(false);
+                              }}
+                              className="block rounded-lg px-2.5 py-2 border border-slate-200/80 bg-white/70 hover:bg-primary/5 hover:border-primary/20 transition-all duration-200"
+                            >
+                              <span className="block text-[13px] font-semibold text-slate-800 leading-snug">
+                                {item.title}
+                              </span>
+                            </Link>
+                          ))}
                         </div>
                       </div>
                     </div>
