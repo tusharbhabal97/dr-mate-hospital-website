@@ -156,8 +156,347 @@ const tabs: TabConfig[] = [
   },
 ];
 
-function MedicalIcon({ type }: { type: ServiceCard["icon"] }) {
+function getSpecialityTabClasses(tabId: TabConfig["id"], active: boolean): string {
+  if (tabId === "all") {
+    return active
+      ? "bg-teal-700 text-white shadow-md hover:bg-teal-800"
+      : "bg-teal-50 text-teal-800 hover:bg-teal-100";
+  }
+  if (tabId === "super") {
+    return active
+      ? "bg-blue-700 text-white shadow-md hover:bg-blue-800"
+      : "bg-blue-50 text-blue-800 hover:bg-blue-100";
+  }
+  if (tabId === "broad") {
+    return active
+      ? "bg-violet-700 text-white shadow-md hover:bg-violet-800"
+      : "bg-violet-50 text-violet-800 hover:bg-violet-100";
+  }
+  if (tabId === "aux") {
+    return active
+      ? "bg-amber-600 text-white shadow-md hover:bg-amber-700"
+      : "bg-amber-50 text-amber-800 hover:bg-amber-100";
+  }
+  return active
+    ? "bg-cyan-700 text-white shadow-md hover:bg-cyan-800"
+    : "bg-cyan-50 text-cyan-800 hover:bg-cyan-100";
+}
+
+function getSpecialityTabIconColor(tabId: TabConfig["id"]): string {
+  if (tabId === "all") return "#0f766e";
+  if (tabId === "super") return "#1d4ed8";
+  if (tabId === "broad") return "#6d28d9";
+  if (tabId === "aux") return "#b45309";
+  return "#0e7490";
+}
+
+function getSpecialitySourceTab(name: string): TabConfig["id"] {
+  const inTab = (tabId: TabConfig["id"]) =>
+    tabs.find((t) => t.id === tabId)?.cards.some((c) => c.name === name) ?? false;
+
+  if (inTab("super")) return "super";
+  if (inTab("broad")) return "broad";
+  if (inTab("aux")) return "aux";
+  if (inTab("diag")) return "diag";
+  return "all";
+}
+
+function getEffectiveSpecialityIconColor(activeTabId: TabConfig["id"], cardName: string): string {
+  if (activeTabId === "all") {
+    return getSpecialityTabIconColor(getSpecialitySourceTab(cardName));
+  }
+  return getSpecialityTabIconColor(activeTabId);
+}
+
+function MedicalIcon({ type, name }: { type: ServiceCard["icon"]; name: string }) {
   const cls = "h-6 w-6";
+  const n = name.toLowerCase();
+
+  if (n.includes("internal medicine")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="5" y="4" width="14" height="16" rx="2" />
+        <path d="M12 7v6" />
+        <path d="M9 10h6" />
+        <path d="M8.5 15h7" />
+      </svg>
+    );
+  }
+
+  if (n === "icu") {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M4 8h16" />
+        <path d="M6 8v8" />
+        <path d="M18 8v8" />
+        <path d="M4 16h16" />
+        <path d="M9 12h6" />
+      </svg>
+    );
+  }
+
+  if (n.includes("interventional radiology")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="5" y="5" width="10" height="10" rx="2" />
+        <path d="M10 7.5v5" />
+        <path d="M7.5 10h5" />
+        <path d="M15 15l4 4" />
+      </svg>
+    );
+  }
+
+  if (n.includes("nephrology")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M9 4c-3.2 0-5.5 2.7-5.5 6.5S5.8 17 9 17c1.8 0 3.5-1.3 3.5-3.8V8.5C12.5 5.8 10.8 4 9 4z" />
+        <path d="M15 4c3.2 0 5.5 2.7 5.5 6.5S18.2 17 15 17c-1.8 0-3.5-1.3-3.5-3.8V8.5C11.5 5.8 13.2 4 15 4z" />
+      </svg>
+    );
+  }
+
+  if (n.includes("gastroenterology")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M4 12h11" />
+        <circle cx="17.5" cy="12" r="2.5" />
+        <path d="M6.5 9.5v5" />
+        <path d="M10 10.5v3" />
+      </svg>
+    );
+  }
+
+  if (n.includes("24x7 emergency")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z" />
+      </svg>
+    );
+  }
+
+  if (n.includes("general surgery")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M5 5l6 6" />
+        <path d="M13 13l6 6" />
+        <path d="M14 4l6 6" />
+      </svg>
+    );
+  }
+
+  if (n.includes("gi surgery")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M6 6l12 12" />
+        <path d="M15 4l5 5" />
+        <path d="M4 15l5 5" />
+      </svg>
+    );
+  }
+
+  if (n.includes("laparoscopy")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M5 5l6 6" />
+        <path d="M11 11l8 8" />
+        <circle cx="8" cy="17" r="2" />
+      </svg>
+    );
+  }
+
+  if (n === "urology") {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 4v7" />
+        <path d="M8.5 7h7" />
+        <path d="M7 14a5 5 0 0 0 10 0" />
+        <path d="M12 14v6" />
+      </svg>
+    );
+  }
+
+  if (n === "oncology") {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 5c1.5 2 2.2 3.7 2.2 5.2A2.2 2.2 0 1 1 9.8 10c0-1.5.7-3.2 2.2-5z" />
+        <path d="M12 12v7" />
+        <path d="M9.5 16h5" />
+      </svg>
+    );
+  }
+
+  if (n.includes("oncosurgery")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 5c1.5 2 2.2 3.7 2.2 5.2A2.2 2.2 0 1 1 9.8 10c0-1.5.7-3.2 2.2-5z" />
+        <path d="M15 13l4 4" />
+        <path d="M14 16l2-2" />
+      </svg>
+    );
+  }
+
+  if (n.includes("orthopedics")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M5 9a2.5 2.5 0 1 1 3.5-3.5L15.5 12l-7 6.5A2.5 2.5 0 1 1 5 15l3.5-3L5 9z" />
+        <path d="M19 9a2.5 2.5 0 1 0-3.5-3.5L8.5 12l7 6.5A2.5 2.5 0 1 0 19 15l-3.5-3L19 9z" />
+      </svg>
+    );
+  }
+
+  if (n.includes("neurosurgery")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M9 4a3 3 0 0 0-3 3v1a3 3 0 0 0 0 6v1a3 3 0 0 0 3 3" />
+        <path d="M15 4a3 3 0 0 1 3 3v1a3 3 0 0 1 0 6v1a3 3 0 0 1-3 3" />
+        <path d="M9 12h6" />
+      </svg>
+    );
+  }
+
+  if (n.includes("neurology")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M9 4a3 3 0 0 0-3 3v1a3 3 0 0 0 0 6v1a3 3 0 0 0 3 3" />
+        <path d="M15 4a3 3 0 0 1 3 3v1a3 3 0 0 1 0 6v1a3 3 0 0 1-3 3" />
+        <path d="M10 8h4M10 16h4" />
+      </svg>
+    );
+  }
+
+  if (n.includes("plastic surgery")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M5 5l6 6" />
+        <path d="M11 11l8 8" />
+        <path d="M16 4l1 2 2 1-2 1-1 2-1-2-2-1 2-1z" />
+      </svg>
+    );
+  }
+
+  if (n.includes("pediatric surgery")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="8.5" cy="8.5" r="2" />
+        <path d="M8.5 10.5v4.5" />
+        <path d="M6.5 13h4" />
+        <path d="M13 11l6 6" />
+        <path d="M15 9l6 6" />
+      </svg>
+    );
+  }
+
+  if (n.includes("obstetrics") || n.includes("gynecology")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="8" r="3.5" />
+        <path d="M12 11.5V20" />
+        <path d="M9.5 16h5" />
+      </svg>
+    );
+  }
+
+  if (n === "nicu") {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="4" y="8" width="16" height="10" rx="2" />
+        <circle cx="10" cy="13" r="2" />
+        <path d="M15 11h3M16.5 9.5v3" />
+      </svg>
+    );
+  }
+
+  if (n === "ent") {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 5a4 4 0 0 1 4 4c0 2.2-1.5 3.5-2.7 4.5a3 3 0 0 0-1.3 2.5v1" />
+        <path d="M12 19h.01" />
+        <path d="M8 11c0-2.2 1.5-4 4-4" />
+      </svg>
+    );
+  }
+
+  if (n.includes("proctology")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M9 5c-2 1.2-3 3-3 5.5 0 4 2.5 7.5 6 8.5 3.5-1 6-4.5 6-8.5C18 8 17 6.2 15 5" />
+        <path d="M12 9v4" />
+        <path d="M10 11h4" />
+      </svg>
+    );
+  }
+
+  if (n.includes("varicose vein")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M9 4v16" />
+        <path d="M15 4v16" />
+        <path d="M9 8c2 0 2 2 4 2s2-2 4-2" />
+        <path d="M9 14c2 0 2 2 4 2s2-2 4-2" />
+      </svg>
+    );
+  }
+
+  if (n.includes("diabetes clinic")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 4s3.5 3.8 3.5 6A3.5 3.5 0 1 1 8.5 10c0-2.2 3.5-6 3.5-6z" />
+        <path d="M12 14v5" />
+        <path d="M9.5 16.5h5" />
+      </svg>
+    );
+  }
+
+  if (n.includes("diabetic foot")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M8 14c0-2.5 1.5-4.5 4-5.5 1.8-.7 3.5.8 3.5 2.7V16a3 3 0 0 1-3 3H11a3 3 0 0 1-3-3z" />
+        <circle cx="9" cy="10" r="1" />
+        <circle cx="10.8" cy="8.8" r="1" />
+        <circle cx="12.8" cy="8.4" r="1" />
+      </svg>
+    );
+  }
+
+  if (n.includes("vac therapy")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="5" y="7" width="8" height="8" rx="1.5" />
+        <path d="M13 11h3l3 3" />
+        <path d="M7.5 11h3" />
+      </svg>
+    );
+  }
+
+  if (n.includes("breast clinic")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M7 8h7a3 3 0 0 1 3 3v7" />
+        <path d="M9 8v8a3 3 0 0 0 3 3h5" />
+      </svg>
+    );
+  }
+
+  if (n.includes("obesity") || n.includes("weight loss")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="5" y="5" width="14" height="14" rx="3" />
+        <path d="M12 9l2.5 2.5" />
+        <circle cx="12" cy="9" r="1" />
+      </svg>
+    );
+  }
+
+  if (n.includes("physiotherapy")) {
+    return (
+      <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="10" cy="6.5" r="2" />
+        <path d="M10 8.5l2.5 3.5-2.5 4.5" />
+        <path d="M12.5 12h4" />
+        <path d="M8 17.5h5" />
+      </svg>
+    );
+  }
 
   switch (type) {
     case "heart":
@@ -230,9 +569,9 @@ function MedicalIcon({ type }: { type: ServiceCard["icon"] }) {
     case "oncology":
       return (
         <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-          <circle cx="12" cy="12" r="8" />
-          <path d="M12 8v8" />
-          <path d="M8 12h8" />
+          <path d="M12 5c1.5 2 2.2 3.7 2.2 5.2A2.2 2.2 0 1 1 9.8 10c0-1.5.7-3.2 2.2-5z" />
+          <path d="M12 12v7" />
+          <path d="M9.5 16h5" />
         </svg>
       );
     case "bone":
@@ -367,9 +706,7 @@ export default function DepartmentsPage() {
                   router.replace(`/departments?tab=${tab.id}`, { scroll: false });
                 }}
                 className={`rounded-md px-4 py-2 text-xs sm:text-sm font-semibold transition-all duration-300 ${
-                  active
-                    ? "bg-primary text-white shadow-md"
-                    : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+                  getSpecialityTabClasses(tab.id, active)
                 }`}
                 aria-pressed={active}
               >
@@ -390,8 +727,11 @@ export default function DepartmentsPage() {
                 aria-label={`Open ${card.name} speciality details`}
                 className="group block rounded-2xl border border-slate-100 bg-white p-4 sm:p-5 shadow-[0_8px_24px_rgba(15,23,42,0.06)] transition-all duration-300 hover:-translate-y-1 hover:scale-[1.03] hover:shadow-[0_14px_34px_rgba(15,23,42,0.12)] active:scale-[0.99] focus:outline-none focus:ring-2 focus:ring-primary/30 cursor-pointer"
               >
-                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full border border-primary/25 bg-primary/5 text-slate-500 transition-all duration-300 group-hover:text-primary group-hover:border-primary/50 group-hover:bg-primary/10">
-                  <MedicalIcon type={card.icon} />
+                <div
+                  className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full border border-primary/25 bg-primary/5 transition-all duration-300 group-hover:border-primary/50 group-hover:bg-primary/10"
+                  style={{ color: getEffectiveSpecialityIconColor(activeTab, card.name) }}
+                >
+                  <MedicalIcon type={card.icon} name={card.name} />
                 </div>
 
                 <h3 className="text-center text-sm font-semibold leading-snug text-dark min-h-[40px]">
@@ -419,5 +759,3 @@ export default function DepartmentsPage() {
     </PageShell>
   );
 }
-
-
