@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import PageHero from "@/components/layouts/PageHero";
 import PageShell from "@/components/layouts/PageShell";
 import ServiceDetailSections from "@/components/services/ServiceDetailSections";
+import ServiceHighlightVisual from "@/components/services/ServiceHighlightVisual";
 import {
   getCategorySectionOverview,
   getServiceCategoryBySlug,
@@ -36,6 +37,14 @@ export default function ServiceCategoryPage({ params }: CategoryPageProps) {
           eyebrow="Services"
           title={category.title}
           subtitle={category.overview}
+          contentAlignment="start"
+          compactMobileTitle
+          actions={
+            <ServiceHighlightVisual
+              title={category.title}
+              items={category.items.map((service) => service.name)}
+            />
+          }
           breadcrumbs={[
             { label: "Home", href: "/" },
             { label: "Services", href: "/services" },
