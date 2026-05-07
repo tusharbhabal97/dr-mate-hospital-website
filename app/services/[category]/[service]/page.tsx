@@ -3,7 +3,11 @@ import { notFound } from "next/navigation";
 import PageHero from "@/components/layouts/PageHero";
 import PageShell from "@/components/layouts/PageShell";
 import ServiceDetailSections from "@/components/services/ServiceDetailSections";
-import { getServiceBySlugs, serviceCategoriesForPages } from "@/data/services-menu";
+import {
+  getServiceBySlugs,
+  getServiceSectionOverview,
+  serviceCategoriesForPages,
+} from "@/data/services-menu";
 
 type ServicePageProps = {
   params: {
@@ -69,7 +73,7 @@ export default function ServiceDetailPage({ params }: ServicePageProps) {
         )}
 
         <ServiceDetailSections
-          overview={service.overview}
+          overview={getServiceSectionOverview(category.slug, service.slug) ?? service.overview}
           featureTitle="Services / Features"
           features={service.features}
         />

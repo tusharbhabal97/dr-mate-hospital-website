@@ -62,30 +62,73 @@ export default function SpecialityDetailPage({
 
         <section className="bg-gradient-to-br from-white via-slate-50 to-blue-50/40 border-b border-slate-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-            <div className="max-w-3xl">
-              <span className="inline-flex items-center rounded-full bg-primary/10 text-primary text-xs font-semibold px-3 py-1">
-                Speciality Care
-              </span>
-              <h1 className="mt-4 font-display text-3xl sm:text-4xl font-bold text-slate-900">
-                {speciality.name}
-              </h1>
-              <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed">
-                {speciality.short_description}
-              </p>
-              <div className="mt-6 flex flex-wrap gap-3">
-                <Link
-                  href="/book-appointment"
-                  className="inline-flex items-center rounded-xl bg-primary text-white px-5 py-3 text-sm font-semibold hover:bg-primary/90 transition-colors"
-                >
-                  Book Appointment
-                </Link>
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center rounded-xl border border-slate-300 text-slate-700 px-5 py-3 text-sm font-semibold hover:bg-slate-100 transition-colors"
-                >
-                  Contact Now
-                </Link>
+            <div className="grid items-start gap-8 lg:grid-cols-12 lg:items-center lg:gap-10">
+              <div className="lg:col-span-7 max-w-3xl">
+                <span className="inline-flex items-center rounded-full bg-primary/10 text-primary text-xs font-semibold px-3 py-1">
+                  Speciality Care
+                </span>
+                <h1 className="mt-4 font-display text-3xl sm:text-4xl font-bold text-slate-900">
+                  {speciality.name}
+                </h1>
+                <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed">
+                  {speciality.short_description}
+                </p>
+                <div className="mt-6 flex flex-wrap gap-3">
+                  <Link
+                    href="/book-appointment"
+                    className="inline-flex items-center rounded-xl bg-primary text-white px-5 py-3 text-sm font-semibold hover:bg-primary/90 transition-colors"
+                  >
+                    Book Appointment
+                  </Link>
+                  <Link
+                    href="/contact"
+                    className="inline-flex items-center rounded-xl border border-slate-300 text-slate-700 px-5 py-3 text-sm font-semibold hover:bg-slate-100 transition-colors"
+                  >
+                    Contact Now
+                  </Link>
+                </div>
               </div>
+
+              <aside className="lg:col-span-5">
+                <div className="relative overflow-hidden rounded-3xl border border-slate-200/80 bg-white p-5 sm:p-6 shadow-[0_14px_36px_rgba(15,23,42,0.1)] animate-slide-right">
+                  <div className="pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full bg-primary/10 blur-2xl animate-float" />
+                  <div className="pointer-events-none absolute -left-8 bottom-0 h-20 w-20 rounded-full bg-sky-100 blur-xl" />
+
+                  <div className="relative z-10">
+                    <span className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs font-semibold text-primary">
+                      Care Highlights
+                    </span>
+                    <h2 className="mt-3 font-display text-xl font-bold text-slate-900">Medical Info</h2>
+                    <ul className="mt-4 space-y-2 text-sm text-slate-700">
+                      <li className="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/70 px-3 py-2.5 animate-fade-up delay-100">
+                        <span className="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-primary text-white text-[11px] font-bold">
+                          ✓
+                        </span>
+                        <span>Advanced diagnostic support for accurate clinical evaluation</span>
+                      </li>
+                      <li className="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/70 px-3 py-2.5 animate-fade-up delay-200">
+                        <span className="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-primary text-white text-[11px] font-bold">
+                          ✓
+                        </span>
+                        <span>Experienced specialists with evidence-based treatment planning</span>
+                      </li>
+                      <li className="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/70 px-3 py-2.5 animate-fade-up delay-300">
+                        <span className="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-primary text-white text-[11px] font-bold">
+                          ✓
+                        </span>
+                        <span>Integrated coordination with emergency and critical care teams</span>
+                      </li>
+                    </ul>
+
+                    <Link
+                      href="/book-appointment"
+                      className="mt-5 inline-flex items-center rounded-xl bg-primary text-white px-5 py-3 text-sm font-semibold hover:bg-primary/90 transition-colors"
+                    >
+                      Get Expert Consultation
+                    </Link>
+                  </div>
+                </div>
+              </aside>
             </div>
           </div>
         </section>

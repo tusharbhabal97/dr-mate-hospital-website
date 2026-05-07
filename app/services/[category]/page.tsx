@@ -4,6 +4,7 @@ import PageHero from "@/components/layouts/PageHero";
 import PageShell from "@/components/layouts/PageShell";
 import ServiceDetailSections from "@/components/services/ServiceDetailSections";
 import {
+  getCategorySectionOverview,
   getServiceCategoryBySlug,
   getServiceHref,
   serviceCategoriesForPages,
@@ -61,7 +62,7 @@ export default function ServiceCategoryPage({ params }: CategoryPageProps) {
         </section>
 
         <ServiceDetailSections
-          overview={category.overview}
+          overview={getCategorySectionOverview(category.slug) ?? category.overview}
           featureTitle="Services / Features"
           features={category.features}
         />
