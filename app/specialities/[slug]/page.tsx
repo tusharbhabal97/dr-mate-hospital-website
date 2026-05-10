@@ -63,7 +63,7 @@ export default function SpecialityDetailPage({
 
         <section className="bg-gradient-to-br from-white via-slate-50 to-blue-50/40 border-b border-slate-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-            <div className="grid items-start gap-8 lg:grid-cols-12 lg:items-center lg:gap-10">
+            <div className="grid items-start gap-8 lg:grid-cols-12 lg:items-start lg:gap-10">
               <div className="lg:col-span-7 max-w-3xl">
                 <span className="inline-flex items-center rounded-full bg-primary/10 text-primary text-xs font-semibold px-3 py-1">
                   Speciality Care
