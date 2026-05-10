@@ -13,7 +13,7 @@
 export const doctors: Doctor[] = [
   {
     id: "dr-swapnil-dhondibhau-mate",
-    name: "Dr. Swapnil Dhondibhau Mate",
+    name: "Dr. Swapnil D. Mate",
     specialization: "Cardiologist",
     departmentId: "cardiology",
     experience: "Consultant",

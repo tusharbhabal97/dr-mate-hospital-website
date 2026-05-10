@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const doctors = [
   {
-    name: "Dr. Swapnil Dhondibhau Mate",
+    name: "Dr. Swapnil D. Mate",
     specialty: "Cardiologist",
     exp: "Mon, Wed, Sat · 1PM-5PM",
     rating: 4.9,

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const doctors = [
   {
-    name: "Dr. Swapnil Dhondibhau Mate",
+    name: "Dr. Swapnil D. Mate",
     specialty: "Cardiologist.",
     image: "/images/doctors/doctor-1.jpg",
     linkedin: "https://linkedin.com",
