@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
+import SpecialityHighlightVisualPanel from "@/components/SpecialityHighlightVisualPanel";
 import {
   getRelatedSpecialities,
   getSpecialityBySlug,
@@ -90,44 +91,14 @@ export default function SpecialityDetailPage({
               </div>
 
               <aside className="lg:col-span-5">
-                <div className="relative overflow-hidden rounded-3xl border border-slate-200/80 bg-white p-5 sm:p-6 shadow-[0_14px_36px_rgba(15,23,42,0.1)] animate-slide-right">
-                  <div className="pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full bg-primary/10 blur-2xl animate-float" />
-                  <div className="pointer-events-none absolute -left-8 bottom-0 h-20 w-20 rounded-full bg-sky-100 blur-xl" />
-
-                  <div className="relative z-10">
-                    <span className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs font-semibold text-primary">
-                      Care Highlights
-                    </span>
-                    <h2 className="mt-3 font-display text-xl font-bold text-slate-900">Medical Info</h2>
-                    <ul className="mt-4 space-y-2 text-sm text-slate-700">
-                      <li className="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/70 px-3 py-2.5 animate-fade-up delay-100">
-                        <span className="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-primary text-white text-[11px] font-bold">
-                          ✓
-                        </span>
-                        <span>Advanced diagnostic support for accurate clinical evaluation</span>
-                      </li>
-                      <li className="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/70 px-3 py-2.5 animate-fade-up delay-200">
-                        <span className="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-primary text-white text-[11px] font-bold">
-                          ✓
-                        </span>
-                        <span>Experienced specialists with evidence-based treatment planning</span>
-                      </li>
-                      <li className="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50/70 px-3 py-2.5 animate-fade-up delay-300">
-                        <span className="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-primary text-white text-[11px] font-bold">
-                          ✓
-                        </span>
-                        <span>Integrated coordination with emergency and critical care teams</span>
-                      </li>
-                    </ul>
-
-                    <Link
-                      href="/book-appointment"
-                      className="mt-5 inline-flex items-center rounded-xl bg-primary text-white px-5 py-3 text-sm font-semibold hover:bg-primary/90 transition-colors"
-                    >
-                      Get Expert Consultation
-                    </Link>
-                  </div>
-                </div>
+                <SpecialityHighlightVisualPanel
+                  speciality={speciality}
+                  relatedItems={[
+                    ...related.map((item) => item.name),
+                    ...speciality.symptoms,
+                    speciality.short_description,
+                  ]}
+                />
               </aside>
             </div>
           </div>
