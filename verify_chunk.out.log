@@ -1,0 +1,30 @@
+
+> hospital-website@0.1.0 dev:clean
+> npm run clean && next dev -p 3000
+
+
+> hospital-website@0.1.0 clean
+> node -e "require('fs').rmSync('.next',{recursive:true,force:true})"
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1908ms
+ ○ Compiling /diseases ...
+ ✓ Compiled /diseases in 7.4s (510 modules)
+ GET /diseases 200 in 8846ms
+ GET /_next/static/webpack/593d993207faa650.webpack.hot-update.json 404 in 9351ms
+ ✓ Compiled in 865ms (263 modules)
+ GET /diseases 200 in 434ms
+ GET /diseases 200 in 1490ms
+ GET /_next/static/webpack/593d993207faa650.webpack.hot-update.json 404 in 1371ms
+ GET /diseases 200 in 465ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 20ms
+ GET /diseases 200 in 993ms
+ GET /_next/static/chunks/fallback/main.js 404 in 40ms
+ GET /_next/static/chunks/fallback/webpack.js 404 in 20ms
+ GET /_next/static/chunks/fallback/react-refresh.js 404 in 24ms
+ GET /_next/static/chunks/fallback/pages/_app.js 404 in 14ms
+ GET /_next/static/chunks/fallback/pages/_error.js 404 in 15ms

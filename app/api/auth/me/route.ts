@@ -9,7 +9,7 @@ export async function GET() {
     const session = verifySessionToken(token);
 
     if (!session) {
-      return NextResponse.json({ authenticated: false }, { status: 401 });
+      return NextResponse.json({ authenticated: false }, { status: 200 });
     }
 
     const db = await getDb();
@@ -19,7 +19,7 @@ export async function GET() {
     );
 
     if (!user) {
-      return NextResponse.json({ authenticated: false }, { status: 401 });
+      return NextResponse.json({ authenticated: false }, { status: 200 });
     }
 
     return NextResponse.json({
@@ -31,6 +31,6 @@ export async function GET() {
       },
     });
   } catch {
-    return NextResponse.json({ authenticated: false }, { status: 500 });
+    return NextResponse.json({ authenticated: false }, { status: 200 });
   }
 }

@@ -871,14 +871,8 @@ export default function Navbar() {
             </div>
 
             <div className="lg:hidden flex items-center gap-3">
-              <div className="relative w-9 h-9 rounded-full overflow-hidden ring-2 ring-white shadow-card flex-shrink-0">
-                <Image
-                  src="/images/nav-avatar.png"
-                  alt="Doctor"
-                  fill
-                  className="object-cover"
-                  sizes="36px"
-                />
+              <div className="w-9 h-9 rounded-full ring-2 ring-white shadow-card flex-shrink-0 bg-primary/10 text-primary flex items-center justify-center font-semibold text-xs">
+                DM
               </div>
 
               <button

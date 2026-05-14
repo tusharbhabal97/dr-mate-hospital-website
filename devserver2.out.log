@@ -1,0 +1,18 @@
+
+> hospital-website@0.1.0 dev:clean
+> npm run clean && next dev -p 3013
+
+
+> hospital-website@0.1.0 clean
+> node -e "require('fs').rmSync('.next',{recursive:true,force:true})"
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3013
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1423ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3s (610 modules)
+ GET / 200 in 3369ms
+ ✓ Compiled in 403ms (299 modules)

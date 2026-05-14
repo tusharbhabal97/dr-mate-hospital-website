@@ -1,22 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ImmersiveDetailLayout from "@/components/ImmersiveDetailLayout";
-import diseasesData from "@/data/disease.json";
-
-type Disease = {
-  id: string;
-  name: string;
-  description: string;
-  category: string;
-  symptoms?: string[];
-  causes?: string[];
-  diagnosis?: string[];
-  treatment?: string[];
-  risk_factors?: string[];
-  prevention?: string[];
-  prevalence?: string;
-  niams_url?: string;
-};
+import { getCombinedDiseases } from "@/lib/diseases-server";
+import type { CombinedDisease } from "@/lib/diseases-types";
 
 type ListSection = {
   title: string;
@@ -33,19 +19,19 @@ const RELATED_OVERRIDES: Record<string, string[]> = {
   "chronic-obstructive-pulmonary-disease-copd": ["asthma"],
 };
 
-export default function DiseaseDetailPage({
+export default async function DiseaseDetailPage({
   params,
 }: {
   params: { id: string };
 }) {
-  const diseases = (diseasesData as { diseases: Disease[] }).diseases ?? [];
+  const diseases = (await getCombinedDiseases()) as CombinedDisease[];
   const disease = diseases.find((d) => d.id === params.id);
 
   if (!disease) {
     notFound();
   }
 
-  const allSections: Array<{ title: string; items?: string[] }> = [
+  const primarySections: Array<{ title: string; items?: string[] }> = [
     { title: "Symptoms", items: disease.symptoms },
     { title: "Causes", items: disease.causes },
     { title: "Diagnosis", items: disease.diagnosis },
@@ -54,9 +40,29 @@ export default function DiseaseDetailPage({
     { title: "Prevention", items: disease.prevention },
   ];
 
-  const sections: ListSection[] = allSections
+  const sections: ListSection[] = primarySections
     .map((section) => ({ title: section.title, items: section.items ?? [] }))
     .filter((section) => section.items.length > 0);
+
+  const apolloSections: ListSection[] = (disease.apollo_content?.sections ?? [])
+    .map((section) => ({
+      title: section.heading || "Details",
+      items: (section.content ?? []).filter(Boolean),
+    }))
+    .filter((section) => section.items.length > 0)
+    .filter(
+      (section, index, list) =>
+        list.findIndex(
+          (entry) => entry.title.toLowerCase() === section.title.toLowerCase(),
+        ) === index,
+    );
+
+  const allDetailSections =
+    sections.length > 0
+      ? sections
+      : apolloSections.length > 0
+        ? apolloSections
+        : [];
 
   const overrideIds = new Set(RELATED_OVERRIDES[disease.id] ?? []);
   const overrideRelated = diseases.filter((d) => overrideIds.has(d.id));
@@ -71,9 +77,9 @@ export default function DiseaseDetailPage({
 
   return (
     <ImmersiveDetailLayout
-      badge={disease.category}
+      badge={disease.category || "Condition"}
       title={disease.name}
-      description={disease.description}
+      description={disease.description || "Details available on the source page."}
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "Diseases & Conditions", href: "/diseases" },
@@ -93,12 +99,11 @@ export default function DiseaseDetailPage({
             Condition Overview
           </h2>
           <p className="text-slate-600 text-sm leading-relaxed mb-5 max-w-2xl">
-            Understand key symptoms, causes, diagnosis options, and treatment
-            pathways for {disease.name}. This overview is intended for patient
-            awareness and should be followed by specialist consultation.
+            {disease.description ||
+              "Review key condition information and consult a specialist for personalized care."}
           </p>
           <div className="flex flex-wrap gap-2">
-            {disease.category.split("/").map((category) => (
+            {(disease.category || "Condition").split("/").map((category) => (
               <span
                 key={category}
                 className="inline-flex px-3 py-1 rounded-full text-xs font-semibold bg-indigo-50 text-indigo-700"
@@ -134,7 +139,7 @@ export default function DiseaseDetailPage({
         </article>
 
         <div className="lg:col-span-8 grid sm:grid-cols-2 gap-6">
-          {sections.map((section) => (
+          {allDetailSections.map((section) => (
             <article
               key={section.title}
               className="bg-white rounded-[2rem] border border-slate-100 p-6 shadow-[0_12px_38px_rgba(15,23,42,0.06)]"
@@ -197,6 +202,38 @@ export default function DiseaseDetailPage({
               </a>
             </article>
           )}
+
+          {!disease.niams_url && disease.apollo_url && (
+            <article className="bg-white rounded-[2rem] border border-slate-100 p-6 shadow-[0_12px_38px_rgba(15,23,42,0.06)]">
+              <h2 className="font-display font-bold text-xl text-slate-900 mb-3">
+                Source Reference
+              </h2>
+              <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                View the original disease and condition source page.
+              </p>
+              <a
+                href={disease.apollo_url}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 text-primary text-sm font-semibold"
+              >
+                Visit Source Page
+                <svg
+                  className="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M13 7h6m0 0v6m0-6L10 16"
+                  />
+                </svg>
+              </a>
+            </article>
+          )}
         </div>
       </div>
 
@@ -213,13 +250,13 @@ export default function DiseaseDetailPage({
                 className="bg-white rounded-[1.5rem] border border-slate-100 p-5 shadow-[0_10px_30px_rgba(15,23,42,0.06)] hover:shadow-[0_14px_36px_rgba(15,23,42,0.09)] transition-all"
               >
                 <span className="inline-flex px-3 py-1 rounded-full text-xs font-semibold bg-indigo-50 text-indigo-700 mb-3">
-                  {item.category.split("/")[0]}
+                  {item.category.split("/")[0] || "Condition"}
                 </span>
                 <h3 className="font-display font-bold text-slate-900 text-base mb-2">
                   {item.name}
                 </h3>
                 <p className="text-slate-600 text-sm leading-relaxed">
-                  {item.description}
+                  {item.description || "Details available on condition page."}
                 </p>
               </Link>
             ))}

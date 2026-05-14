@@ -24,11 +24,9 @@ export default function PatientPortalLink({
         return;
       }
 
-      if (res.status === 401) {
-        alert("Please login first to access the Patient Portal.");
-        router.push("/auth?next=%2Fpatient-dashboard");
-        return;
-      }
+      alert("Please login first to access the Patient Portal.");
+      router.push("/auth?next=%2Fpatient-dashboard");
+      return;
     } catch {
       // fall through to alert and auth redirect
     }

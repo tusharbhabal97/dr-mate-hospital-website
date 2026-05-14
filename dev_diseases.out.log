@@ -1,0 +1,25 @@
+
+> hospital-website@0.1.0 dev:clean
+> npm run clean && next dev -p 3014
+
+
+> hospital-website@0.1.0 clean
+> node -e "require('fs').rmSync('.next',{recursive:true,force:true})"
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3014
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.8s
+ ○ Compiling /diseases ...
+ ✓ Compiled /diseases in 10s (507 modules)
+ GET /diseases 200 in 10515ms
+ ✓ Compiled in 662ms (261 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 938ms (496 modules)
+ GET /_next/static/chunks/fallback/main.js 404 in 1050ms
+ GET /_next/static/chunks/fallback/webpack.js 404 in 24ms
+ GET /_next/static/chunks/fallback/react-refresh.js 404 in 33ms
+ GET /_next/static/chunks/fallback/pages/_app.js 404 in 56ms
+ GET /_next/static/chunks/fallback/pages/_error.js 404 in 76ms

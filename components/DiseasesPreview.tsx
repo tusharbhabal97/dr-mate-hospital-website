@@ -2,18 +2,12 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import diseasesData from "@/data/disease.json";
+import { diseasesIndex } from "@/lib/diseases-index";
+import type { DiseaseIndexEntry } from "@/lib/diseases-types";
 
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-type Disease = {
-  id: string;
-  name: string;
-  description: string;
-  category: string;
-  letter?: string;
-  symptoms?: string[];
-};
+type Disease = DiseaseIndexEntry;
 
 const getDiseaseLetter = (disease: Disease) => {
   const letter = disease.letter?.trim().charAt(0).toUpperCase();
@@ -26,7 +20,7 @@ export default function DiseasesPreview() {
   const [search, setSearch] = useState("");
   const [activeLetter, setActiveLetter] = useState<string | null>(null);
 
-  const diseases = (diseasesData as { diseases: Disease[] }).diseases ?? [];
+  const diseases = diseasesIndex as Disease[];
 
   const availableLetters = useMemo(
     () => new Set(diseases.map((d) => getDiseaseLetter(d))),
@@ -43,8 +37,8 @@ export default function DiseasesPreview() {
       result = result.filter(
         (d) =>
           d.name.toLowerCase().includes(q) ||
-          d.description.toLowerCase().includes(q) ||
-          d.category.toLowerCase().includes(q) ||
+          (d.description ?? "").toLowerCase().includes(q) ||
+          (d.category ?? "").toLowerCase().includes(q) ||
           d.symptoms?.some((symptom) => symptom.toLowerCase().includes(q)),
       );
     }
@@ -164,7 +158,7 @@ export default function DiseasesPreview() {
                   {disease.name}
                 </p>
                 <p className="text-xs text-muted mt-1">
-                  {disease.category.split("/")[0]}
+                  {disease.category.split("/")[0] || "Condition"}
                 </p>
               </Link>
             ))}

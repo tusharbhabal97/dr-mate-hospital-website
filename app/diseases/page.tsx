@@ -2,18 +2,12 @@
 
 import { useState, useMemo, useRef, useEffect } from "react";
 import Link from "next/link";
-import diseasesData from "@/data/disease.json";
+import { diseasesIndex } from "@/lib/diseases-index";
+import type { DiseaseIndexEntry } from "@/lib/diseases-types";
 
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-type Disease = {
-  id: string;
-  name: string;
-  description: string;
-  category: string;
-  letter?: string;
-  symptoms: string[];
-};
+type Disease = DiseaseIndexEntry;
 
 const getDiseaseLetter = (disease: { letter?: string; name: string }) => {
   const letter = disease.letter?.trim().charAt(0).toUpperCase();
@@ -27,7 +21,7 @@ export default function DiseasesPage() {
   const [activeLetter, setActiveLetter] = useState<string | null>(null);
   const resultsRef = useRef<HTMLElement>(null);
 
-  const diseases = (diseasesData as { diseases: Disease[] }).diseases ?? [];
+  const diseases = diseasesIndex as Disease[];
   const availableLetters = useMemo(
     () => new Set(diseases.map((d) => getDiseaseLetter(d))),
     [diseases],
@@ -43,8 +37,8 @@ export default function DiseasesPage() {
       result = result.filter(
         (d) =>
           d.name.toLowerCase().includes(q) ||
-          d.description.toLowerCase().includes(q) ||
-          d.category.toLowerCase().includes(q) ||
+          (d.description ?? "").toLowerCase().includes(q) ||
+          (d.category ?? "").toLowerCase().includes(q) ||
           d.symptoms?.some((symptom) => symptom.toLowerCase().includes(q)),
       );
     }
@@ -225,7 +219,7 @@ export default function DiseasesPage() {
         ) : (
           <div className="space-y-10">
             {sortedLetters.map((letter) => (
-              <div key={letter} className="reveal">
+              <div key={letter} className="reveal visible">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center shadow-btn flex-shrink-0">
                     <span className="font-display font-bold text-white text-xl">
@@ -244,7 +238,7 @@ export default function DiseasesPage() {
                     >
                       <div className="bg-white rounded-xl p-5 border border-gray-100 shadow-card service-card cursor-pointer">
                         <span className="tag-navy mb-3 inline-block">
-                          {disease.category.split("/")[0]}
+                          {disease.category.split("/")[0] || "Condition"}
                         </span>
 
                         <h3 className="font-display font-bold text-dark text-base mb-2 group-hover:text-primary transition-colors leading-snug">
@@ -252,7 +246,8 @@ export default function DiseasesPage() {
                         </h3>
 
                         <p className="text-muted font-body text-sm leading-relaxed line-clamp-2 mb-4">
-                          {disease.description.slice(0, 100)}...
+                          {(disease.description || "Overview available on detail page.").slice(0, 100)}
+                          ...
                         </p>
 
                         <div className="flex items-center justify-between">
