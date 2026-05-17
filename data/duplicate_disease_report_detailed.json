@@ -1,0 +1,3956 @@
+{
+  "summary": {
+    "total_records_input": 2466,
+    "modified_records": 152,
+    "common_records": 2314,
+    "duplicate_groups": 49,
+    "duplicate_records_total": 100,
+    "extra_duplicates_beyond_first": 51
+  },
+  "groups": [
+    {
+      "group_id": 1,
+      "display_name": "Achilles Tendinitis",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Achilles Tendinitis",
+        "Achilles Tendinitis: Symptoms, Causes And Treatment"
+      ],
+      "distinct_slugs": [
+        "achilles-tendinitis"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 0,
+          "name": "Achilles Tendinitis",
+          "slug": "achilles-tendinitis",
+          "url": "https://www.niams.nih.gov/health-topics/achilles-tendinitis",
+          "content_meta_title": "Achilles Tendinitis - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Achilles Tendinitis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Achilles Tendinitis: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Achilles Tendinitis?",
+            "Common Symptoms of Achilles Tendinitis",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 2004
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 9,
+          "name": "Achilles Tendinitis: Symptoms, Causes And Treatment",
+          "slug": "achilles-tendinitis",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/achilles-tendinitis",
+          "content_meta_title": "Achilles Tendinitis: Symptoms, Causes And Treatment | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Achilles Tendinitis: Symptoms, Causes And Treatment"
+          ],
+          "sections_count": 7,
+          "section_headings": [
+            null,
+            "Achilles Tendinitis Definition",
+            "Achilles Tendinitis Symptoms",
+            "Achilles Tendinitis Risk Factors",
+            "Achilles Tendinitis Diagnosis",
+            "Achilles Tendinitis Treatment",
+            "Achilles Tendinitis Medication and Surgery"
+          ],
+          "full_text_length": 1680
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "display_name": "Acne",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Acne",
+        "Acne – Causes, Diagnosis and Treatment"
+      ],
+      "distinct_slugs": [
+        "acne"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 2,
+          "name": "Acne",
+          "slug": "acne",
+          "url": "https://www.niams.nih.gov/health-topics/acne",
+          "content_meta_title": "Acne - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Acne - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Acne: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Acne?",
+            "Common Symptoms of Acne",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1888
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 13,
+          "name": "Acne – Causes, Diagnosis and Treatment",
+          "slug": "acne",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/acne",
+          "content_meta_title": "Acne – Causes, Diagnosis and Treatment | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Acne – Causes, Diagnosis and Treatment"
+          ],
+          "sections_count": 7,
+          "section_headings": [
+            null,
+            "Definition",
+            "Symptoms of Acne Treatment",
+            "Risk Factors",
+            "Diagnosis of Acne Treatment",
+            "Treatment of Acne Treatment",
+            "Adult Acne"
+          ],
+          "full_text_length": 2903
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "display_name": "Allergic Rhinitis",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Allergic Rhinitis"
+      ],
+      "distinct_slugs": [
+        "allergic-rhinitis"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 3,
+          "name": "Allergic Rhinitis",
+          "slug": "allergic-rhinitis",
+          "url": "https://medlineplus.gov/ency/article/000813.htm",
+          "content_meta_title": "Allergic Rhinitis - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Allergic Rhinitis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Allergic Rhinitis: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Allergic Rhinitis?",
+            "Common Symptoms of Allergic Rhinitis",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 879
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 62,
+          "name": "Allergic Rhinitis",
+          "slug": "allergic-rhinitis",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/allergic-rhinitis",
+          "content_meta_title": "Allergic Rhinitis | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Allergic Rhinitis"
+          ],
+          "sections_count": 5,
+          "section_headings": [
+            "Allergic Rhinitis Definition",
+            "Allergic Rhinitis Causes",
+            "Allergic Rhinitis Symptoms",
+            "Allergic Rhinitis Diagnosis",
+            "Allergic Rhinitis Treatment"
+          ],
+          "full_text_length": 2336
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "display_name": "Alopecia Areata",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Alopecia Areata",
+        "Alopecia Areata - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "alopecia-areata"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 4,
+          "name": "Alopecia Areata",
+          "slug": "alopecia-areata",
+          "url": "https://www.niams.nih.gov/health-topics/alopecia-areata",
+          "content_meta_title": "Alopecia Areata - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Alopecia Areata - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Alopecia Areata: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Alopecia Areata?",
+            "Common Symptoms of Alopecia Areata",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1708
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 66,
+          "name": "Alopecia Areata - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "alopecia-areata",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/alopecia-areata",
+          "content_meta_title": "Alopecia Areata - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Alopecia Areata - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Alopecia Areata: Understanding the Hair Loss Condition"
+          ],
+          "sections_count": 23,
+          "section_headings": [
+            "Introduction",
+            "Definition",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Symptoms",
+            "Warning Signs",
+            "Diagnosis",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Complications",
+            "Short-Term Complications",
+            "Long-Term Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 14418
+        }
+      ]
+    },
+    {
+      "group_id": 5,
+      "display_name": "Ankylosing Spondylitis",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Ankylosing Spondylitis",
+        "Ankylosing Spondylitis: Types, Symptoms, Causes and Treatment"
+      ],
+      "distinct_slugs": [
+        "ankylosing-spondylitis"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 6,
+          "name": "Ankylosing Spondylitis",
+          "slug": "ankylosing-spondylitis",
+          "url": "https://www.niams.nih.gov/health-topics/ankylosing-spondylitis",
+          "content_meta_title": "Ankylosing Spondylitis - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Ankylosing Spondylitis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Ankylosing Spondylitis: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Ankylosing Spondylitis?",
+            "Common Symptoms of Ankylosing Spondylitis",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1891
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 100,
+          "name": "Ankylosing Spondylitis: Types, Symptoms, Causes and Treatment",
+          "slug": "ankylosing-spondylitis",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/ankylosing-spondylitis",
+          "content_meta_title": "Ankylosing Spondylitis - Types, Symptoms, Causes and Treatment",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Ankylosing Spondylitis: Types, Symptoms, Causes and Treatment"
+          ],
+          "sections_count": 6,
+          "section_headings": [
+            null,
+            "Ankylosing Spondylitis Definition",
+            "Ankylosing Spondylitis Symptoms",
+            "Ankylosing Spondylitis Risk Factors",
+            "Ankylosing Spondylitis Diagnosis",
+            "Ankylosing Spondylitis Treatment"
+          ],
+          "full_text_length": 2816
+        }
+      ]
+    },
+    {
+      "group_id": 6,
+      "display_name": "Antiphospholipid Syndrome (APS)",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Antiphospholipid Syndrome (APS)",
+        "Antiphospholipid Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "antiphospholipid-syndrome"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 7,
+          "name": "Antiphospholipid Syndrome (APS)",
+          "slug": "antiphospholipid-syndrome",
+          "url": "https://www.niams.nih.gov/health-topics/antiphospholipid-syndrome",
+          "content_meta_title": "Antiphospholipid Syndrome (APS) - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Antiphospholipid Syndrome (APS) - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Antiphospholipid Syndrome (APS): Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Antiphospholipid Syndrome (APS)?",
+            "Common Symptoms of Antiphospholipid Syndrome (APS)",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1898
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 113,
+          "name": "Antiphospholipid Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "antiphospholipid-syndrome",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/antiphospholipid-syndrome",
+          "content_meta_title": "Antiphospholipid Syndrome - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Antiphospholipid Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Antiphospholipid Syndrome: Understanding a Complex Condition"
+          ],
+          "sections_count": 22,
+          "section_headings": [
+            "Introduction",
+            "What is Antiphospholipid Syndrome?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Symptoms",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Complications",
+            "Short-Term and Long-Term Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Factors Influencing Prognosis",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 13218
+        }
+      ]
+    },
+    {
+      "group_id": 7,
+      "display_name": "Arthritis",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Arthritis",
+        "Arthritis - Causes, Symptoms and Treatment"
+      ],
+      "distinct_slugs": [
+        "arthritis"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 8,
+          "name": "Arthritis",
+          "slug": "arthritis",
+          "url": "https://www.niams.nih.gov/health-topics/arthritis",
+          "content_meta_title": "Arthritis - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Arthritis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Arthritis: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Arthritis?",
+            "Common Symptoms of Arthritis",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1697
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 145,
+          "name": "Arthritis - Causes, Symptoms and Treatment",
+          "slug": "arthritis",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/arthritis",
+          "content_meta_title": "Arthritis: Causes, types, and Diagnosis - Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Arthritis - Causes, Symptoms and Treatment"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "What is Arthritis?",
+            "Most Common Causes",
+            "Signs and Symptoms",
+            "When to See a Doctor?",
+            "Types of Arthritis",
+            "How is the Condition Diagnosed?",
+            "Treatment for Arthritis",
+            "Surgical Treatment Options",
+            "Foods that Heal Arthritis",
+            "Prevention and Management",
+            "Dos and Don’ts",
+            "Takeaway Message",
+            "FAQs for Arthritis"
+          ],
+          "full_text_length": 10445
+        }
+      ]
+    },
+    {
+      "group_id": 8,
+      "display_name": "Asthma",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Asthma"
+      ],
+      "distinct_slugs": [
+        "asthma"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 9,
+          "name": "Asthma",
+          "slug": "asthma",
+          "url": "https://www.nhlbi.nih.gov/health/asthma",
+          "content_meta_title": "Asthma - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Asthma - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Asthma: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Asthma?",
+            "Common Symptoms of Asthma",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1575
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 158,
+          "name": "Asthma",
+          "slug": "asthma",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/asthma",
+          "content_meta_title": "Asthma : Causes, Symptoms, Diagnosis and Treatment",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Asthma"
+          ],
+          "sections_count": 6,
+          "section_headings": [
+            "Asthma Definition",
+            "Asthma Symptoms",
+            "Asthma Risk Factors",
+            "Asthma Diagnosis",
+            "Asthma Treatment",
+            "Short term (quick relief) medication:"
+          ],
+          "full_text_length": 3264
+        }
+      ]
+    },
+    {
+      "group_id": 9,
+      "display_name": "Behçet's Disease",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Behçet's Disease",
+        "Behcets Disease - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "behcets-disease"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 12,
+          "name": "Behçet's Disease",
+          "slug": "behcets-disease",
+          "url": "https://www.niams.nih.gov/health-topics/behcets-disease",
+          "content_meta_title": "Behçet's Disease - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Behçet's Disease - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Behçet's Disease: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Behçet's Disease?",
+            "Common Symptoms of Behçet's Disease",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1627
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 214,
+          "name": "Behcets Disease - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "behcets-disease",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/behcets-disease",
+          "content_meta_title": "Behcets Disease - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Behcets Disease - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Understanding Behçet's Disease: A Comprehensive Guide"
+          ],
+          "sections_count": 22,
+          "section_headings": [
+            "Introduction",
+            "What is Behçet's Disease?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Symptoms",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Complications",
+            "Short-Term and Long-Term Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Factors Influencing Prognosis",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 11034
+        }
+      ]
+    },
+    {
+      "group_id": 10,
+      "display_name": "Bronchitis",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Bronchitis"
+      ],
+      "distinct_slugs": [
+        "bronchitis"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 13,
+          "name": "Bronchitis",
+          "slug": "bronchitis",
+          "url": "https://medlineplus.gov/acutebronchitis.html",
+          "content_meta_title": "Bronchitis - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Bronchitis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Bronchitis: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Bronchitis?",
+            "Common Symptoms of Bronchitis",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 946
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 298,
+          "name": "Bronchitis",
+          "slug": "bronchitis",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/bronchitis",
+          "content_meta_title": "Bronchitis | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Bronchitis"
+          ],
+          "sections_count": 7,
+          "section_headings": [
+            null,
+            "Definition",
+            "Types of Bronchitis",
+            "Causes of Bronchitis",
+            "Symptoms of Bronchitis",
+            "Diagnosis of Bronchitis",
+            "Treatment for Bronchitis"
+          ],
+          "full_text_length": 2925
+        }
+      ]
+    },
+    {
+      "group_id": 11,
+      "display_name": "Chikungunya",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Chikungunya"
+      ],
+      "distinct_slugs": [
+        "chikungunya"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 17,
+          "name": "Chikungunya",
+          "slug": "chikungunya",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/chikungunya",
+          "content_meta_title": "Chikungunya - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Chikungunya - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Chikungunya: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Chikungunya?",
+            "Common Symptoms of Chikungunya",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1276
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 394,
+          "name": "CHIKUNGUNYA",
+          "slug": "chikungunya",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/chikungunya",
+          "content_meta_title": "Chikangunya - Symptoms, Causes and Treatment - Apollo Hospital Blog",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "CHIKUNGUNYA"
+          ],
+          "sections_count": 8,
+          "section_headings": [
+            "Overview",
+            "Cause",
+            "Symptoms",
+            "Risk Factors",
+            "Diagnosis",
+            "Treatment",
+            "Prevention",
+            "FAQs"
+          ],
+          "full_text_length": 9295
+        }
+      ]
+    },
+    {
+      "group_id": 12,
+      "display_name": "Dermatomyositis",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Dermatomyositis",
+        "Dermatomyositis - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "dermatomyositis"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 29,
+          "name": "Dermatomyositis",
+          "slug": "dermatomyositis",
+          "url": "https://www.niams.nih.gov/health-topics/myositis",
+          "content_meta_title": "Dermatomyositis - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Dermatomyositis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Dermatomyositis: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Dermatomyositis?",
+            "Common Symptoms of Dermatomyositis",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1726
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 569,
+          "name": "Dermatomyositis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "dermatomyositis",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/dermatomyositis",
+          "content_meta_title": "Dermatomyositis - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Dermatomyositis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Dermatomyositis: Understanding a Complex Condition"
+          ],
+          "sections_count": 22,
+          "section_headings": [
+            "Introduction",
+            "What is Dermatomyositis?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Common Symptoms of Dermatomyositis",
+            "Warning Signs for Immediate Medical Attention",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Potential Complications",
+            "Short-Term and Long-Term Complications",
+            "Strategies for Prevention",
+            "Typical Course of the Disease",
+            "Factors Influencing Prognosis",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 16207
+        }
+      ]
+    },
+    {
+      "group_id": 13,
+      "display_name": "Diphtheria",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Diphtheria"
+      ],
+      "distinct_slugs": [
+        "diphtheria"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 32,
+          "name": "Diphtheria",
+          "slug": "diphtheria",
+          "url": "https://www.cdc.gov/diphtheria/symptoms/index.html",
+          "content_meta_title": "Diphtheria - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Diphtheria - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Diphtheria: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Diphtheria?",
+            "Common Symptoms of Diphtheria",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 956
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 599,
+          "name": "Diphtheria",
+          "slug": "diphtheria",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/diphtheria",
+          "content_meta_title": "Diphtheria | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Diphtheria"
+          ],
+          "sections_count": 6,
+          "section_headings": [
+            null,
+            "Diphtheria Definition",
+            "Diphtheria Symptoms",
+            "Diphtheria Risk Factors",
+            "Diphtheria Diagnosis",
+            "Diphtheria Treatment"
+          ],
+          "full_text_length": 3241
+        }
+      ]
+    },
+    {
+      "group_id": 14,
+      "display_name": "Discoid Lupus Erythematosus (DLE)",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Discoid Lupus Erythematosus (DLE)",
+        "Discoid Lupus - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "discoid-lupus"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 33,
+          "name": "Discoid Lupus Erythematosus (DLE)",
+          "slug": "discoid-lupus",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "content_meta_title": "Discoid Lupus Erythematosus (DLE) - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Discoid Lupus Erythematosus (DLE) - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Discoid Lupus Erythematosus (DLE): Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Discoid Lupus Erythematosus (DLE)?",
+            "Common Symptoms of Discoid Lupus Erythematosus (DLE)",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 2000
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 601,
+          "name": "Discoid Lupus - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "discoid-lupus",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/discoid-lupus",
+          "content_meta_title": "Discoid Lupus - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Discoid Lupus - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Discoid Lupus: Understanding a Chronic Skin Condition"
+          ],
+          "sections_count": 21,
+          "section_headings": [
+            "Introduction",
+            "Definition",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Symptoms",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Complications",
+            "Short-Term and Long-Term Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 10961
+        }
+      ]
+    },
+    {
+      "group_id": 15,
+      "display_name": "Dupuytren's Contracture",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Dupuytren's Contracture",
+        "Dupuytrens Contracture - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "dupuytrens-contracture"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 34,
+          "name": "Dupuytren's Contracture",
+          "slug": "dupuytrens-contracture",
+          "url": "https://www.niams.nih.gov/health-topics/dupuytrens-contracture",
+          "content_meta_title": "Dupuytren's Contracture - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Dupuytren's Contracture - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Dupuytren's Contracture: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Dupuytren's Contracture?",
+            "Common Symptoms of Dupuytren's Contracture",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1632
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 628,
+          "name": "Dupuytrens Contracture - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "dupuytrens-contracture",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/dupuytrens-contracture",
+          "content_meta_title": "Dupuytrens Contracture - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Dupuytrens Contracture - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Dupuytren's Contracture: Understanding, Diagnosis, and Treatment"
+          ],
+          "sections_count": 22,
+          "section_headings": [
+            "Introduction",
+            "What is Dupuytren's Contracture?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Common Symptoms",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Potential Complications",
+            "Short-Term and Long-Term Complications",
+            "Strategies for Prevention",
+            "Typical Course of the Disease",
+            "Factors Influencing Prognosis",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 11991
+        }
+      ]
+    },
+    {
+      "group_id": 16,
+      "display_name": "Eczema (Atopic Dermatitis)",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Eczema (Atopic Dermatitis)",
+        "ECZEMA"
+      ],
+      "distinct_slugs": [
+        "eczema"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 36,
+          "name": "Eczema (Atopic Dermatitis)",
+          "slug": "eczema",
+          "url": "https://www.niams.nih.gov/health-topics/eczema",
+          "content_meta_title": "Eczema (Atopic Dermatitis) - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Eczema (Atopic Dermatitis) - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Eczema (Atopic Dermatitis): Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Eczema (Atopic Dermatitis)?",
+            "Common Symptoms of Eczema (Atopic Dermatitis)",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1933
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 657,
+          "name": "ECZEMA",
+          "slug": "eczema",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/eczema",
+          "content_meta_title": "ECZEMA | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "ECZEMA"
+          ],
+          "sections_count": 9,
+          "section_headings": [
+            "Overview",
+            "Causes",
+            "Symptoms",
+            "Types Of Eczema",
+            "Complications",
+            "Diagnosis",
+            "Treatment",
+            "Prevention",
+            "FAQs"
+          ],
+          "full_text_length": 18839
+        }
+      ]
+    },
+    {
+      "group_id": 17,
+      "display_name": "Ehlers-Danlos Syndrome (EDS)",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Ehlers-Danlos Syndrome (EDS)",
+        "Ehlers-Danlos Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "ehlers-danlos-syndrome"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 37,
+          "name": "Ehlers-Danlos Syndrome (EDS)",
+          "slug": "ehlers-danlos-syndrome",
+          "url": "https://www.niams.nih.gov/health-topics/ehlers-danlos-syndrome",
+          "content_meta_title": "Ehlers-Danlos Syndrome (EDS) - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Ehlers-Danlos Syndrome (EDS) - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Ehlers-Danlos Syndrome (EDS): Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Ehlers-Danlos Syndrome (EDS)?",
+            "Common Symptoms of Ehlers-Danlos Syndrome (EDS)",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1858
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 661,
+          "name": "Ehlers-Danlos Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "ehlers-danlos-syndrome",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/ehlers-danlos-syndrome",
+          "content_meta_title": "Ehlers-Danlos Syndrome - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Ehlers-Danlos Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Ehlers-Danlos Syndrome: Understanding a Complex Condition"
+          ],
+          "sections_count": 22,
+          "section_headings": [
+            "Introduction",
+            "Definition",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Symptoms",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Complications",
+            "Short-Term Complications",
+            "Long-Term Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 9741
+        }
+      ]
+    },
+    {
+      "group_id": 48,
+      "display_name": "Epilepsy - Symptoms, Risks, Diagnosis, and Treatment",
+      "record_count": 2,
+      "match_reasons": [
+        "name"
+      ],
+      "distinct_names": [
+        "Epilepsy - Symptoms, Risks, Diagnosis, and Treatment"
+      ],
+      "distinct_slugs": [
+        "epilepsy",
+        "what-is-epilepsy"
+      ],
+      "records": [
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 697,
+          "name": "Epilepsy - Symptoms, Risks, Diagnosis, and Treatment",
+          "slug": "epilepsy",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/epilepsy",
+          "content_meta_title": "Epilepsy - Symptoms, Causes, Diagnosis and Treatment",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Epilepsy - Symptoms, Risks, Diagnosis, and Treatment"
+          ],
+          "sections_count": 10,
+          "section_headings": [
+            "Overview",
+            "Causes",
+            "Symptoms",
+            "Types of Seizures",
+            "Risk Factors",
+            "Complications",
+            "Diagnosis",
+            "Treatment",
+            "Prevention",
+            "FAQs"
+          ],
+          "full_text_length": 19239
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 698,
+          "name": "Epilepsy - Symptoms, Risks, Diagnosis, and Treatment",
+          "slug": "what-is-epilepsy",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/what-is-epilepsy",
+          "content_meta_title": "Epilepsy - Symptoms, Causes, Diagnosis and Treatment",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Epilepsy - Symptoms, Risks, Diagnosis, and Treatment"
+          ],
+          "sections_count": 10,
+          "section_headings": [
+            "Overview",
+            "Causes",
+            "Symptoms",
+            "Types of Seizures",
+            "Risk Factors",
+            "Complications",
+            "Diagnosis",
+            "Treatment",
+            "Prevention",
+            "FAQs"
+          ],
+          "full_text_length": 19239
+        }
+      ]
+    },
+    {
+      "group_id": 18,
+      "display_name": "Fibromyalgia",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Fibromyalgia",
+        "Fibromyalgia - Types, Causes, Symptoms, Risk Factors, Diagnosis and Treatment"
+      ],
+      "distinct_slugs": [
+        "fibromyalgia"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 39,
+          "name": "Fibromyalgia",
+          "slug": "fibromyalgia",
+          "url": "https://www.niams.nih.gov/health-topics/fibromyalgia",
+          "content_meta_title": "Fibromyalgia - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Fibromyalgia - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Fibromyalgia: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Fibromyalgia?",
+            "Common Symptoms of Fibromyalgia",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1801
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 773,
+          "name": "Fibromyalgia - Types, Causes, Symptoms, Risk Factors, Diagnosis and Treatment",
+          "slug": "fibromyalgia",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/fibromyalgia",
+          "content_meta_title": "Fibromyalgia - Causes, Symptoms, Diagnosis and Treatment",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Fibromyalgia - Types, Causes, Symptoms, Risk Factors, Diagnosis and Treatment"
+          ],
+          "sections_count": 18,
+          "section_headings": [
+            "Fibromyalgia Definition:",
+            "About Fibromyalgia:",
+            "What are the symptoms of Fibromyalgia?",
+            "What are the causes of Fibromyalgia?",
+            "What are the types of Fibromyalgia Pain?",
+            "What are the complications of Fibromyalgia?",
+            "Risk Factors for Fibromyalgia",
+            "When Should You Visit Your Doctor for Fibromyalgia?",
+            "Fibromyalgia Diagnosis",
+            "How is Fibromyalgia Diagnosed?",
+            "Ruling Out Other Conditions",
+            "Lab Tests and Investigations",
+            "Fibromyalgia Treatment Options",
+            "Non-Medication Treatments for Fibromyalgia",
+            "Medication-Based Treatments",
+            "Comprehensive Care at Apollo Hospitals",
+            "Conclusion",
+            "Frequently Asked Questions (FAQs)"
+          ],
+          "full_text_length": 12639
+        }
+      ]
+    },
+    {
+      "group_id": 19,
+      "display_name": "Flat Feet (Pes Planus)",
+      "record_count": 3,
+      "match_reasons": [
+        "slug",
+        "compact_name"
+      ],
+      "distinct_names": [
+        "Flat Feet (Pes Planus)",
+        "Flat Feet - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+        "Flatfeet - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "flat-feet",
+        "flatfeet"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 40,
+          "name": "Flat Feet (Pes Planus)",
+          "slug": "flat-feet",
+          "url": "https://www.niams.nih.gov/health-topics/foot-problems",
+          "content_meta_title": "Flat Feet (Pes Planus) - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Flat Feet (Pes Planus) - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Flat Feet (Pes Planus): Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Flat Feet (Pes Planus)?",
+            "Common Symptoms of Flat Feet (Pes Planus)",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1816
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 779,
+          "name": "Flat Feet - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "flat-feet",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/flat-feet",
+          "content_meta_title": "Flat Feet - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Flat Feet - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Understanding Flat Feet: A Comprehensive Guide"
+          ],
+          "sections_count": 23,
+          "section_headings": [
+            "Introduction",
+            "What is Flat Feet?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Common Symptoms of Flat Feet",
+            "Warning Signs for Immediate Medical Attention",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations for Different Populations",
+            "Potential Complications",
+            "Short-Term and Long-Term Complications",
+            "Strategies for Prevention",
+            "Recommendations",
+            "Typical Course of the Disease",
+            "Factors Influencing Prognosis",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 10053
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 780,
+          "name": "Flatfeet - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "flatfeet",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/flatfeet",
+          "content_meta_title": "Flatfeet - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Flatfeet - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Understanding Flatfeet: A Comprehensive Guide"
+          ],
+          "sections_count": 23,
+          "section_headings": [
+            "Introduction",
+            "What is Flatfeet?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Common Symptoms of Flatfeet",
+            "Warning Signs for Immediate Medical Attention",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Surgical Options",
+            "Non-Pharmacological Treatments",
+            "Special Considerations for Different Populations",
+            "Potential Complications of Untreated Flatfeet",
+            "Short-Term and Long-Term Complications",
+            "Strategies for Preventing Flatfeet",
+            "Typical Course of the Disease",
+            "Factors Influencing Prognosis",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 9631
+        }
+      ]
+    },
+    {
+      "group_id": 20,
+      "display_name": "Hepatitis B",
+      "record_count": 3,
+      "match_reasons": [
+        "slug",
+        "name"
+      ],
+      "distinct_names": [
+        "Hepatitis B"
+      ],
+      "distinct_slugs": [
+        "hepatitis-b",
+        "hepatitis-b-0"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 51,
+          "name": "Hepatitis B",
+          "slug": "hepatitis-b",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
+          "content_meta_title": "Hepatitis B - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Hepatitis B - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Hepatitis B: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Hepatitis B?",
+            "Common Symptoms of Hepatitis B",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1331
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 926,
+          "name": "Hepatitis B",
+          "slug": "hepatitis-b",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/hepatitis-b",
+          "content_meta_title": "What is Hepatitis B : Symptoms & Prevention - Ask Apollo",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Hepatitis B"
+          ],
+          "sections_count": 3,
+          "section_headings": [
+            "Hepatitis B",
+            "Symptoms",
+            "Prevention"
+          ],
+          "full_text_length": 1393
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 927,
+          "name": "Hepatitis B",
+          "slug": "hepatitis-b-0",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/hepatitis-b-0",
+          "content_meta_title": "Hepatitis-B - Symptoms, Causes and Treatment - Apollo Hospital Blog",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Hepatitis B"
+          ],
+          "sections_count": 1,
+          "section_headings": [
+            null
+          ],
+          "full_text_length": 5798
+        }
+      ]
+    },
+    {
+      "group_id": 21,
+      "display_name": "Hepatitis E",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Hepatitis E",
+        "Hepatitis E - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "hepatitis-e"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 52,
+          "name": "Hepatitis E",
+          "slug": "hepatitis-e",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-e",
+          "content_meta_title": "Hepatitis E - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Hepatitis E - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Hepatitis E: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Hepatitis E?",
+            "Common Symptoms of Hepatitis E",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1001
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 929,
+          "name": "Hepatitis E - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "hepatitis-e",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/hepatitis-e",
+          "content_meta_title": "Hepatitis E - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Hepatitis E - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Hepatitis E: Understanding the Virus and Its Impact"
+          ],
+          "sections_count": 19,
+          "section_headings": [
+            "Introduction",
+            "Definition",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Symptoms",
+            "Warning Signs for Immediate Medical Attention",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 7191
+        }
+      ]
+    },
+    {
+      "group_id": 49,
+      "display_name": "Lung Cancer",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Lung Cancer",
+        "Lung Cancer - Early Signs, Risk Factors, Diagnosis, and Treatment Explained"
+      ],
+      "distinct_slugs": [
+        "lung-cancer"
+      ],
+      "records": [
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1214,
+          "name": "Lung Cancer",
+          "slug": "lung-cancer",
+          "url": "https://www.apollohospitals.com/hyderabad/diseases-and-conditions/lung-cancer",
+          "content_meta_title": "Lung Cancer | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Lung Cancer"
+          ],
+          "sections_count": 31,
+          "section_headings": [
+            "Advanced Oncology Care With Compassion, Expertise and Innovation",
+            "Understanding Lung Cancer",
+            "Why Early Detection Matters",
+            "Risk Factors",
+            "Warning Signs and Symptoms",
+            "Screening and Diagnosis",
+            "Comprehensive Treatment Options",
+            "Thoracic (Lung) Surgery",
+            "Medical Oncology",
+            "Radiation Oncology",
+            "Pulmonology and Interventional Pulmonology",
+            "Radiology and Nuclear Medicine",
+            "Pathology and Molecular Genetics",
+            "Anesthesia and Critical Care",
+            "Rehabilitation and Supportive Care",
+            "Nursing and Care Navigation",
+            "Clinical Trials and Second Opinions",
+            "Our Patient-Centered Care Approach",
+            "Post-Treatment Care and Survivorship",
+            "Why Choose Apollo Hospitals Hyderabad",
+            "Q1. What are the main symptoms of lung cancer?",
+            "Q2. Who should consider lung cancer screening?",
+            "Q3. Can non-smokers develop lung cancer?",
+            "Q4. What happens after lung cancer treatment?",
+            "Q5. Why is cancer staging important?",
+            "Q6. Is lung cancer curable if detected early?",
+            "Q7. Do targeted therapy and immunotherapy work for all patients?",
+            "Q8. Does lung cancer progress rapidly?",
+            "Q9. What lifestyle changes support recovery during treatment?",
+            "Q10. What makes Apollo Hospitals Hyderabad ideal for lung cancer care?",
+            "Common Myths About Lung Cancer"
+          ],
+          "full_text_length": 12584
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1215,
+          "name": "Lung Cancer - Early Signs, Risk Factors, Diagnosis, and Treatment Explained",
+          "slug": "lung-cancer",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/lung-cancer",
+          "content_meta_title": "Lung Cancer - Symptoms, Causes, Risk Factors, Diagnosis and Treatment",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Lung Cancer - Early Signs, Risk Factors, Diagnosis, and Treatment Explained"
+          ],
+          "sections_count": 32,
+          "section_headings": [
+            null,
+            "What Is Lung Cancer?",
+            "Types of Lung Cancer",
+            "What Are the Causes and Risk Factors for Lung Cancer?",
+            "Lifestyle Risk Factors:",
+            "Environmental Risk Factors:",
+            "Genetic and Medical Risk Factors:",
+            "What Are the Symptoms of Lung Cancer?",
+            "Common Early Signs:",
+            "Advanced Symptoms:",
+            "How Is Lung Cancer Diagnosed?",
+            "Diagnostic Steps and Tests:",
+            "Staging and Grading of Lung Cancer",
+            "What Are the Treatment Options for Lung Cancer?",
+            "1. Surgery",
+            "2. Medical Treatment (Chemotherapy, Targeted Therapy, Immunotherapy)",
+            "3. Radiation Therapy",
+            "4. Proton Therapy",
+            "Prognosis and Survival Rates for Lung Cancer",
+            "Screening and Prevention of Lung Cancer",
+            "Early Detection:",
+            "Prevention Strategies:",
+            "For International Patients: Your Seamless Journey to Apollo Hospitals",
+            "Q1: Is Lung Cancer curable?",
+            "Q2: What is the survival rate for Lung Cancer?",
+            "Q3: What are the side effects of Lung Cancer treatment?",
+            "Q4: Can Lung Cancer come back (recurrence)?",
+            "Q5: What is the typical recovery time after Lung Cancer surgery?",
+            "Q6: Can a non-smoker get Lung Cancer?",
+            "Q7: What is the difference between non-small cell and small cell lung cancer?",
+            "Q8: What is a \"pack-year\" in lung cancer screening?",
+            "Q9: Is there any way to prevent Lung Cancer?"
+          ],
+          "full_text_length": 16042
+        }
+      ]
+    },
+    {
+      "group_id": 22,
+      "display_name": "Lyme Disease",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Lyme Disease",
+        "Lyme Disease - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "lyme-disease"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 72,
+          "name": "Lyme Disease",
+          "slug": "lyme-disease",
+          "url": "https://www.niams.nih.gov/health-topics/lyme-disease",
+          "content_meta_title": "Lyme Disease - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Lyme Disease - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Lyme Disease: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Lyme Disease?",
+            "Common Symptoms of Lyme Disease",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1680
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1218,
+          "name": "Lyme Disease - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "lyme-disease",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/lyme-disease",
+          "content_meta_title": "Lyme Disease - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Lyme Disease - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Understanding Lyme Disease: A Comprehensive Guide"
+          ],
+          "sections_count": 23,
+          "section_headings": [
+            "Introduction",
+            "What is Lyme Disease?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Common Symptoms of Lyme Disease",
+            "Warning Signs for Immediate Medical Attention",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations for Different Populations",
+            "Potential Complications",
+            "Short-Term and Long-Term Complications",
+            "Strategies for Preventing Lyme Disease",
+            "Hygiene Practices and Lifestyle Changes",
+            "Typical Course of the Disease",
+            "Factors Influencing Prognosis",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 12778
+        }
+      ]
+    },
+    {
+      "group_id": 23,
+      "display_name": "Malaria",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Malaria"
+      ],
+      "distinct_slugs": [
+        "malaria"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 73,
+          "name": "Malaria",
+          "slug": "malaria",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+          "content_meta_title": "Malaria - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Malaria - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Malaria: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Malaria?",
+            "Common Symptoms of Malaria",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1315
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1236,
+          "name": "Malaria",
+          "slug": "malaria",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/malaria",
+          "content_meta_title": "Malaria: Causes, Symptoms, Diagnosis and Treatment - Apollo Hosptitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Malaria"
+          ],
+          "sections_count": 6,
+          "section_headings": [
+            null,
+            "How does one get malaria?",
+            "How is malaria spread?",
+            "What are the symptoms of severe malaria?",
+            "Sympto ms of severe malaria include:",
+            "What are the most common antim alarial drugs used?"
+          ],
+          "full_text_length": 14802
+        }
+      ]
+    },
+    {
+      "group_id": 24,
+      "display_name": "Measles",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Measles",
+        "Measles - Symptoms, Causes, Stages, Risks, Diagnosis, Treatment and Prevention"
+      ],
+      "distinct_slugs": [
+        "measles"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 75,
+          "name": "Measles",
+          "slug": "measles",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+          "content_meta_title": "Measles - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Measles - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Measles: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Measles?",
+            "Common Symptoms of Measles",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 989
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1267,
+          "name": "Measles - Symptoms, Causes, Stages, Risks, Diagnosis, Treatment and Prevention",
+          "slug": "measles",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/measles",
+          "content_meta_title": "Measles - Symptoms, Causes, Diagnosis and Treatment",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Measles - Symptoms, Causes, Stages, Risks, Diagnosis, Treatment and Prevention"
+          ],
+          "sections_count": 34,
+          "section_headings": [
+            "What Is Measles (Rubeola)?",
+            "If You Suspect Exposure:",
+            "What Causes Measles?",
+            "How Does Measles Spread?",
+            "Common Ways Measles Spreads:",
+            "What Are the Different Stages of Measles?",
+            "1. Incubation Stage (7–14 days)",
+            "2. Prodromal Stage (Early Symptoms – 2 to 4 days)",
+            "3. Rash Stage (4–7 days)",
+            "4. Recovery Stage",
+            "5. Contagious Period",
+            "Symptoms of Measles",
+            "Early Symptoms (First 3–4 Days)",
+            "Rash Development",
+            "Who is at Risk of Developing Measles?",
+            "What are the Complications of Measles?",
+            "Diagnosis of Measles",
+            "What to Do After Exposure to Measles",
+            "Post-Exposure Vaccination",
+            "Human Normal Immunoglobulin (HNIG)",
+            "Routine MMR Vaccination Schedule",
+            "What Are the Treatment Options for Measles?",
+            "Symptomatic Treatment Includes:",
+            "How to Prevent Measles?",
+            "1. MMR Vaccination",
+            "2. Vaccination During Outbreaks",
+            "3. Isolate Infected Individuals",
+            "4. Promote Community Immunity (Herd Immunity)",
+            "5. Consult Your Doctor About Booster Doses",
+            "When to See a Doctor for Measles?",
+            "Which Doctor to Consult?",
+            "What to Expect During the Doctor Visit?",
+            "Conclusion",
+            "Frequently Asked Questions (FAQs)"
+          ],
+          "full_text_length": 19161
+        }
+      ]
+    },
+    {
+      "group_id": 25,
+      "display_name": "Mixed Connective Tissue Disease (MCTD)",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Mixed Connective Tissue Disease (MCTD)",
+        "Mixed Connective Tissue Disease - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "mixed-connective-tissue-disease"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 76,
+          "name": "Mixed Connective Tissue Disease (MCTD)",
+          "slug": "mixed-connective-tissue-disease",
+          "url": "https://www.niams.nih.gov/health-topics/mixed-connective-tissue-disease",
+          "content_meta_title": "Mixed Connective Tissue Disease (MCTD) - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Mixed Connective Tissue Disease (MCTD) - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Mixed Connective Tissue Disease (MCTD): Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Mixed Connective Tissue Disease (MCTD)?",
+            "Common Symptoms of Mixed Connective Tissue Disease (MCTD)",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1549
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1332,
+          "name": "Mixed Connective Tissue Disease - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "mixed-connective-tissue-disease",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/mixed-connective-tissue-disease",
+          "content_meta_title": "Mixed Connective Tissue Disease - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Mixed Connective Tissue Disease - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Mixed Connective Tissue Disease: A Comprehensive Guide"
+          ],
+          "sections_count": 22,
+          "section_headings": [
+            "Introduction",
+            "What is Mixed Connective Tissue Disease?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Common Symptoms of Mixed Connective Tissue Disease",
+            "Warning Signs for Immediate Medical Attention",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Potential Complications",
+            "Short-Term and Long-Term Complications",
+            "Strategies for Prevention",
+            "Typical Course of the Disease",
+            "Factors Influencing Prognosis",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 13313
+        }
+      ]
+    },
+    {
+      "group_id": 26,
+      "display_name": "Osteogenesis Imperfecta (Brittle Bone Disease)",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Osteogenesis Imperfecta (Brittle Bone Disease)",
+        "Osteogenesis Imperfecta"
+      ],
+      "distinct_slugs": [
+        "osteogenesis-imperfecta"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 87,
+          "name": "Osteogenesis Imperfecta (Brittle Bone Disease)",
+          "slug": "osteogenesis-imperfecta",
+          "url": "https://www.niams.nih.gov/health-topics/osteogenesis-imperfecta",
+          "content_meta_title": "Osteogenesis Imperfecta (Brittle Bone Disease) - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Osteogenesis Imperfecta (Brittle Bone Disease) - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Osteogenesis Imperfecta (Brittle Bone Disease): Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Osteogenesis Imperfecta (Brittle Bone Disease)?",
+            "Common Symptoms of Osteogenesis Imperfecta (Brittle Bone Disease)",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1858
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1486,
+          "name": "Osteogenesis Imperfecta",
+          "slug": "osteogenesis-imperfecta",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/osteogenesis-imperfecta",
+          "content_meta_title": "Osteogenesis Imperfecta | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Osteogenesis Imperfecta"
+          ],
+          "sections_count": 6,
+          "section_headings": [
+            null,
+            "Osteogenesis Imperfecta Definition",
+            "Osteogenesis Imperfecta Symptoms",
+            "Osteogenesis Imperfecta Risk Factors",
+            "Osteogenesis Imperfecta Diagnosis",
+            "Osteogenesis Imperfecta Treatment"
+          ],
+          "full_text_length": 2397
+        }
+      ]
+    },
+    {
+      "group_id": 27,
+      "display_name": "Osteomalacia (Rickets in Adults)",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Osteomalacia (Rickets in Adults)",
+        "Osteomalacia - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "osteomalacia"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 88,
+          "name": "Osteomalacia (Rickets in Adults)",
+          "slug": "osteomalacia",
+          "url": "https://www.niams.nih.gov/health-topics/bone-health",
+          "content_meta_title": "Osteomalacia (Rickets in Adults) - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Osteomalacia (Rickets in Adults) - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Osteomalacia (Rickets in Adults): Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Osteomalacia (Rickets in Adults)?",
+            "Common Symptoms of Osteomalacia (Rickets in Adults)",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 2215
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1487,
+          "name": "Osteomalacia - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "osteomalacia",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/osteomalacia",
+          "content_meta_title": "Osteomalacia - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Osteomalacia - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Osteomalacia: A Comprehensive Guide"
+          ],
+          "sections_count": 24,
+          "section_headings": [
+            "Introduction",
+            "Definition: What is Osteomalacia?",
+            "Causes and Risk Factors",
+            "Infectious/Environmental Causes:",
+            "Genetic/Autoimmune Causes:",
+            "Lifestyle and Dietary Factors:",
+            "Key Risk Factors:",
+            "Symptoms of Osteomalacia",
+            "Common Symptoms:",
+            "Warning Signs for Immediate Medical Attention:",
+            "Diagnosis of Osteomalacia",
+            "Clinical Evaluation:",
+            "Diagnostic Tests:",
+            "Differential Diagnosis:",
+            "Treatment Options for Osteomalacia",
+            "Medical Treatments:",
+            "Non-Pharmacological Treatments:",
+            "Special Considerations:",
+            "Complications of Osteomalacia",
+            "Prevention of Osteomalacia",
+            "Prognosis & Long-Term Outlook",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 23833
+        }
+      ]
+    },
+    {
+      "group_id": 28,
+      "display_name": "Pneumonia",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Pneumonia",
+        "Pneumonia - Causes, Symptoms and Treatment"
+      ],
+      "distinct_slugs": [
+        "pneumonia"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 94,
+          "name": "Pneumonia",
+          "slug": "pneumonia",
+          "url": "https://medlineplus.gov/pneumonia.html",
+          "content_meta_title": "Pneumonia - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Pneumonia - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Pneumonia: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Pneumonia?",
+            "Common Symptoms of Pneumonia",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 880
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1628,
+          "name": "Pneumonia - Causes, Symptoms and Treatment",
+          "slug": "pneumonia",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/pneumonia",
+          "content_meta_title": "Pneumonia - Symptoms, Causes, Risk Factors, Diagnosis and Treatment",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Pneumonia - Causes, Symptoms and Treatment"
+          ],
+          "sections_count": 12,
+          "section_headings": [
+            null,
+            "Walking pneumonia",
+            "Stages of pneumonia",
+            "Bacterial pneumonia",
+            "Viral pneumonia",
+            "Fungal pneumonia",
+            "Some other preventive measures include:",
+            "Complications",
+            "Is pneumonia curable?",
+            "Pneumonia in pregnancy",
+            "Conclusion",
+            "FAQ"
+          ],
+          "full_text_length": 18285
+        }
+      ]
+    },
+    {
+      "group_id": 29,
+      "display_name": "Psoriasis",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Psoriasis",
+        "Psoriasis - Types, Symptoms, Causes and Treatment"
+      ],
+      "distinct_slugs": [
+        "psoriasis"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 100,
+          "name": "Psoriasis",
+          "slug": "psoriasis",
+          "url": "https://www.niams.nih.gov/health-topics/psoriasis",
+          "content_meta_title": "Psoriasis - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Psoriasis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Psoriasis: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Psoriasis?",
+            "Common Symptoms of Psoriasis",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1859
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1720,
+          "name": "Psoriasis - Types, Symptoms, Causes and Treatment",
+          "slug": "psoriasis",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/psoriasis",
+          "content_meta_title": "Psoriasis - Types, Symptoms, Causes and Treatment | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Psoriasis - Types, Symptoms, Causes and Treatment"
+          ],
+          "sections_count": 14,
+          "section_headings": [
+            "Overview",
+            "Types of Psoriasis",
+            "Causes of Psoriasis",
+            "Symptoms of Psoriasis",
+            "Common symptoms of psoriasis include:",
+            "Risk Factors P soriasis",
+            "Diagnosis",
+            "Treatment",
+            "Topical Treatments",
+            "Light Therapy",
+            "Medications",
+            "Alternative Medicine",
+            "Prevention",
+            "FAQs"
+          ],
+          "full_text_length": 12236
+        }
+      ]
+    },
+    {
+      "group_id": 30,
+      "display_name": "Q Fever",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Q Fever",
+        "Q Fever - Symptoms, Causes And Treatment"
+      ],
+      "distinct_slugs": [
+        "q-fever"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 102,
+          "name": "Q Fever",
+          "slug": "q-fever",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/q-fever",
+          "content_meta_title": "Q Fever - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Q Fever - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Q Fever: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Q Fever?",
+            "Common Symptoms of Q Fever",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1804
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1747,
+          "name": "Q Fever - Symptoms, Causes And Treatment",
+          "slug": "q-fever",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/q-fever",
+          "content_meta_title": "Q Fever - Symptoms, Causes And Treatment | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Q Fever - Symptoms, Causes And Treatment"
+          ],
+          "sections_count": 9,
+          "section_headings": [
+            null,
+            "What Are the Symptoms of Q Fever?",
+            "What Are the Causes of Q Fever?",
+            "When Do You Need to See a Doctor?",
+            "What are the Risks Associated with Q Fever?",
+            "How Can You Prevent Q Fever?",
+            "What is the Treatment for Q Fever?",
+            "Conclusion",
+            "Frequently Asked Questions (FAQs)"
+          ],
+          "full_text_length": 5093
+        }
+      ]
+    },
+    {
+      "group_id": 31,
+      "display_name": "Quadrantanopia",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Quadrantanopia",
+        "Quadrantanopia - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "quadrantanopia"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 103,
+          "name": "Quadrantanopia",
+          "slug": "quadrantanopia",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/quadrantanopia",
+          "content_meta_title": "Quadrantanopia - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Quadrantanopia - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Quadrantanopia: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Quadrantanopia?",
+            "Common Symptoms of Quadrantanopia",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1555
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1748,
+          "name": "Quadrantanopia - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "quadrantanopia",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/quadrantanopia",
+          "content_meta_title": "Quadrantanopia - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Quadrantanopia - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Understanding Quadrantanopia: A Comprehensive Guide"
+          ],
+          "sections_count": 22,
+          "section_headings": [
+            "Introduction",
+            "What is Quadrantanopia?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Common Symptoms of Quadrantanopia",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Potential Complications",
+            "Short-Term and Long-Term Complications",
+            "Strategies for Prevention",
+            "Typical Course of the Disease",
+            "Factors Influencing Prognosis",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 10754
+        }
+      ]
+    },
+    {
+      "group_id": 32,
+      "display_name": "Raynaud's Disease (Primary Raynaud's)",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Raynaud's Disease (Primary Raynaud's)",
+        "Raynaud's Disease - Symptoms, Causes And Treatment"
+      ],
+      "distinct_slugs": [
+        "raynauds-disease"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 105,
+          "name": "Raynaud's Disease (Primary Raynaud's)",
+          "slug": "raynauds-disease",
+          "url": "https://www.niams.nih.gov/health-topics/raynauds-phenomenon",
+          "content_meta_title": "Raynaud's Disease (Primary Raynaud's) - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Raynaud's Disease (Primary Raynaud's) - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Raynaud's Disease (Primary Raynaud's): Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Raynaud's Disease (Primary Raynaud's)?",
+            "Common Symptoms of Raynaud's Disease (Primary Raynaud's)",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 2060
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1757,
+          "name": "Raynaud's Disease - Symptoms, Causes And Treatment",
+          "slug": "raynauds-disease",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/raynauds-disease",
+          "content_meta_title": "Raynaud's Disease - Symptoms, Causes And Treatment | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Raynaud's Disease - Symptoms, Causes And Treatment"
+          ],
+          "sections_count": 11,
+          "section_headings": [
+            null,
+            "What is Raynaud’s disease?",
+            "What are the symptoms of Raynaud’s disease?",
+            "What causes Raynaud’s disease?",
+            "Raynaud’s phenomenon causes:",
+            "When to see a doctor?",
+            "What are the possible complications associated with Raynaud’s disease?",
+            "Medications",
+            "Surgeries and medical procedures",
+            "Conclusion",
+            "Frequently Asked Questions (FAQs)"
+          ],
+          "full_text_length": 4636
+        }
+      ]
+    },
+    {
+      "group_id": 33,
+      "display_name": "Reactive Arthritis",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Reactive Arthritis",
+        "Reactive Arthritis - Symptoms, Causes and Treatment"
+      ],
+      "distinct_slugs": [
+        "reactive-arthritis"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 107,
+          "name": "Reactive Arthritis",
+          "slug": "reactive-arthritis",
+          "url": "https://www.niams.nih.gov/health-topics/reactive-arthritis",
+          "content_meta_title": "Reactive Arthritis - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Reactive Arthritis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Reactive Arthritis: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Reactive Arthritis?",
+            "Common Symptoms of Reactive Arthritis",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1525
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1759,
+          "name": "Reactive Arthritis - Symptoms, Causes and Treatment",
+          "slug": "reactive-arthritis",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/reactive-arthritis",
+          "content_meta_title": "Reactive Arthritis - Symptoms, Causes and Treatment",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Reactive Arthritis - Symptoms, Causes and Treatment"
+          ],
+          "sections_count": 8,
+          "section_headings": [
+            null,
+            "What is reactive arthritis?",
+            "What are the symptoms of reactive arthritis?",
+            "When do you need to see a doctor?",
+            "How can reactive arthritis disease be prevented?",
+            "How is reactive arthritis treated?",
+            "Conclusion",
+            "Frequently Asked Questions (FAQs)"
+          ],
+          "full_text_length": 4839
+        }
+      ]
+    },
+    {
+      "group_id": 34,
+      "display_name": "Scoliosis",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Scoliosis",
+        "Scoliosis - Causes, Symptoms And Treatment"
+      ],
+      "distinct_slugs": [
+        "scoliosis"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 112,
+          "name": "Scoliosis",
+          "slug": "scoliosis",
+          "url": "https://www.niams.nih.gov/health-topics/scoliosis",
+          "content_meta_title": "Scoliosis - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Scoliosis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Scoliosis: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Scoliosis?",
+            "Common Symptoms of Scoliosis",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1714
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1843,
+          "name": "Scoliosis - Causes, Symptoms And Treatment",
+          "slug": "scoliosis",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/scoliosis",
+          "content_meta_title": "Scoliosis - Symptoms, Causes and Treatment - Apollo Hospital Blog",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Scoliosis - Causes, Symptoms And Treatment"
+          ],
+          "sections_count": 30,
+          "section_headings": [
+            "Overview",
+            "What is Scoliosis?",
+            "Causes of Scoliosis",
+            "Non-Structural Scoliosis (Functional)",
+            "Structural Scoliosis",
+            "Who Might Be at Risk for Scoliosis?",
+            "Symptoms of Scoliosis",
+            "Common Signs in Children and Adolescents:",
+            "Symptoms in Infants:",
+            "Symptoms in Adults:",
+            "When Severe:",
+            "Diagnosis of Scoliosis",
+            "1. Physical Examination",
+            "2. Neurological Examination",
+            "3. Imaging Tests",
+            "Treatment for Scoliosis",
+            "1. Observation and Monitoring",
+            "2. Bracing",
+            "3. Casting (for Infants)",
+            "4. Surgery",
+            "5. Advanced Techniques",
+            "6. Physical Therapy and Exercises",
+            "Post-Surgical Recovery and Follow-up",
+            "Can Scoliosis Be Prevented?",
+            "Common Myths About Scoliosis (Not True)",
+            "What Can Be Done?",
+            "1. Early Screening",
+            "2. Healthy Lifestyle",
+            "3. Emotional Support",
+            "Final Takeaway"
+          ],
+          "full_text_length": 12397
+        }
+      ]
+    },
+    {
+      "group_id": 35,
+      "display_name": "Sjögren's Syndrome",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Sjögren's Syndrome",
+        "Sjogrens Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "sjogrens-syndrome"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 115,
+          "name": "Sjögren's Syndrome",
+          "slug": "sjogrens-syndrome",
+          "url": "https://www.niams.nih.gov/health-topics/sjogrens-syndrome",
+          "content_meta_title": "Sjögren's Syndrome - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Sjögren's Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Sjögren's Syndrome: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Sjögren's Syndrome?",
+            "Common Symptoms of Sjögren's Syndrome",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1711
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 1896,
+          "name": "Sjogrens Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "sjogrens-syndrome",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/sjogrens-syndrome",
+          "content_meta_title": "Sjogrens Syndrome - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Sjogrens Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Understanding Sjögren's Syndrome: A Comprehensive Guide"
+          ],
+          "sections_count": 22,
+          "section_headings": [
+            "Introduction",
+            "What is Sjögren's Syndrome?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Common Symptoms",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Complications",
+            "Short-Term Complications",
+            "Long-Term Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 13492
+        }
+      ]
+    },
+    {
+      "group_id": 36,
+      "display_name": "Tendinitis",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Tendinitis"
+      ],
+      "distinct_slugs": [
+        "tendinitis"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 123,
+          "name": "Tendinitis",
+          "slug": "tendinitis",
+          "url": "https://www.niams.nih.gov/health-topics/tendinitis",
+          "content_meta_title": "Tendinitis - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Tendinitis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Tendinitis: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Tendinitis?",
+            "Common Symptoms of Tendinitis",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1547
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 2030,
+          "name": "Tendinitis",
+          "slug": "tendinitis",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/tendinitis",
+          "content_meta_title": "Tendinitis | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Tendinitis"
+          ],
+          "sections_count": 7,
+          "section_headings": [
+            null,
+            "What is tendinitis?",
+            "What are the symptoms of tendinitis?",
+            "When do you need to see a doctor?",
+            "How is tendinitis prevented?",
+            "What are the remedies for tendinitis?",
+            "Conclusion"
+          ],
+          "full_text_length": 4359
+        }
+      ]
+    },
+    {
+      "group_id": 37,
+      "display_name": "Tendinopathy",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Tendinopathy",
+        "Tendinopathy - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "tendinopathy"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 124,
+          "name": "Tendinopathy",
+          "slug": "tendinopathy",
+          "url": "https://www.niams.nih.gov/health-topics/tendinitis",
+          "content_meta_title": "Tendinopathy - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Tendinopathy - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Tendinopathy: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Tendinopathy?",
+            "Common Symptoms of Tendinopathy",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1978
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 2031,
+          "name": "Tendinopathy - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "tendinopathy",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/tendinopathy",
+          "content_meta_title": "Tendinopathy - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Tendinopathy - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Understanding Tendinopathy: A Comprehensive Guide"
+          ],
+          "sections_count": 21,
+          "section_headings": [
+            "Introduction",
+            "Definition",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Symptoms",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Complications",
+            "Short-Term and Long-Term Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 10024
+        }
+      ]
+    },
+    {
+      "group_id": 38,
+      "display_name": "Thoracic Outlet Syndrome (TOS)",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Thoracic Outlet Syndrome (TOS)",
+        "Thoracic Outlet Syndrome"
+      ],
+      "distinct_slugs": [
+        "thoracic-outlet-syndrome"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 127,
+          "name": "Thoracic Outlet Syndrome (TOS)",
+          "slug": "thoracic-outlet-syndrome",
+          "url": "https://www.niams.nih.gov/health-topics/musculoskeletal-disorders",
+          "content_meta_title": "Thoracic Outlet Syndrome (TOS) - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Thoracic Outlet Syndrome (TOS) - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Thoracic Outlet Syndrome (TOS): Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Thoracic Outlet Syndrome (TOS)?",
+            "Common Symptoms of Thoracic Outlet Syndrome (TOS)",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1992
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 2049,
+          "name": "Thoracic Outlet Syndrome",
+          "slug": "thoracic-outlet-syndrome",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/thoracic-outlet-syndrome",
+          "content_meta_title": "Thoracic Outlet Syndrome - Causes, Symptoms, Prevention & Treatmment",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Thoracic Outlet Syndrome"
+          ],
+          "sections_count": 10,
+          "section_headings": [
+            null,
+            "What is Thoracic Outlet Syndrome?",
+            "What are the Symptoms of Thoracic Outlet Syndrome?",
+            "When Should You See a Doctor?",
+            "What are the Risk Factors and Causes of Thoracic Outlet Disease?",
+            "Causes",
+            "How to Prevent Thoracic Outlet Syndrome?",
+            "How is Thoracic Outlet Syndrome Treated?",
+            "Conclusion",
+            "Frequently Asked Questions (FAQs)"
+          ],
+          "full_text_length": 6522
+        }
+      ]
+    },
+    {
+      "group_id": 39,
+      "display_name": "Vasculitis",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Vasculitis"
+      ],
+      "distinct_slugs": [
+        "vasculitis"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 133,
+          "name": "Vasculitis",
+          "slug": "vasculitis",
+          "url": "https://www.niams.nih.gov/health-topics/vasculitis",
+          "content_meta_title": "Vasculitis - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Vasculitis - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Vasculitis: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Vasculitis?",
+            "Common Symptoms of Vasculitis",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1803
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 2212,
+          "name": "Vasculitis",
+          "slug": "vasculitis",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/vasculitis",
+          "content_meta_title": "Vasculitis | Apollo Hospitals",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Vasculitis"
+          ],
+          "sections_count": 1,
+          "section_headings": [
+            null
+          ],
+          "full_text_length": 7661
+        }
+      ]
+    },
+    {
+      "group_id": 40,
+      "display_name": "Vitamin B12 Deficiency",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Vitamin B12 Deficiency",
+        "Vitamin B12 Deficiency: Understanding Its Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "vitamin-b12-deficiency"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 135,
+          "name": "Vitamin B12 Deficiency",
+          "slug": "vitamin-b12-deficiency",
+          "url": "https://medlineplus.gov/ency/article/000574.htm",
+          "content_meta_title": "Vitamin B12 Deficiency - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Vitamin B12 Deficiency - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Vitamin B12 Deficiency: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Vitamin B12 Deficiency?",
+            "Common Symptoms of Vitamin B12 Deficiency",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 993
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 2247,
+          "name": "Vitamin B12 Deficiency: Understanding Its Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "vitamin-b12-deficiency",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/vitamin-b12-deficiency",
+          "content_meta_title": "Vitamin B12 Deficiency - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "Vitamin B12 Deficiency: Understanding Its Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+          ],
+          "sections_count": 21,
+          "section_headings": [
+            "Introduction",
+            "What is Vitamin B12 Deficiency?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Symptoms",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Complications",
+            "Short-Term and Long-Term Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 10611
+        }
+      ]
+    },
+    {
+      "group_id": 41,
+      "display_name": "Xanthelasma",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Xanthelasma",
+        "Xanthelasma - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "xanthelasma"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 140,
+          "name": "Xanthelasma",
+          "slug": "xanthelasma",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/xanthelasma",
+          "content_meta_title": "Xanthelasma - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Xanthelasma - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Xanthelasma: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Xanthelasma?",
+            "Common Symptoms of Xanthelasma",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1412
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 2301,
+          "name": "Xanthelasma - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "xanthelasma",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/xanthelasma",
+          "content_meta_title": "Xanthelasma - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Xanthelasma - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Understanding Xanthelasma: A Comprehensive Guide"
+          ],
+          "sections_count": 22,
+          "section_headings": [
+            "Introduction",
+            "What is Xanthelasma?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Common Symptoms of Xanthelasma",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Potential Complications",
+            "Short-Term and Long-Term Complications",
+            "Strategies for Prevention",
+            "Typical Course of the Disease",
+            "Factors Influencing Prognosis",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 9880
+        }
+      ]
+    },
+    {
+      "group_id": 42,
+      "display_name": "Yaws",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Yaws",
+        "Yaws - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "yaws"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 144,
+          "name": "Yaws",
+          "slug": "yaws",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/yaws",
+          "content_meta_title": "Yaws - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Yaws - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Yaws: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Yaws?",
+            "Common Symptoms of Yaws",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1418
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 2306,
+          "name": "Yaws - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "yaws",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/yaws",
+          "content_meta_title": "Yaws - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Yaws - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Understanding Yaws: A Comprehensive Guide"
+          ],
+          "sections_count": 22,
+          "section_headings": [
+            "Introduction",
+            "Definition",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Symptoms",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Complications",
+            "Short-Term Complications",
+            "Long-Term Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 9009
+        }
+      ]
+    },
+    {
+      "group_id": 43,
+      "display_name": "Yellow Fever",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Yellow Fever",
+        "Yellow Fever - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "yellow-fever"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 145,
+          "name": "Yellow Fever",
+          "slug": "yellow-fever",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/yellow-fever",
+          "content_meta_title": "Yellow Fever - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Yellow Fever - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Yellow Fever: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Yellow Fever?",
+            "Common Symptoms of Yellow Fever",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1327
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 2307,
+          "name": "Yellow Fever - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "yellow-fever",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/yellow-fever",
+          "content_meta_title": "Yellow Fever - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Yellow Fever - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Yellow Fever: A Comprehensive Guide"
+          ],
+          "sections_count": 18,
+          "section_headings": [
+            "Introduction",
+            "Definition",
+            "Infectious/Environmental Causes:",
+            "Genetic/Autoimmune Causes:",
+            "Lifestyle and Dietary Factors:",
+            "Key Risk Factors:",
+            "Symptoms",
+            "Diagnosis",
+            "Diagnostic Tests:",
+            "Medical Treatments:",
+            "Non-Pharmacological Treatments:",
+            "Special Considerations:",
+            "Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 6732
+        }
+      ]
+    },
+    {
+      "group_id": 44,
+      "display_name": "Yellow Nail Syndrome",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Yellow Nail Syndrome",
+        "Yellow Nail Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "yellow-nail-syndrome"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 146,
+          "name": "Yellow Nail Syndrome",
+          "slug": "yellow-nail-syndrome",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/yellow-nail-syndrome",
+          "content_meta_title": "Yellow Nail Syndrome - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Yellow Nail Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Yellow Nail Syndrome: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Yellow Nail Syndrome?",
+            "Common Symptoms of Yellow Nail Syndrome",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1461
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 2308,
+          "name": "Yellow Nail Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "yellow-nail-syndrome",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/yellow-nail-syndrome",
+          "content_meta_title": "Yellow Nail Syndrome - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Yellow Nail Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Yellow Nail Syndrome: Understanding the Condition and Its Implications"
+          ],
+          "sections_count": 22,
+          "section_headings": [
+            "Introduction",
+            "Definition",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Symptoms",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Complications",
+            "Short-Term Complications",
+            "Long-Term Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 10645
+        }
+      ]
+    },
+    {
+      "group_id": 45,
+      "display_name": "Zenkers Diverticulum",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Zenkers Diverticulum",
+        "Zenkers Diverticulum - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "zenkers-diverticulum"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 148,
+          "name": "Zenkers Diverticulum",
+          "slug": "zenkers-diverticulum",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/zenkers-diverticulum",
+          "content_meta_title": "Zenkers Diverticulum - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Zenkers Diverticulum - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Zenkers Diverticulum: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Zenkers Diverticulum?",
+            "Common Symptoms of Zenkers Diverticulum",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1339
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 2310,
+          "name": "Zenkers Diverticulum - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "zenkers-diverticulum",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/zenkers-diverticulum",
+          "content_meta_title": "Zenkers Diverticulum - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Zenkers Diverticulum - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Zenkers Diverticulum: A Comprehensive Guide"
+          ],
+          "sections_count": 21,
+          "section_headings": [
+            "Introduction",
+            "What is Zenkers Diverticulum?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Symptoms",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Complications",
+            "Short-Term and Long-Term Complications",
+            "Prevention",
+            "Prognosis & Long-Term Outlook",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 12528
+        }
+      ]
+    },
+    {
+      "group_id": 46,
+      "display_name": "Zika Virus Infection",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Zika Virus Infection",
+        "ZIKA VIRUS"
+      ],
+      "distinct_slugs": [
+        "zika-virus"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 149,
+          "name": "Zika Virus Infection",
+          "slug": "zika-virus",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/zika-virus",
+          "content_meta_title": "Zika Virus Infection - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Zika Virus Infection - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Zika Virus Infection: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Zika Virus Infection?",
+            "Common Symptoms of Zika Virus Infection",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1424
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 2311,
+          "name": "ZIKA VIRUS",
+          "slug": "zika-virus",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/zika-virus",
+          "content_meta_title": "Zika Virus | Zika Virus Symptoms | Zika Virus Spread",
+          "h1_titles_count": 1,
+          "h1_titles": [
+            "ZIKA VIRUS"
+          ],
+          "sections_count": 7,
+          "section_headings": [
+            "What is Zika Virus",
+            "Transmission",
+            "Signs and symptoms of Zika Virus",
+            "Diagnosis for Zika Virus",
+            "Treatment for Zika",
+            "Prevention from Zika Virus",
+            "vel Advisory"
+          ],
+          "full_text_length": 3721
+        }
+      ]
+    },
+    {
+      "group_id": 47,
+      "display_name": "Zollinger-Ellison Syndrome",
+      "record_count": 2,
+      "match_reasons": [
+        "slug"
+      ],
+      "distinct_names": [
+        "Zollinger-Ellison Syndrome",
+        "Zollinger Ellison Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention"
+      ],
+      "distinct_slugs": [
+        "zollinger-ellison-syndrome"
+      ],
+      "records": [
+        {
+          "source_file": "modified_disease.json",
+          "source_index": 150,
+          "name": "Zollinger-Ellison Syndrome",
+          "slug": "zollinger-ellison-syndrome",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/zollinger-ellison-syndrome",
+          "content_meta_title": "Zollinger-Ellison Syndrome - Symptoms, Causes, Diagnosis, Treatment, and Prevention",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Zollinger-Ellison Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Zollinger-Ellison Syndrome: Overview"
+          ],
+          "sections_count": 13,
+          "section_headings": [
+            "Introduction",
+            "What is Zollinger-Ellison Syndrome?",
+            "Common Symptoms of Zollinger-Ellison Syndrome",
+            "Causes",
+            "Diagnosis",
+            "Treatment",
+            "Key Risk Factors",
+            "Prevention",
+            "Prevalence",
+            "Category",
+            "Alphabetical Index",
+            "Disease ID",
+            "Source"
+          ],
+          "full_text_length": 1412
+        },
+        {
+          "source_file": "common_diseases_conditions_offline.json",
+          "source_index": 2312,
+          "name": "Zollinger Ellison Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+          "slug": "zollinger-ellison-syndrome",
+          "url": "https://www.apollohospitals.com/diseases-and-conditions/zollinger-ellison-syndrome",
+          "content_meta_title": "Zollinger Ellison Syndrome - Causes, Symptoms, Diagnosis, and Treatment",
+          "h1_titles_count": 2,
+          "h1_titles": [
+            "Zollinger Ellison Syndrome - Causes, Symptoms, Diagnosis, Treatment, and Prevention",
+            "Zollinger-Ellison Syndrome: A Comprehensive Guide"
+          ],
+          "sections_count": 22,
+          "section_headings": [
+            "Introduction",
+            "What is Zollinger-Ellison Syndrome?",
+            "Infectious/Environmental Causes",
+            "Genetic/Autoimmune Causes",
+            "Lifestyle and Dietary Factors",
+            "Key Risk Factors",
+            "Common Symptoms of Zollinger-Ellison Syndrome",
+            "Warning Signs",
+            "Clinical Evaluation",
+            "Diagnostic Tests",
+            "Differential Diagnosis",
+            "Medical Treatments",
+            "Non-Pharmacological Treatments",
+            "Special Considerations",
+            "Potential Complications",
+            "Short-Term and Long-Term Complications",
+            "Strategies for Prevention",
+            "Typical Course of the Disease",
+            "Factors Influencing Prognosis",
+            "Frequently Asked Questions (FAQs)",
+            "When to See a Doctor",
+            "Conclusion & Disclaimer"
+          ],
+          "full_text_length": 11791
+        }
+      ]
+    }
+  ]
+}
