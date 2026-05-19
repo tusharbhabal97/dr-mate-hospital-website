@@ -1,290 +1,180 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import ImmersiveDetailLayout from "@/components/ImmersiveDetailLayout";
-import { getCombinedDiseases } from "@/lib/diseases-server";
-import type { CombinedDisease } from "@/lib/diseases-types";
+import {
+  findDiseaseBySlug,
+  getDescriptionFromSections,
+  getDisplaySections,
+  getTableOfContents,
+  shouldRenderAsList,
+} from "@/lib/diseases-data";
+import { getAllDiseases } from "@/lib/diseases-server";
 
-type ListSection = {
-  title: string;
-  items: string[];
-};
-
-const RELATED_OVERRIDES: Record<string, string[]> = {
-  "diabetes-mellitus": ["hypertension", "coronary-artery-disease", "obesity"],
-  hypertension: ["coronary-artery-disease", "diabetes-mellitus"],
-  "coronary-artery-disease": ["hypertension", "diabetes-mellitus"],
-  "dengue-fever": ["viral-fever"],
-  "viral-fever": ["dengue-fever"],
-  asthma: ["chronic-obstructive-pulmonary-disease-copd"],
-  "chronic-obstructive-pulmonary-disease-copd": ["asthma"],
-};
-
-export default async function DiseaseDetailPage({
-  params,
-}: {
+type PageProps = {
   params: { id: string };
-}) {
-  const diseases = (await getCombinedDiseases()) as CombinedDisease[];
-  const disease = diseases.find((d) => d.id === params.id);
+};
 
+const headingTag = (level: string) => {
+  const normalized = (level || "").toLowerCase();
+  if (normalized === "h3") return "h3";
+  if (normalized === "h4") return "h4";
+  return "h2";
+};
+
+const extractLink = (text: string) => text.match(/https?:\/\/[^\s)]+/i)?.[0] ?? null;
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const diseases = await getAllDiseases();
+  const disease = findDiseaseBySlug(diseases, params.id);
   if (!disease) {
-    notFound();
+    return { title: "Disease Not Found" };
   }
 
-  const primarySections: Array<{ title: string; items?: string[] }> = [
-    { title: "Symptoms", items: disease.symptoms },
-    { title: "Causes", items: disease.causes },
-    { title: "Diagnosis", items: disease.diagnosis },
-    { title: "Treatment", items: disease.treatment },
-    { title: "Risk Factors", items: disease.risk_factors },
-    { title: "Prevention", items: disease.prevention },
-  ];
+  return {
+    title: disease.content?.meta_title || disease.name,
+    description: getDescriptionFromSections(disease) || disease.name,
+  };
+}
 
-  const sections: ListSection[] = primarySections
-    .map((section) => ({ title: section.title, items: section.items ?? [] }))
-    .filter((section) => section.items.length > 0);
+export default async function DiseaseDetailPage({ params }: PageProps) {
+  const diseases = await getAllDiseases();
+  const disease = findDiseaseBySlug(diseases, params.id);
 
-  const apolloSections: ListSection[] = (disease.apollo_content?.sections ?? [])
-    .map((section) => ({
-      title: section.heading || "Details",
-      items: (section.content ?? []).filter(Boolean),
-    }))
-    .filter((section) => section.items.length > 0)
-    .filter(
-      (section, index, list) =>
-        list.findIndex(
-          (entry) => entry.title.toLowerCase() === section.title.toLowerCase(),
-        ) === index,
-    );
+  if (!disease) notFound();
 
-  const allDetailSections =
-    sections.length > 0
-      ? sections
-      : apolloSections.length > 0
-        ? apolloSections
-        : [];
-
-  const overrideIds = new Set(RELATED_OVERRIDES[disease.id] ?? []);
-  const overrideRelated = diseases.filter((d) => overrideIds.has(d.id));
-  const categoryRelated = diseases.filter(
-    (d) => d.id !== disease.id && d.category === disease.category,
-  );
-  const related = [...overrideRelated, ...categoryRelated].filter(
-    (item, index, list) =>
-      item.id !== disease.id &&
-      list.findIndex((entry) => entry.id === item.id) === index,
-  ).slice(0, 3);
+  const sections = getDisplaySections(disease);
+  const toc = getTableOfContents(sections);
+  const subtitle = disease.content?.h1_titles?.[0] || "";
 
   return (
-    <ImmersiveDetailLayout
-      badge={disease.category || "Condition"}
-      title={disease.name}
-      description={disease.description || "Details available on the source page."}
-      breadcrumbs={[
-        { label: "Home", href: "/" },
-        { label: "Diseases & Conditions", href: "/diseases" },
-        { label: disease.name },
-      ]}
-      stats={[
-        { label: "Symptoms", value: disease.symptoms?.length ?? 0 },
-        { label: "Causes", value: disease.causes?.length ?? 0 },
-        { label: "Treatments", value: disease.treatment?.length ?? 0 },
-        { label: "Prevention", value: disease.prevention?.length ?? 0 },
-      ]}
-    >
-      <div className="grid lg:grid-cols-12 gap-6">
-        <article className="lg:col-span-8 relative overflow-hidden bg-white rounded-[2rem] border border-slate-100 p-7 shadow-[0_12px_38px_rgba(15,23,42,0.06)]">
-          <span className="absolute -top-8 -right-8 w-28 h-28 rounded-full bg-primary/10" />
-          <h2 className="font-display font-bold text-2xl text-slate-900 mb-3">
-            Condition Overview
-          </h2>
-          <p className="text-slate-600 text-sm leading-relaxed mb-5 max-w-2xl">
-            {disease.description ||
-              "Review key condition information and consult a specialist for personalized care."}
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {(disease.category || "Condition").split("/").map((category) => (
-              <span
-                key={category}
-                className="inline-flex px-3 py-1 rounded-full text-xs font-semibold bg-indigo-50 text-indigo-700"
-              >
-                {category.trim()}
-              </span>
-            ))}
-            {disease.prevalence && (
-              <span className="inline-flex px-3 py-1 rounded-full text-xs font-semibold bg-sky-50 text-sky-700">
-                Prevalence Available
-              </span>
-            )}
-          </div>
-        </article>
-
-        <article className="lg:col-span-4 bg-gradient-to-br from-primary/15 via-white to-primary/10 rounded-[2rem] p-6 text-slate-900 relative overflow-hidden border border-primary/15">
-          <span className="absolute -bottom-10 -right-10 w-36 h-36 rounded-full bg-primary/10" />
-          <h2 className="font-display font-bold text-2xl mb-3 text-slate-900">
-            Need Help?
-          </h2>
-          <p className="text-slate-700 text-sm leading-relaxed mb-5">
-            Our specialists can guide you through symptoms and treatment options.
-          </p>
-          <Link
-            href="/book-appointment"
-            className="inline-flex items-center justify-center rounded-xl bg-primary text-white text-sm font-bold px-5 py-3 hover:bg-primary-dark transition-colors"
-          >
-            Book Appointment
+    <main className="min-h-screen bg-slate-50">
+      <section className="pt-24 pb-10 px-4 bg-white border-b border-slate-200">
+        <div className="max-w-6xl mx-auto">
+          <Link href="/diseases" className="text-sm text-blue-700 hover:text-blue-800">
+            Back to Diseases &amp; Conditions
           </Link>
-          <p className="text-slate-600 text-xs mt-4">
-            24/7 Emergency: +91 1800-MEDICARE
-          </p>
+          <h1 className="mt-3 text-3xl md:text-4xl font-display font-bold text-slate-900">
+            {disease.name}
+          </h1>
+          {subtitle && <p className="mt-2 text-slate-600">{subtitle}</p>}
+          {disease.url && (
+            <a
+              href={disease.url}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex mt-4 text-sm text-blue-700 hover:text-blue-800"
+            >
+              Source: {disease.url}
+            </a>
+          )}
+        </div>
+      </section>
+
+      <section className="max-w-6xl mx-auto px-4 py-8 grid lg:grid-cols-12 gap-8">
+        <article className="lg:col-span-8 space-y-6">
+          {sections.map((section, index) => {
+            const id = `section-${index + 1}`;
+            const Tag = headingTag(section.level);
+            const isList = shouldRenderAsList(section.content);
+
+            if (!section.content.length) return null;
+
+            return (
+              <section key={id} id={id} className="bg-white border border-slate-200 rounded-2xl p-6">
+                {section.heading ? (
+                  <Tag className="font-display font-bold text-xl text-slate-900 mb-4">
+                    {section.heading}
+                  </Tag>
+                ) : null}
+
+                {isList ? (
+                  <ul className="space-y-2 text-slate-700">
+                    {section.content.map((item, itemIndex) => {
+                      const url = extractLink(item);
+                      return (
+                        <li key={`${id}-item-${itemIndex}`} className="flex gap-2">
+                          <span className="mt-2 h-1.5 w-1.5 rounded-full bg-blue-600 flex-shrink-0" />
+                          <span>
+                            {item}
+                            {url && (
+                              <>
+                                {" "}
+                                <a
+                                  href={url}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                  className="text-blue-700 underline"
+                                >
+                                  {url}
+                                </a>
+                              </>
+                            )}
+                          </span>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                ) : (
+                  <div className="space-y-4 text-slate-700 leading-7">
+                    {section.content.map((item, itemIndex) => {
+                      const url = extractLink(item);
+                      return (
+                        <p key={`${id}-p-${itemIndex}`}>
+                          {item}
+                          {url && (
+                            <>
+                              {" "}
+                              <a
+                                href={url}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-blue-700 underline"
+                              >
+                                {url}
+                              </a>
+                            </>
+                          )}
+                        </p>
+                      );
+                    })}
+                  </div>
+                )}
+              </section>
+            );
+          })}
         </article>
 
-        <div className="lg:col-span-8 grid sm:grid-cols-2 gap-6">
-          {allDetailSections.map((section) => (
-            <article
-              key={section.title}
-              className="bg-white rounded-[2rem] border border-slate-100 p-6 shadow-[0_12px_38px_rgba(15,23,42,0.06)]"
-            >
-              <h2 className="font-display font-bold text-xl text-slate-900 mb-4">
-                {section.title}
-              </h2>
-              <ul className="space-y-2.5 text-sm text-slate-600">
-                {section.items.map((item) => (
-                  <li key={item} className="flex items-start gap-2">
-                    <span className="mt-1.5 h-2 w-2 rounded-full bg-primary/80 flex-shrink-0" />
-                    <span>{item}</span>
+        <aside className="lg:col-span-4">
+          <div className="lg:sticky lg:top-24 space-y-4">
+            <div className="bg-white border border-slate-200 rounded-2xl p-5">
+              <h2 className="font-display font-bold text-lg text-slate-900 mb-3">On This Page</h2>
+              <ul className="space-y-2">
+                {toc.map((item) => (
+                  <li key={item.id}>
+                    <a href={`#${item.id}`} className="text-sm text-slate-700 hover:text-blue-700">
+                      {item.heading}
+                    </a>
                   </li>
                 ))}
               </ul>
-            </article>
-          ))}
-        </div>
-
-        <div className="lg:col-span-4 space-y-6">
-          {disease.prevalence && (
-            <article className="bg-white rounded-[2rem] border border-slate-100 p-6 shadow-[0_12px_38px_rgba(15,23,42,0.06)]">
-              <h2 className="font-display font-bold text-xl text-slate-900 mb-3">
-                Prevalence
-              </h2>
-              <p className="text-slate-600 text-sm leading-relaxed">
-                {disease.prevalence}
-              </p>
-            </article>
-          )}
-
-          {disease.niams_url && (
-            <article className="bg-white rounded-[2rem] border border-slate-100 p-6 shadow-[0_12px_38px_rgba(15,23,42,0.06)]">
-              <h2 className="font-display font-bold text-xl text-slate-900 mb-3">
-                Learn More
-              </h2>
-              <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                Verified medical information source from NIAMS.
-              </p>
-              <a
-                href={disease.niams_url}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 text-primary text-sm font-semibold"
-              >
-                Visit NIAMS Reference
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+            </div>
+            {disease.url && (
+              <div className="bg-white border border-slate-200 rounded-2xl p-5">
+                <h2 className="font-display font-bold text-lg text-slate-900 mb-2">Medical Source</h2>
+                <a
+                  href={disease.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-sm text-blue-700 break-all"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M13 7h6m0 0v6m0-6L10 16"
-                  />
-                </svg>
-              </a>
-            </article>
-          )}
-
-          {!disease.niams_url && disease.apollo_url && (
-            <article className="bg-white rounded-[2rem] border border-slate-100 p-6 shadow-[0_12px_38px_rgba(15,23,42,0.06)]">
-              <h2 className="font-display font-bold text-xl text-slate-900 mb-3">
-                Source Reference
-              </h2>
-              <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                View the original disease and condition source page.
-              </p>
-              <a
-                href={disease.apollo_url}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 text-primary text-sm font-semibold"
-              >
-                Visit Source Page
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M13 7h6m0 0v6m0-6L10 16"
-                  />
-                </svg>
-              </a>
-            </article>
-          )}
-        </div>
-      </div>
-
-      {related.length > 0 && (
-        <div className="mt-10">
-          <h2 className="font-display font-bold text-2xl text-slate-900 mb-4">
-            Related Conditions
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {related.map((item) => (
-              <Link
-                key={item.id}
-                href={`/diseases/${item.id}`}
-                className="bg-white rounded-[1.5rem] border border-slate-100 p-5 shadow-[0_10px_30px_rgba(15,23,42,0.06)] hover:shadow-[0_14px_36px_rgba(15,23,42,0.09)] transition-all"
-              >
-                <span className="inline-flex px-3 py-1 rounded-full text-xs font-semibold bg-indigo-50 text-indigo-700 mb-3">
-                  {item.category.split("/")[0] || "Condition"}
-                </span>
-                <h3 className="font-display font-bold text-slate-900 text-base mb-2">
-                  {item.name}
-                </h3>
-                <p className="text-slate-600 text-sm leading-relaxed">
-                  {item.description || "Details available on condition page."}
-                </p>
-              </Link>
-            ))}
+                  {disease.url}
+                </a>
+              </div>
+            )}
           </div>
-        </div>
-      )}
-
-      <div className="mt-8 pt-5 border-t border-slate-200">
-        <Link
-          href="/diseases"
-          className="inline-flex items-center gap-2 rounded-xl border border-slate-300 text-slate-800 px-5 py-3 text-sm font-semibold hover:bg-slate-100 transition-colors"
-        >
-          <svg
-            className="w-4 h-4"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M15 19l-7-7 7-7"
-            />
-          </svg>
-          Back to All Conditions
-        </Link>
-      </div>
-    </ImmersiveDetailLayout>
+        </aside>
+      </section>
+    </main>
   );
 }
+

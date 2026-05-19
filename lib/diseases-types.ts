@@ -1,49 +1,36 @@
-export type SourceFlags = {
-  from_disease_json: boolean;
-  from_apollo_offline: boolean;
-};
-
-export type ApolloSection = {
+export type DiseaseSection = {
   heading: string;
   level: string;
   content: string[];
 };
 
-export type ApolloContent = {
+export type DiseaseContent = {
   meta_title: string;
   h1_titles: string[];
-  sections: ApolloSection[];
+  sections: DiseaseSection[];
+  full_text: string;
 };
 
-export type CombinedDisease = {
-  id: string;
-  slug: string;
+export type DiseaseEntry = {
   name: string;
-  letter: string;
-  category: string;
-  description: string;
-  symptoms: string[];
-  causes: string[];
-  diagnosis: string[];
-  treatment: string[];
-  risk_factors: string[];
-  prevention: string[];
-  prevalence: string;
-  niams_url: string;
-  apollo_url: string;
-  apollo_slug: string;
-  apollo_name: string;
-  apollo_content: ApolloContent | null;
-  source_flags: SourceFlags;
+  slug: string;
+  url: string;
+  content: DiseaseContent;
+};
+
+export type DiseaseLetter = string;
+
+export type GroupedDiseasesPayload = {
+  [key: DiseaseLetter]: DiseaseEntry[];
 };
 
 export type DiseaseIndexEntry = {
-  id: string;
-  slug: string;
   name: string;
+  slug: string;
   letter: string;
-  category: string;
-  description: string;
-  symptoms: string[];
-  source_flags: SourceFlags;
+  url: string;
+  meta_title: string;
+  h1_titles: string[];
+  section_headings: string[];
+  sections_count: number;
 };
