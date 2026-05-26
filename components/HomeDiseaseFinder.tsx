@@ -1,35 +1,65 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { DISEASE_LETTERS } from "@/lib/diseases-data";
-import type { DiseaseIndexEntry } from "@/lib/diseases-types";
+import type { DiseaseLetter } from "@/lib/diseases-types";
 
-type Props = {
-  diseases: DiseaseIndexEntry[];
+type HomeDiseaseSuggestion = {
+  name: string;
+  slug: string;
+  h1_titles: string[];
 };
 
-const MAX_SUGGESTIONS = 6;
+type Props = {
+  availableLetters: DiseaseLetter[];
+};
 
-export default function HomeDiseaseFinder({ diseases }: Props) {
+export default function HomeDiseaseFinder({ availableLetters }: Props) {
   const router = useRouter();
   const [query, setQuery] = useState("");
   const [activeLetter, setActiveLetter] = useState<string | null>(null);
+  const [suggestions, setSuggestions] = useState<HomeDiseaseSuggestion[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
 
-  const availableLetters = useMemo(
-    () => new Set(diseases.map((d) => d.letter).filter((l) => l && l !== "Other")),
-    [diseases],
-  );
+  const availableLetterSet = useMemo(() => new Set(availableLetters), [availableLetters]);
 
-  const suggestions = useMemo(() => {
+  useEffect(() => {
     const normalized = query.trim().toLowerCase();
-    if (!normalized) return [];
+    if (!normalized) {
+      setSuggestions([]);
+      setIsLoading(false);
+      return;
+    }
 
-    return diseases
-      .filter((disease) => disease.searchable_text.includes(normalized))
-      .slice(0, MAX_SUGGESTIONS);
-  }, [diseases, query]);
+    const controller = new AbortController();
+    const timeoutId = setTimeout(async () => {
+      try {
+        setIsLoading(true);
+        const response = await fetch(`/api/diseases/suggest?q=${encodeURIComponent(normalized)}`, {
+          method: "GET",
+          signal: controller.signal,
+          cache: "no-store",
+        });
+        const payload = (await response.json()) as { suggestions?: HomeDiseaseSuggestion[] };
+        setSuggestions(Array.isArray(payload.suggestions) ? payload.suggestions : []);
+      } catch {
+        if (!controller.signal.aborted) {
+          setSuggestions([]);
+        }
+      } finally {
+        if (!controller.signal.aborted) {
+          setIsLoading(false);
+        }
+      }
+    }, 180);
+
+    return () => {
+      controller.abort();
+      clearTimeout(timeoutId);
+    };
+  }, [query]);
 
   const onSubmitSearch = () => {
     const normalized = query.trim();
@@ -49,7 +79,7 @@ export default function HomeDiseaseFinder({ diseases }: Props) {
 
               <div className="mt-6 flex flex-wrap gap-3">
                 {DISEASE_LETTERS.filter((letter) => letter !== "Other").map((letter) => {
-                  const enabled = availableLetters.has(letter);
+                  const enabled = availableLetterSet.has(letter);
                   const active = activeLetter === letter;
                   return (
                     <button
@@ -118,7 +148,11 @@ export default function HomeDiseaseFinder({ diseases }: Props) {
 
               {query.trim() ? (
                 <div className="mt-4 space-y-2">
-                  {suggestions.length === 0 ? (
+                  {isLoading ? (
+                    <p className="text-sm text-slate-600 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3">
+                      Searching...
+                    </p>
+                  ) : suggestions.length === 0 ? (
                     <p className="text-sm text-slate-600 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3">
                       No matching disease or condition found.
                     </p>
@@ -147,4 +181,3 @@ export default function HomeDiseaseFinder({ diseases }: Props) {
     </section>
   );
 }
-

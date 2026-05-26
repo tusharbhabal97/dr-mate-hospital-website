@@ -1,7 +1,7 @@
-import { getDiseasesIndex } from "@/lib/diseases-server";
+import { getAvailableDiseaseLetters } from "@/lib/diseases-server";
 import HomeDiseaseFinder from "@/components/HomeDiseaseFinder";
 
 export default async function DiseasesPreview() {
-  const diseases = await getDiseasesIndex();
-  return <HomeDiseaseFinder diseases={diseases} />;
+  const availableLetters = await getAvailableDiseaseLetters();
+  return <HomeDiseaseFinder availableLetters={availableLetters} />;
 }

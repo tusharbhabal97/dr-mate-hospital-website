@@ -11,6 +11,7 @@ import {
 import type {
   DiseaseEntry,
   DiseaseIndexEntry,
+  DiseaseLetter,
   GroupedDiseasesPayload,
 } from "@/lib/diseases-types";
 
@@ -37,3 +38,27 @@ export const getDiseasesIndex = cache(async (): Promise<DiseaseIndexEntry[]> => 
   const all = await getAllDiseases();
   return toDiseaseIndex(all);
 });
+
+export type HomeDiseaseSuggestion = Pick<DiseaseIndexEntry, "name" | "slug" | "h1_titles">;
+
+export const getAvailableDiseaseLetters = cache(async (): Promise<DiseaseLetter[]> => {
+  const all = await getAllDiseases();
+  const letters = new Set<string>();
+  for (const disease of all) {
+    if (disease.letter && disease.letter !== "Other") {
+      letters.add(disease.letter);
+    }
+  }
+  return Array.from(letters);
+});
+
+export const searchDiseaseSuggestions = cache(
+  async (normalizedQuery: string): Promise<HomeDiseaseSuggestion[]> => {
+    if (!normalizedQuery) return [];
+    const index = await getDiseasesIndex();
+    return index
+      .filter((disease) => disease.searchable_text.includes(normalizedQuery))
+      .slice(0, 6)
+      .map(({ name, slug, h1_titles }) => ({ name, slug, h1_titles }));
+  },
+);
