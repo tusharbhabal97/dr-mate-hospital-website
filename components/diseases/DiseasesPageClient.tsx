@@ -7,11 +7,25 @@ import type { DiseaseIndexEntry } from "@/lib/diseases-types";
 
 type Props = {
   diseases: DiseaseIndexEntry[];
+  initialQuery?: string;
+  initialLetter?: string;
 };
 
-export default function DiseasesPageClient({ diseases }: Props) {
-  const [search, setSearch] = useState("");
-  const [activeLetter, setActiveLetter] = useState<string | null>(null);
+export default function DiseasesPageClient({
+  diseases,
+  initialQuery = "",
+  initialLetter = "",
+}: Props) {
+  const initialLetterCandidate = initialLetter.trim().toUpperCase();
+  const normalizedInitialLetter = DISEASE_LETTERS.includes(
+    initialLetterCandidate as (typeof DISEASE_LETTERS)[number],
+  )
+    ? initialLetterCandidate
+    : "";
+  const [search, setSearch] = useState(initialQuery);
+  const [activeLetter, setActiveLetter] = useState<string | null>(
+    normalizedInitialLetter || null,
+  );
 
   const availableLetters = useMemo(
     () => new Set(diseases.map((disease) => disease.letter || "Other")),
@@ -27,7 +41,7 @@ export default function DiseasesPageClient({ diseases }: Props) {
       return (
         disease.name.toLowerCase().includes(query) ||
         disease.slug.toLowerCase().includes(query) ||
-        disease.section_headings.some((heading) => heading.toLowerCase().includes(query))
+        disease.searchable_text.includes(query)
       );
     });
   }, [activeLetter, diseases, search]);
@@ -141,4 +155,3 @@ export default function DiseasesPageClient({ diseases }: Props) {
     </main>
   );
 }
-

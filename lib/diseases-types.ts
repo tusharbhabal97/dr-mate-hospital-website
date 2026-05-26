@@ -32,5 +32,6 @@ export type DiseaseIndexEntry = {
   meta_title: string;
   h1_titles: string[];
   section_headings: string[];
+  searchable_text: string;
   sections_count: number;
 };

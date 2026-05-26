@@ -82,6 +82,19 @@ export const toDiseaseIndex = (
         ? disease.content.h1_titles.map(asText).filter(Boolean)
         : [],
       section_headings: sections.map((section) => section.heading).filter(Boolean),
+      searchable_text: [
+        asText(disease.name),
+        asText(disease.slug),
+        asText(disease.content?.meta_title),
+        Array.isArray(disease.content?.h1_titles)
+          ? disease.content.h1_titles.map(asText).join(" ")
+          : "",
+        sections.map((section) => section.heading).filter(Boolean).join(" "),
+        sections.flatMap((section) => section.content).join(" "),
+        asText(disease.content?.full_text),
+      ]
+        .join(" ")
+        .toLowerCase(),
       sections_count: sections.length,
     };
   });
